@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: #436444;
+  --color-primary-light: #E1EADF;
+  --color-primary-dark: #2e4e30;
+  
+  --color-secondary: #8c4e33;
+  --color-secondary-light: #feae8c;
+  --color-secondary-dark: #6f371e;
+  
+  --color-background-custom: #fdf9f3;
+  --color-surface-custom: #ffffff;
+  --color-surface-variant: #F2E8DA;
+  
+  --color-text-main: #2D2A26;
+  --color-text-muted: #66615C;
+  
+  --color-status-success: #4A7C59;
+  --color-status-warning: #D99100;
+  --color-status-error: #C0564B;
+  --color-status-info: #5B8FB9;
+
+  --font-atkinson: var(--font-atkinson), system-ui, sans-serif;
+  --font-sans: var(--font-atkinson), system-ui, sans-serif;
+
+  --radius-card: 16px;
+  --radius-button: 12px;
+  --radius-sheet: 24px;
+}
+
+:root {
+  --background: #fdf9f3;
+  --foreground: #2D2A26;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-atkinson), system-ui, sans-serif;
+  font-size: 18px; /* 18px body minimum as specified in Stitch design system */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom soft shadow with primary tint */
+.shadow-soft {
+  box-shadow: 0 4px 20px -2px rgba(67, 100, 68, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-soft-lg {
+  box-shadow: 0 10px 30px -4px rgba(67, 100, 68, 0.12), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Skip link for accessibility */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: #436444;
+  color: white;
+  padding: 8px 16px;
+  z-index: 100;
+  transition: top 0.2s ease;
+  border-radius: 8px;
+}
+.skip-to-content:focus {
+  top: 10px;
+}
+
+/* Focus styles for keyboard accessibility */
+:focus-visible {
+  outline: 3px solid #8c4e33;
+  outline-offset: 2px;
+}

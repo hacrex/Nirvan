@@ -12,8 +12,7 @@ REVIA is a mobile-first rehabilitation and wellbeing platform for cardiac, neuro
 **Stitch designs are already complete.** Your job is to:
 1. Fetch the existing Stitch designs via MCP
 2. Build the Flutter mobile app matching those designs
-3. Build the Next.js marketing website
-4. Set up Firebase backend
+3. Set up Firebase backend
 
 ---
 
@@ -69,14 +68,6 @@ revia/
 │   │       └── widgets/
 │   ├── pubspec.yaml
 │   └── android/ & ios/
-├── website/
-│   ├── src/
-│   │   ├── app/
-│   │   ├── components/
-│   │   ├── content/
-│   │   └── lib/
-│   ├── package.json
-│   └── next.config.js
 ├── docs/
 └── functions/
     └── src/
@@ -293,33 +284,7 @@ PROFILE:
 
 ---
 
-## STEP 8: NEXT.JS WEBSITE (Agent 6)
-
-```
-Build the REVIA marketing website using Next.js, TypeScript, Tailwind CSS.
-
-Pages:
-/ — Homepage (Hero, Recovery Paths, Why REVIA, How It Works, Features, Newsletter, FAQ, Disclaimer)
-/rehabilitation — Overview
-/rehabilitation/cardiac, /rehabilitation/neuro, /rehabilitation/stroke,
-  /rehabilitation/kidney, /rehabilitation/liver
-/wellbeing, /exercises, /resources, /blog, /news, /newsletter,
-/about, /contact, /faq, /privacy, /terms, /medical-disclaimer
-
-Requirements:
-- Design system matching mobile app brand
-- SEO: semantic HTML, metadata, sitemap, robots.txt, Open Graph
-- Responsive (mobile-first)
-- App download links (App Store, Google Play)
-- Newsletter signup
-- Blog/news with MDX or headless CMS
-- Medical disclaimer on all health content
-- WCAG-aligned accessibility
-```
-
----
-
-## STEP 9: FIREBASE CLOUD FUNCTIONS (Agent 7)
+## STEP 8: FIREBASE CLOUD FUNCTIONS (Agent 6)
 
 ```
 Build Firebase Cloud Functions for REVIA.
@@ -457,8 +422,7 @@ Build the smallest useful recovery loop first:
 6. Daily check-in
 7. Progress view
 8. Then: Wellbeing, Learn, Profile, Health
-9. Then: Website
-10. Then: Cloud Functions
+9. Then: Cloud Functions
 
 ---
 

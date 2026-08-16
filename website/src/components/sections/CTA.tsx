@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2, Mail, Smartphone } from 'lucide-react';
+import { CheckCircle2, Mail, Smartphone } from 'lucide-react';
 import { PageContainer } from '../layout/PageContainer';
 import { NewsletterSignup } from '../ui/NewsletterSignup';
 import { AppDownload } from '../ui/AppDownload';

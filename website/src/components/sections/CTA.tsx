@@ -1,6 +1,7 @@
 import { ArrowRight, CheckCircle2, Mail, Smartphone } from 'lucide-react';
 import { PageContainer } from '../layout/PageContainer';
 import { NewsletterSignup } from '../ui/NewsletterSignup';
+import { AppDownload } from '../ui/AppDownload';
 
 export const CTA: React.FC = () => {
   return (
@@ -24,7 +25,11 @@ export const CTA: React.FC = () => {
             <h3 className="mt-6 text-2xl font-bold text-[#2D2A26]">Get early access updates</h3>
             <p className="mt-2 text-sm leading-6 text-[#66615C]">A short recovery insight, one practical wellbeing idea, and new REVIA resources—without the noise.</p>
             <div className="mt-6"><NewsletterSignup /></div>
-            <div className="mt-7 flex items-center gap-3 border-t border-[#ebe3da] pt-5 text-xs text-[#77716a]"><Smartphone className="h-4 w-4 text-[#436444]" /><span>REVIA is being designed for iOS and Android.</span><ArrowRight className="ml-auto h-4 w-4" /></div>
+            <div className="mt-7 border-t border-[#ebe3da] pt-5">
+              <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8c4e33]">Download when REVIA launches</p>
+              <AppDownload className="mt-3" />
+              <p className="mt-3 flex items-center gap-2 text-xs text-[#77716a]"><Smartphone className="h-4 w-4 text-[#436444]" /><span>Both app stores are coming soon. Join the waitlist above for launch updates.</span></p>
+            </div>
           </div>
         </div>
       </PageContainer>

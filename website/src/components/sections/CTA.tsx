@@ -1,60 +1,30 @@
-import React from 'react';
+import { ArrowRight, CheckCircle2, Mail, Smartphone } from 'lucide-react';
 import { PageContainer } from '../layout/PageContainer';
-import { AppDownload } from '../ui/AppDownload';
-import { Smartphone, CheckCircle } from 'lucide-react';
+import { NewsletterSignup } from '../ui/NewsletterSignup';
 
 export const CTA: React.FC = () => {
   return (
-    <section id="download" className="py-20 bg-[#436444] text-white relative overflow-hidden">
-      <PageContainer>
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-7 space-y-6 text-left">
-            <span className="inline-block px-3 py-1 rounded-full bg-white/10 text-white/90 text-xs font-bold uppercase tracking-wider">
-              Start Today
-            </span>
-
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white leading-tight">
-              Begin Your Recovery Journey with REVIA
-            </h2>
-
-            <p className="text-lg text-white/90 leading-relaxed max-w-xl">
-              Download the REVIA mobile application on iOS and Android. Take control of your daily progress, exercise safely, and rebuild your strength.
-            </p>
-
-            <div className="space-y-3 pt-2">
-              <div className="flex items-center gap-3 text-sm text-white/90 font-medium">
-                <CheckCircle className="w-5 h-5 text-[#feae8c] shrink-0" />
-                <span>Personalized rehabilitation plan for your specific condition</span>
-              </div>
-              <div className="flex items-center gap-3 text-sm text-white/90 font-medium">
-                <CheckCircle className="w-5 h-5 text-[#feae8c] shrink-0" />
-                <span>Offline-first support for uninterrupted daily routines</span>
-              </div>
-              <div className="flex items-center gap-3 text-sm text-white/90 font-medium">
-                <CheckCircle className="w-5 h-5 text-[#feae8c] shrink-0" />
-                <span>Free to get started, clinician-reviewed safety standards</span>
-              </div>
-            </div>
-
-            <div className="pt-6">
-              <AppDownload />
+    <section id="early-access" className="relative overflow-hidden bg-[#f2e8da] py-20 sm:py-28">
+      <div className="absolute -right-24 top-10 h-64 w-64 rounded-full bg-[#feae8c]/25 blur-3xl" aria-hidden="true" />
+      <PageContainer className="relative z-10">
+        <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20">
+          <div className="max-w-xl">
+            <p className="eyebrow text-[#8c4e33]">Stay close to your recovery</p>
+            <h2 className="mt-4 text-4xl font-bold leading-tight tracking-[-0.03em] text-[#2D2A26] sm:text-5xl">Build a steadier rhythm, one day at a time.</h2>
+            <p className="mt-5 text-lg leading-8 text-[#66615C]">Join the REVIA community for practical recovery guidance, new resources, and early access updates as the mobile companion grows.</p>
+            <div className="mt-7 space-y-3 text-sm font-semibold text-[#436444]">
+              <p className="flex items-center gap-3"><CheckCircle2 className="h-5 w-5" /> Guided movement and wellbeing support</p>
+              <p className="flex items-center gap-3"><CheckCircle2 className="h-5 w-5" /> Education designed to be understood</p>
+              <p className="flex items-center gap-3"><CheckCircle2 className="h-5 w-5" /> Progress without guilt or competition</p>
             </div>
           </div>
 
-          <div className="lg:col-span-5 flex justify-center">
-            <div className="p-8 rounded-[24px] bg-white/10 backdrop-blur-md border border-white/20 text-white w-full max-w-sm text-center space-y-6">
-              <div className="w-16 h-16 rounded-full bg-white text-[#436444] flex items-center justify-center mx-auto shadow-soft">
-                <Smartphone className="w-8 h-8" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-white">REVIA Mobile Companion</h3>
-                <p className="text-xs text-white/80 mt-1">Available on iOS & Android</p>
-              </div>
-              <div className="pt-4 border-t border-white/15 text-xs text-white/80">
-                <p>Compatible with iOS 15.0+ and Android 8.0+</p>
-                <p className="mt-1">Supports Apple Health & Health Connect</p>
-              </div>
-            </div>
+          <div className="rounded-[28px] border border-[#dfcdbd] bg-white p-6 shadow-soft-lg sm:p-8">
+            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#436444] text-white"><Mail className="h-6 w-6" /></div>
+            <h3 className="mt-6 text-2xl font-bold text-[#2D2A26]">Get early access updates</h3>
+            <p className="mt-2 text-sm leading-6 text-[#66615C]">A short recovery insight, one practical wellbeing idea, and new REVIA resources—without the noise.</p>
+            <div className="mt-6"><NewsletterSignup /></div>
+            <div className="mt-7 flex items-center gap-3 border-t border-[#ebe3da] pt-5 text-xs text-[#77716a]"><Smartphone className="h-4 w-4 text-[#436444]" /><span>REVIA is being designed for iOS and Android.</span><ArrowRight className="ml-auto h-4 w-4" /></div>
           </div>
         </div>
       </PageContainer>

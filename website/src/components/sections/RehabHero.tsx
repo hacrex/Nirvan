@@ -44,7 +44,7 @@ export const RehabHero: React.FC<RehabHeroProps> = ({
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
-              <Link href="#download">
+              <Link href="/#early-access">
                 <Button variant="primary" size="lg" className="gap-2">
                   <span>{ctaText}</span>
                   <ArrowRight className="w-5 h-5" />

@@ -1,4 +1,3 @@
-import { Hero } from '@/components/sections/Hero';
 import { RecoveryPaths } from '@/components/sections/RecoveryPaths';
 import { WhyRevia } from '@/components/sections/WhyRevia';
 import { HowItWorks } from '@/components/sections/HowItWorks';
@@ -8,44 +7,28 @@ import { EducationSection } from '@/components/sections/EducationSection';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { CTA } from '@/components/sections/CTA';
 import { FAQSection } from '@/components/sections/FAQSection';
+import { Hero } from '@/components/sections/Hero';
+import { TrustStrip } from '@/components/sections/TrustStrip';
+import { ProductShowcase } from '@/components/sections/ProductShowcase';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { PageContainer } from '@/components/layout/PageContainer';
 
 export default function HomePage() {
   return (
     <>
-      {/* 1. Hero */}
       <Hero />
-
-      {/* 2. Recovery Pathways */}
+      <TrustStrip />
       <RecoveryPaths />
-
-      {/* 3. Why REVIA */}
+      <ProductShowcase />
       <WhyRevia />
-
-      {/* 4. How It Works */}
       <HowItWorks />
-
-      {/* 5. Features Grid */}
       <Features />
-
-      {/* 6. Wellbeing */}
       <WellbeingSection />
-
-      {/* 7. Education */}
       <EducationSection />
-
-      {/* 8. Patient Stories / Testimonials */}
       <Testimonials />
-
-      {/* 9. App Download CTA */}
       <CTA />
-
-      {/* 10. FAQ Accordion */}
       <FAQSection />
-
-      {/* 11. Homepage Medical Disclaimer */}
-      <section className="py-12 bg-[#F2E8DA]/30">
+      <section className="border-t border-[#e6e2dc] bg-[#f2e8da]/35 py-12">
         <PageContainer>
           <MedicalDisclaimer />
         </PageContainer>

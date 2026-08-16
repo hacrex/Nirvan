@@ -148,9 +148,9 @@ export const Header: React.FC = () => {
 
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
-              <Link href="#download">
+              <Link href="#early-access">
                 <Button variant="primary" size="md">
-                  Start Your Journey
+                  Start Your Recovery
                 </Button>
               </Link>
             </div>

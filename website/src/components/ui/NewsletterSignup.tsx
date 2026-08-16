@@ -5,7 +5,8 @@ import { Button } from './Button';
 import { Input } from './Input';
 import { CheckCircle2, AlertCircle } from 'lucide-react';
 
-export const NewsletterSignup: React.FC<{ compact?: boolean }> = ({ compact = false }) => {
+export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({ compact = false, id }) => {
+  const inputId = id ?? (compact ? 'newsletter-email-footer' : 'newsletter-email-main');
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
@@ -56,7 +57,7 @@ export const NewsletterSignup: React.FC<{ compact?: boolean }> = ({ compact = fa
       <div className={`flex ${compact ? 'flex-col sm:flex-row' : 'flex-col sm:flex-row'} gap-3 items-start`}>
         <div className="w-full flex-1">
           <Input
-            id="newsletter-email"
+            id={inputId}
             type="email"
             placeholder="Enter your email address"
             aria-label="Email address for newsletter"

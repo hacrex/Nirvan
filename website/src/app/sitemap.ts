@@ -1,8 +1,12 @@
 import { MetadataRoute } from 'next';
 import { samplePosts } from '@/lib/mdx';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://reviarecovery.com';
+  const baseUrl = process.env.GITHUB_PAGES === 'true'
+    ? 'https://hacrex.github.io/Revia'
+    : 'https://reviarecovery.com';
 
   const staticRoutes = [
     '',

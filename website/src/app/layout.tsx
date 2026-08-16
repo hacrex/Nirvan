@@ -5,6 +5,10 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { OrganizationJsonLd } from '@/components/seo/JsonLd';
 
+const siteUrl = process.env.GITHUB_PAGES === 'true'
+  ? 'https://hacrex.github.io/Revia'
+  : 'https://reviarecovery.com';
+
 const atkinson = Atkinson_Hyperlegible({
   weight: ['400', '700'],
   subsets: ['latin'],
@@ -35,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://reviarecovery.com',
+    url: siteUrl,
     siteName: 'REVIA',
     title: 'REVIA — Digital Rehabilitation & Wellbeing Companion',
     description:

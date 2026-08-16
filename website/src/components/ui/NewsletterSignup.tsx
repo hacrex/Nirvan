@@ -3,15 +3,15 @@
 import React, { useState } from 'react';
 import { Button } from './Button';
 import { Input } from './Input';
-import { CheckCircle2, AlertCircle } from 'lucide-react';
+import { AlertCircle, Clock3 } from 'lucide-react';
 
 export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({ compact = false, id }) => {
   const inputId = id ?? (compact ? 'newsletter-email-footer' : 'newsletter-email-main');
   const [email, setEmail] = useState('');
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [status, setStatus] = useState<'idle' | 'notice' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !email.includes('@')) {
       setStatus('error');
@@ -19,38 +19,9 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
       return;
     }
 
-    setStatus('loading');
-    try {
-      const res = await fetch('/api/newsletter', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email }),
-      });
-
-      if (res.ok) {
-        setStatus('success');
-        setEmail('');
-      } else {
-        setStatus('error');
-        setErrorMessage('Something went wrong. Please try again later.');
-      }
-    } catch {
-      setStatus('error');
-      setErrorMessage('Unable to connect. Please check your network.');
-    }
+    // GitHub Pages is static; a live provider will be connected before launch.
+    setStatus('notice');
   };
-
-  if (status === 'success') {
-    return (
-      <div className="bg-[#E1EADF] p-4 rounded-[12px] border border-[#436444]/30 flex items-center gap-3 text-[#2e4e30]">
-        <CheckCircle2 className="w-6 h-6 shrink-0 text-[#436444]" />
-        <div>
-          <p className="font-semibold">Thank you for subscribing!</p>
-          <p className="text-sm">We&apos;ll keep you updated with clinician-reviewed recovery insights.</p>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-3 w-full max-w-md">
@@ -60,19 +31,26 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
             id={inputId}
             type="email"
             placeholder="Enter your email address"
-            aria-label="Email address for newsletter"
+            aria-label="Email address for early-access updates"
             value={email}
             onChange={(e) => {
               setEmail(e.target.value);
-              if (status === 'error') setStatus('idle');
+              if (status !== 'idle') setStatus('idle');
             }}
             required
           />
         </div>
-        <Button type="submit" variant="primary" className="whitespace-nowrap w-full sm:w-auto" disabled={status === 'loading'}>
-          {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
+        <Button type="submit" variant="primary" className="whitespace-nowrap w-full sm:w-auto">
+          Request updates
         </Button>
       </div>
+
+      {status === 'notice' && (
+        <div className="bg-[#F2E8DA] p-4 rounded-[12px] border border-[#8c4e33]/25 flex items-start gap-3 text-[#5e3728]">
+          <Clock3 className="w-5 h-5 shrink-0 mt-0.5" />
+          <p className="text-sm leading-5">REVIA&apos;s email list is being connected for launch. Your address has not been submitted yet, so please check back soon.</p>
+        </div>
+      )}
 
       {status === 'error' && (
         <div className="flex items-center gap-2 text-xs font-medium text-[#C0564B]">
@@ -82,7 +60,7 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
       )}
 
       <p className="text-xs text-[#66615C]">
-        By subscribing, you agree to receive REVIA recovery updates. No spam, ever. Unsubscribe anytime.
+        REVIA will connect a privacy-conscious early-access form before launch. No address is collected from this preview.
       </p>
     </form>
   );

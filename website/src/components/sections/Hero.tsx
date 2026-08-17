@@ -6,7 +6,7 @@ import { Badge } from '../ui/Badge';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative overflow-hidden border-b border-[#e6e2dc] bg-[#fdf9f3] pt-4 pb-10 sm:pt-8 sm:pb-16 lg:pt-12 lg:pb-20">
+    <section className="relative overflow-hidden border-b border-[#e6e2dc] bg-[#fdf9f3] pt-2 pb-6 sm:pt-4 sm:pb-10 lg:pt-6 lg:pb-14">
       <div className="hero-orb hero-orb-one" aria-hidden="true" />
       <div className="hero-orb hero-orb-two" aria-hidden="true" />
       <PageContainer className="relative z-10">
@@ -18,10 +18,10 @@ export const Hero: React.FC = () => {
 
             <div className="space-y-5">
               <p className="eyebrow text-[#8c4e33]">For the days between appointments</p>
-              <h1 className="max-w-2xl text-5xl font-bold leading-[1.02] tracking-[-0.045em] text-[#2D2A26] sm:text-6xl lg:text-[4.65rem]">
+              <h1 className="max-w-2xl text-3xl font-bold leading-[1.02] tracking-[-0.045em] text-[#2D2A26] sm:text-4xl lg:text-5xl">
                 Recovery doesn&apos;t stop when you leave the hospital.
               </h1>
-              <p className="max-w-xl text-lg leading-8 text-[#66615C] sm:text-xl">
+              <p className="max-w-xl text-base leading-7 text-[#66615C] sm:text-lg">
                 REVIA helps you continue your recovery at home with guided movement, wellbeing check-ins, trusted education, and progress you can understand.
               </p>
             </div>

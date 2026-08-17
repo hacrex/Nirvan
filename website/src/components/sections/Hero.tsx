@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
           </div>
 
           <div className="relative mx-auto w-full max-w-[540px] lg:mx-0 lg:justify-self-end reveal-up reveal-up-delay">
-            <div className="absolute -right-6 top-8 hidden rounded-2xl border border-[#d7e4d5] bg-[#edf4eb] px-4 py-3 text-sm font-semibold text-[#2e4e30] shadow-soft sm:block motion-float">
+            <div className="absolute -right-6 top-8 z-10 rounded-2xl border border-[#d7e4d5] bg-[#edf4eb] px-4 py-3 text-sm font-semibold text-[#2e4e30] shadow-soft motion-float">
               <span className="block text-[11px] uppercase tracking-[0.16em] text-[#6f8e70]">Your next step</span>
               8 minutes of mobility
             </div>

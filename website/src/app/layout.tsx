@@ -63,9 +63,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <OrganizationJsonLd />
       </head>
       <body className="min-h-full flex flex-col bg-[#fdf9f3] text-[#2D2A26]">
-        <a href="#main-content" className="skip-to-content">
-          Skip to main content
-        </a>
         <Header />
         <main id="main-content" className="flex-1">
           {children}

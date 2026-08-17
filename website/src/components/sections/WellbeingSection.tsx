@@ -10,7 +10,58 @@ export const WellbeingSection: React.FC = () => {
     <section className="py-20 bg-[#fdf9f3] overflow-hidden">
       <PageContainer>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-6 space-y-6">
+          <div className="lg:col-span-6 flex justify-center lg:order-1">
+            <div className="relative w-full max-w-md">
+              <RelaxingOutdoorsSVG className="w-full h-auto" />
+              <div className="mt-6 p-8 rounded-[24px] bg-[#F2E8DA] border border-[#e6e2dc] space-y-6">
+                <h3 className="font-bold text-xl text-[#2D2A26]">Daily Wellbeing Snapshot</h3>
+                
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
+                    <div className="flex justify-between text-sm font-semibold">
+                      <span className="text-[#2D2A26]">Mood Today</span>
+                      <span className="text-[#4A7C59]">Feeling Good</span>
+                    </div>
+                    <div className="w-full bg-[#E1EADF] h-2 rounded-full">
+                      <div className="bg-[#4A7C59] h-full w-[80%] rounded-full"></div>
+                    </div>
+                  </div>
+
+                  <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
+                    <div className="flex justify-between text-sm font-semibold">
+                      <span className="text-[#2D2A26]">Sleep Quality</span>
+                      <span className="text-[#5B8FB9]">7h 20m</span>
+                    </div>
+                    <div className="w-full bg-[#5B8FB9]/20 h-2 rounded-full">
+                      <div className="bg-[#5B8FB9] h-full w-[88%] rounded-full"></div>
+                    </div>
+                  </div>
+
+                  <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
+                    <div className="flex justify-between text-sm font-semibold">
+                      <span className="text-[#2D2A26]">Energy Level</span>
+                      <span className="text-[#8c4e33]">Moderate</span>
+                    </div>
+                    <div className="w-full bg-[#feae8c]/40 h-2 rounded-full">
+                      <div className="bg-[#8c4e33] h-full w-[65%] rounded-full"></div>
+                    </div>
+                  </div>
+
+                  <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
+                    <div className="flex justify-between text-sm font-semibold">
+                      <span className="text-[#2D2A26]">Check-ins This Week</span>
+                      <span className="text-[#436444]">5 / 7</span>
+                    </div>
+                    <div className="w-full bg-[#E1EADF] h-2 rounded-full">
+                      <div className="bg-[#436444] h-full w-[71%] rounded-full"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:col-span-6 space-y-6 lg:order-2">
             <span className="text-xs font-bold tracking-widest uppercase text-[#8c4e33]">
               Whole-Person Recovery
             </span>
@@ -68,57 +119,6 @@ export const WellbeingSection: React.FC = () => {
                   <ArrowRight className="w-4 h-4" />
                 </Button>
               </Link>
-            </div>
-          </div>
-
-          <div className="lg:col-span-6 flex justify-center">
-            <div className="relative w-full max-w-md">
-              <RelaxingOutdoorsSVG className="w-full h-auto" />
-              <div className="mt-6 p-8 rounded-[24px] bg-[#F2E8DA] border border-[#e6e2dc] space-y-6">
-                <h3 className="font-bold text-xl text-[#2D2A26]">Daily Wellbeing Snapshot</h3>
-                
-                <div className="space-y-4">
-                  <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
-                    <div className="flex justify-between text-sm font-semibold">
-                      <span className="text-[#2D2A26]">Mood Today</span>
-                      <span className="text-[#4A7C59]">Feeling Good</span>
-                    </div>
-                    <div className="w-full bg-[#E1EADF] h-2 rounded-full">
-                      <div className="bg-[#4A7C59] h-full w-[80%] rounded-full"></div>
-                    </div>
-                  </div>
-
-                  <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
-                    <div className="flex justify-between text-sm font-semibold">
-                      <span className="text-[#2D2A26]">Sleep Quality</span>
-                      <span className="text-[#5B8FB9]">7h 20m</span>
-                    </div>
-                    <div className="w-full bg-[#5B8FB9]/20 h-2 rounded-full">
-                      <div className="bg-[#5B8FB9] h-full w-[88%] rounded-full"></div>
-                    </div>
-                  </div>
-
-                  <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
-                    <div className="flex justify-between text-sm font-semibold">
-                      <span className="text-[#2D2A26]">Energy Level</span>
-                      <span className="text-[#8c4e33]">Moderate</span>
-                    </div>
-                    <div className="w-full bg-[#feae8c]/40 h-2 rounded-full">
-                      <div className="bg-[#8c4e33] h-full w-[65%] rounded-full"></div>
-                    </div>
-                  </div>
-
-                  <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
-                    <div className="flex justify-between text-sm font-semibold">
-                      <span className="text-[#2D2A26]">Check-ins This Week</span>
-                      <span className="text-[#436444]">5 / 7</span>
-                    </div>
-                    <div className="w-full bg-[#E1EADF] h-2 rounded-full">
-                      <div className="bg-[#436444] h-full w-[71%] rounded-full"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

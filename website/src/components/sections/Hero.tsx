@@ -6,7 +6,7 @@ import { Badge } from '../ui/Badge';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative overflow-hidden border-b border-[#e6e2dc] bg-[#fdf9f3] pt-10 pb-16 sm:pt-16 sm:pb-24 lg:pt-20 lg:pb-28">
+    <section className="relative overflow-hidden border-b border-[#e6e2dc] bg-[#fdf9f3] pt-4 pb-10 sm:pt-8 sm:pb-16 lg:pt-12 lg:pb-20">
       <div className="hero-orb hero-orb-one" aria-hidden="true" />
       <div className="hero-orb hero-orb-two" aria-hidden="true" />
       <PageContainer className="relative z-10">

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#fdf9f3"/>
+  
+  <!-- Doctor figure -->
+  <circle cx="350" cy="180" r="45" fill="#436444"/>
+  <path d="M350 225 L350 400" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  <path d="M350 260 L290 320" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  <path d="M350 260 L410 320" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  <path d="M350 400 L310 500" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  <path d="M350 400 L390 500" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Stethoscope -->
+  <path d="M320 240 Q300 260 320 280" stroke="#8c4e33" stroke-width="4" fill="none"/>
+  <circle cx="320" cy="280" r="8" fill="#8c4e33"/>
+  
+  <!-- Clipboard -->
+  <rect x="500" y="200" width="120" height="160" rx="8" fill="white" stroke="#436444" stroke-width="3"/>
+  <rect x="520" y="180" width="80" height="20" rx="4" fill="#436444"/>
+  <line x1="520" y1="250" x2="600" y2="250" stroke="#E1EADF" stroke-width="2"/>
+  <line x1="520" y1="280" x2="580" y2="280" stroke="#E1EADF" stroke-width="2"/>
+  <line x1="520" y1="310" x2="560" y2="310" stroke="#E1EADF" stroke-width="2"/>
+  
+  <!-- Checkmarks on clipboard -->
+  <path d="M530 245 L535 250 L545 240" stroke="#436444" stroke-width="2" fill="none"/>
+  <path d="M530 275 L535 280 L545 270" stroke="#436444" stroke-width="2" fill="none"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="450" r="60" fill="#E1EADF" opacity="0.4"/>
+  <circle cx="650" cy="120" r="50" fill="#feae8c" opacity="0.3"/>
+  <circle cx="700" cy="480" r="35" fill="#5B8FB9" opacity="0.2"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#fdf9f3"/>
+  
+  <!-- Target/bullseye -->
+  <circle cx="400" cy="250" r="120" fill="none" stroke="#436444" stroke-width="8" opacity="0.3"/>
+  <circle cx="400" cy="250" r="80" fill="none" stroke="#436444" stroke-width="6" opacity="0.5"/>
+  <circle cx="400" cy="250" r="40" fill="#436444"/>
+  
+  <!-- Arrow hitting target -->
+  <line x1="550" y1="150" x2="400" y2="250" stroke="#8c4e33" stroke-width="4"/>
+  <polygon points="400,250 420,240 415,260" fill="#8c4e33"/>
+  
+  <!-- Progress steps -->
+  <rect x="200" y="420" width="400" height="8" rx="4" fill="#E1EADF"/>
+  <rect x="200" y="420" width="300" height="8" rx="4" fill="#436444"/>
+  
+  <!-- Step markers -->
+  <circle cx="200" cy="424" r="12" fill="#436444"/>
+  <circle cx="300" cy="424" r="12" fill="#436444"/>
+  <circle cx="400" cy="424" r="12" fill="#436444"/>
+  <circle cx="500" cy="424" r="12" fill="#E1EADF" stroke="#436444" stroke-width="2"/>
+  
+  <!-- Checkmarks -->
+  <path d="M195 424 L200 429 L210 419" stroke="white" stroke-width="2" fill="none"/>
+  <path d="M295 424 L300 429 L310 419" stroke="white" stroke-width="2" fill="none"/>
+  <path d="M395 424 L400 429 L410 419" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Celebration elements -->
+  <circle cx="600" cy="150" r="8" fill="#8c4e33"/>
+  <circle cx="180" cy="180" r="6" fill="#5B8FB9"/>
+  <circle cx="650" cy="350" r="10" fill="#436444"/>
+  <circle cx="150" cy="400" r="5" fill="#8c4e33"/>
+  
+  <!-- Decorative -->
+  <circle cx="100" cy="200" r="40" fill="#feae8c" opacity="0.3"/>
+  <circle cx="700" cy="450" r="50" fill="#E1EADF" opacity="0.3"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#fdf9f3"/>
+  
+  <!-- Two people walking -->
+  <!-- Person 1 -->
+  <circle cx="300" cy="180" r="40" fill="#436444"/>
+  <path d="M300 220 L300 380" stroke="#436444" stroke-width="10" stroke-linecap="round"/>
+  <path d="M300 260 L250 320" stroke="#436444" stroke-width="10" stroke-linecap="round"/>
+  <path d="M300 260 L350 320" stroke="#436444" stroke-width="10" stroke-linecap="round"/>
+  <path d="M300 380 L260 470" stroke="#436444" stroke-width="10" stroke-linecap="round"/>
+  <path d="M300 380 L340 470" stroke="#436444" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Person 2 -->
+  <circle cx="500" cy="180" r="40" fill="#8c4e33"/>
+  <path d="M500 220 L500 380" stroke="#8c4e33" stroke-width="10" stroke-linecap="round"/>
+  <path d="M500 260 L450 320" stroke="#8c4e33" stroke-width="10" stroke-linecap="round"/>
+  <path d="M500 260 L550 320" stroke="#8c4e33" stroke-width="10" stroke-linecap="round"/>
+  <path d="M500 380 L460 470" stroke="#8c4e33" stroke-width="10" stroke-linecap="round"/>
+  <path d="M500 380 L540 470" stroke="#8c4e33" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Connection line between them -->
+  <path d="M350 300 Q400 280 450 300" stroke="#5B8FB9" stroke-width="3" fill="none" stroke-dasharray="8,4"/>
+  
+  <!-- Heart between them -->
+  <path d="M390 270 C390 260 400 250 410 260 C420 250 430 260 430 270 C430 290 410 310 410 310 C410 310 390 290 390 270" fill="#C0564B" opacity="0.8"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="500" r="50" fill="#E1EADF" opacity="0.4"/>
+  <circle cx="650" cy="100" r="70" fill="#feae8c" opacity="0.3"/>
+  <circle cx="700" cy="450" r="30" fill="#5B8FB9" opacity="0.2"/>
+</svg>

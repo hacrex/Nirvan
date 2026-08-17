@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#fdf9f3"/>
+  
+  <!-- Person meditating -->
+  <circle cx="400" cy="200" r="45" fill="#5B8FB9"/>
+  <path d="M400 245 L400 350" stroke="#5B8FB9" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 280 L320 320" stroke="#5B8FB9" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 280 L480 320" stroke="#5B8FB9" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Crossed legs -->
+  <path d="M400 350 L340 420 Q380 440 400 400 Q420 440 460 420 L400 350" fill="#5B8FB9"/>
+  
+  <!-- Peaceful aura -->
+  <circle cx="400" cy="280" r="120" fill="none" stroke="#5B8FB9" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="280" r="160" fill="none" stroke="#5B8FB9" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Sparkles -->
+  <circle cx="280" cy="180" r="4" fill="#8c4e33"/>
+  <circle cx="520" cy="200" r="3" fill="#436444"/>
+  <circle cx="300" cy="350" r="5" fill="#5B8FB9"/>
+  <circle cx="500" cy="330" r="4" fill="#8c4e33"/>
+  
+  <!-- Nature elements -->
+  <ellipse cx="200" cy="480" rx="60" ry="30" fill="#E1EADF" opacity="0.6"/>
+  <ellipse cx="600" cy="500" rx="50" ry="25" fill="#E1EADF" opacity="0.5"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="120" cy="150" r="40" fill="#feae8c" opacity="0.3"/>
+  <circle cx="680" cy="400" r="60" fill="#E1EADF" opacity="0.3"/>
+</svg>

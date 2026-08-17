@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#fdf9f3"/>
+  
+  <!-- Person exercising -->
+  <circle cx="400" cy="180" r="45" fill="#436444"/>
+  <path d="M400 225 L400 380" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 260 L340 320" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 260 L460 320" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 380 L350 480" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 380 L450 480" stroke="#436444" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Fitness watch -->
+  <rect x="320" y="280" width="40" height="50" rx="8" fill="#8c4e33"/>
+  <rect x="325" y="290" width="30" height="30" rx="4" fill="#fdf9f3"/>
+  <text x="340" y="310" font-size="12" fill="#436444" text-anchor="middle" font-family="sans-serif">72</text>
+  
+  <!-- Heart rate line -->
+  <path d="M200 150 L280 150 L300 120 L320 180 L340 140 L360 160 L400 160" stroke="#C0564B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="150" cy="450" r="60" fill="#E1EADF" opacity="0.5"/>
+  <circle cx="650" cy="150" r="80" fill="#feae8c" opacity="0.3"/>
+  <circle cx="600" cy="400" r="40" fill="#5B8FB9" opacity="0.2"/>
+</svg>

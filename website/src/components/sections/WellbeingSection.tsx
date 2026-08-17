@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { PageContainer } from '../layout/PageContainer';
 import { Button } from '../ui/Button';
-import { Moon, Smile, Utensils, HeartHandshake, ArrowRight } from 'lucide-react';
+import { Moon, Smile, Wind, Brain, HeartHandshake, ArrowRight } from 'lucide-react';
 
 export const WellbeingSection: React.FC = () => {
   return (
@@ -11,13 +11,13 @@ export const WellbeingSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-6">
             <span className="text-xs font-bold tracking-widest uppercase text-[#8c4e33]">
-              Whole-Person Support
+              Whole-Person Recovery
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-[#2D2A26] tracking-tight leading-tight">
               Recovery is More Than Just Physical Exercise
             </h2>
             <p className="text-lg text-[#66615C] leading-relaxed">
-              Sleep quality, emotional wellbeing, nutrition, and stress levels play a decisive role in physical healing. REVIA supports every dimension of your recovery.
+              Your mind is part of your recovery too. REVIA supports the emotional side of healing — mood, sleep, stress, motivation, and connection.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
@@ -38,26 +38,32 @@ export const WellbeingSection: React.FC = () => {
               </div>
 
               <div className="p-4 rounded-[12px] bg-white border border-[#e6e2dc] flex items-start gap-3">
-                <Utensils className="w-6 h-6 text-[#8c4e33] shrink-0 mt-0.5" />
+                <Brain className="w-6 h-6 text-[#5B8FB9] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-[#2D2A26] text-base">Nutrition Guidance</h4>
-                  <p className="text-xs text-[#66615C]">Condition-aware hydration and meal advice.</p>
+                  <h4 className="font-bold text-[#2D2A26] text-base">Stress & Anxiety</h4>
+                  <p className="text-xs text-[#66615C]">Evidence-based techniques for recovery-related stress.</p>
                 </div>
               </div>
 
               <div className="p-4 rounded-[12px] bg-white border border-[#e6e2dc] flex items-start gap-3">
-                <HeartHandshake className="w-6 h-6 text-[#436444] shrink-0 mt-0.5" />
+                <Wind className="w-6 h-6 text-[#436444] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-[#2D2A26] text-base">Mindfulness</h4>
-                  <p className="text-xs text-[#66615C]">Breathing exercises and stress reduction.</p>
+                  <h4 className="font-bold text-[#2D2A26] text-base">Relaxation</h4>
+                  <p className="text-xs text-[#66615C]">Breathing exercises and mindfulness techniques.</p>
                 </div>
               </div>
             </div>
 
-            <div className="pt-4">
+            <div className="flex flex-col sm:flex-row gap-3 pt-4">
               <Link href="/wellbeing">
                 <Button variant="secondary" size="md" className="gap-2">
-                  <span>Explore Wellbeing Companion</span>
+                  <span>Explore Mental Wellbeing</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Button>
+              </Link>
+              <Link href="/wellbeing/depression-support">
+                <Button variant="outline" size="md" className="gap-2">
+                  <span>Depression Support</span>
                   <ArrowRight className="w-4 h-4" />
                 </Button>
               </Link>
@@ -72,7 +78,7 @@ export const WellbeingSection: React.FC = () => {
                 <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
                   <div className="flex justify-between text-sm font-semibold">
                     <span className="text-[#2D2A26]">Mood Today</span>
-                    <span className="text-[#4A7C59]">😊 Feeling Good</span>
+                    <span className="text-[#4A7C59]">Feeling Good</span>
                   </div>
                   <div className="w-full bg-[#E1EADF] h-2 rounded-full">
                     <div className="bg-[#4A7C59] h-full w-[80%] rounded-full"></div>
@@ -82,7 +88,7 @@ export const WellbeingSection: React.FC = () => {
                 <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
                   <div className="flex justify-between text-sm font-semibold">
                     <span className="text-[#2D2A26]">Sleep Quality</span>
-                    <span className="text-[#5B8FB9]">7h 20m · Restful</span>
+                    <span className="text-[#5B8FB9]">7h 20m</span>
                   </div>
                   <div className="w-full bg-[#5B8FB9]/20 h-2 rounded-full">
                     <div className="bg-[#5B8FB9] h-full w-[88%] rounded-full"></div>
@@ -96,6 +102,16 @@ export const WellbeingSection: React.FC = () => {
                   </div>
                   <div className="w-full bg-[#feae8c]/40 h-2 rounded-full">
                     <div className="bg-[#8c4e33] h-full w-[65%] rounded-full"></div>
+                  </div>
+                </div>
+
+                <div className="bg-white p-4 rounded-[16px] shadow-soft space-y-2">
+                  <div className="flex justify-between text-sm font-semibold">
+                    <span className="text-[#2D2A26]">Check-ins This Week</span>
+                    <span className="text-[#436444]">5 / 7</span>
+                  </div>
+                  <div className="w-full bg-[#E1EADF] h-2 rounded-full">
+                    <div className="bg-[#436444] h-full w-[71%] rounded-full"></div>
                   </div>
                 </div>
               </div>

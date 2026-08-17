@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, ChevronDown, Heart, Brain, Activity, Stethoscope } from 'lucide-react';
+import { Menu, ChevronDown, Heart, Brain, Activity, Stethoscope, HeartHandshake, Wind } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { MobileMenu } from './MobileMenu';
 import { PageContainer } from './PageContainer';
@@ -11,6 +11,7 @@ export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isWellbeingDropdownOpen, setIsWellbeingDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -114,12 +115,70 @@ export const Header: React.FC = () => {
                 )}
               </div>
 
-              <Link
-                href="/wellbeing"
-                className="font-medium text-[#2D2A26] hover:text-[#436444] transition-colors text-base"
+              {/* Wellbeing Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={() => setIsWellbeingDropdownOpen(true)}
+                onMouseLeave={() => setIsWellbeingDropdownOpen(false)}
               >
-                Wellbeing
-              </Link>
+                <Link
+                  href="/wellbeing"
+                  className="flex items-center gap-1.5 py-2 font-medium text-[#2D2A26] hover:text-[#436444] transition-colors text-base"
+                >
+                  <span>Wellbeing</span>
+                  <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isWellbeingDropdownOpen ? 'rotate-180 text-[#436444]' : 'text-[#66615C]'}`} />
+                </Link>
+
+                {isWellbeingDropdownOpen && (
+                  <div className="absolute top-full left-0 w-72 pt-2 z-50">
+                    <div className="bg-white rounded-[16px] p-3 shadow-soft-lg border border-[#e6e2dc] space-y-1">
+                      <Link
+                        href="/wellbeing"
+                        className="flex items-center gap-3 p-3 rounded-[12px] hover:bg-[#F2E8DA]/60 transition-colors group"
+                      >
+                        <HeartHandshake className="w-5 h-5 text-[#8c4e33] group-hover:scale-110 transition-transform" />
+                        <div>
+                          <div className="font-semibold text-sm text-[#2D2A26]">Wellbeing Overview</div>
+                          <div className="text-xs text-[#66615C]">Whole-person recovery support</div>
+                        </div>
+                      </Link>
+
+                      <Link
+                        href="/wellbeing/mental-health"
+                        className="flex items-center gap-3 p-3 rounded-[12px] hover:bg-[#F2E8DA]/60 transition-colors group"
+                      >
+                        <Brain className="w-5 h-5 text-[#5B8FB9] group-hover:scale-110 transition-transform" />
+                        <div>
+                          <div className="font-semibold text-sm text-[#2D2A26]">Mental Wellbeing</div>
+                          <div className="text-xs text-[#66615C]">Mood, sleep, stress & motivation</div>
+                        </div>
+                      </Link>
+
+                      <Link
+                        href="/wellbeing/depression-support"
+                        className="flex items-center gap-3 p-3 rounded-[12px] hover:bg-[#F2E8DA]/60 transition-colors group"
+                      >
+                        <HeartHandshake className="w-5 h-5 text-[#436444] group-hover:scale-110 transition-transform" />
+                        <div>
+                          <div className="font-semibold text-sm text-[#2D2A26]">Depression Support</div>
+                          <div className="text-xs text-[#66615C]">Understanding low mood & self-help</div>
+                        </div>
+                      </Link>
+
+                      <Link
+                        href="/wellbeing/breathing-relaxation"
+                        className="flex items-center gap-3 p-3 rounded-[12px] hover:bg-[#F2E8DA]/60 transition-colors group"
+                      >
+                        <Wind className="w-5 h-5 text-[#4A7C59] group-hover:scale-110 transition-transform" />
+                        <div>
+                          <div className="font-semibold text-sm text-[#2D2A26]">Breathing & Relaxation</div>
+                          <div className="text-xs text-[#66615C]">Calming exercises & techniques</div>
+                        </div>
+                      </Link>
+                    </div>
+                  </div>
+                )}
+              </div>
               <Link
                 href="/exercises"
                 className="font-medium text-[#2D2A26] hover:text-[#436444] transition-colors text-base"

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { X, Heart, Brain, Activity, Stethoscope, ChevronRight } from 'lucide-react';
+import { X, Heart, Brain, Activity, Stethoscope, ChevronRight, HeartHandshake, Wind } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 interface MobileMenuProps {
@@ -85,14 +85,59 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
             </div>
           </div>
 
-          <div className="border-t border-[#e6e2dc] pt-6 space-y-2">
-            <Link
-              href="/wellbeing"
-              onClick={onClose}
-              className="block px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base"
-            >
+          <div className="border-t border-[#e6e2dc] pt-6 space-y-1">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#66615C] px-3">
               Wellbeing
-            </Link>
+            </span>
+            <div className="mt-3 space-y-1">
+              <Link
+                href="/wellbeing"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
+              >
+                <div className="flex items-center gap-3">
+                  <HeartHandshake className="w-5 h-5 text-[#8c4e33]" />
+                  <span>Wellbeing Overview</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-[#66615C]" />
+              </Link>
+              <Link
+                href="/wellbeing/mental-health"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
+              >
+                <div className="flex items-center gap-3">
+                  <Brain className="w-5 h-5 text-[#5B8FB9]" />
+                  <span>Mental Wellbeing</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-[#66615C]" />
+              </Link>
+              <Link
+                href="/wellbeing/depression-support"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
+              >
+                <div className="flex items-center gap-3">
+                  <HeartHandshake className="w-5 h-5 text-[#436444]" />
+                  <span>Depression Support</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-[#66615C]" />
+              </Link>
+              <Link
+                href="/wellbeing/breathing-relaxation"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
+              >
+                <div className="flex items-center gap-3">
+                  <Wind className="w-5 h-5 text-[#4A7C59]" />
+                  <span>Breathing & Relaxation</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-[#66615C]" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="border-t border-[#e6e2dc] pt-6 space-y-2">
             <Link
               href="/exercises"
               onClick={onClose}

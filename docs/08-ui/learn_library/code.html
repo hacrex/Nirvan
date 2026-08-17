@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>REVIA - Learn</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "success": "#4A7C59",
+                      "on-tertiary-container": "#fffbff",
+                      "on-error": "#ffffff",
+                      "on-primary": "#ffffff",
+                      "on-secondary-container": "#793f25",
+                      "primary-fixed": "#c6edc4",
+                      "on-surface": "#1c1c18",
+                      "tertiary-fixed-dim": "#f4b6c6",
+                      "tertiary-container": "#9a6674",
+                      "secondary": "#8c4e33",
+                      "on-tertiary-fixed-variant": "#673947",
+                      "inverse-primary": "#abd0a9",
+                      "background": "#fdf9f3",
+                      "on-background": "#1c1c18",
+                      "on-primary-container": "#f7fff2",
+                      "surfaceVariant": "#F2E8DA",
+                      "error": "#C0564B",
+                      "info": "#5B8FB9",
+                      "secondary-container": "#feae8c",
+                      "surface-dim": "#dddad4",
+                      "on-surface-variant": "#424841",
+                      "surface-container-high": "#ebe8e2",
+                      "secondary-fixed": "#ffdbcd",
+                      "on-primary-fixed": "#012108",
+                      "outline-variant": "#c2c8be",
+                      "surface-container-highest": "#e6e2dc",
+                      "surface-container": "#f1ede7",
+                      "surface-tint": "#456646",
+                      "tertiary-fixed": "#ffd9e1",
+                      "primaryContainer": "#E1EADF",
+                      "tertiary": "#7f4e5c",
+                      "warning": "#D99100",
+                      "error-container": "#ffdad6",
+                      "surface-bright": "#fdf9f3",
+                      "outline": "#737970",
+                      "on-secondary-fixed": "#360f00",
+                      "primary-container": "#5b7d5b",
+                      "inverse-on-surface": "#f4f0ea",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed-variant": "#2e4e30",
+                      "surface-variant": "#e6e2dc",
+                      "on-tertiary-fixed": "#330f1c",
+                      "inverse-surface": "#31302d",
+                      "surface-container-lowest": "#ffffff",
+                      "textPrimary": "#2D2A26",
+                      "primary-fixed-dim": "#abd0a9",
+                      "surface-container-low": "#f7f3ed",
+                      "primary": "#436444",
+                      "on-secondary": "#ffffff",
+                      "on-error-container": "#93000a",
+                      "textSecondary": "#66615C",
+                      "on-secondary-fixed-variant": "#6f371e",
+                      "surface": "#fdf9f3",
+                      "secondary-fixed-dim": "#ffb596"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "md": "12px",
+                      "xs": "4px",
+                      "4xl": "64px",
+                      "xl": "24px",
+                      "sm": "8px",
+                      "2xl": "32px",
+                      "lg": "16px",
+                      "3xl": "48px"
+              },
+              "fontFamily": {
+                      "body-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "label-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "caption": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "title-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg-mobile": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "display": [
+                              "Atkinson Hyperlegible Next"
+                      ]
+              },
+              "fontSize": {
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "title-lg": [
+                              "22px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "display": [
+                              "44px",
+                              {
+                                      "lineHeight": "52px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        /* Hide scrollbar for horizontal scroll but allow scrolling */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md pb-[100px]"> <!-- Padding for Bottom Nav -->
+<!-- TopAppBar (Web & Mobile) -->
+<header class="w-full top-0 sticky bg-background z-40 flex justify-between items-center px-lg py-md shadow-sm">
+<div class="flex items-center gap-sm">
+<button class="w-12 h-12 flex items-center justify-center rounded-full hover:bg-surface-container-low transition-colors active:scale-95 text-primary">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+</button>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">REVIA</h1>
+</div>
+<div class="w-10 h-10 rounded-full bg-surfaceVariant overflow-hidden flex items-center justify-center hover:bg-surface-container-low transition-colors active:scale-95 cursor-pointer shadow-sm">
+<span class="material-symbols-outlined text-primary" data-icon="person">person</span>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-lg md:px-2xl pb-4xl">
+<!-- Search Section -->
+<section class="mt-lg mb-2xl">
+<div class="relative w-full max-w-2xl mx-auto">
+<div class="absolute inset-y-0 left-0 pl-sm flex items-center pointer-events-none w-12 h-12 justify-center">
+<span class="material-symbols-outlined text-outline" data-icon="search">search</span>
+</div>
+<input class="w-full pl-[48px] pr-sm py-sm rounded-lg bg-surface border-2 border-transparent focus:border-primary focus:bg-background outline-none transition-colors h-[48px] shadow-sm text-body-md font-body-md text-on-surface placeholder:text-outline-variant" placeholder="Search recovery topics, exercises..." type="text"/>
+</div>
+</section>
+<!-- Category Filters (Horizontal Scroll) -->
+<section class="mb-3xl">
+<div class="flex gap-sm overflow-x-auto hide-scrollbar pb-sm -mx-lg px-lg md:mx-0 md:px-0">
+<button class="px-lg py-sm rounded-full bg-primary text-on-primary font-label-md text-label-md whitespace-nowrap min-w-[48px] min-h-[48px] flex items-center justify-center hover:bg-surface-tint transition-colors active:scale-95 shadow-sm">All</button>
+<button class="px-lg py-sm rounded-full bg-surfaceVariant text-on-surface font-label-md text-label-md whitespace-nowrap min-w-[48px] min-h-[48px] flex items-center justify-center hover:bg-surface-container-high transition-colors active:scale-95 shadow-sm">Articles</button>
+<button class="px-lg py-sm rounded-full bg-surfaceVariant text-on-surface font-label-md text-label-md whitespace-nowrap min-w-[48px] min-h-[48px] flex items-center justify-center hover:bg-surface-container-high transition-colors active:scale-95 shadow-sm">Guides</button>
+<button class="px-lg py-sm rounded-full bg-surfaceVariant text-on-surface font-label-md text-label-md whitespace-nowrap min-w-[48px] min-h-[48px] flex items-center justify-center hover:bg-surface-container-high transition-colors active:scale-95 shadow-sm">Videos</button>
+<button class="px-lg py-sm rounded-full bg-surfaceVariant text-on-surface font-label-md text-label-md whitespace-nowrap min-w-[48px] min-h-[48px] flex items-center justify-center hover:bg-surface-container-high transition-colors active:scale-95 shadow-sm">FAQs</button>
+</div>
+</section>
+<!-- Featured (Horizontal Scroll) -->
+<section class="mb-4xl">
+<h2 class="font-title-lg text-title-lg text-textPrimary mb-lg">Featured</h2>
+<div class="flex gap-lg overflow-x-auto hide-scrollbar pb-lg -mx-lg px-lg md:mx-0 md:px-0 snap-x">
+<!-- Card 1 -->
+<div class="min-w-[280px] md:min-w-[340px] bg-surface rounded-xl shadow-[0_4px_16px_rgba(67,100,68,0.08)] overflow-hidden snap-start hover:shadow-md transition-shadow cursor-pointer active:scale-[0.98]">
+<div class="h-[160px] w-full relative">
+<img class="w-full h-full object-cover absolute inset-0" data-alt="A brightly lit, modern physical therapy clinic room. Warm sunlight streams through large windows, illuminating a clean, minimalist space with soft beige walls. In the foreground, a medical anatomical heart model sits on a light wooden table, suggesting cardiac education. The aesthetic is calm, encouraging, and highly professional, utilizing a warm, neutral color palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB93pqG4GNA2dalgC0x9EvUZ1Yp4MVoixefdy3z6G_sz7S4ScgJE64Mm_-KxI6Y5vA8-fjHPdjl-rs2Gt8E7hyfxeMFQRzzuq2PrLZdrLH5fRMVwHrq2Yga4UV0aHhhdI8bSdX4-XFCj_nHfS7k2uS7-PXmr0BTakClyduOsIhOI53E-jpLXleoF4Z5jfjGheCMf_rg5ZNg1lWtm7JiyFQfCwFGu9VOeaZRigUhR9htvmvqNIVog1A13Q"/>
+<div class="absolute top-sm left-sm bg-surface-variant text-on-surface-variant px-sm py-xs rounded-full font-caption text-caption flex items-center gap-xs">
+<span class="material-symbols-outlined text-[14px]" data-icon="article">article</span>
+                             Article
+                        </div>
+</div>
+<div class="p-lg">
+<h3 class="font-title-lg text-[18px] leading-[24px] text-textPrimary mb-sm line-clamp-2">Understanding Cardiac Rehab</h3>
+<p class="font-body-md text-body-md text-textSecondary line-clamp-2 mb-md">Learn the fundamentals of your rehabilitation journey and what to expect in the coming weeks.</p>
+<div class="flex justify-between items-center text-outline font-caption text-caption">
+<span>5 min read</span>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="min-w-[280px] md:min-w-[340px] bg-surface rounded-xl shadow-[0_4px_16px_rgba(67,100,68,0.08)] overflow-hidden snap-start hover:shadow-md transition-shadow cursor-pointer active:scale-[0.98]">
+<div class="h-[160px] w-full relative">
+<img class="w-full h-full object-cover absolute inset-0" data-alt="A close-up shot of hands gently adjusting a resistance band in a serene, home workout setting. The room is warmly lit with natural light, featuring soft green and earthy tones. The aesthetic is calm, focused, and tactile, conveying a sense of grounded optimism and gentle physical recovery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQ6hvzzn6VXry1T-AWfCGNCXGOh_k0aar7RaIm1IiQRI8Fjc_Vd6J3Vt6bOZ2Pt6JiA7xptjGbd8OxlNNKSVuVh5-j338B8zwQZNTS1O1OS56ieT9KfFLeE8bmDMmJcjojw_-yoCIMzX_tKKDlRRMqMvMldB5tK6VbAONKXzpZkNIfjPcuRXn0B8M76cuqDMPoDB7iB9YhxtOuW4VpsITTmrdxvds4LKOjoX8V5RMYLSRYSvHht0TSbg"/>
+<div class="absolute top-sm left-sm bg-surface-variant text-on-surface-variant px-sm py-xs rounded-full font-caption text-caption flex items-center gap-xs">
+<span class="material-symbols-outlined text-[14px]" data-icon="play_circle">play_circle</span>
+                             Video
+                        </div>
+</div>
+<div class="p-lg">
+<h3 class="font-title-lg text-[18px] leading-[24px] text-textPrimary mb-sm line-clamp-2">Gentle Stretching Routine</h3>
+<p class="font-body-md text-body-md text-textSecondary line-clamp-2 mb-md">A follow-along video guide for safe and effective morning stretches.</p>
+<div class="flex justify-between items-center text-outline font-caption text-caption">
+<span>12 min watch</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- For You Section (Bento Grid Style) -->
+<section class="mb-4xl">
+<h2 class="font-title-lg text-title-lg text-textPrimary mb-lg">For You</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-lg">
+<!-- Main Highlight Card -->
+<div class="md:col-span-2 bg-primaryContainer rounded-xl shadow-[0_4px_16px_rgba(67,100,68,0.08)] p-lg flex flex-col justify-between hover:shadow-md transition-shadow cursor-pointer active:scale-[0.98] min-h-[240px]">
+<div>
+<div class="flex items-center gap-xs text-primary font-label-md text-label-md mb-md">
+<span class="material-symbols-outlined text-[18px]" data-icon="star">star</span>
+                            Recommended
+                        </div>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary-fixed mb-sm">Why consistency matters</h3>
+<p class="font-body-md text-body-md text-on-primary-fixed-variant mb-lg max-w-md">Building small, daily habits is the key to long-term recovery success. Discover strategies to stay on track even on difficult days.</p>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-caption text-caption text-on-primary-fixed-variant">8 min read</span>
+<button class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-surface-tint transition-colors active:scale-95 shadow-sm">
+<span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Secondary Cards Stack -->
+<div class="flex flex-col gap-lg md:col-span-1">
+<div class="bg-surface rounded-xl shadow-[0_4px_16px_rgba(67,100,68,0.08)] p-lg flex gap-md items-center hover:shadow-md transition-shadow cursor-pointer active:scale-[0.98] flex-1">
+<div class="w-16 h-16 rounded-lg overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="A stylized, minimalist illustration of healthy food items like avocados and nuts against a soft, light background. The style is modern, using a color palette of warm greens and soft beige, promoting a sense of calm and well-being suitable for a recovery context." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmrw4v1AnsK1PuyMjX6RA7Xd0dVX8hzgBDuLeSdCGrQ_bZ48th51fA-OJGdpgjslAC0GIHImllAuQcv7C7uQs_8V4LCQR1JhVWTXsKaBHwD1gAMvFNVwgEBqUy6vzbQLvOJPHapJ2hoCdzXEHnBu8VoanKa6RXrVJRjeBK8CQfXcsYI1oOPA9xc_XMXxIu7q_lU6ScqalJvRt36aThWQmN7pJ0imoFROCmAuyTZA8pl_zp1OdTH8E77Q"/>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-textPrimary mb-xs line-clamp-2">Nutrition for Healing</h4>
+<span class="font-caption text-caption text-textSecondary">Guide • 4 min</span>
+</div>
+</div>
+<div class="bg-surface rounded-xl shadow-[0_4px_16px_rgba(67,100,68,0.08)] p-lg flex gap-md items-center hover:shadow-md transition-shadow cursor-pointer active:scale-[0.98] flex-1">
+<div class="w-16 h-16 rounded-lg overflow-hidden shrink-0 bg-surfaceVariant flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="psychology">psychology</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-textPrimary mb-xs line-clamp-2">Managing Anxiety</h4>
+<span class="font-caption text-caption text-textSecondary">Article • 6 min</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-lg pb-safe pt-sm rounded-t-xl shadow-lg shadow-[0_-4px_16px_rgba(67,100,68,0.08)] bg-surface dark:bg-surface-container-low md:hidden">
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline p-2 hover:text-primary dark:hover:text-primary-fixed active:scale-90 transition-all duration-300 w-16 h-16">
+<span class="material-symbols-outlined text-2xl mb-xs" data-icon="home">home</span>
+<span class="font-label-md text-[10px] leading-tight">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline p-2 hover:text-primary dark:hover:text-primary-fixed active:scale-90 transition-all duration-300 w-16 h-16">
+<span class="material-symbols-outlined text-2xl mb-xs" data-icon="self_care">self_care</span>
+<span class="font-label-md text-[10px] leading-tight">Wellbeing</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline p-2 hover:text-primary dark:hover:text-primary-fixed active:scale-90 transition-all duration-300 w-16 h-16">
+<span class="material-symbols-outlined text-2xl mb-xs" data-icon="monitoring">monitoring</span>
+<span class="font-label-md text-[10px] leading-tight">Progress</span>
+</button>
+<!-- Active Tab -->
+<button class="flex flex-col items-center justify-center bg-primary-container dark:bg-primary text-on-primary-container dark:text-on-primary rounded-xl px-4 py-1 hover:text-primary dark:hover:text-primary-fixed active:scale-90 transition-all duration-300 min-w-[64px] h-[48px]">
+<span class="material-symbols-outlined text-2xl" data-icon="menu_book" style="font-variation-settings: 'FILL' 1;">menu_book</span>
+<span class="font-label-md text-[10px] leading-tight mt-1">Learn</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline p-2 hover:text-primary dark:hover:text-primary-fixed active:scale-90 transition-all duration-300 w-16 h-16">
+<span class="material-symbols-outlined text-2xl mb-xs" data-icon="person">person</span>
+<span class="font-label-md text-[10px] leading-tight">Profile</span>
+</button>
+</nav>
+</body></html>

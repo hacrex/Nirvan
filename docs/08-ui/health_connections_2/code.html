@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Health Connections - Revia</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container": "#f1ede7",
+                      "outline": "#737970",
+                      "tertiary": "#7f4e5c",
+                      "surface-tint": "#456646",
+                      "on-tertiary-fixed-variant": "#673947",
+                      "on-secondary-container": "#793f25",
+                      "on-primary-fixed": "#012108",
+                      "inverse-surface": "#31302d",
+                      "tertiary-fixed": "#ffd9e1",
+                      "secondary-fixed-dim": "#ffb596",
+                      "error": "#C0564B",
+                      "secondary-fixed": "#ffdbcd",
+                      "secondary": "#8c4e33",
+                      "on-tertiary-container": "#fffbff",
+                      "on-secondary-fixed": "#360f00",
+                      "warning": "#D99100",
+                      "primary-fixed": "#c6edc4",
+                      "primary": "#436444",
+                      "outline-variant": "#c2c8be",
+                      "primaryContainer": "#E1EADF",
+                      "textSecondary": "#66615C",
+                      "on-tertiary": "#ffffff",
+                      "surface": "#fdf9f3",
+                      "tertiary-fixed-dim": "#f4b6c6",
+                      "surfaceVariant": "#F2E8DA",
+                      "inverse-on-surface": "#f4f0ea",
+                      "secondary-container": "#feae8c",
+                      "primary-fixed-dim": "#abd0a9",
+                      "error-container": "#ffdad6",
+                      "on-primary-container": "#f7fff2",
+                      "surface-variant": "#e6e2dc",
+                      "primary-container": "#5b7d5b",
+                      "surface-dim": "#dddad4",
+                      "success": "#4A7C59",
+                      "on-surface": "#1c1c18",
+                      "tertiary-container": "#9a6674",
+                      "surface-container-high": "#ebe8e2",
+                      "textPrimary": "#2D2A26",
+                      "on-secondary": "#ffffff",
+                      "surface-container-highest": "#e6e2dc",
+                      "on-background": "#1c1c18",
+                      "on-secondary-fixed-variant": "#6f371e",
+                      "surface-container-low": "#f7f3ed",
+                      "surface-container-lowest": "#ffffff",
+                      "on-error": "#ffffff",
+                      "on-primary-fixed-variant": "#2e4e30",
+                      "info": "#5B8FB9",
+                      "surface-bright": "#fdf9f3",
+                      "on-primary": "#ffffff",
+                      "background": "#fdf9f3",
+                      "inverse-primary": "#abd0a9",
+                      "on-tertiary-fixed": "#330f1c",
+                      "on-surface-variant": "#424841",
+                      "on-error-container": "#93000a"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "md": "12px",
+                      "sm": "8px",
+                      "lg": "16px",
+                      "4xl": "64px",
+                      "2xl": "32px",
+                      "xs": "4px",
+                      "xl": "24px",
+                      "3xl": "48px"
+              },
+              "fontFamily": {
+                      "title-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "display": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "label-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "caption": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg-mobile": [
+                              "Atkinson Hyperlegible Next"
+                      ]
+              },
+              "fontSize": {
+                      "title-lg": [
+                              "22px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display": [
+                              "44px",
+                              {
+                                      "lineHeight": "52px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-4xl font-body-md">
+<!-- TopAppBar -->
+<header class="bg-surface dark:bg-background w-full top-0 sticky shadow-sm shadow-primary/5 z-40 hidden md:block">
+<div class="flex justify-between items-center px-lg py-md w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-md">
+<button aria-label="Menu" class="hover:bg-surface-container-low transition-colors rounded-full p-sm active:scale-95 duration-200">
+<span class="material-symbols-outlined text-primary dark:text-primary-fixed-dim" style="font-variation-settings: 'FILL' 0;">menu</span>
+</button>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-primary dark:text-primary-fixed-dim tracking-tight">REVIA</h1>
+</div>
+<div class="flex items-center gap-md hidden md:flex">
+<nav class="flex gap-lg mr-xl">
+<a class="text-outline dark:text-outline-variant font-label-md text-label-md hover:bg-surface-container-low transition-colors px-md py-sm rounded-lg" href="#">Home</a>
+<a class="text-outline dark:text-outline-variant font-label-md text-label-md hover:bg-surface-container-low transition-colors px-md py-sm rounded-lg" href="#">Recovery</a>
+<a class="text-outline dark:text-outline-variant font-label-md text-label-md hover:bg-surface-container-low transition-colors px-md py-sm rounded-lg" href="#">Progress</a>
+<a class="text-outline dark:text-outline-variant font-label-md text-label-md hover:bg-surface-container-low transition-colors px-md py-sm rounded-lg" href="#">Learn</a>
+<a class="text-primary dark:text-primary-fixed-dim font-label-md text-label-md bg-primary-container/10 px-md py-sm rounded-lg" href="#">Profile</a>
+</nav>
+<button class="w-10 h-10 rounded-full bg-surface-container-high overflow-hidden border-2 border-surface flex items-center justify-center hover:bg-surface-container-low transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-outline">person</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-lg py-2xl w-full">
+<header class="mb-2xl text-center md:text-left">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-sm">Health Connections</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">Manage your linked devices and data sources to keep your recovery metrics up to date.</p>
+</header>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg mb-3xl">
+<!-- Apple Health Card -->
+<article class="bg-surface rounded-2xl p-xl shadow-[0_8px_16px_rgba(67,100,68,0.08)] border border-surface-container-high flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between mb-md">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-surface-variant" style="font-variation-settings: 'FILL' 1;">monitor_heart</span>
+</div>
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Apple Health</h3>
+<div class="flex items-center gap-xs mt-xs">
+<span class="material-symbols-outlined text-success text-[16px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-caption text-caption text-success">Connected</span>
+</div>
+</div>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-xl">Syncs steps, heart rate, sleep data, and weight automatically.</p>
+<div class="flex items-center gap-sm mb-xl text-on-surface-variant font-caption text-caption">
+<span class="material-symbols-outlined text-[16px]">sync</span>
+<span>Last synced: Today, 10:42 AM</span>
+</div>
+</div>
+<div class="flex gap-md mt-auto">
+<button class="flex-1 bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md py-md rounded-xl transition-colors active:scale-[0.98]">
+                        Disconnect
+                    </button>
+<button class="flex-1 bg-primary text-on-primary font-label-md text-label-md py-md rounded-xl hover:bg-primary/90 transition-colors active:scale-[0.98]">
+                        View Trends
+                    </button>
+</div>
+</article>
+<!-- Health Connect Card -->
+<article class="bg-surface rounded-2xl p-xl shadow-[0_8px_16px_rgba(67,100,68,0.08)] border border-surface-container-high flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between mb-md">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center opacity-70">
+<span class="material-symbols-outlined text-on-surface-variant" style="font-variation-settings: 'FILL' 0;">devices</span>
+</div>
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Health Connect</h3>
+<div class="flex items-center gap-xs mt-xs">
+<span class="material-symbols-outlined text-outline text-[16px]">info</span>
+<span class="font-caption text-caption text-outline">Not Configured</span>
+</div>
+</div>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-xl">Connect various fitness trackers and wellness apps through Google's unified platform.</p>
+</div>
+<div class="mt-auto">
+<button class="w-full bg-primary-container text-on-primary-container font-label-md text-label-md py-md rounded-xl hover:bg-primary-container/90 transition-colors flex items-center justify-center gap-sm active:scale-[0.98]">
+<span class="material-symbols-outlined text-[20px]">add_link</span>
+                        Connect Service
+                    </button>
+</div>
+</article>
+</div>
+<section>
+<div class="flex items-center justify-between mb-lg">
+<h3 class="font-title-lg text-title-lg text-on-surface">Today's Summary</h3>
+<button class="text-primary font-label-md text-label-md hover:underline flex items-center gap-xs">
+                    View Details
+                    <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-md md:gap-lg">
+<!-- Steps -->
+<div class="bg-surface rounded-2xl p-lg shadow-sm border border-surface-container-low flex flex-col">
+<div class="flex items-center gap-sm mb-md text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">directions_walk</span>
+<span class="font-label-md text-label-md">Steps</span>
+</div>
+<div class="mt-auto">
+<span class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">7,240</span>
+</div>
+</div>
+<!-- Resting HR -->
+<div class="bg-surface rounded-2xl p-lg shadow-sm border border-surface-container-low flex flex-col">
+<div class="flex items-center gap-sm mb-md text-on-surface-variant">
+<span class="material-symbols-outlined text-error" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="font-label-md text-label-md">Resting HR</span>
+</div>
+<div class="mt-auto flex items-baseline gap-xs">
+<span class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">68</span>
+<span class="font-body-md text-body-md text-on-surface-variant">bpm</span>
+</div>
+</div>
+<!-- Sleep -->
+<div class="bg-surface rounded-2xl p-lg shadow-sm border border-surface-container-low flex flex-col">
+<div class="flex items-center gap-sm mb-md text-on-surface-variant">
+<span class="material-symbols-outlined text-info" style="font-variation-settings: 'FILL' 1;">bedtime</span>
+<span class="font-label-md text-label-md">Sleep</span>
+</div>
+<div class="mt-auto flex items-baseline gap-xs">
+<span class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">7h 12m</span>
+</div>
+</div>
+<!-- Weight -->
+<div class="bg-surface rounded-2xl p-lg shadow-sm border border-surface-container-low flex flex-col">
+<div class="flex items-center gap-sm mb-md text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary" style="font-variation-settings: 'FILL' 1;">scale</span>
+<span class="font-label-md text-label-md">Weight</span>
+</div>
+<div class="mt-auto flex items-baseline gap-xs">
+<span class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">68.4</span>
+<span class="font-body-md text-body-md text-on-surface-variant">kg</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-sm pb-lg pt-md bg-surface dark:bg-surface-dim shadow-[0_-4px_16px_rgba(69,102,70,0.08)] rounded-t-xl md:hidden">
+<a class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out rounded-xl" href="#">
+<span class="material-symbols-outlined mb-xs" style="font-variation-settings: 'FILL' 0;">home</span>
+<span class="font-label-md text-label-md">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out rounded-xl" href="#">
+<span class="material-symbols-outlined mb-xs" style="font-variation-settings: 'FILL' 0;">rebase_edit</span>
+<span class="font-label-md text-label-md">Recovery</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out rounded-xl" href="#">
+<span class="material-symbols-outlined mb-xs" style="font-variation-settings: 'FILL' 0;">query_stats</span>
+<span class="font-label-md text-label-md">Progress</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out rounded-xl" href="#">
+<span class="material-symbols-outlined mb-xs" style="font-variation-settings: 'FILL' 0;">auto_stories</span>
+<span class="font-label-md text-label-md">Learn</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-primary-container dark:bg-primary-container text-on-primary-fixed-variant rounded-xl px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out" href="#">
+<span class="material-symbols-outlined mb-xs" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</a>
+</nav>
+</body></html>

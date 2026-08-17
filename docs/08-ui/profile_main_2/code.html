@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Profile - REVIA</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary-fixed": "#c6edc4",
+                      "outline": "#737970",
+                      "surface-variant": "#e6e2dc",
+                      "info": "#5B8FB9",
+                      "surface-container": "#f1ede7",
+                      "surface": "#fdf9f3",
+                      "surface-container-high": "#ebe8e2",
+                      "tertiary-container": "#9a6674",
+                      "surface-container-low": "#f7f3ed",
+                      "secondary-fixed-dim": "#ffb596",
+                      "secondary-fixed": "#ffdbcd",
+                      "surface-bright": "#fdf9f3",
+                      "on-tertiary-fixed": "#330f1c",
+                      "on-secondary": "#ffffff",
+                      "on-tertiary-fixed-variant": "#673947",
+                      "warning": "#D99100",
+                      "on-primary": "#ffffff",
+                      "outline-variant": "#c2c8be",
+                      "success": "#4A7C59",
+                      "on-error-container": "#93000a",
+                      "textPrimary": "#2D2A26",
+                      "surfaceVariant": "#F2E8DA",
+                      "surface-container-lowest": "#ffffff",
+                      "on-primary-container": "#f7fff2",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed-variant": "#2e4e30",
+                      "error": "#C0564B",
+                      "secondary": "#8c4e33",
+                      "on-secondary-fixed-variant": "#6f371e",
+                      "primaryContainer": "#E1EADF",
+                      "on-background": "#1c1c18",
+                      "on-tertiary-container": "#fffbff",
+                      "inverse-on-surface": "#f4f0ea",
+                      "secondary-container": "#feae8c",
+                      "tertiary": "#7f4e5c",
+                      "error-container": "#ffdad6",
+                      "textSecondary": "#66615C",
+                      "surface-dim": "#dddad4",
+                      "surface-container-highest": "#e6e2dc",
+                      "surface-tint": "#456646",
+                      "on-error": "#ffffff",
+                      "inverse-surface": "#31302d",
+                      "on-primary-fixed": "#012108",
+                      "on-surface": "#1c1c18",
+                      "on-secondary-fixed": "#360f00",
+                      "inverse-primary": "#abd0a9",
+                      "primary-fixed-dim": "#abd0a9",
+                      "background": "#fdf9f3",
+                      "on-secondary-container": "#793f25",
+                      "primary": "#436444",
+                      "on-surface-variant": "#424841",
+                      "tertiary-fixed": "#ffd9e1",
+                      "tertiary-fixed-dim": "#f4b6c6",
+                      "primary-container": "#5b7d5b"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "2xl": "32px",
+                      "sm": "8px",
+                      "md": "12px",
+                      "lg": "16px",
+                      "3xl": "48px",
+                      "xl": "24px",
+                      "4xl": "64px",
+                      "xs": "4px"
+              },
+              "fontFamily": {
+                      "display": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "caption": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "title-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg-mobile": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "label-md": [
+                              "Atkinson Hyperlegible Next"
+                      ]
+              },
+              "fontSize": {
+                      "display": [
+                              "44px",
+                              {
+                                      "lineHeight": "52px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "title-lg": [
+                              "22px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ]
+              }
+            },
+          },
+        }
+      </script>
+<style>
+          .ambient-shadow {
+              box-shadow: 0 4px 16px rgba(67, 100, 68, 0.08);
+          }
+          .glass-panel {
+              background: rgba(253, 249, 243, 0.7);
+              backdrop-filter: blur(12px);
+              -webkit-backdrop-filter: blur(12px);
+              border: 1px solid rgba(255, 255, 255, 0.5);
+          }
+      </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-24 md:pb-0 flex flex-col font-body-md antialiased">
+<!-- TopAppBar -->
+<header class="w-full top-0 sticky bg-background flex justify-between items-center px-lg py-md z-40 transition-colors duration-300">
+<div class="flex items-center gap-md">
+<button class="w-[48px] h-[48px] flex items-center justify-center text-primary hover:bg-surface-container-low rounded-full transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+</button>
+<h1 class="font-title-lg text-title-lg-mobile text-primary-fixed-dim">REVIA</h1>
+</div>
+<div class="flex items-center">
+<div class="w-[48px] h-[48px] flex items-center justify-center rounded-full overflow-hidden bg-surface-variant border-2 border-surface-container hover:bg-surface-container-low transition-colors active:scale-95 duration-200 cursor-pointer">
+<img alt="Patient Profile" class="w-full h-full object-cover" data-alt="A gentle, warm portrait of a person smiling softly, framed closely as a profile avatar. The lighting is soft and natural, emphasizing a calm and encouraging mood. The overall aesthetic matches the modern minimalist, light-mode palette of a thoughtful rehabilitation app." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJ4K58O49vQTpndykCOKWCQk4D1WbNlRJXpkJB5W9AeU-9dzZdfDp_q_jns4bRGCzUAT2hemH0-Y7khP_hA0y43XRqHQQUyo8Q0jIZeL5Vk2V3lLiBqgUismq48H1E13_nnRA1GSj-iY3fZPD2T2cS4oGNQkyRN0BOuwxso7iaPkceFWqZYgDm8JxStGd5zsNXLOl-hh2dFPp6DPf5IckB-2rtW3p-h4yDByFSgtbKGox4AL0ZtmQw2g"/>
+</div>
+</div>
+</header>
+<main class="flex-grow w-full max-w-3xl mx-auto px-lg py-xl flex flex-col gap-2xl">
+<!-- Profile Header -->
+<section class="flex flex-col items-center text-center gap-sm mt-md">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-2 ambient-shadow border-4 border-surface">
+<img alt="User Avatar" class="w-full h-full object-cover" data-alt="A gentle, warm portrait of a person smiling softly, framed closely as a profile avatar. The lighting is soft and natural, emphasizing a calm and encouraging mood. The overall aesthetic matches the modern minimalist, light-mode palette of a thoughtful rehabilitation app." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMIXwIHld9lmlnzVOeqUke3irofuX7u_ecy4POqsPAge_h05KOcfFnPZhuEFaFlQ0iSpdCe3U_65PoZUEYnKPZNt0DliPE2toidXxgp4CmNBnl7U8zFytF6ws4zYPvZ63dd9dtNbJX7UEHOss2jzOLnQbNIas92lQfg6N8eB9AqEtmHcQCDN99I57tn7Tkl1Ndzcyj-O4qY4cIZ_PSkRDBXdHdWpFTwsSZ2EDbprStua-BZ0TnDzuycg"/>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-textPrimary">Jane Doe</h2>
+<p class="font-body-md text-body-md text-textSecondary">Member since Oct 2023</p>
+</section>
+<!-- Main Content Area -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-lg">
+<!-- Left Column / Full Width Mobile -->
+<div class="md:col-span-8 flex flex-col gap-lg">
+<!-- Account Settings Group -->
+<div class="bg-surface rounded-xl ambient-shadow overflow-hidden">
+<div class="p-lg border-b border-surface-variant">
+<h3 class="font-title-lg text-title-lg-mobile text-primary">Account Details</h3>
+</div>
+<ul class="flex flex-col">
+<li>
+<button class="w-full flex items-center justify-between p-lg hover:bg-surface-container-low transition-colors text-left min-h-[48px]">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-outline" data-icon="person_outline">person_outline</span>
+<span class="font-body-lg text-body-lg text-textPrimary">Personal Information</span>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</button>
+</li>
+<li>
+<button class="w-full flex items-center justify-between p-lg hover:bg-surface-container-low transition-colors text-left border-t border-surface-variant min-h-[48px]">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-outline" data-icon="health_and_safety">health_and_safety</span>
+<span class="font-body-lg text-body-lg text-textPrimary">Recovery Path</span>
+</div>
+<div class="flex items-center gap-sm">
+<span class="font-caption text-caption text-textSecondary bg-surface-variant px-2 py-1 rounded-full">Knee Rehab - Wk 4</span>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</div>
+</button>
+</li>
+<li>
+<button class="w-full flex items-center justify-between p-lg hover:bg-surface-container-low transition-colors text-left border-t border-surface-variant min-h-[48px]">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-outline" data-icon="flag">flag</span>
+<span class="font-body-lg text-body-lg text-textPrimary">Goals</span>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</button>
+</li>
+</ul>
+</div>
+<!-- Medical Group -->
+<div class="bg-surface rounded-xl ambient-shadow overflow-hidden">
+<ul class="flex flex-col">
+<li>
+<button class="w-full flex items-center justify-between p-lg hover:bg-surface-container-low transition-colors text-left min-h-[48px]">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-outline" data-icon="prescriptions">prescriptions</span>
+<span class="font-body-lg text-body-lg text-textPrimary">Medications</span>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</button>
+</li>
+<li>
+<button class="w-full flex items-center justify-between p-lg hover:bg-surface-container-low transition-colors text-left border-t border-surface-variant min-h-[48px]">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-outline" data-icon="vital_signs">vital_signs</span>
+<span class="font-body-lg text-body-lg text-textPrimary">Health Connections</span>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</button>
+</li>
+</ul>
+</div>
+</div>
+<!-- Right Column / Settings -->
+<div class="md:col-span-4 flex flex-col gap-lg">
+<div class="bg-surface-variant rounded-xl p-md">
+<h3 class="font-label-md text-label-md text-textSecondary uppercase tracking-wider mb-sm px-sm">Preferences</h3>
+<ul class="flex flex-col gap-xs">
+<li>
+<button class="w-full flex items-center gap-md p-sm hover:bg-surface-container-high rounded-lg transition-colors text-left min-h-[48px]">
+<span class="material-symbols-outlined text-outline" data-icon="notifications">notifications</span>
+<span class="font-body-md text-body-md text-textPrimary">Notifications</span>
+</button>
+</li>
+<li>
+<button class="w-full flex items-center gap-md p-sm hover:bg-surface-container-high rounded-lg transition-colors text-left min-h-[48px]">
+<span class="material-symbols-outlined text-outline" data-icon="accessibility_new">accessibility_new</span>
+<span class="font-body-md text-body-md text-textPrimary">Accessibility</span>
+</button>
+</li>
+<li>
+<button class="w-full flex items-center gap-md p-sm hover:bg-surface-container-high rounded-lg transition-colors text-left min-h-[48px]">
+<span class="material-symbols-outlined text-outline" data-icon="lock">lock</span>
+<span class="font-body-md text-body-md text-textPrimary">Privacy</span>
+</button>
+</li>
+</ul>
+</div>
+<button class="w-full flex items-center justify-center gap-md p-lg mt-auto text-error hover:bg-error-container rounded-xl transition-colors min-h-[48px]">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span class="font-label-md text-label-md">Sign Out</span>
+</button>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-lg pb-safe pt-sm shadow-[0_-4px_16px_rgba(67,100,68,0.08)] bg-surface rounded-t-xl md:hidden">
+<button class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all duration-300 min-h-[48px] min-w-[48px] active:scale-90">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-label-md text-label-md mt-1">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all duration-300 min-h-[48px] min-w-[48px] active:scale-90">
+<span class="material-symbols-outlined" data-icon="self_care">self_care</span>
+<span class="font-label-md text-label-md mt-1">Wellbeing</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all duration-300 min-h-[48px] min-w-[48px] active:scale-90">
+<span class="material-symbols-outlined" data-icon="monitoring">monitoring</span>
+<span class="font-label-md text-label-md mt-1">Progress</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all duration-300 min-h-[48px] min-w-[48px] active:scale-90">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+<span class="font-label-md text-label-md mt-1">Learn</span>
+</button>
+<button class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-xl px-4 py-1 hover:text-primary transition-all duration-300 min-h-[48px] min-w-[48px] active:scale-90">
+<span class="material-symbols-outlined" data-icon="person" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="font-label-md text-label-md mt-1 font-bold">Profile</span>
+</button>
+</nav>
+<!-- Side Navigation (Desktop Only - Abstracted representation for structure matching json intent, hidden on mobile) -->
+<aside class="hidden md:flex flex-col w-[240px] fixed top-[80px] left-0 h-[calc(100vh-80px)] bg-surface border-r border-surface-variant px-md py-lg z-30">
+<nav class="flex flex-col gap-sm">
+<button class="flex items-center gap-md text-on-surface-variant p-md hover:bg-surface-container-low hover:text-primary rounded-xl transition-all duration-300 min-h-[48px] w-full text-left">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-label-md text-label-md">Home</span>
+</button>
+<button class="flex items-center gap-md text-on-surface-variant p-md hover:bg-surface-container-low hover:text-primary rounded-xl transition-all duration-300 min-h-[48px] w-full text-left">
+<span class="material-symbols-outlined" data-icon="self_care">self_care</span>
+<span class="font-label-md text-label-md">Wellbeing</span>
+</button>
+<button class="flex items-center gap-md text-on-surface-variant p-md hover:bg-surface-container-low hover:text-primary rounded-xl transition-all duration-300 min-h-[48px] w-full text-left">
+<span class="material-symbols-outlined" data-icon="monitoring">monitoring</span>
+<span class="font-label-md text-label-md">Progress</span>
+</button>
+<button class="flex items-center gap-md text-on-surface-variant p-md hover:bg-surface-container-low hover:text-primary rounded-xl transition-all duration-300 min-h-[48px] w-full text-left">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+<span class="font-label-md text-label-md">Learn</span>
+</button>
+<button class="flex items-center gap-md bg-primary-container text-on-primary-container rounded-xl p-md w-full text-left min-h-[48px]">
+<span class="material-symbols-outlined" data-icon="person" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="font-label-md text-label-md font-bold">Profile</span>
+</button>
+</nav>
+</aside>
+<style>
+        /* Adjust main padding for desktop side nav */
+        @media (min-width: 768px) {
+            main {
+                margin-left: 240px;
+                max-width: calc(100% - 240px);
+            }
+        }
+    </style>
+</body></html>

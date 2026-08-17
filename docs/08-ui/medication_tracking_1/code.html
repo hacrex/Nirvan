@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Your Schedule - REVIA</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container": "#f1ede7",
+                      "outline": "#737970",
+                      "tertiary": "#7f4e5c",
+                      "surface-tint": "#456646",
+                      "on-tertiary-fixed-variant": "#673947",
+                      "on-secondary-container": "#793f25",
+                      "on-primary-fixed": "#012108",
+                      "inverse-surface": "#31302d",
+                      "tertiary-fixed": "#ffd9e1",
+                      "secondary-fixed-dim": "#ffb596",
+                      "error": "#C0564B",
+                      "secondary-fixed": "#ffdbcd",
+                      "secondary": "#8c4e33",
+                      "on-tertiary-container": "#fffbff",
+                      "on-secondary-fixed": "#360f00",
+                      "warning": "#D99100",
+                      "primary-fixed": "#c6edc4",
+                      "primary": "#436444",
+                      "outline-variant": "#c2c8be",
+                      "primaryContainer": "#E1EADF",
+                      "textSecondary": "#66615C",
+                      "on-tertiary": "#ffffff",
+                      "surface": "#fdf9f3",
+                      "tertiary-fixed-dim": "#f4b6c6",
+                      "surfaceVariant": "#F2E8DA",
+                      "inverse-on-surface": "#f4f0ea",
+                      "secondary-container": "#feae8c",
+                      "primary-fixed-dim": "#abd0a9",
+                      "error-container": "#ffdad6",
+                      "on-primary-container": "#f7fff2",
+                      "surface-variant": "#e6e2dc",
+                      "primary-container": "#5b7d5b",
+                      "surface-dim": "#dddad4",
+                      "success": "#4A7C59",
+                      "on-surface": "#1c1c18",
+                      "tertiary-container": "#9a6674",
+                      "surface-container-high": "#ebe8e2",
+                      "textPrimary": "#2D2A26",
+                      "on-secondary": "#ffffff",
+                      "surface-container-highest": "#e6e2dc",
+                      "on-background": "#1c1c18",
+                      "on-secondary-fixed-variant": "#6f371e",
+                      "surface-container-low": "#f7f3ed",
+                      "surface-container-lowest": "#ffffff",
+                      "on-error": "#ffffff",
+                      "on-primary-fixed-variant": "#2e4e30",
+                      "info": "#5B8FB9",
+                      "surface-bright": "#fdf9f3",
+                      "on-primary": "#ffffff",
+                      "background": "#fdf9f3",
+                      "inverse-primary": "#abd0a9",
+                      "on-tertiary-fixed": "#330f1c",
+                      "on-surface-variant": "#424841",
+                      "on-error-container": "#93000a"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "md": "12px",
+                      "sm": "8px",
+                      "lg": "16px",
+                      "4xl": "64px",
+                      "2xl": "32px",
+                      "xs": "4px",
+                      "xl": "24px",
+                      "3xl": "48px"
+              },
+              "fontFamily": {
+                      "title-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "display": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "label-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "caption": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg-mobile": [
+                              "Atkinson Hyperlegible Next"
+                      ]
+              },
+              "fontSize": {
+                      "title-lg": [
+                              "22px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display": [
+                              "44px",
+                              {
+                                      "lineHeight": "52px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        body {
+            background-color: theme('colors.background');
+            color: theme('colors.on-background');
+            font-family: 'Atkinson Hyperlegible Next', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .ambient-shadow {
+            box-shadow: 0 4px 16px rgba(67, 100, 68, 0.08);
+        }
+
+        .ambient-shadow-lg {
+            box-shadow: 0 8px 24px rgba(67, 100, 68, 0.12);
+        }
+        
+        /* Toggle Switch Styles */
+        .toggle-checkbox:checked {
+            right: 0;
+            border-color: theme('colors.primary');
+        }
+        .toggle-checkbox:checked + .toggle-label {
+            background-color: theme('colors.primary');
+        }
+        .toggle-checkbox:checked + .toggle-label:after {
+            transform: translateX(100%);
+            border-color: white;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="pb-32"> <!-- Padding bottom to accommodate BottomNavBar -->
+<!-- TopAppBar -->
+<header class="w-full top-0 sticky bg-surface dark:bg-background shadow-sm shadow-primary/5 z-40 hidden md:flex">
+<div class="flex justify-between items-center px-lg py-md w-full max-w-7xl mx-auto">
+<button class="text-primary dark:text-primary-fixed-dim hover:bg-surface-container-low transition-colors active:scale-95 duration-200 p-sm rounded-full flex items-center justify-center min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-primary dark:text-primary-fixed-dim tracking-tight">REVIA</h1>
+<div class="w-12 h-12 rounded-full overflow-hidden border border-outline-variant hover:bg-surface-container-low transition-colors active:scale-95 duration-200 min-w-[48px] min-h-[48px] cursor-pointer">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="A close up, professional yet warm headshot portrait of a smiling person, well-lit with soft natural light, against a clean light beige background. High resolution photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5mbvSq74sk7ufyj9VF3xPocTrpD60I5zSqNna2z6JoY3F4cmJqilaAhX22ZU5hjIR8oXsJqf-PYTkj7fWbEDC8pvN658EOOE03_O5bzReWMj1dcCbLF8Gp0XHg3K4Zrqc2ScI7Tang45dMuNxxDoyJ3isB5Iwrl48PRwyy4haPs_nhwv9LpwTXx0PwdYrCMx2Yyw1HLduP2ZtP-sGkhbLB0Zes-saBSz6nrJW9X93tTeSqF1KPwcnbg"/>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="w-full max-w-3xl mx-auto px-lg pt-lg pb-4xl">
+<!-- Header Section -->
+<div class="flex justify-between items-end mb-2xl">
+<div>
+<p class="font-body-md text-body-md text-textSecondary mb-xs">Today, Oct 24</p>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-textPrimary">Your Schedule</h2>
+</div>
+<button class="font-label-md text-label-md text-primary border-2 border-primary rounded-xl px-lg py-sm min-w-[48px] min-h-[48px] hover:bg-surface-container-low transition-colors active:scale-95">
+                Edit List
+            </button>
+</div>
+<!-- Progress Card (Glassmorphism/Minimalist) -->
+<section class="bg-surface rounded-[16px] ambient-shadow p-xl mb-3xl flex items-center gap-xl">
+<!-- Circular Progress SVG -->
+<div class="relative w-24 h-24 flex-shrink-0 flex items-center justify-center">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 100 100">
+<circle cx="50" cy="50" fill="transparent" r="40" stroke="theme('colors.primaryContainer')" stroke-width="8"></circle>
+<circle cx="50" cy="50" fill="transparent" r="40" stroke="theme('colors.primary')" stroke-dasharray="251.2" stroke-dashoffset="167.46" stroke-linecap="round" stroke-width="8"></circle> <!-- 1/3 progress -->
+</svg>
+<div class="absolute inset-0 flex items-center justify-center flex-col">
+<span class="font-title-lg text-title-lg text-textPrimary">1/3</span>
+</div>
+</div>
+<div>
+<h3 class="font-title-lg text-title-lg text-textPrimary mb-xs">On Track</h3>
+<p class="font-body-md text-body-md text-textSecondary">You've taken 1 of your 3 scheduled medications today.</p>
+</div>
+</section>
+<!-- Medication Group: Morning -->
+<section class="mb-2xl">
+<div class="flex justify-between items-center mb-md px-xs">
+<h4 class="font-title-lg text-title-lg text-textPrimary flex items-center gap-sm">
+<span class="material-symbols-outlined text-warning" data-icon="light_mode">light_mode</span>
+                    Morning <span class="font-body-md text-body-md text-textSecondary ml-sm">8:00 AM</span>
+</h4>
+<div class="flex items-center gap-sm">
+<span class="font-caption text-caption text-textSecondary">Reminders</span>
+<label class="relative inline-flex items-center cursor-pointer min-w-[48px] min-h-[48px]">
+<input checked="" class="sr-only peer" type="checkbox" value=""/>
+<div class="w-11 h-6 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[14px] after:left-[2px] after:bg-white after:border-outline after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+</div>
+<div class="bg-surface rounded-[16px] ambient-shadow flex flex-col overflow-hidden">
+<!-- Item 1 -->
+<div class="p-lg flex items-center justify-between border-b border-surface-variant last:border-b-0 bg-primaryContainer/20">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="pill">pill</span>
+</div>
+<div>
+<p class="font-body-lg text-body-lg text-textPrimary font-semibold">Lisinopril</p>
+<p class="font-caption text-caption text-textSecondary">10mg - With food</p>
+</div>
+</div>
+<div class="flex items-center gap-xs px-sm py-xs bg-primaryContainer text-primary rounded-full">
+<span class="material-symbols-outlined text-[16px]" data-icon="check_circle" data-weight="fill" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-label-md text-label-md">Taken</span>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-lg flex items-center justify-between bg-primaryContainer/20">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="capsule">hevc</span>
+</div>
+<div>
+<p class="font-body-lg text-body-lg text-textPrimary font-semibold">Atorvastatin</p>
+<p class="font-caption text-caption text-textSecondary">20mg</p>
+</div>
+</div>
+<div class="flex items-center gap-xs px-sm py-xs bg-primaryContainer text-primary rounded-full">
+<span class="material-symbols-outlined text-[16px]" data-icon="check_circle" data-weight="fill" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-label-md text-label-md">Taken</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Medication Group: Afternoon -->
+<section class="mb-2xl">
+<div class="flex justify-between items-center mb-md px-xs">
+<h4 class="font-title-lg text-title-lg text-textPrimary flex items-center gap-sm">
+<span class="material-symbols-outlined text-secondary" data-icon="sunny">sunny</span>
+                    Afternoon <span class="font-body-md text-body-md text-textSecondary ml-sm">1:00 PM</span>
+</h4>
+<div class="flex items-center gap-sm">
+<span class="font-caption text-caption text-textSecondary">Reminders</span>
+<label class="relative inline-flex items-center cursor-pointer min-w-[48px] min-h-[48px]">
+<input checked="" class="sr-only peer" type="checkbox" value=""/>
+<div class="w-11 h-6 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[14px] after:left-[2px] after:bg-white after:border-outline after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+</div>
+<div class="bg-surface rounded-[16px] ambient-shadow flex flex-col overflow-hidden">
+<!-- Item 1 -->
+<div class="p-lg flex items-center justify-between cursor-pointer hover:bg-surfaceVariant/50 transition-colors active:bg-surfaceVariant">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full bg-surfaceVariant flex items-center justify-center text-textPrimary">
+<span class="material-symbols-outlined" data-icon="medication">medication</span>
+</div>
+<div>
+<p class="font-body-lg text-body-lg text-textPrimary font-semibold">Metformin</p>
+<p class="font-caption text-caption text-textSecondary">500mg - After lunch</p>
+</div>
+</div>
+<label class="flex items-center justify-center min-w-[48px] min-h-[48px] cursor-pointer">
+<input class="w-6 h-6 rounded border-outline-variant text-primary focus:ring-primary focus:ring-2" type="checkbox"/>
+</label>
+</div>
+</div>
+</section>
+<!-- Medication Group: Evening -->
+<section class="mb-2xl">
+<div class="flex justify-between items-center mb-md px-xs">
+<h4 class="font-title-lg text-title-lg text-textPrimary flex items-center gap-sm">
+<span class="material-symbols-outlined text-tertiary" data-icon="dark_mode">dark_mode</span>
+                    Evening <span class="font-body-md text-body-md text-textSecondary ml-sm">8:00 PM</span>
+</h4>
+<div class="flex items-center gap-sm">
+<span class="font-caption text-caption text-textSecondary">Reminders</span>
+<label class="relative inline-flex items-center cursor-pointer min-w-[48px] min-h-[48px]">
+<input class="sr-only peer" type="checkbox" value=""/>
+<div class="w-11 h-6 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[14px] after:left-[2px] after:bg-white after:border-outline after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+</div>
+<div class="bg-surface rounded-[16px] ambient-shadow flex flex-col overflow-hidden opacity-75"> <!-- Slightly dim for future tasks -->
+<!-- Item 1 -->
+<div class="p-lg flex items-center justify-between border-b border-surface-variant last:border-b-0 cursor-pointer hover:bg-surfaceVariant/50 transition-colors active:bg-surfaceVariant">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full bg-surfaceVariant flex items-center justify-center text-textPrimary">
+<span class="material-symbols-outlined" data-icon="pill">pill</span>
+</div>
+<div>
+<p class="font-body-lg text-body-lg text-textPrimary font-semibold">Amlodipine</p>
+<p class="font-caption text-caption text-textSecondary">5mg</p>
+</div>
+</div>
+<label class="flex items-center justify-center min-w-[48px] min-h-[48px] cursor-pointer">
+<input class="w-6 h-6 rounded border-outline-variant text-primary focus:ring-primary focus:ring-2" type="checkbox"/>
+</label>
+</div>
+<!-- Item 2 -->
+<div class="p-lg flex items-center justify-between cursor-pointer hover:bg-surfaceVariant/50 transition-colors active:bg-surfaceVariant">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 rounded-full bg-surfaceVariant flex items-center justify-center text-textPrimary">
+<span class="material-symbols-outlined" data-icon="medication_liquid">medication_liquid</span>
+</div>
+<div>
+<p class="font-body-lg text-body-lg text-textPrimary font-semibold">Magnesium Supplement</p>
+<p class="font-caption text-caption text-textSecondary">200mg - Before bed</p>
+</div>
+</div>
+<label class="flex items-center justify-center min-w-[48px] min-h-[48px] cursor-pointer">
+<input class="w-6 h-6 rounded border-outline-variant text-primary focus:ring-primary focus:ring-2" type="checkbox"/>
+</label>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 w-full z-50 rounded-t-xl bg-surface dark:bg-surface-dim shadow-[0_-4px_16px_rgba(69,102,70,0.08)] md:hidden">
+<div class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-sm pb-lg pt-md bg-surface dark:bg-surface-dim">
+<!-- Home -->
+<button class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-xs" data-icon="home">home</span>
+<span class="font-label-md text-label-md">Home</span>
+</button>
+<!-- Recovery -->
+<button class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-xs" data-icon="rebase_edit">rebase_edit</span>
+<span class="font-label-md text-label-md">Recovery</span>
+</button>
+<!-- Progress -->
+<button class="flex flex-col items-center justify-center flex flex-col items-center justify-center bg-primary-container dark:bg-primary-container text-on-primary-fixed-variant rounded-xl px-md py-xs min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-xs" data-icon="query_stats" data-weight="fill" style="font-variation-settings: 'FILL' 1;">query_stats</span>
+<span class="font-label-md text-label-md">Progress</span>
+</button>
+<!-- Learn -->
+<button class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-xs" data-icon="auto_stories">auto_stories</span>
+<span class="font-label-md text-label-md">Learn</span>
+</button>
+<!-- Profile -->
+<button class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-xs" data-icon="person">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</button>
+</div>
+</nav>
+</body></html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Safety &amp; Consent - REVIA Onboarding</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                            "surface-container": "#f1ede7",
+                            "outline": "#737970",
+                            "tertiary": "#7f4e5c",
+                            "surface-tint": "#456646",
+                            "on-tertiary-fixed-variant": "#673947",
+                            "on-secondary-container": "#793f25",
+                            "on-primary-fixed": "#012108",
+                            "inverse-surface": "#31302d",
+                            "tertiary-fixed": "#ffd9e1",
+                            "secondary-fixed-dim": "#ffb596",
+                            "error": "#C0564B",
+                            "secondary-fixed": "#ffdbcd",
+                            "secondary": "#8c4e33",
+                            "on-tertiary-container": "#fffbff",
+                            "on-secondary-fixed": "#360f00",
+                            "warning": "#D99100",
+                            "primary-fixed": "#c6edc4",
+                            "primary": "#436444",
+                            "outline-variant": "#c2c8be",
+                            "primaryContainer": "#E1EADF",
+                            "textSecondary": "#66615C",
+                            "on-tertiary": "#ffffff",
+                            "surface": "#fdf9f3",
+                            "tertiary-fixed-dim": "#f4b6c6",
+                            "surfaceVariant": "#F2E8DA",
+                            "inverse-on-surface": "#f4f0ea",
+                            "secondary-container": "#feae8c",
+                            "primary-fixed-dim": "#abd0a9",
+                            "error-container": "#ffdad6",
+                            "on-primary-container": "#f7fff2",
+                            "surface-variant": "#e6e2dc",
+                            "primary-container": "#5b7d5b",
+                            "surface-dim": "#dddad4",
+                            "success": "#4A7C59",
+                            "on-surface": "#1c1c18",
+                            "tertiary-container": "#9a6674",
+                            "surface-container-high": "#ebe8e2",
+                            "textPrimary": "#2D2A26",
+                            "on-secondary": "#ffffff",
+                            "surface-container-highest": "#e6e2dc",
+                            "on-background": "#1c1c18",
+                            "on-secondary-fixed-variant": "#6f371e",
+                            "surface-container-low": "#f7f3ed",
+                            "surface-container-lowest": "#ffffff",
+                            "on-error": "#ffffff",
+                            "on-primary-fixed-variant": "#2e4e30",
+                            "info": "#5B8FB9",
+                            "surface-bright": "#fdf9f3",
+                            "on-primary": "#ffffff",
+                            "background": "#fdf9f3",
+                            "inverse-primary": "#abd0a9",
+                            "on-tertiary-fixed": "#330f1c",
+                            "on-surface-variant": "#424841",
+                            "on-error-container": "#93000a"
+                    },
+                    "borderRadius": {
+                            "DEFAULT": "0.25rem",
+                            "lg": "0.5rem",
+                            "xl": "0.75rem",
+                            "full": "9999px"
+                    },
+                    "spacing": {
+                            "md": "12px",
+                            "sm": "8px",
+                            "lg": "16px",
+                            "4xl": "64px",
+                            "2xl": "32px",
+                            "xs": "4px",
+                            "xl": "24px",
+                            "3xl": "48px"
+                    },
+                    "fontFamily": {
+                            "title-lg": ["Atkinson Hyperlegible Next"],
+                            "body-lg": ["Atkinson Hyperlegible Next"],
+                            "body-md": ["Atkinson Hyperlegible Next"],
+                            "display": ["Atkinson Hyperlegible Next"],
+                            "label-md": ["Atkinson Hyperlegible Next"],
+                            "caption": ["Atkinson Hyperlegible Next"],
+                            "headline-lg": ["Atkinson Hyperlegible Next"],
+                            "headline-lg-mobile": ["Atkinson Hyperlegible Next"]
+                    },
+                    "fontSize": {
+                            "title-lg": ["22px", { "lineHeight": "28px", "fontWeight": "600" }],
+                            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                            "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                            "display": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                            "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+                            "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+                            "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-md antialiased md:max-w-2xl md:mx-auto">
+<!-- TopAppBar Semantic Shell (Suppressed specific active states as this is onboarding, but shell exists for brand anchor) -->
+<header class="bg-surface dark:bg-background w-full top-0 sticky shadow-sm shadow-primary/5 flex justify-between items-center px-lg py-md z-40">
+<button aria-label="Back" class="text-primary dark:text-primary-fixed-dim hover:bg-surface-container-low transition-colors active:scale-95 duration-200 rounded-full p-sm flex items-center justify-center min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">arrow_back</span>
+</button>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-primary dark:text-primary-fixed-dim tracking-tight">REVIA</h1>
+<div class="w-[48px]"></div> <!-- Spacer for centering -->
+</header>
+<main class="flex-1 px-lg py-2xl flex flex-col gap-3xl">
+<!-- Header Section -->
+<section class="flex flex-col gap-sm">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary">Safety &amp; Consent</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Please review the following important information before starting your recovery journey.</p>
+</section>
+<!-- Information Cards (Bento-style layout on md screens) -->
+<section class="flex flex-col gap-md md:grid md:grid-cols-2 md:grid-rows-2">
+<!-- Medical Disclaimer Card -->
+<div class="bg-surface rounded-xl p-lg shadow-[0_4px_16px_rgba(69,102,70,0.08)] flex flex-col gap-md active:shadow-none active:translate-y-[1px] transition-all duration-200 md:col-span-2">
+<div class="flex items-center gap-md">
+<div class="w-[48px] h-[48px] rounded-full bg-warning/20 text-warning flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">medical_information</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Medical Disclaimer</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">REVIA is designed to support your rehabilitation journey, but it does not replace professional medical advice, diagnosis, or treatment. Always consult your healthcare provider.</p>
+</div>
+<!-- Emergency Guidance Card -->
+<div class="bg-surface rounded-xl p-lg shadow-[0_4px_16px_rgba(69,102,70,0.08)] flex flex-col gap-md active:shadow-none active:translate-y-[1px] transition-all duration-200">
+<div class="flex items-center gap-md">
+<div class="w-[48px] h-[48px] rounded-full bg-error-container text-error flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">emergency</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Emergency Guidance</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">If you experience severe pain, shortness of breath, or feel unwell during an exercise, stop immediately and seek medical attention.</p>
+</div>
+<!-- Privacy Summary Card -->
+<div class="bg-surface rounded-xl p-lg shadow-[0_4px_16px_rgba(69,102,70,0.08)] flex flex-col gap-md active:shadow-none active:translate-y-[1px] transition-all duration-200">
+<div class="flex items-center gap-md">
+<div class="w-[48px] h-[48px] rounded-full bg-primary-container text-success flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">shield_lock</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Privacy Summary</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Your health data is encrypted and stored securely. We only share it with your explicit consent or your designated healthcare team.</p>
+</div>
+</section>
+<!-- Consent Section -->
+<section class="flex flex-col gap-lg pt-lg border-t border-surface-variant">
+<h3 class="font-title-lg text-title-lg text-primary">Your Consent</h3>
+<div class="flex flex-col gap-sm">
+<!-- Checkbox 1 -->
+<label class="flex items-start gap-md p-md rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer group min-h-[48px]">
+<div class="relative flex items-center justify-center w-6 h-6 shrink-0 mt-1">
+<input class="peer appearance-none w-6 h-6 border-2 border-outline rounded text-primary checked:bg-primary checked:border-primary focus:ring-primary focus:ring-offset-background transition-all" required="" type="checkbox"/>
+<span class="material-symbols-outlined absolute text-on-primary opacity-0 peer-checked:opacity-100 pointer-events-none text-[18px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface">I agree to the <a class="text-primary underline hover:text-primary-fixed-dim" href="#">Terms &amp; Conditions</a></span>
+</div>
+</label>
+<!-- Checkbox 2 -->
+<label class="flex items-start gap-md p-md rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer group min-h-[48px]">
+<div class="relative flex items-center justify-center w-6 h-6 shrink-0 mt-1">
+<input class="peer appearance-none w-6 h-6 border-2 border-outline rounded text-primary checked:bg-primary checked:border-primary focus:ring-primary focus:ring-offset-background transition-all" required="" type="checkbox"/>
+<span class="material-symbols-outlined absolute text-on-primary opacity-0 peer-checked:opacity-100 pointer-events-none text-[18px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface">I acknowledge the <a class="text-primary underline hover:text-primary-fixed-dim" href="#">Privacy Policy</a></span>
+</div>
+</label>
+<!-- Checkbox 3 -->
+<label class="flex items-start gap-md p-md rounded-lg hover:bg-surface-container-low transition-colors cursor-pointer group min-h-[48px]">
+<div class="relative flex items-center justify-center w-6 h-6 shrink-0 mt-1">
+<input class="peer appearance-none w-6 h-6 border-2 border-outline rounded text-primary checked:bg-primary checked:border-primary focus:ring-primary focus:ring-offset-background transition-all" type="checkbox"/>
+<span class="material-symbols-outlined absolute text-on-primary opacity-0 peer-checked:opacity-100 pointer-events-none text-[18px]" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md text-on-surface">Enable Health Data Integration <span class="text-on-surface-variant font-caption text-caption ml-xs">(Optional)</span></span>
+<span class="font-caption text-caption text-on-surface-variant mt-xs">Sync steps and activity data for better insights.</span>
+</div>
+</label>
+</div>
+</section>
+</main>
+<!-- Bottom Action Area -->
+<div class="sticky bottom-0 bg-background/90 backdrop-blur-md p-lg border-t border-surface-variant shadow-[0_-4px_16px_rgba(69,102,70,0.05)] z-40">
+<button class="w-full bg-primary text-on-primary font-label-md text-label-md py-[14px] rounded-[12px] min-h-[48px] hover:bg-surface-tint active:scale-[0.98] transition-all duration-200 shadow-sm flex items-center justify-center gap-sm">
+            I Understand &amp; Agree
+            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">arrow_forward</span>
+</button>
+</div>
+<!-- BottomNavBar Suppressed: Onboarding/Transactional flow -->
+<script>
+        // Simple script to toggle button state based on required checkboxes
+        document.addEventListener('DOMContentLoaded', () => {
+            const requiredCheckboxes = document.querySelectorAll('input[required]');
+            const submitButton = document.querySelector('button.w-full.bg-primary');
+            
+            function checkConsent() {
+                const allChecked = Array.from(requiredCheckboxes).every(cb => cb.checked);
+                if (allChecked) {
+                    submitButton.classList.remove('opacity-50', 'cursor-not-allowed');
+                    submitButton.classList.add('hover:bg-surface-tint', 'active:scale-[0.98]');
+                } else {
+                    submitButton.classList.add('opacity-50', 'cursor-not-allowed');
+                    submitButton.classList.remove('hover:bg-surface-tint', 'active:scale-[0.98]');
+                }
+            }
+
+            requiredCheckboxes.forEach(cb => {
+                cb.addEventListener('change', checkConsent);
+            });
+            
+            // Initial check
+            checkConsent();
+        });
+    </script>
+</body></html>

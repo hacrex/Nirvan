@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Revia - Personal Goal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container": "#f1ede7",
+                      "outline": "#737970",
+                      "tertiary": "#7f4e5c",
+                      "surface-tint": "#456646",
+                      "on-tertiary-fixed-variant": "#673947",
+                      "on-secondary-container": "#793f25",
+                      "on-primary-fixed": "#012108",
+                      "inverse-surface": "#31302d",
+                      "tertiary-fixed": "#ffd9e1",
+                      "secondary-fixed-dim": "#ffb596",
+                      "error": "#C0564B",
+                      "secondary-fixed": "#ffdbcd",
+                      "secondary": "#8c4e33",
+                      "on-tertiary-container": "#fffbff",
+                      "on-secondary-fixed": "#360f00",
+                      "warning": "#D99100",
+                      "primary-fixed": "#c6edc4",
+                      "primary": "#436444",
+                      "outline-variant": "#c2c8be",
+                      "primaryContainer": "#E1EADF",
+                      "textSecondary": "#66615C",
+                      "on-tertiary": "#ffffff",
+                      "surface": "#fdf9f3",
+                      "tertiary-fixed-dim": "#f4b6c6",
+                      "surfaceVariant": "#F2E8DA",
+                      "inverse-on-surface": "#f4f0ea",
+                      "secondary-container": "#feae8c",
+                      "primary-fixed-dim": "#abd0a9",
+                      "error-container": "#ffdad6",
+                      "on-primary-container": "#f7fff2",
+                      "surface-variant": "#e6e2dc",
+                      "primary-container": "#5b7d5b",
+                      "surface-dim": "#dddad4",
+                      "success": "#4A7C59",
+                      "on-surface": "#1c1c18",
+                      "tertiary-container": "#9a6674",
+                      "surface-container-high": "#ebe8e2",
+                      "textPrimary": "#2D2A26",
+                      "on-secondary": "#ffffff",
+                      "surface-container-highest": "#e6e2dc",
+                      "on-background": "#1c1c18",
+                      "on-secondary-fixed-variant": "#6f371e",
+                      "surface-container-low": "#f7f3ed",
+                      "surface-container-lowest": "#ffffff",
+                      "on-error": "#ffffff",
+                      "on-primary-fixed-variant": "#2e4e30",
+                      "info": "#5B8FB9",
+                      "surface-bright": "#fdf9f3",
+                      "on-primary": "#ffffff",
+                      "background": "#fdf9f3",
+                      "inverse-primary": "#abd0a9",
+                      "on-tertiary-fixed": "#330f1c",
+                      "on-surface-variant": "#424841",
+                      "on-error-container": "#93000a"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "md": "12px",
+                      "sm": "8px",
+                      "lg": "16px",
+                      "4xl": "64px",
+                      "2xl": "32px",
+                      "xs": "4px",
+                      "xl": "24px",
+                      "3xl": "48px"
+              },
+              "fontFamily": {
+                      "title-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "display": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "label-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "caption": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg-mobile": [
+                              "Atkinson Hyperlegible Next"
+                      ]
+              },
+              "fontSize": {
+                      "title-lg": [
+                              "22px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display": [
+                              "44px",
+                              {
+                                      "lineHeight": "52px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-neutral text-on-surface h-full flex flex-col font-body-md overflow-x-hidden antialiased">
+<!-- Main Content Canvas -->
+<main class="flex-grow flex flex-col px-lg pt-2xl pb-4xl max-w-2xl mx-auto w-full">
+<!-- Header / Back Navigation (implied transactional nature) -->
+<header class="flex items-center justify-between mb-2xl w-full">
+<button class="w-12 h-12 flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+</button>
+<div class="flex gap-sm items-center">
+<div class="h-1 w-6 rounded-full bg-primary"></div>
+<div class="h-1 w-6 rounded-full bg-surface-variant"></div>
+<div class="h-1 w-6 rounded-full bg-surface-variant"></div>
+</div>
+</header>
+<!-- Onboarding Content -->
+<div class="flex-grow flex flex-col justify-center animate-fade-in-up">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-on-surface mb-lg">
+                What matters most to you?
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-2xl max-w-[85%]">
+                Sharing your main goal helps us personalize your recovery journey, focusing on what brings you the most joy and independence.
+            </p>
+<!-- Input Area -->
+<div class="relative w-full mb-3xl">
+<div class="absolute inset-y-0 left-0 pl-lg flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-outline" data-icon="edit_note">edit_note</span>
+</div>
+<textarea aria-label="Your main goal" class="block w-full pl-3xl pr-lg py-lg bg-surface border-2 border-outline-variant rounded-xl focus:ring-0 focus:border-primary text-on-surface font-body-md text-body-md placeholder:text-outline shadow-sm shadow-primary/5 transition-colors resize-none" placeholder="e.g., I want to walk independently." rows="4"></textarea>
+<div class="absolute bottom-md right-lg text-caption text-outline">
+<span>0 / 150</span>
+</div>
+</div>
+<!-- Contextual Image (Decorative / Ambient) -->
+<div class="w-full h-32 rounded-xl bg-surface-container-low overflow-hidden relative opacity-60 pointer-events-none mb-xl">
+<div class="bg-cover bg-center w-full h-full opacity-50 mix-blend-multiply" data-alt="A soft, abstract representation of progress and stepping forward. Warm, minimalist light mode aesthetic. A gentle, diffused path leading upward with tactile, paper-like textures in soft greens and warm off-whites. Calm, optimistic, and encouraging mood." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBASYC0FhMu6_7My8lZAkFtluQhsCMeGJs2mCuLQ9TE-BEr0yYQEJ8k3-fPBecKHIWhLb08a4elFzyOb0ZgTqZ2ynNZaYktArFeGCnkm2AwVs0fPyTq6qGvC76XyjalrkA6BoRYOBvbyVQPEPC625gFsXF6i4nhgKBzH7GkJEBYx1WTA6kMoBLfEp0keybdH9oet5ul5J5BRBHS2yU_3bufEqQATN2Iz8RKmc9xRqsdc6pSRcof4YH36Q')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent"></div>
+</div>
+</div>
+<!-- Sticky Bottom Action Area -->
+<div class="fixed bottom-0 left-0 w-full p-lg bg-background/80 backdrop-blur-md z-40 pb-xl">
+<div class="max-w-2xl mx-auto flex justify-end">
+<button class="bg-primary text-on-primary font-label-md text-label-md py-md px-2xl rounded-[12px] min-h-[48px] min-w-[120px] flex items-center justify-center gap-sm shadow-[0_4px_12px_rgba(67,100,68,0.15)] active:scale-95 transition-transform hover:bg-primary-container hover:text-on-primary-container">
+                    Continue
+                    <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</main>
+<style>
+        /* Custom animations for onboarding flow */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        
+        /* Focus styles for accessibility */
+        textarea:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px var(--tw-colors-primary-container);
+        }
+    </style>
+</body></html>

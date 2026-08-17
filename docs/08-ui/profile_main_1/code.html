@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>REVIA - Profile</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container": "#f1ede7",
+                        "outline": "#737970",
+                        "tertiary": "#7f4e5c",
+                        "surface-tint": "#456646",
+                        "on-tertiary-fixed-variant": "#673947",
+                        "on-secondary-container": "#793f25",
+                        "on-primary-fixed": "#012108",
+                        "inverse-surface": "#31302d",
+                        "tertiary-fixed": "#ffd9e1",
+                        "secondary-fixed-dim": "#ffb596",
+                        "error": "#C0564B",
+                        "secondary-fixed": "#ffdbcd",
+                        "secondary": "#8c4e33",
+                        "on-tertiary-container": "#fffbff",
+                        "on-secondary-fixed": "#360f00",
+                        "warning": "#D99100",
+                        "primary-fixed": "#c6edc4",
+                        "primary": "#436444",
+                        "outline-variant": "#c2c8be",
+                        "primaryContainer": "#E1EADF",
+                        "textSecondary": "#66615C",
+                        "on-tertiary": "#ffffff",
+                        "surface": "#fdf9f3",
+                        "tertiary-fixed-dim": "#f4b6c6",
+                        "surfaceVariant": "#F2E8DA",
+                        "inverse-on-surface": "#f4f0ea",
+                        "secondary-container": "#feae8c",
+                        "primary-fixed-dim": "#abd0a9",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#f7fff2",
+                        "surface-variant": "#e6e2dc",
+                        "primary-container": "#5b7d5b",
+                        "surface-dim": "#dddad4",
+                        "success": "#4A7C59",
+                        "on-surface": "#1c1c18",
+                        "tertiary-container": "#9a6674",
+                        "surface-container-high": "#ebe8e2",
+                        "textPrimary": "#2D2A26",
+                        "on-secondary": "#ffffff",
+                        "surface-container-highest": "#e6e2dc",
+                        "on-background": "#1c1c18",
+                        "on-secondary-fixed-variant": "#6f371e",
+                        "surface-container-low": "#f7f3ed",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#2e4e30",
+                        "info": "#5B8FB9",
+                        "surface-bright": "#fdf9f3",
+                        "on-primary": "#ffffff",
+                        "background": "#fdf9f3",
+                        "inverse-primary": "#abd0a9",
+                        "on-tertiary-fixed": "#330f1c",
+                        "on-surface-variant": "#424841",
+                        "on-error-container": "#93000a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "md": "12px",
+                        "sm": "8px",
+                        "lg": "16px",
+                        "4xl": "64px",
+                        "2xl": "32px",
+                        "xs": "4px",
+                        "xl": "24px",
+                        "3xl": "48px"
+                    },
+                    "fontFamily": {
+                        "title-lg": ["Atkinson Hyperlegible Next"],
+                        "body-lg": ["Atkinson Hyperlegible Next"],
+                        "body-md": ["Atkinson Hyperlegible Next"],
+                        "display": ["Atkinson Hyperlegible Next"],
+                        "label-md": ["Atkinson Hyperlegible Next"],
+                        "caption": ["Atkinson Hyperlegible Next"],
+                        "headline-lg": ["Atkinson Hyperlegible Next"],
+                        "headline-lg-mobile": ["Atkinson Hyperlegible Next"]
+                    },
+                    "fontSize": {
+                        "title-lg": ["22px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "700" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Atkinson Hyperlegible Next', sans-serif; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-neutral text-textPrimary min-h-screen pb-[100px]">
+<!-- Header Section -->
+<header class="px-lg py-3xl flex flex-col items-center bg-surface rounded-b-[32px] shadow-sm shadow-primary/5 mb-2xl">
+<div class="relative mb-xl">
+<img alt="Jane Doe Profile Picture" class="w-[120px] h-[120px] rounded-full object-cover shadow-sm shadow-primary/10 border-4 border-surface" data-alt="A softly lit, warm portrait photograph of a young woman with a calm and encouraging expression. The image is cropped into a perfect circle, representing a profile picture in a modern rehabilitation app. The background is a soft, muted pastel tone, emphasizing safety and recovery. High quality, professional photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrBtLe5Psy86kI4Rs3VE6oIGWcY83HYkwT36jPcScVF2onDAjopDooqKqUqh0v0f_ps32_vWM1S70HNCTelweG1CJ2JR3qdo3ENfdKR2hVdXNyd6pb6ibU_h95nSdCOBZoYk6MftXxk89AeXEOemq1XlsDnepuhOH40YiuIxgaTwA2IpaKwZ90Bgu-Aul3kX2K0hCVZlfzuFY8WradRDWyHuFAM6GYPpJEmtBwGYRP6N750khFahy-zg"/>
+<button aria-label="Edit Profile Picture" class="absolute bottom-0 right-0 w-[40px] h-[40px] bg-primaryContainer rounded-full flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-on-primary-fixed-variant" style="font-variation-settings: 'FILL' 1;">edit</span>
+</button>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mb-xs">Jane Doe</h1>
+<p class="font-body-md text-body-md text-textSecondary">Member since Jan 2024</p>
+</header>
+<main class="px-lg max-w-2xl mx-auto space-y-2xl">
+<!-- Account Section -->
+<section>
+<h2 class="font-label-md text-label-md text-textSecondary uppercase tracking-widest mb-md ml-xs">Account</h2>
+<div class="bg-surface rounded-[24px] shadow-sm shadow-primary/5 overflow-hidden">
+<ul class="divide-y divide-surfaceVariant">
+<li>
+<button class="w-full px-lg py-xl flex items-center justify-between hover:bg-surface-container-low transition-colors text-left group">
+<div class="flex items-center gap-lg">
+<div class="w-[48px] h-[48px] rounded-full bg-surfaceVariant flex items-center justify-center text-primary group-hover:bg-primaryContainer transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">person</span>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">Personal Information</span>
+</div>
+<span class="material-symbols-outlined text-outline">chevron_right</span>
+</button>
+</li>
+<li>
+<button class="w-full px-lg py-xl flex items-center justify-between hover:bg-surface-container-low transition-colors text-left group">
+<div class="flex items-center gap-lg">
+<div class="w-[48px] h-[48px] rounded-full bg-surfaceVariant flex items-center justify-center text-primary group-hover:bg-primaryContainer transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">route</span>
+</div>
+<div>
+<span class="font-body-lg text-body-lg text-on-surface block">Recovery Path</span>
+<span class="font-caption text-caption text-textSecondary block mt-1">Knee Rehab - Wk 4</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline">chevron_right</span>
+</button>
+</li>
+<li>
+<button class="w-full px-lg py-xl flex items-center justify-between hover:bg-surface-container-low transition-colors text-left group">
+<div class="flex items-center gap-lg">
+<div class="w-[48px] h-[48px] rounded-full bg-surfaceVariant flex items-center justify-center text-primary group-hover:bg-primaryContainer transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">flag</span>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">Goals</span>
+</div>
+<span class="material-symbols-outlined text-outline">chevron_right</span>
+</button>
+</li>
+<li>
+<button class="w-full px-lg py-xl flex items-center justify-between hover:bg-surface-container-low transition-colors text-left group">
+<div class="flex items-center gap-lg">
+<div class="w-[48px] h-[48px] rounded-full bg-surfaceVariant flex items-center justify-center text-primary group-hover:bg-primaryContainer transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">medication</span>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">Medications</span>
+</div>
+<span class="material-symbols-outlined text-outline">chevron_right</span>
+</button>
+</li>
+<li>
+<button class="w-full px-lg py-xl flex items-center justify-between hover:bg-surface-container-low transition-colors text-left group">
+<div class="flex items-center gap-lg">
+<div class="w-[48px] h-[48px] rounded-full bg-surfaceVariant flex items-center justify-center text-primary group-hover:bg-primaryContainer transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">Health Connections</span>
+</div>
+<span class="material-symbols-outlined text-outline">chevron_right</span>
+</button>
+</li>
+</ul>
+</div>
+</section>
+<!-- Preferences Section -->
+<section>
+<h2 class="font-label-md text-label-md text-textSecondary uppercase tracking-widest mb-md ml-xs">PREFERENCES</h2>
+<div class="bg-surface rounded-[24px] shadow-sm shadow-primary/5 overflow-hidden">
+<ul class="divide-y divide-surfaceVariant">
+<li>
+<button class="w-full px-lg py-xl flex items-center justify-between hover:bg-surface-container-low transition-colors text-left group">
+<div class="flex items-center gap-lg">
+<div class="w-[48px] h-[48px] rounded-full bg-surfaceVariant flex items-center justify-center text-primary group-hover:bg-primaryContainer transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">notifications</span>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">Notifications</span>
+</div>
+<span class="material-symbols-outlined text-outline">chevron_right</span>
+</button>
+</li>
+<li>
+<button class="w-full px-lg py-xl flex items-center justify-between hover:bg-surface-container-low transition-colors text-left group">
+<div class="flex items-center gap-lg">
+<div class="w-[48px] h-[48px] rounded-full bg-surfaceVariant flex items-center justify-center text-primary group-hover:bg-primaryContainer transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">accessibility_new</span>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">Accessibility</span>
+</div>
+<span class="material-symbols-outlined text-outline">chevron_right</span>
+</button>
+</li>
+<li>
+<button class="w-full px-lg py-xl flex items-center justify-between hover:bg-surface-container-low transition-colors text-left group">
+<div class="flex items-center gap-lg">
+<div class="w-[48px] h-[48px] rounded-full bg-surfaceVariant flex items-center justify-center text-primary group-hover:bg-primaryContainer transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">shield</span>
+</div>
+<span class="font-body-lg text-body-lg text-on-surface">Privacy</span>
+</div>
+<span class="material-symbols-outlined text-outline">chevron_right</span>
+</button>
+</li>
+</ul>
+</div>
+</section>
+<!-- Sign Out Action -->
+<div class="pt-lg pb-3xl">
+<button class="w-full py-xl font-body-lg text-body-lg text-error hover:bg-error-container/20 rounded-[16px] transition-colors flex items-center justify-center gap-sm">
+<span class="material-symbols-outlined">logout</span>
+                Sign Out
+            </button>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="md:hidden bg-surface dark:bg-surface-dim font-label-md text-label-md font-headline-lg-mobile text-headline-lg-mobile font-bold text-primary fixed bottom-0 w-full z-50 rounded-t-xl bg-surface dark:bg-surface-dim shadow-[0_-4px_16px_rgba(69,102,70,0.08)] shadow-[0_-4px_24px_rgba(69,102,70,0.08)] fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-sm pb-lg pt-md">
+<a class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out" href="#">
+<span class="material-symbols-outlined">rebase_edit</span>
+<span class="mt-1">Recovery</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out" href="#">
+<span class="material-symbols-outlined">query_stats</span>
+<span class="mt-1">Progress</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline dark:text-outline-variant px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out" href="#">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="mt-1">Learn</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-primary-container dark:bg-primary-container text-on-primary-fixed-variant rounded-xl px-md py-xs hover:bg-surface-container-high transition-all active:scale-90 duration-150 ease-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="mt-1">Profile</span>
+</a>
+</nav>
+<!-- TopAppBar for Desktop (Hidden on Mobile) -->
+<nav class="hidden md:flex bg-surface dark:bg-background font-title-lg text-title-lg font-headline-lg-mobile text-headline-lg-mobile font-bold text-primary dark:text-primary-fixed-dim tracking-tight w-full top-0 sticky bg-surface dark:bg-background shadow-sm shadow-primary/5 flex justify-between items-center px-lg py-md w-full">
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-outline dark:text-outline-variant hover:bg-surface-container-low transition-colors active:scale-95 duration-200 w-12 h-12 flex items-center justify-center rounded-full">menu</button>
+<span>REVIA</span>
+</div>
+<div class="flex gap-4">
+<a class="text-outline dark:text-outline-variant hover:bg-surface-container-low transition-colors active:scale-95 duration-200 px-4 py-2 rounded-full" href="#">Home</a>
+<a class="text-outline dark:text-outline-variant hover:bg-surface-container-low transition-colors active:scale-95 duration-200 px-4 py-2 rounded-full" href="#">Recovery</a>
+<a class="text-outline dark:text-outline-variant hover:bg-surface-container-low transition-colors active:scale-95 duration-200 px-4 py-2 rounded-full" href="#">Progress</a>
+<a class="text-outline dark:text-outline-variant hover:bg-surface-container-low transition-colors active:scale-95 duration-200 px-4 py-2 rounded-full" href="#">Learn</a>
+<a class="text-primary dark:text-primary-fixed-dim font-bold hover:bg-surface-container-low transition-colors active:scale-95 duration-200 px-4 py-2 rounded-full" href="#">Profile</a>
+</div>
+<div>
+<div class="w-10 h-10 rounded-full bg-surfaceVariant flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">person</span>
+</div>
+</div>
+</nav>
+</body></html>

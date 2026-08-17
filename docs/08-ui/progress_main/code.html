@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>REVIA - Progress</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "success": "#4A7C59",
+                      "on-tertiary-container": "#fffbff",
+                      "on-error": "#ffffff",
+                      "on-primary": "#ffffff",
+                      "on-secondary-container": "#793f25",
+                      "primary-fixed": "#c6edc4",
+                      "on-surface": "#1c1c18",
+                      "tertiary-fixed-dim": "#f4b6c6",
+                      "tertiary-container": "#9a6674",
+                      "secondary": "#8c4e33",
+                      "on-tertiary-fixed-variant": "#673947",
+                      "inverse-primary": "#abd0a9",
+                      "background": "#fdf9f3",
+                      "on-background": "#1c1c18",
+                      "on-primary-container": "#f7fff2",
+                      "surfaceVariant": "#F2E8DA",
+                      "error": "#C0564B",
+                      "info": "#5B8FB9",
+                      "secondary-container": "#feae8c",
+                      "surface-dim": "#dddad4",
+                      "on-surface-variant": "#424841",
+                      "surface-container-high": "#ebe8e2",
+                      "secondary-fixed": "#ffdbcd",
+                      "on-primary-fixed": "#012108",
+                      "outline-variant": "#c2c8be",
+                      "surface-container-highest": "#e6e2dc",
+                      "surface-container": "#f1ede7",
+                      "surface-tint": "#456646",
+                      "tertiary-fixed": "#ffd9e1",
+                      "primaryContainer": "#E1EADF",
+                      "tertiary": "#7f4e5c",
+                      "warning": "#D99100",
+                      "error-container": "#ffdad6",
+                      "surface-bright": "#fdf9f3",
+                      "outline": "#737970",
+                      "on-secondary-fixed": "#360f00",
+                      "primary-container": "#5b7d5b",
+                      "inverse-on-surface": "#f4f0ea",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed-variant": "#2e4e30",
+                      "surface-variant": "#e6e2dc",
+                      "on-tertiary-fixed": "#330f1c",
+                      "inverse-surface": "#31302d",
+                      "surface-container-lowest": "#ffffff",
+                      "textPrimary": "#2D2A26",
+                      "primary-fixed-dim": "#abd0a9",
+                      "surface-container-low": "#f7f3ed",
+                      "primary": "#436444",
+                      "on-secondary": "#ffffff",
+                      "on-error-container": "#93000a",
+                      "textSecondary": "#66615C",
+                      "on-secondary-fixed-variant": "#6f371e",
+                      "surface": "#fdf9f3",
+                      "secondary-fixed-dim": "#ffb596"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "md": "12px",
+                      "xs": "4px",
+                      "4xl": "64px",
+                      "xl": "24px",
+                      "sm": "8px",
+                      "2xl": "32px",
+                      "lg": "16px",
+                      "3xl": "48px"
+              },
+              "fontFamily": {
+                      "body-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "body-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "label-md": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "caption": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "title-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg-mobile": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "headline-lg": [
+                              "Atkinson Hyperlegible Next"
+                      ],
+                      "display": [
+                              "Atkinson Hyperlegible Next"
+                      ]
+              },
+              "fontSize": {
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "title-lg": [
+                              "22px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "36px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "display": [
+                              "44px",
+                              {
+                                      "lineHeight": "52px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Atkinson Hyperlegible Next', sans-serif;
+            background-color: theme('colors.background');
+            color: theme('colors.on-background');
+        }
+        
+        .ambient-shadow {
+            box-shadow: 0 4px 16px rgba(67, 100, 68, 0.08);
+        }
+        
+        .card-interactive:active {
+            transform: scale(0.98);
+            box-shadow: 0 2px 8px rgba(67, 100, 68, 0.04);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="antialiased min-h-screen flex flex-col pb-24">
+<!-- TopAppBar -->
+<header class="bg-background w-full top-0 sticky z-40 bg-background">
+<div class="flex justify-between items-center px-lg py-md w-full h-16">
+<button aria-label="Go back" class="w-12 h-12 flex items-center justify-center rounded-full hover:bg-surface-container-low transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 0;">arrow_back</span>
+</button>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">REVIA</h1>
+<div class="w-12 h-12 flex items-center justify-center rounded-full bg-surfaceVariant overflow-hidden shadow-sm">
+<img alt="Patient Profile" class="w-full h-full object-cover" data-alt="A close-up portrait of a serene, elderly person smiling softly. The lighting is warm and natural, creating a gentle and inviting atmosphere suitable for a healthcare or wellness profile picture. The background is slightly blurred with soft, neutral tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzW6vp4NzklNu2r4LsPr0gQm_O8V6aQJY3Ylw-V_SytqxZ2Gk9jtRvwVLBiQQNQmycOTxu_Hqrn_XagQi5943OAa3unlRvIA0EXA7_cYPZej1y6rGyqknY_CU6EUOlqKrBctdXb3JciohMcCrlqByd8RZo5JtM2zIY50A_Tcd8UBwYBrRvzUBY09NO5LVztqKSezpKyTaX9riJiDzGckp9NaJUzomCZWQZlgyNejwGKrE2Rdt88j1UFw"/>
+</div>
+</div>
+</header>
+<main class="flex-grow px-lg pt-lg pb-4xl max-w-2xl mx-auto w-full">
+<!-- Header -->
+<section class="mb-2xl">
+<h2 class="font-display text-display text-primary mb-sm">YOUR PROGRESS</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Celebrate how far you've come.</p>
+</section>
+<!-- Summary Grid -->
+<section class="mb-3xl">
+<h3 class="font-title-lg text-title-lg text-on-surface mb-md">This month</h3>
+<div class="grid grid-cols-2 gap-md">
+<div class="bg-surface rounded-xl p-lg ambient-shadow flex flex-col items-start card-interactive transition-all">
+<div class="w-10 h-10 rounded-full bg-primaryContainer flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">calendar_today</span>
+</div>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mb-xs">12</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Sessions</span>
+</div>
+<div class="bg-surface rounded-xl p-lg ambient-shadow flex flex-col items-start card-interactive transition-all">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mb-xs">82%</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Consistency</span>
+</div>
+<div class="bg-surface rounded-xl p-lg ambient-shadow flex flex-col items-start card-interactive transition-all">
+<div class="w-10 h-10 rounded-full bg-tertiary-container flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-on-tertiary" style="font-variation-settings: 'FILL' 1;">directions_walk</span>
+</div>
+<span class="font-title-lg text-title-lg text-on-surface mb-xs text-tertiary">Improving</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Mobility</span>
+</div>
+<div class="bg-surface rounded-xl p-lg ambient-shadow flex flex-col items-start card-interactive transition-all">
+<div class="w-10 h-10 rounded-full bg-success/20 flex items-center justify-center mb-md">
+<span class="material-symbols-outlined text-success" style="font-variation-settings: 'FILL' 1;">trending_up</span>
+</div>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-success mb-xs">+14%</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Activity</span>
+</div>
+</div>
+</section>
+<!-- Your Goal -->
+<section class="mb-3xl">
+<h3 class="font-title-lg text-title-lg text-on-surface mb-md">YOUR GOAL</h3>
+<div class="bg-primaryContainer rounded-xl p-xl ambient-shadow">
+<div class="flex items-center gap-md mb-lg">
+<div class="w-12 h-12 rounded-full bg-surface flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary text-2xl" style="font-variation-settings: 'FILL' 1;">flag</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-primary">Walk independently</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">You are almost there!</p>
+</div>
+</div>
+<div class="w-full bg-surface-variant rounded-full h-3 mb-xs overflow-hidden relative">
+<div class="bg-primary h-full rounded-full absolute left-0 top-0 transition-all duration-1000 ease-out" style="width: 80%;"></div>
+</div>
+<div class="flex justify-between items-center mt-sm">
+<span class="font-label-md text-label-md text-primary">80%</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Target: Daily routines</span>
+</div>
+</div>
+</section>
+<!-- Your Wins -->
+<section>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-md">YOUR WINS</h3>
+<div class="flex flex-col gap-sm">
+<div class="bg-surface rounded-xl p-lg ambient-shadow flex items-start gap-md">
+<div class="w-8 h-8 rounded-full bg-success flex items-center justify-center flex-shrink-0 mt-xs">
+<span class="material-symbols-outlined text-on-primary text-sm" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div>
+<p class="font-body-lg text-body-lg text-on-surface">Completed 10 recovery sessions</p>
+<p class="font-caption text-caption text-on-surface-variant mt-xs">Achieved this week</p>
+</div>
+</div>
+<div class="bg-surface rounded-xl p-lg ambient-shadow flex items-start gap-md">
+<div class="w-8 h-8 rounded-full bg-success flex items-center justify-center flex-shrink-0 mt-xs">
+<span class="material-symbols-outlined text-on-primary text-sm" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<div>
+<p class="font-body-lg text-body-lg text-on-surface">Hit daily step goal for 5 days straight</p>
+<p class="font-caption text-caption text-on-surface-variant mt-xs">Achieved last week</p>
+</div>
+</div>
+<div class="bg-surfaceVariant rounded-xl p-lg flex items-start gap-md opacity-60">
+<div class="w-8 h-8 rounded-full border-2 border-outline flex items-center justify-center flex-shrink-0 mt-xs">
+</div>
+<div>
+<p class="font-body-lg text-body-lg text-on-surface">Try a new mobility exercise</p>
+<p class="font-caption text-caption text-on-surface-variant mt-xs">Up next</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-lg pb-safe pt-sm shadow-[0_-4px_16px_rgba(67,100,68,0.08)] bg-surface rounded-t-xl min-h-[80px]">
+<button aria-label="Home" class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary active:scale-90 transition-all duration-300 w-16 h-16 min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">home</span>
+<span class="font-label-md text-label-md">Home</span>
+</button>
+<button aria-label="Wellbeing" class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary active:scale-90 transition-all duration-300 w-16 h-16 min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">self_care</span>
+<span class="font-label-md text-label-md">Wellbeing</span>
+</button>
+<button aria-label="Progress" class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-xl px-4 py-1 hover:text-primary active:scale-90 transition-all duration-300 w-20 h-16 min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">monitoring</span>
+<span class="font-label-md text-label-md">Progress</span>
+</button>
+<button aria-label="Learn" class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary active:scale-90 transition-all duration-300 w-16 h-16 min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">menu_book</span>
+<span class="font-label-md text-label-md">Learn</span>
+</button>
+<button aria-label="Profile" class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary active:scale-90 transition-all duration-300 w-16 h-16 min-w-[48px] min-h-[48px]">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</button>
+</nav>
+<!-- Desktop Nav Fallback (Hidden on Mobile) -->
+<nav class="hidden md:flex fixed top-0 right-0 h-16 items-center pr-xl z-50 gap-lg bg-background/90 backdrop-blur-sm">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors py-2 px-4" href="#">Home</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors py-2 px-4" href="#">Wellbeing</a>
+<a class="font-label-md text-label-md text-primary font-bold bg-primaryContainer rounded-xl py-2 px-4" href="#">Progress</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors py-2 px-4" href="#">Learn</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors py-2 px-4" href="#">Profile</a>
+</nav>
+</body></html>

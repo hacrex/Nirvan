@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>REVIA - Exercise Session</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed-dim": "#abd0a9",
+                        "inverse-primary": "#abd0a9",
+                        "success": "#4A7C59",
+                        "on-primary-container": "#f7fff2",
+                        "outline-variant": "#c2c8be",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#2e4e30",
+                        "surface-container-highest": "#e6e2dc",
+                        "on-surface-variant": "#424841",
+                        "on-secondary-container": "#793f25",
+                        "textPrimary": "#2D2A26",
+                        "primary-fixed": "#c6edc4",
+                        "surface-bright": "#fdf9f3",
+                        "primary-container": "#5b7d5b",
+                        "surface-container-low": "#f7f3ed",
+                        "tertiary": "#7f4e5c",
+                        "tertiary-container": "#9a6674",
+                        "secondary": "#8c4e33",
+                        "on-background": "#1c1c18",
+                        "secondary-fixed": "#ffdbcd",
+                        "on-tertiary-container": "#fffbff",
+                        "primaryContainer": "#E1EADF",
+                        "error": "#C0564B",
+                        "warning": "#D99100",
+                        "on-surface": "#1c1c18",
+                        "surface-dim": "#dddad4",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#673947",
+                        "on-secondary-fixed-variant": "#6f371e",
+                        "surfaceVariant": "#F2E8DA",
+                        "textSecondary": "#66615C",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#feae8c",
+                        "surface-variant": "#e6e2dc",
+                        "inverse-surface": "#31302d",
+                        "on-primary-fixed": "#012108",
+                        "secondary-fixed-dim": "#ffb596",
+                        "on-error-container": "#93000a",
+                        "surface-tint": "#456646",
+                        "tertiary-fixed-dim": "#f4b6c6",
+                        "surface-container": "#f1ede7",
+                        "inverse-on-surface": "#f4f0ea",
+                        "on-tertiary-fixed": "#330f1c",
+                        "surface": "#fdf9f3",
+                        "surface-container-high": "#ebe8e2",
+                        "info": "#5B8FB9",
+                        "background": "#fdf9f3",
+                        "on-secondary-fixed": "#360f00",
+                        "error-container": "#ffdad6",
+                        "primary": "#436444",
+                        "tertiary-fixed": "#ffd9e1",
+                        "outline": "#737970",
+                        "on-secondary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "lg": "16px",
+                        "3xl": "48px",
+                        "xl": "24px",
+                        "xs": "4px",
+                        "2xl": "32px",
+                        "md": "12px",
+                        "sm": "8px",
+                        "4xl": "64px"
+                    },
+                    "fontFamily": {
+                        "title-lg": ["Atkinson Hyperlegible Next"],
+                        "body-md": ["Atkinson Hyperlegible Next"],
+                        "display": ["Atkinson Hyperlegible Next"],
+                        "body-lg": ["Atkinson Hyperlegible Next"],
+                        "headline-lg": ["Atkinson Hyperlegible Next"],
+                        "label-md": ["Atkinson Hyperlegible Next"],
+                        "headline-lg-mobile": ["Atkinson Hyperlegible Next"],
+                        "caption": ["Atkinson Hyperlegible Next"]
+                    },
+                    "fontSize": {
+                        "title-lg": ["22px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "700" }],
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-md overflow-hidden antialiased">
+<!-- Top Navigation Placeholder (suppressed for focused session, but providing a back button) -->
+<header class="w-full top-0 sticky bg-surface px-lg py-sm flex justify-between items-center h-16 z-10 shadow-[0_4px_16px_rgba(67,100,68,0.03)]">
+<button aria-label="End Session" class="flex items-center justify-center w-12 h-12 text-primary hover:bg-surface-container-low transition-colors rounded-full active:scale-95 duration-150 ease-in-out">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">close</span>
+</button>
+<span class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-primary tracking-tight">REVIA</span>
+<div class="w-12 h-12"></div> <!-- Spacer for balance -->
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow flex flex-col items-center justify-center px-lg py-3xl w-full max-w-md mx-auto relative h-[calc(100vh-64px)] overflow-y-auto">
+<!-- Video/Animation Background Area (Soft representation of the exercise) -->
+<div class="absolute inset-0 z-0 opacity-20 pointer-events-none flex items-center justify-center overflow-hidden">
+<div class="bg-cover bg-center w-full h-full" data-alt="A soft, abstract, blurred out light green and cream pastel background. The image should be incredibly minimalist, evoking a sense of calm and serenity, like soft sunlight filtering through leaves. It serves as a non-distracting backdrop for a rehabilitation app interface." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAJe1VdgigxUNuxSZfDsQy4P6B7M44CITrZgAA77yTxv1tlf-kx_qltSQ-a73lY2WbL2fp5OwJcdqHxQKPDuyRrKr0rCYuu4ZRHE-mjK_FqQs7YKmUsntSn9y9GTKzmDU_blO5Mr5C-D9XVpxp7SNylZkX8jlzfGJ3Z1scr5JSNKOlCriM_uRiorceO62EjWDYGxhVzrLGu2rrDh69o36muk7-Ocema_f_y34I2pBXAI9uQNJ31iNl-Ew')"></div>
+<!-- Optional subtle gradient overlay -->
+<div class="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background"></div>
+</div>
+<div class="z-10 flex flex-col items-center w-full space-y-2xl">
+<!-- Headline -->
+<h1 class="font-display text-display text-primary text-center">SIT TO STAND</h1>
+<!-- Rep Counter & Progress -->
+<div class="flex flex-col items-center space-y-md">
+<div class="flex items-baseline space-x-2">
+<span class="font-display text-[64px] leading-none text-primary font-bold">5</span>
+<span class="font-headline-lg text-headline-lg text-outline">/ 8</span>
+</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Reps Completed</div>
+<!-- Progress Dots -->
+<div aria-label="Progress: 5 out of 8 reps completed" class="flex space-x-3 mt-4">
+<div class="w-4 h-4 rounded-full bg-primary shadow-sm"></div>
+<div class="w-4 h-4 rounded-full bg-primary shadow-sm"></div>
+<div class="w-4 h-4 rounded-full bg-primary shadow-sm"></div>
+<div class="w-4 h-4 rounded-full bg-primary shadow-sm"></div>
+<div class="w-4 h-4 rounded-full bg-primary shadow-sm"></div>
+<div class="w-4 h-4 rounded-full border-2 border-outline-variant"></div>
+<div class="w-4 h-4 rounded-full border-2 border-outline-variant"></div>
+<div class="w-4 h-4 rounded-full border-2 border-outline-variant"></div>
+</div>
+</div>
+<!-- Timer Area -->
+<div class="bg-surface p-xl rounded-[24px] shadow-[0_8px_32px_rgba(67,100,68,0.08)] flex flex-col items-center justify-center min-w-[200px] mt-xl">
+<span class="material-symbols-outlined text-primary mb-2 text-3xl" style="font-variation-settings: 'FILL' 0;">timer</span>
+<div class="font-display text-display text-textPrimary">00:42</div>
+</div>
+<!-- Primary Action: Pause -->
+<button class="w-full max-w-[280px] h-[72px] bg-primary text-on-primary rounded-[16px] flex items-center justify-center space-x-md shadow-lg active:scale-95 transition-transform duration-200 mt-2xl hover:bg-surface-tint">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">pause</span>
+<span class="font-title-lg text-title-lg">Pause Session</span>
+</button>
+<!-- Feedback Prompt (Docked towards bottom) -->
+<div class="w-full bg-surfaceVariant p-lg rounded-[20px] mt-auto">
+<p class="font-title-lg text-title-lg text-center text-textPrimary mb-lg">How does this feel?</p>
+<div class="flex justify-between space-x-sm">
+<button class="flex-1 bg-surface py-md rounded-lg flex flex-col items-center justify-center hover:bg-surface-container-low transition-colors shadow-sm active:scale-95">
+<span class="text-3xl mb-1">🙂</span>
+<span class="font-label-md text-label-md text-textSecondary">Comfortable</span>
+</button>
+<button class="flex-1 bg-surface py-md rounded-lg flex flex-col items-center justify-center hover:bg-surface-container-low transition-colors shadow-sm active:scale-95 border-2 border-transparent focus:border-primary">
+<span class="text-3xl mb-1">😐</span>
+<span class="font-label-md text-label-md text-textSecondary">Challenging</span>
+</button>
+<button class="flex-1 bg-surface py-md rounded-lg flex flex-col items-center justify-center hover:bg-surface-container-low transition-colors shadow-sm active:scale-95 border-2 border-transparent focus:border-primary">
+<span class="text-3xl mb-1">🥵</span>
+<span class="font-label-md text-label-md text-textSecondary">Difficult</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+</body></html>

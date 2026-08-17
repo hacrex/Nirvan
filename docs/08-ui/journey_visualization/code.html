@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>REVIA - Journey Visualization</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed-dim": "#abd0a9",
+                        "inverse-primary": "#abd0a9",
+                        "success": "#4A7C59",
+                        "on-primary-container": "#f7fff2",
+                        "outline-variant": "#c2c8be",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#2e4e30",
+                        "surface-container-highest": "#e6e2dc",
+                        "on-surface-variant": "#424841",
+                        "on-secondary-container": "#793f25",
+                        "textPrimary": "#2D2A26",
+                        "primary-fixed": "#c6edc4",
+                        "surface-bright": "#fdf9f3",
+                        "primary-container": "#5b7d5b",
+                        "surface-container-low": "#f7f3ed",
+                        "tertiary": "#7f4e5c",
+                        "tertiary-container": "#9a6674",
+                        "secondary": "#8c4e33",
+                        "on-background": "#1c1c18",
+                        "secondary-fixed": "#ffdbcd",
+                        "on-tertiary-container": "#fffbff",
+                        "primaryContainer": "#E1EADF",
+                        "error": "#C0564B",
+                        "warning": "#D99100",
+                        "on-surface": "#1c1c18",
+                        "surface-dim": "#dddad4",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#673947",
+                        "on-secondary-fixed-variant": "#6f371e",
+                        "surfaceVariant": "#F2E8DA",
+                        "textSecondary": "#66615C",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#feae8c",
+                        "surface-variant": "#e6e2dc",
+                        "inverse-surface": "#31302d",
+                        "on-primary-fixed": "#012108",
+                        "secondary-fixed-dim": "#ffb596",
+                        "on-error-container": "#93000a",
+                        "surface-tint": "#456646",
+                        "tertiary-fixed-dim": "#f4b6c6",
+                        "surface-container": "#f1ede7",
+                        "inverse-on-surface": "#f4f0ea",
+                        "on-tertiary-fixed": "#330f1c",
+                        "surface": "#fdf9f3",
+                        "surface-container-high": "#ebe8e2",
+                        "info": "#5B8FB9",
+                        "background": "#fdf9f3",
+                        "on-secondary-fixed": "#360f00",
+                        "error-container": "#ffdad6",
+                        "primary": "#436444",
+                        "tertiary-fixed": "#ffd9e1",
+                        "outline": "#737970",
+                        "on-secondary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "lg": "16px",
+                        "3xl": "48px",
+                        "xl": "24px",
+                        "xs": "4px",
+                        "2xl": "32px",
+                        "md": "12px",
+                        "sm": "8px",
+                        "4xl": "64px"
+                    },
+                    "fontFamily": {
+                        "title-lg": ["Atkinson Hyperlegible Next"],
+                        "body-md": ["Atkinson Hyperlegible Next"],
+                        "display": ["Atkinson Hyperlegible Next"],
+                        "body-lg": ["Atkinson Hyperlegible Next"],
+                        "headline-lg": ["Atkinson Hyperlegible Next"],
+                        "label-md": ["Atkinson Hyperlegible Next"],
+                        "headline-lg-mobile": ["Atkinson Hyperlegible Next"],
+                        "caption": ["Atkinson Hyperlegible Next"]
+                    },
+                    "fontSize": {
+                        "title-lg": ["22px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "700" }],
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Atkinson Hyperlegible Next', sans-serif; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen flex flex-col md:pb-0 pb-[80px]">
+<!-- TopAppBar -->
+<header class="bg-surface dark:bg-surface-dim text-primary dark:text-primary-fixed-dim font-title-lg text-title-lg-mobile w-full top-0 sticky shadow-[0_2px_10px_rgba(67,100,68,0.05)] z-50">
+<div class="flex justify-between items-center px-lg py-sm w-full h-16">
+<button class="hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-colors active:scale-95 duration-150 ease-in-out p-2 rounded-full text-on-surface-variant dark:text-outline flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-primary dark:text-inverse-primary tracking-tight">REVIA</h1>
+<div class="w-10 h-10 rounded-full overflow-hidden bg-surface-container-high border-2 border-primaryContainer">
+<img alt="User Profile Photo" class="w-full h-full object-cover" data-alt="A small, circular avatar portrait of a serene individual, softly lit with warm tones, reflecting a calm and encouraging demeanor. The style is modern, minimalist, and deeply human, aligning with a light-mode aesthetic and a color palette of soft greens and warm neutrals." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnJ74J2i43mf3AsxfzepfQDCqn55ujqUtYsxGK8nqIVEQUIDy41qNiHrMoBAW2cliTnmCEM0SNrBBPcZT1Cj3qSHpsJ1KSQXPM280y8zH2iL3n7vY714vhE-qDOAaC2y5YmdGCWKf1M5jhmk8PZM_kc0rafwp-x5709k9K_B-kPedoWNy1QRFhtz7uXe-mMpbrwzfli1G1e8-mezmYgbjKnRcOG05VEM-YKlkqQC4NEz1MuImCYBei3Q"/>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow px-lg py-2xl max-w-2xl mx-auto w-full flex flex-col gap-2xl">
+<header class="mb-lg">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-textPrimary mb-sm">YOUR JOURNEY</h2>
+<p class="font-body-lg text-body-lg text-textSecondary">Every step forward is progress. See how far you've come.</p>
+</header>
+<!-- Timeline Section -->
+<div class="relative pl-md">
+<!-- Timeline Vertical Line -->
+<div class="absolute left-[28px] top-4 bottom-4 w-1 bg-surfaceVariant rounded-full z-0"></div>
+<!-- Active Timeline Fill -->
+<div class="absolute left-[28px] top-4 bottom-1/2 w-1 bg-primary rounded-full z-0 h-[45%]"></div>
+<div class="flex flex-col gap-3xl relative z-10">
+<!-- Step 1: Completed -->
+<div class="flex items-start gap-lg relative group cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="w-8 h-8 rounded-full bg-success text-on-primary flex items-center justify-center shadow-md border-4 border-surface z-10 shrink-0">
+<span class="material-symbols-outlined text-[16px]" data-icon="check">check</span>
+</div>
+<div class="pt-1 flex-grow opacity-60">
+<h3 class="font-title-lg text-title-lg text-textSecondary">Starting Point</h3>
+<p class="font-body-md text-body-md text-textSecondary mt-xs">The beginning of your path.</p>
+</div>
+</div>
+<!-- Step 2: Completed -->
+<div class="flex items-start gap-lg relative group cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="w-8 h-8 rounded-full bg-success text-on-primary flex items-center justify-center shadow-md border-4 border-surface z-10 shrink-0">
+<span class="material-symbols-outlined text-[16px]" data-icon="check">check</span>
+</div>
+<div class="pt-1 flex-grow opacity-60">
+<h3 class="font-title-lg text-title-lg text-textSecondary">Foundation</h3>
+<p class="font-body-md text-body-md text-textSecondary mt-xs">Establishing the basics.</p>
+</div>
+</div>
+<!-- Step 3: Current -->
+<div class="flex items-start gap-lg relative group">
+<!-- Current Pulse Indicator -->
+<div class="absolute -left-[4px] -top-[4px] w-10 h-10 rounded-full bg-primary/20 animate-ping z-0"></div>
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-lg border-4 border-surface z-10 shrink-0 relative">
+<span class="material-symbols-outlined text-[16px]" data-icon="directions_run">directions_run</span>
+</div>
+<div class="pt-1 flex-grow bg-surface p-lg rounded-xl shadow-[0_4px_16px_rgba(67,100,68,0.08)] border border-surfaceVariant transform transition-transform duration-300">
+<div class="flex items-center gap-sm mb-xs">
+<span class="px-2 py-1 bg-primaryContainer text-on-primary-fixed-variant font-label-md text-label-md rounded-full text-[10px] uppercase tracking-wider">You are here</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-textPrimary text-primary">Building Strength</h3>
+<p class="font-body-md text-body-md text-textSecondary mt-sm">You're making incredible progress. Keep focusing on consistency. Your body is adapting and growing stronger every day.</p>
+</div>
+</div>
+<!-- Step 4: Upcoming -->
+<div class="flex items-start gap-lg relative group cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="w-8 h-8 rounded-full bg-surface text-outline flex items-center justify-center shadow-sm border-2 border-outline-variant z-10 shrink-0">
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+</div>
+<div class="pt-1 flex-grow opacity-80">
+<h3 class="font-title-lg text-title-lg text-textSecondary">Independence</h3>
+<p class="font-body-md text-body-md text-textSecondary mt-xs">Gaining autonomy in movement.</p>
+</div>
+</div>
+<!-- Step 5: Goal -->
+<div class="flex items-start gap-lg relative group cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="w-8 h-8 rounded-full bg-surfaceVariant text-outline flex items-center justify-center shadow-sm border-2 border-surfaceVariant z-10 shrink-0">
+<span class="material-symbols-outlined text-[16px] text-textSecondary" data-icon="flag">flag</span>
+</div>
+<div class="pt-1 flex-grow opacity-80">
+<h3 class="font-title-lg text-title-lg text-textSecondary">Everyday Life</h3>
+<p class="font-body-md text-body-md text-textSecondary mt-xs">Returning to your favorite activities.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-surface dark:bg-surface-dim shadow-[0_-4px_16px_rgba(67,100,68,0.08)] fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-sm pb-4 pt-2 rounded-t-xl md:hidden">
+<!-- Home (Inactive) -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-container-high dark:hover:bg-surface-container-highest active:scale-90 transition-transform duration-200 rounded-xl" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="home">home</span>
+<span class="font-label-md text-label-md text-[10px]">Home</span>
+</a>
+<!-- Recovery (Inactive) -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-container-high dark:hover:bg-surface-container-highest active:scale-90 transition-transform duration-200 rounded-xl" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="rebase_edit">rebase_edit</span>
+<span class="font-label-md text-label-md text-[10px]">Recovery</span>
+</a>
+<!-- Wellbeing (Inactive) -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-container-high dark:hover:bg-surface-container-highest active:scale-90 transition-transform duration-200 rounded-xl" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="spa">spa</span>
+<span class="font-label-md text-label-md text-[10px]">Wellbeing</span>
+</a>
+<!-- Progress (Active - Journey Visualization is Progress) -->
+<a class="flex flex-col items-center justify-center bg-primary-container dark:bg-primary-container text-on-primary-container rounded-xl px-4 py-1 active:scale-90 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="monitoring" data-weight="fill" style="font-variation-settings: 'FILL' 1;">monitoring</span>
+<span class="font-label-md text-label-md text-[10px]">Progress</span>
+</a>
+<!-- Profile (Inactive) -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-container-high dark:hover:bg-surface-container-highest active:scale-90 transition-transform duration-200 rounded-xl" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="person">person</span>
+<span class="font-label-md text-label-md text-[10px]">Profile</span>
+</a>
+</nav>
+</body></html>

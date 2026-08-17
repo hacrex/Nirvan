@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { PageContainer } from '../layout/PageContainer';
 import { Button } from '../ui/Button';
 import { Moon, Smile, Wind, Brain, HeartHandshake, ArrowRight } from 'lucide-react';
+import { RelaxingOutdoorsSVG } from '../illustrations/Index';
 
 export const WellbeingSection: React.FC = () => {
   return (
@@ -73,14 +73,7 @@ export const WellbeingSection: React.FC = () => {
 
           <div className="lg:col-span-6 flex justify-center">
             <div className="relative w-full max-w-md">
-              <Image
-                src="/illustrations/relaxing-outdoors.svg"
-                alt="Person meditating for mental wellbeing"
-                width={400}
-                height={300}
-                className="w-full h-auto"
-                priority
-              />
+              <RelaxingOutdoorsSVG className="w-full h-auto" />
               <div className="mt-6 p-8 rounded-[24px] bg-[#F2E8DA] border border-[#e6e2dc] space-y-6">
                 <h3 className="font-bold text-xl text-[#2D2A26]">Daily Wellbeing Snapshot</h3>
                 

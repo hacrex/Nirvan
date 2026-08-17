@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from 'next/image';
 import { PageContainer } from '../layout/PageContainer';
+import { GoalsSVG } from '../illustrations/Index';
 
 export const HowItWorks: React.FC = () => {
   const steps = [
@@ -52,13 +52,7 @@ export const HowItWorks: React.FC = () => {
           </div>
 
           <div className="hidden lg:flex justify-center">
-            <Image
-              src="/illustrations/goals.svg"
-              alt="Achieving recovery goals with progress tracking"
-              width={400}
-              height={300}
-              className="w-full h-auto max-w-sm"
-            />
+            <GoalsSVG className="w-full h-auto max-w-sm" />
           </div>
         </div>
       </PageContainer>

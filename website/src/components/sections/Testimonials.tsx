@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { Accessibility, ArrowRight, HeartHandshake, ShieldCheck, Stethoscope, Users, Clock, Star } from 'lucide-react';
 import { PageContainer } from '../layout/PageContainer';
+import { WalkingTogetherSVG } from '../illustrations/Index';
 
 const stats = [
   { icon: Users, value: '2,400+', label: 'Early access signups', color: '#436444' },
@@ -79,13 +79,7 @@ export const Testimonials: React.FC = () => {
           </div>
 
           <div className="hidden lg:flex justify-center">
-            <Image
-              src="/illustrations/walking-together.svg"
-              alt="People walking together in recovery community"
-              width={400}
-              height={300}
-              className="w-full h-auto max-w-sm"
-            />
+            <WalkingTogetherSVG className="w-full h-auto max-w-sm" />
           </div>
         </div>
       </PageContainer>

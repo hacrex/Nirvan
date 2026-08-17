@@ -2,6 +2,7 @@ import React from 'react';
 import { PageContainer } from '../layout/PageContainer';
 import { Card } from '../ui/Card';
 import { Video, Heart, TrendingUp, BookOpen, Bell, Activity } from 'lucide-react';
+import { FitnessTrackerSVG } from '../illustrations/Index';
 
 export const Features: React.FC = () => {
   const featureList = [
@@ -40,28 +41,36 @@ export const Features: React.FC = () => {
   return (
     <section className="py-20 bg-[#F2E8DA]/30">
       <PageContainer>
-        <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <span className="text-xs font-bold tracking-widest uppercase text-[#436444]">
-            Comprehensive Capabilities
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#2D2A26] tracking-tight">
-            Everything You Need to Recover
-          </h2>
-          <p className="text-lg text-[#66615C] leading-relaxed">
-            Designed to address physical movement, mental wellbeing, daily routines, and medical understanding in one connected place.
-          </p>
-        </div>
+        <div className="grid items-center gap-12 lg:grid-cols-[1fr_0.4fr] lg:gap-16">
+          <div>
+            <div className="text-center max-w-3xl mx-auto space-y-4 mb-16 lg:text-left lg:mx-0">
+              <span className="text-xs font-bold tracking-widest uppercase text-[#436444]">
+                Comprehensive Capabilities
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-bold text-[#2D2A26] tracking-tight">
+                Everything You Need to Recover
+              </h2>
+              <p className="text-lg text-[#66615C] leading-relaxed">
+                Designed to address physical movement, mental wellbeing, daily routines, and medical understanding in one connected place.
+              </p>
+            </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {featureList.map((feat, idx) => (
-            <Card key={idx} className="p-7 space-y-4 text-left">
-              <div className="p-3.5 rounded-[12px] bg-[#E1EADF] w-fit">
-                {feat.icon}
-              </div>
-              <h3 className="text-xl font-bold text-[#2D2A26]">{feat.title}</h3>
-              <p className="text-[#66615C] text-base leading-relaxed">{feat.description}</p>
-            </Card>
-          ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+              {featureList.map((feat, idx) => (
+                <Card key={idx} className="p-7 space-y-4 text-left">
+                  <div className="p-3.5 rounded-[12px] bg-[#E1EADF] w-fit">
+                    {feat.icon}
+                  </div>
+                  <h3 className="text-xl font-bold text-[#2D2A26]">{feat.title}</h3>
+                  <p className="text-[#66615C] text-base leading-relaxed">{feat.description}</p>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          <div className="hidden lg:flex justify-center">
+            <FitnessTrackerSVG className="w-full h-auto max-w-sm" />
+          </div>
         </div>
       </PageContainer>
     </section>

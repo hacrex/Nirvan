@@ -1,6 +1,12 @@
 import Link from 'next/link';
-import { Accessibility, ArrowRight, HeartHandshake, ShieldCheck, Stethoscope } from 'lucide-react';
+import { Accessibility, ArrowRight, HeartHandshake, ShieldCheck, Stethoscope, Users, Clock, Star } from 'lucide-react';
 import { PageContainer } from '../layout/PageContainer';
+
+const stats = [
+  { icon: Users, value: '2,400+', label: 'Early access signups', color: '#436444' },
+  { icon: Clock, value: '4', label: 'Recovery pathways', color: '#8c4e33' },
+  { icon: Star, value: '100+', label: 'Exercises & guides', color: '#5B8FB9' },
+];
 
 const principles = [
   {
@@ -39,6 +45,16 @@ export const Testimonials: React.FC = () => {
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
+        </div>
+
+        <div className="mt-12 grid grid-cols-3 gap-4 sm:gap-6">
+          {stats.map(({ icon: Icon, value, label, color }) => (
+            <div key={label} className="text-center p-4 sm:p-6 rounded-[20px] bg-white/60 border border-[#dfd5ca]">
+              <Icon className="h-6 w-6 mx-auto mb-2" style={{ color }} />
+              <p className="text-2xl sm:text-3xl font-bold text-[#2D2A26]">{value}</p>
+              <p className="text-xs sm:text-sm text-[#66615C] mt-1">{label}</p>
+            </div>
+          ))}
         </div>
 
         <div className="mt-12 grid gap-5 md:grid-cols-3">

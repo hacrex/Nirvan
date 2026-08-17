@@ -1,33 +1,56 @@
-import { RecoveryPaths } from '@/components/sections/RecoveryPaths';
-import { WhyRevia } from '@/components/sections/WhyRevia';
-import { HowItWorks } from '@/components/sections/HowItWorks';
-import { Features } from '@/components/sections/Features';
-import { WellbeingSection } from '@/components/sections/WellbeingSection';
-import { EducationSection } from '@/components/sections/EducationSection';
-import { Testimonials } from '@/components/sections/Testimonials';
-import { CTA } from '@/components/sections/CTA';
-import { FAQSection } from '@/components/sections/FAQSection';
+import dynamic from 'next/dynamic';
 import { Hero } from '@/components/sections/Hero';
 import { TrustStrip } from '@/components/sections/TrustStrip';
-import { ProductShowcase } from '@/components/sections/ProductShowcase';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { PageContainer } from '@/components/layout/PageContainer';
+import { ScrollReveal } from '@/components/ui/ScrollReveal';
+
+const RecoveryPaths = dynamic(() => import('@/components/sections/RecoveryPaths').then(m => m.RecoveryPaths));
+const ProductShowcase = dynamic(() => import('@/components/sections/ProductShowcase').then(m => m.ProductShowcase));
+const WhyRevia = dynamic(() => import('@/components/sections/WhyRevia').then(m => m.WhyRevia));
+const HowItWorks = dynamic(() => import('@/components/sections/HowItWorks').then(m => m.HowItWorks));
+const Features = dynamic(() => import('@/components/sections/Features').then(m => m.Features));
+const WellbeingSection = dynamic(() => import('@/components/sections/WellbeingSection').then(m => m.WellbeingSection));
+const EducationSection = dynamic(() => import('@/components/sections/EducationSection').then(m => m.EducationSection));
+const Testimonials = dynamic(() => import('@/components/sections/Testimonials').then(m => m.Testimonials));
+const CTA = dynamic(() => import('@/components/sections/CTA').then(m => m.CTA));
+const FAQSection = dynamic(() => import('@/components/sections/FAQSection').then(m => m.FAQSection));
 
 export default function HomePage() {
   return (
     <>
       <Hero />
       <TrustStrip />
-      <RecoveryPaths />
-      <ProductShowcase />
-      <WhyRevia />
-      <HowItWorks />
-      <Features />
-      <WellbeingSection />
-      <EducationSection />
-      <Testimonials />
-      <CTA />
-      <FAQSection />
+      <ScrollReveal>
+        <RecoveryPaths />
+      </ScrollReveal>
+      <ScrollReveal>
+        <ProductShowcase />
+      </ScrollReveal>
+      <ScrollReveal>
+        <WhyRevia />
+      </ScrollReveal>
+      <ScrollReveal>
+        <HowItWorks />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Features />
+      </ScrollReveal>
+      <ScrollReveal>
+        <WellbeingSection />
+      </ScrollReveal>
+      <ScrollReveal>
+        <EducationSection />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Testimonials />
+      </ScrollReveal>
+      <ScrollReveal>
+        <CTA />
+      </ScrollReveal>
+      <ScrollReveal>
+        <FAQSection />
+      </ScrollReveal>
       <section className="border-t border-[#e6e2dc] bg-[#f2e8da]/35 py-12">
         <PageContainer>
           <MedicalDisclaimer />

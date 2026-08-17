@@ -4,6 +4,7 @@ import './globals.css';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { OrganizationJsonLd } from '@/components/seo/JsonLd';
+import { StickyMobileCTA } from '@/components/ui/StickyMobileCTA';
 
 const siteUrl = process.env.GITHUB_PAGES === 'true'
   ? 'https://hacrex.github.io/Revia'
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <Footer />
+        <StickyMobileCTA />
       </body>
     </html>
   );

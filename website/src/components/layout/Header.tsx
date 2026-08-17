@@ -31,17 +31,17 @@ export const Header: React.FC = () => {
         }`}
       >
         <PageContainer>
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 rounded-[12px] bg-[#436444] flex items-center justify-center text-white font-bold text-lg shadow-soft group-hover:bg-[#2e4e30] transition-colors">
+            <Link href="/" className="flex items-center gap-2 lg:gap-3 group">
+              <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-[12px] bg-[#436444] flex items-center justify-center text-white font-bold text-base lg:text-lg shadow-soft group-hover:bg-[#2e4e30] transition-colors">
                 R
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-2xl text-[#2D2A26] tracking-tight leading-none">
+                <span className="font-bold text-xl lg:text-2xl text-[#2D2A26] tracking-tight leading-none">
                   REVIA
                 </span>
-                <span className="text-[10px] tracking-wider text-[#66615C] uppercase font-semibold mt-1">
+                <span className="text-[8px] lg:text-[10px] tracking-wider text-[#66615C] uppercase font-semibold mt-1">
                   Rehabilitation & Wellbeing
                 </span>
               </div>

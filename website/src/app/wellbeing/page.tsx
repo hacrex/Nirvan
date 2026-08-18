@@ -16,7 +16,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'Mental Wellbeing & Recovery Support',
-  description: 'REVIA supports your emotional wellbeing during recovery — mood tracking, sleep support, stress management, breathing exercises, and evidence-based self-help guidance.',
+  description: 'NIRVAN supports your emotional wellbeing during recovery — mood tracking, sleep support, stress management, breathing exercises, and evidence-based self-help guidance.',
   keywords: [
     'mental wellbeing',
     'recovery wellbeing',
@@ -94,12 +94,12 @@ export default function WellbeingPage() {
     {
       icon: <ShieldCheck className="w-5 h-5 text-[#436444]" />,
       title: 'Support, Don\'t Diagnose',
-      description: 'REVIA helps you understand your wellbeing and build healthy routines. It never diagnoses conditions or prescribes treatment.',
+      description: 'NIRVAN helps you understand your wellbeing and build healthy routines. It never diagnoses conditions or prescribes treatment.',
     },
     {
       icon: <AlertTriangle className="w-5 h-5 text-[#D99100]" />,
       title: 'Safety First',
-      description: 'If you indicate thoughts of self-harm or immediate danger, REVIA provides clear pathways to professional help and emergency resources.',
+      description: 'If you indicate thoughts of self-harm or immediate danger, NIRVAN provides clear pathways to professional help and emergency resources.',
     },
     {
       icon: <BookOpen className="w-5 h-5 text-[#5B8FB9]" />,
@@ -154,7 +154,7 @@ export default function WellbeingPage() {
               </h1>
 
               <p className="text-lg text-[#66615C] leading-relaxed max-w-2xl">
-                Your mind is part of your recovery too. REVIA supports the emotional side of healing — mood, sleep, stress, motivation, and connection — so you can recover as a whole person.
+                Your mind is part of your recovery too. NIRVAN supports the emotional side of healing — mood, sleep, stress, motivation, and connection — so you can recover as a whole person.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-2">
@@ -192,7 +192,7 @@ export default function WellbeingPage() {
               What Would You Like Support With?
             </h2>
             <p className="text-[#66615C] leading-relaxed">
-              Recovery can affect how you feel emotionally. REVIA supports every dimension of your wellbeing — not just your body.
+              Recovery can affect how you feel emotionally. NIRVAN supports every dimension of your wellbeing — not just your body.
             </p>
           </div>
 
@@ -291,7 +291,7 @@ export default function WellbeingPage() {
               Designed with Care
             </h2>
             <p className="text-[#66615C] leading-relaxed">
-              Mental wellbeing support requires clinical responsibility. REVIA follows strict safety principles to protect you.
+              Mental wellbeing support requires clinical responsibility. NIRVAN follows strict safety principles to protect you.
             </p>
           </div>
 
@@ -360,7 +360,7 @@ export default function WellbeingPage() {
                 <div className="p-4 rounded-[16px] bg-white border border-[#e6e2dc] space-y-3">
                   <p className="text-base font-semibold text-[#2D2A26]">Feeling low for a while?</p>
                   <p className="text-sm text-[#66615C] leading-relaxed">
-                    Sometimes recovery can affect how we feel emotionally. REVIA can help you understand your wellbeing and explore self-help resources.
+                    Sometimes recovery can affect how we feel emotionally. NIRVAN can help you understand your wellbeing and explore self-help resources.
                   </p>
                 </div>
 
@@ -374,7 +374,7 @@ export default function WellbeingPage() {
                 </div>
 
                 <p className="text-xs text-[#66615C] italic text-center">
-                  REVIA does not diagnose depression or prescribe treatment.
+                  NIRVAN does not diagnose depression or prescribe treatment.
                 </p>
               </div>
             </div>
@@ -387,7 +387,7 @@ export default function WellbeingPage() {
                 You Don&apos;t Have to Handle This Alone
               </h2>
               <p className="text-[#66615C] leading-relaxed">
-                Recovery can bring emotional challenges. REVIA provides gentle support to help you understand low mood, explore evidence-based self-help, and know when professional support may be appropriate.
+                Recovery can bring emotional challenges. NIRVAN provides gentle support to help you understand low mood, explore evidence-based self-help, and know when professional support may be appropriate.
               </p>
 
               <div className="space-y-3 pt-2">
@@ -645,7 +645,7 @@ export default function WellbeingPage() {
               Your Recovery, Connected
             </h2>
             <p className="text-[#66615C] leading-relaxed">
-              Mental wellbeing is woven into every part of REVIA — not a separate feature. Your mood, sleep, and emotional state are part of your recovery journey.
+              Mental wellbeing is woven into every part of NIRVAN — not a separate feature. Your mood, sleep, and emotional state are part of your recovery journey.
             </p>
           </div>
 

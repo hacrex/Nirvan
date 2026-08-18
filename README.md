@@ -1,4 +1,4 @@
-# REVIA
+# NIRVAN
 
 > **Move Forward. Live Better.**
 
@@ -8,16 +8,16 @@ A mobile-first digital rehabilitation and wellbeing platform designed to support
 
 ## About
 
-REVIA brings rehabilitation, movement, wellbeing, education and progress together in one patient-focused experience. Built for people recovering from cardiac events, stroke, kidney disease, liver conditions and more — REVIA helps patients stay connected to their recovery journey between appointments, understand their progress, build healthy routines and keep moving forward.
+NIRVAN brings rehabilitation, movement, wellbeing, education and progress together in one patient-focused experience. Built for people recovering from cardiac events, stroke, kidney disease, liver conditions and more — NIRVAN helps patients stay connected to their recovery journey between appointments, understand their progress, build healthy routines and keep moving forward.
 
-**REVIA is not a replacement for doctors or healthcare professionals.** It is a supportive digital companion that helps make recovery easier to understand, easier to follow and easier to measure.
+**NIRVAN is not a replacement for doctors or healthcare professionals.** It is a supportive digital companion that helps make recovery easier to understand, easier to follow and easier to measure.
 
 ### The Name
 
 - **RE** — Return, Recovery, Renewal, Rebuild
 - **VIA** — Path, Journey, Way Forward
 
-> **REVIA = The path back to strength and wellbeing.**
+> **NIRVAN = The path back to strength and wellbeing.**
 
 Inspired by ancient ideas of resilience — *Dhṛti* (fortitude), *Utthāna* (rising), *Pratyāgati* (returning) — and the modern story of the wanderer who walks The Path regardless of what lies ahead.
 
@@ -94,7 +94,7 @@ Inspired by ancient ideas of resilience — *Dhṛti* (fortitude), *Utthāna* (r
 ## Project Structure
 
 ```
-Revia/
+Nirvan/
 ├── docs/
 │   ├── 01-product/          # Product definition and brand story
 │   ├── 02-architecture/     # System architecture and database schema
@@ -103,7 +103,7 @@ Revia/
 │   ├── 05-security/         # Security, privacy and Firebase rules
 │   ├── 06-website/          # Website spec, SEO and content strategy
 │   ├── 07-development/      # Development plan, testing and contributing
-│   └── REVIA_Brand_Story.md # Complete brand narrative
+│   └── NIRVAN_Brand_Story.md # Complete brand narrative
 ├── .git/
 └── README.md
 ```
@@ -114,7 +114,7 @@ Revia/
 
 > **Every step forward matters.**
 
-Recovery is not linear. A difficult day does not erase previous progress. REVIA celebrates meaningful progress without turning recovery into a competition.
+Recovery is not linear. A difficult day does not erase previous progress. NIRVAN celebrates meaningful progress without turning recovery into a competition.
 
 > **Consistency over perfection.**
 
@@ -185,7 +185,7 @@ docs: update brand story with Rivia inspiration
 
 ## Clinical Safety
 
-REVIA provides clinician-reviewed educational content and rehabilitation support. It does **not**:
+NIRVAN provides clinician-reviewed educational content and rehabilitation support. It does **not**:
 
 - Diagnose medical conditions
 - Prescribe medication or change dosages

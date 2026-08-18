@@ -6,7 +6,7 @@ import { Card } from '@/components/ui/Card';
 import { Mail, CheckCircle2, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Subscribe to REVIA Newsletter',
+  title: 'Subscribe to NIRVAN Newsletter',
   description: 'Receive clinician-reviewed recovery insights, new exercise guides, and product updates in your inbox.',
 };
 

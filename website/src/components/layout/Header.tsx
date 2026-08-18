@@ -30,7 +30,7 @@ export const Header: React.FC = () => {
             <Link href="/" className="group flex items-center gap-2 lg:gap-3">
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#285b4a] text-base font-bold text-white shadow-soft transition-colors group-hover:bg-[#173d32] lg:h-10 lg:w-10">R</div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold leading-none tracking-tight text-[#1f2a24] lg:text-2xl">REVIA</span>
+                <span className="text-xl font-bold leading-none tracking-tight text-[#1f2a24] lg:text-2xl">NIRVAN</span>
                 <span className="mt-1 text-[9px] font-bold uppercase tracking-[0.14em] text-[#708078]">Rehabilitation &amp; wellbeing</span>
               </div>
             </Link>

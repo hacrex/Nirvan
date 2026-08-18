@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { siteUrl } from '@/lib/site';
+
 interface OrganizationJsonLdProps {
   type?: 'Organization';
 }
@@ -8,9 +10,9 @@ export const OrganizationJsonLd: React.FC<OrganizationJsonLdProps> = () => {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'MedicalOrganization',
-    name: 'REVIA',
-    url: 'https://reviarecovery.com',
-    logo: 'https://reviarecovery.com/logo.png',
+    name: 'NIRVAN',
+    url: siteUrl,
+    logo: `${siteUrl}/logo.png`,
     description: 'Digital rehabilitation and wellbeing companion for cardiac, stroke/neuro, kidney, and liver recovery.',
     slogan: 'Move Forward. Live Better.',
     medicalSpecialty: [

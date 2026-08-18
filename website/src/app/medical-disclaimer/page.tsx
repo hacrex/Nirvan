@@ -5,7 +5,7 @@ import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 
 export const metadata: Metadata = {
   title: 'Full Medical Disclaimer',
-  description: 'REVIA full medical disclaimer regarding clinical educational content, patient responsibility, and emergency guidance.',
+  description: 'NIRVAN full medical disclaimer regarding clinical educational content, patient responsibility, and emergency guidance.',
 };
 
 export default function MedicalDisclaimerPage() {
@@ -27,22 +27,22 @@ export default function MedicalDisclaimerPage() {
           <div className="prose prose-slate max-w-none text-[#2D2A26] space-y-6 text-base leading-relaxed pt-4">
             <h2 className="text-xl font-bold text-[#2D2A26]">1. Educational Companion Only</h2>
             <p>
-              REVIA provides clinician-reviewed educational content and structured routine tracking. It is intended solely as a supportive companion for patients recovering from cardiac events, stroke, kidney disease, or liver conditions. <strong>It does not diagnose medical conditions, prescribe medications, adjust drug dosages, or replace healthcare professionals.</strong>
+              NIRVAN provides clinician-reviewed educational content and structured routine tracking. It is intended solely as a supportive companion for patients recovering from cardiac events, stroke, kidney disease, or liver conditions. <strong>It does not diagnose medical conditions, prescribe medications, adjust drug dosages, or replace healthcare professionals.</strong>
             </p>
 
             <h2 className="text-xl font-bold text-[#2D2A26]">2. Consult Your Doctor</h2>
             <p>
-              Before beginning any physical rehabilitation program, exercise routine, or lifestyle modification featured in REVIA, always seek the advice of your physician, physical therapist, or qualified medical specialist. Never disregard professional medical advice or delay seeking it because of something you read on REVIA.
+              Before beginning any physical rehabilitation program, exercise routine, or lifestyle modification featured in NIRVAN, always seek the advice of your physician, physical therapist, or qualified medical specialist. Never disregard professional medical advice or delay seeking it because of something you read on NIRVAN.
             </p>
 
             <h2 className="text-xl font-bold text-[#2D2A26]">3. Emergency Situations</h2>
             <p>
-              REVIA is not monitored in real-time by medical personnel and does not provide emergency medical response. If you experience chest pain, severe shortness of breath, sudden numbness or weakness, severe dizziness, or any life-threatening symptoms, immediately stop exercising and call emergency services (such as 108 or your local emergency number).
+              NIRVAN is not monitored in real-time by medical personnel and does not provide emergency medical response. If you experience chest pain, severe shortness of breath, sudden numbness or weakness, severe dizziness, or any life-threatening symptoms, immediately stop exercising and call emergency services (such as 108 or your local emergency number).
             </p>
 
             <h2 className="text-xl font-bold text-[#2D2A26]">4. Clinical Content Review Process</h2>
             <p>
-              Educational content published on REVIA undergoes a structured editorial and clinical review workflow prior to publication:
+              Educational content published on NIRVAN undergoes a structured editorial and clinical review workflow prior to publication:
             </p>
 
             <div className="p-4 rounded-[12px] bg-[#E1EADF]/60 border border-[#436444]/20 font-medium text-sm text-[#2e4e30]">

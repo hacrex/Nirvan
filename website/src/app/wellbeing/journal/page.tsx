@@ -37,12 +37,12 @@ export default function JournalPage() {
     {
       icon: <Lock className="w-5 h-5 text-[#436444]" />,
       title: 'Private & Secure',
-      description: 'Your journal entries are encrypted and stored securely. No one — not REVIA, not your care team — can read them without your explicit consent.',
+      description: 'Your journal entries are encrypted and stored securely. No one — not NIRVAN, not your care team — can read them without your explicit consent.',
     },
     {
       icon: <EyeOff className="w-5 h-5 text-[#5B8FB9]" />,
       title: 'Never Shared with AI',
-      description: 'REVIA does not automatically send journal content to any AI system. Your reflections remain yours.',
+      description: 'NIRVAN does not automatically send journal content to any AI system. Your reflections remain yours.',
     },
     {
       icon: <PenLine className="w-5 h-5 text-[#8c4e33]" />,
@@ -79,7 +79,7 @@ export default function JournalPage() {
     },
     {
       title: 'Completely Optional',
-      description: 'Journaling is never required. It\'s a tool available when you want it, not something REVIA pushes you to do.',
+      description: 'Journaling is never required. It\'s a tool available when you want it, not something NIRVAN pushes you to do.',
     },
   ];
 
@@ -158,7 +158,7 @@ export default function JournalPage() {
                 Your Words, Your Space
               </h2>
               <p className="text-[#66615C] leading-relaxed">
-                REVIA&apos;s journal is designed for self-reflection, not performance. There are no prompts that feel clinical, no word targets, and no sharing features. Just a quiet space for your thoughts.
+                NIRVAN&apos;s journal is designed for self-reflection, not performance. There are no prompts that feel clinical, no word targets, and no sharing features. Just a quiet space for your thoughts.
               </p>
 
               <div className="space-y-4 pt-2">
@@ -231,7 +231,7 @@ export default function JournalPage() {
               </div>
 
               <p className="text-xs text-[#66615C] italic text-center">
-                If AI analysis is introduced in the future, REVIA will require clear, explicit consent and explain exactly what is processed.
+                If AI analysis is introduced in the future, NIRVAN will require clear, explicit consent and explain exactly what is processed.
               </p>
             </Card>
           </div>

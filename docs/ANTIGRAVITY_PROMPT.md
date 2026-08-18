@@ -1,13 +1,13 @@
-# REVIA — Antigravity Build Prompt (Stitch Designs Ready)
+# NIRVAN — Antigravity Build Prompt (Stitch Designs Ready)
 
-> **Copy this into Google Antigravity to build the REVIA application.**
+> **Copy this into Google Antigravity to build the NIRVAN application.**
 > **Prerequisites:** Stitch MCP configured, all screen designs already generated in Stitch.
 
 ---
 
 ## PROJECT OVERVIEW
 
-REVIA is a mobile-first rehabilitation and wellbeing platform for cardiac, neuro, kidney, and liver recovery. Tagline: "Move Forward. Live Better."
+NIRVAN is a mobile-first rehabilitation and wellbeing platform for cardiac, neuro, kidney, and liver recovery. Tagline: "Move Forward. Live Better."
 
 **Stitch designs are already complete.** Your job is to:
 1. Fetch the existing Stitch designs via MCP
@@ -19,8 +19,8 @@ REVIA is a mobile-first rehabilitation and wellbeing platform for cardiac, neuro
 ## STEP 1: FETCH STITCH DESIGNS VIA MCP
 
 ```
-Use the Stitch MCP server to list all projects. Find the REVIA project.
-List all screens in the REVIA project.
+Use the Stitch MCP server to list all projects. Find the NIRVAN project.
+List all screens in the NIRVAN project.
 Fetch the Design DNA (colors, typography, spacing, components) and generate a DESIGN.md file.
 Fetch each screen's HTML/CSS export and save them as reference files in the project.
 ```
@@ -78,9 +78,9 @@ revia/
 ## STEP 3: FLUTTER FOUNDATION (Agent 1)
 
 ```
-Build the Flutter project foundation for REVIA in the mobile/ directory.
+Build the Flutter project foundation for NIRVAN in the mobile/ directory.
 
-1. Create Flutter project: flutter create --org com.revia --project-name revia mobile
+1. Create Flutter project: flutter create --org com.nirvan --project-name nirvan mobile
 
 2. pubspec.yaml dependencies:
    firebase_core, firebase_auth, cloud_firestore, firebase_storage,
@@ -124,7 +124,7 @@ Build the Flutter project foundation for REVIA in the mobile/ directory.
 ## STEP 4: DATA LAYER (Agent 2)
 
 ```
-Build the data layer for REVIA matching the Firestore schema.
+Build the data layer for NIRVAN matching the Firestore schema.
 
 1. Data models (use freezed or json_serializable):
    UserProfile: uid, displayName, preferredLanguage, timezone, onboardingCompleted
@@ -161,13 +161,13 @@ Build the data layer for REVIA matching the Firestore schema.
 ## STEP 5: AUTH & ONBOARDING SCREENS (Agent 3)
 
 ```
-Build authentication and onboarding screens for REVIA.
+Build authentication and onboarding screens for NIRVAN.
 Reference the Stitch HTML/CSS exports for exact layout and styling.
 
 Screens to build:
 
 1. SPLASH — Logo centered, tagline, teal gradient, loading indicator
-2. WELCOME — "Welcome to REVIA", "Get Started" button
+2. WELCOME — "Welcome to NIRVAN", "Get Started" button
 3. SIGN IN — 4 auth option cards (Google, Apple, Email, Phone), "Create Account" link
 4. CREATE ACCOUNT — Email, password, confirm password, consent checkbox
 5. ONBOARDING PROFILE — Name field, language chips (English/Hindi/Marathi)
@@ -191,7 +191,7 @@ After auth: store profile to Firestore, mark onboarding complete.
 ## STEP 6: HOME & RECOVERY SCREENS (Agent 4)
 
 ```
-Build Home and Recovery screens for REVIA.
+Build Home and Recovery screens for NIRVAN.
 Reference Stitch designs for exact visual matching.
 
 Screens to build:
@@ -287,7 +287,7 @@ PROFILE:
 ## STEP 8: FIREBASE CLOUD FUNCTIONS (Agent 6)
 
 ```
-Build Firebase Cloud Functions for REVIA.
+Build Firebase Cloud Functions for NIRVAN.
 
 1. Notification functions (FCM):
    - Exercise reminders
@@ -426,5 +426,5 @@ Build the smallest useful recovery loop first:
 
 ---
 
-*REVIA — Move Forward. Live Better.*
+*NIRVAN — Move Forward. Live Better.*
 ```

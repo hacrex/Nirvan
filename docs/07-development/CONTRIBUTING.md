@@ -1,4 +1,4 @@
-# REVIA — Contributing Guide
+# NIRVAN — Contributing Guide
 
 ## 1. Principles
 

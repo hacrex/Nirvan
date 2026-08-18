@@ -27,7 +27,7 @@ export default function BlogListingPage() {
               Clinician-Reviewed Education
             </span>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2D2A26] tracking-tight">
-              REVIA Health & Recovery Blog
+              NIRVAN Health & Recovery Blog
             </h1>
             <p className="text-lg text-[#66615C] leading-relaxed">
               Understandable, evidence-aware guides written for patients and families on the journey of rehabilitation.

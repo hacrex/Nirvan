@@ -12,28 +12,28 @@ export interface FAQItem {
 
 export const defaultFAQs: FAQItem[] = [
   {
-    question: 'What is REVIA?',
-    answer: 'REVIA is a patient-focused digital rehabilitation companion designed to support people recovering from cardiac events, stroke, paralysis, kidney disease, and liver conditions. It brings exercises, wellbeing tracking, medication reminders, and clinician-reviewed education together in one easy-to-use mobile experience.',
+    question: 'What is NIRVAN?',
+    answer: 'NIRVAN is a patient-focused digital rehabilitation companion designed to support people recovering from cardiac events, stroke, paralysis, kidney disease, and liver conditions. It brings exercises, wellbeing tracking, medication reminders, and clinician-reviewed education together in one easy-to-use mobile experience.',
   },
   {
-    question: 'Is REVIA a replacement for my doctor or physical therapist?',
-    answer: 'No. REVIA is strictly a supportive digital companion and educational tool. It does not replace medical advice, diagnosis, or treatment from your doctors or physiotherapists. Always consult your healthcare team before starting or modifying any rehabilitation plan.',
+    question: 'Is NIRVAN a replacement for my doctor or physical therapist?',
+    answer: 'No. NIRVAN is strictly a supportive digital companion and educational tool. It does not replace medical advice, diagnosis, or treatment from your doctors or physiotherapists. Always consult your healthcare team before starting or modifying any rehabilitation plan.',
   },
   {
-    question: 'What health conditions does REVIA support?',
-    answer: 'REVIA provides specialized pathways for 4 primary areas: Cardiac Recovery (heart attack, post-cardiac events), Neuro Recovery (stroke, paralysis, motor/balance support), Kidney Rehabilitation (CKD, dialysis support), and Liver Rehabilitation (cirrhosis functional support and muscle preservation).',
+    question: 'What health conditions does NIRVAN support?',
+    answer: 'NIRVAN provides specialized pathways for 4 primary areas: Cardiac Recovery (heart attack, post-cardiac events), Neuro Recovery (stroke, paralysis, motor/balance support), Kidney Rehabilitation (CKD, dialysis support), and Liver Rehabilitation (cirrhosis functional support and muscle preservation).',
   },
   {
-    question: 'Does REVIA work offline?',
-    answer: 'Yes! REVIA is built with an offline-first architecture. Your daily exercise guides, plans, check-ins, and logs remain accessible even without an active internet connection. Progress automatically syncs when you reconnect.',
+    question: 'Does NIRVAN work offline?',
+    answer: 'Yes! NIRVAN is built with an offline-first architecture. Your daily exercise guides, plans, check-ins, and logs remain accessible even without an active internet connection. Progress automatically syncs when you reconnect.',
   },
   {
-    question: 'Is REVIA free to use?',
-    answer: 'REVIA offers essential core features, rehabilitation plans, exercise guides, and educational content free of charge to support patient recovery access.',
+    question: 'Is NIRVAN free to use?',
+    answer: 'NIRVAN offers essential core features, rehabilitation plans, exercise guides, and educational content free of charge to support patient recovery access.',
   },
   {
-    question: 'How does REVIA protect my health privacy?',
-    answer: 'Your health data privacy is fundamental. REVIA uses end-to-end encryption in transit, strict user data ownership rules, and explicit permission controls for health API integration (Apple Health & Android Health Connect). We never sell your personal health data.',
+    question: 'How does NIRVAN protect my health privacy?',
+    answer: 'Your health data privacy is fundamental. NIRVAN uses end-to-end encryption in transit, strict user data ownership rules, and explicit permission controls for health API integration (Apple Health & Android Health Connect). We never sell your personal health data.',
   },
 ];
 
@@ -56,7 +56,7 @@ export const FAQSection: React.FC<{ faqs?: FAQItem[] }> = ({ faqs = defaultFAQs 
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-[#66615C]">
-            Everything you need to know about REVIA, our rehabilitation pathways, and privacy.
+            Everything you need to know about NIRVAN, our rehabilitation pathways, and privacy.
           </p>
         </div>
 

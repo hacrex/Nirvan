@@ -5,10 +5,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { OrganizationJsonLd } from '@/components/seo/JsonLd';
 import { StickyMobileCTA } from '@/components/ui/StickyMobileCTA';
-
-const siteUrl = process.env.GITHUB_PAGES === 'true'
-  ? 'https://hacrex.github.io/Revia'
-  : 'https://reviarecovery.com';
+import { siteUrl } from '@/lib/site';
 
 const atkinson = Atkinson_Hyperlegible({
   weight: ['400', '700'],
@@ -19,11 +16,11 @@ const atkinson = Atkinson_Hyperlegible({
 
 export const metadata: Metadata = {
   title: {
-    default: 'REVIA — Move Forward. Live Better.',
-    template: '%s | REVIA — Move Forward. Live Better.',
+    default: 'NIRVAN — Move Forward. Live Better.',
+    template: '%s | NIRVAN — Move Forward. Live Better.',
   },
   description:
-    'REVIA is a patient-focused recovery companion bringing rehabilitation, movement, wellbeing, education, and progress together. Cardiac, Neuro, Kidney, and Liver recovery support.',
+    'NIRVAN is a patient-focused recovery companion bringing rehabilitation, movement, wellbeing, education, and progress together. Cardiac, Neuro, Kidney, and Liver recovery support.',
   keywords: [
     'rehabilitation',
     'recovery',
@@ -36,19 +33,19 @@ export const metadata: Metadata = {
     'exercise library',
     'patient recovery',
   ],
-  authors: [{ name: 'REVIA Health Team' }],
+  authors: [{ name: 'NIRVAN Health Team' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: siteUrl,
-    siteName: 'REVIA',
-    title: 'REVIA — Digital Rehabilitation & Wellbeing Companion',
+    siteName: 'NIRVAN',
+    title: 'NIRVAN — Digital Rehabilitation & Wellbeing Companion',
     description:
-      'Move Forward. Live Better. REVIA brings recovery plans, exercises, wellbeing tracking, and clinical education together.',
+      'Move Forward. Live Better. NIRVAN brings recovery plans, exercises, wellbeing tracking, and clinical education together.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'REVIA — Move Forward. Live Better.',
+    title: 'NIRVAN — Move Forward. Live Better.',
     description: 'Digital rehabilitation and wellbeing companion.',
   },
   robots: {

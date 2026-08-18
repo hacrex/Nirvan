@@ -4,7 +4,7 @@ import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'REVIA Privacy Policy explaining how we handle health data, security, and user privacy.',
+  description: 'NIRVAN Privacy Policy explaining how we handle health data, security, and user privacy.',
 };
 
 export default function PrivacyPage() {
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
 
           <div className="prose prose-slate max-w-none text-[#2D2A26] space-y-6 text-base leading-relaxed">
             <p>
-              At REVIA (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;), we prioritize your trust and health data privacy above all else. This Privacy Policy explains how we collect, use, store, and protect your information when you visit our website or use our mobile application.
+              At NIRVAN (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;), we prioritize your trust and health data privacy above all else. This Privacy Policy explains how we collect, use, store, and protect your information when you visit our website or use our mobile application.
             </p>
 
             <h2 className="text-xl font-bold text-[#2D2A26]">1. Data We Collect</h2>

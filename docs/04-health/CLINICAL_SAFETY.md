@@ -1,10 +1,10 @@
-# REVIA — Clinical Safety Framework
+# NIRVAN — Clinical Safety Framework
 
 ## 1. Purpose
 
-Define boundaries that prevent REVIA from being interpreted as a replacement for qualified healthcare professionals.
+Define boundaries that prevent NIRVAN from being interpreted as a replacement for qualified healthcare professionals.
 
-## 2. REVIA CAN
+## 2. NIRVAN CAN
 
 - Provide clinician-reviewed educational content.
 - Present rehabilitation content within defined product boundaries.
@@ -17,7 +17,7 @@ Define boundaries that prevent REVIA from being interpreted as a replacement for
 - Explain general rehabilitation concepts.
 - Help users find relevant educational resources.
 
-## 3. REVIA MUST NOT
+## 3. NIRVAN MUST NOT
 
 - Diagnose a medical condition.
 - Prescribe medication.
@@ -83,7 +83,7 @@ Thresholds must be clinically reviewed before implementation.
 
 ## 7. Emergency Boundary
 
-REVIA is not an emergency service.
+NIRVAN is not an emergency service.
 
 When an interaction indicates a possible emergency, the app should provide clear, locally appropriate emergency guidance rather than attempting diagnosis.
 

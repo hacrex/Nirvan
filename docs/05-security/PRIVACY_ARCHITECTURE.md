@@ -1,4 +1,4 @@
-# REVIA — Privacy Architecture
+# NIRVAN — Privacy Architecture
 
 ## 1. Privacy Principle
 

@@ -46,9 +46,9 @@ export const Testimonials: React.FC = () => {
                 <h2 className="mt-4 text-4xl font-bold leading-tight tracking-[-0.03em] text-[#2D2A26] sm:text-5xl">Support that feels human, careful, and useful.</h2>
               </div>
               <div className="max-w-xl lg:justify-self-end">
-                <p className="text-lg leading-8 text-[#66615C]">REVIA is being shaped around the difficult days as well as the visible wins. We want the experience to be encouraging without becoming noisy, competitive, or overconfident.</p>
+                <p className="text-lg leading-8 text-[#66615C]">NIRVAN is being shaped around the difficult days as well as the visible wins. We want the experience to be encouraging without becoming noisy, competitive, or overconfident.</p>
                 <Link href="/about" className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-[#436444] hover:text-[#2e4e30]">
-                  Learn how REVIA is designed
+                  Learn how NIRVAN is designed
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
@@ -77,7 +77,7 @@ export const Testimonials: React.FC = () => {
             </div>
 
             <div className="mt-8 flex flex-col gap-4 rounded-[24px] border border-[#d7e4d5] bg-[#edf4eb] p-5 text-sm text-[#2e4e30] sm:flex-row sm:items-center sm:justify-between sm:p-6">
-              <div className="flex items-start gap-3"><ShieldCheck className="mt-0.5 h-5 w-5 shrink-0" /><p><span className="font-bold">Trust should be inspectable.</span> Explore REVIA&apos;s safety boundaries, privacy principles, and clinical-content approach.</p></div>
+              <div className="flex items-start gap-3"><ShieldCheck className="mt-0.5 h-5 w-5 shrink-0" /><p><span className="font-bold">Trust should be inspectable.</span> Explore NIRVAN&apos;s safety boundaries, privacy principles, and clinical-content approach.</p></div>
               <Link href="/medical-disclaimer" className="inline-flex shrink-0 items-center gap-2 font-bold text-[#436444] hover:text-[#2e4e30]">Read the safety boundary <ArrowRight className="h-4 w-4" /></Link>
             </div>
           </div>

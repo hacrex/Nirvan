@@ -59,11 +59,11 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 bg-[#173d32]/45 backdrop-blur-sm lg:hidden" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
-      <div ref={panelRef} className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col overflow-y-auto bg-[#f8f5ef] p-6 shadow-soft-lg" role="dialog" aria-modal="true" aria-label="REVIA navigation">
+      <div ref={panelRef} className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col overflow-y-auto bg-[#f8f5ef] p-6 shadow-soft-lg" role="dialog" aria-modal="true" aria-label="NIRVAN navigation">
         <div className="flex items-center justify-between border-b border-[#dce4dc] pb-6">
           <Link href="/" onClick={onClose} className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#285b4a] text-sm font-bold text-white">R</div>
-            <span className="text-xl font-bold tracking-tight text-[#1f2a24]">REVIA</span>
+            <span className="text-xl font-bold tracking-tight text-[#1f2a24]">NIRVAN</span>
           </Link>
           <button
             ref={closeButtonRef}
@@ -98,7 +98,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
 
           <div className="space-y-2 border-t border-[#dce4dc] pt-6">
             <Link href="/resources" onClick={onClose} className={itemClass}>Learn</Link>
-            <Link href="/about" onClick={onClose} className={itemClass}>About REVIA</Link>
+            <Link href="/about" onClick={onClose} className={itemClass}>About NIRVAN</Link>
             <Link href="/faq" onClick={onClose} className={itemClass}>FAQ</Link>
           </div>
         </nav>

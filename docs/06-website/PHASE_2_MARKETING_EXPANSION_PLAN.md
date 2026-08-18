@@ -1,4 +1,4 @@
-# REVIA Phase 2 Marketing Website Expansion Plan
+# NIRVAN Phase 2 Marketing Website Expansion Plan
 
 **Status:** Draft for implementation planning  
 **Scope:** Feature pages, pricing/access model, content architecture, conversion, and measurement  
@@ -6,9 +6,9 @@
 
 ## 1. Phase 2 objective
 
-Phase 1 improved the homepage’s first impression and created an honest early-access conversion path. Phase 2 should turn the website into a **recovery knowledge and product-education platform** rather than a single landing page. The website should help a visitor understand whether REVIA is relevant, explore the exact capabilities that matter to them, learn from trustworthy content, compare access options, and take the next appropriate action.
+Phase 1 improved the homepage’s first impression and created an honest early-access conversion path. Phase 2 should turn the website into a **recovery knowledge and product-education platform** rather than a single landing page. The website should help a visitor understand whether NIRVAN is relevant, explore the exact capabilities that matter to them, learn from trustworthy content, compare access options, and take the next appropriate action.
 
-This direction follows REVIA’s existing product definition: the public website is responsible for product introduction, rehabilitation education, SEO, newsletter growth, app promotion, contact, privacy, terms, and clinical disclaimers.[1] It also follows the growth strategy’s central flywheel: solve a recovery problem first, build trust, then invite the download or early-access action.[2]
+This direction follows NIRVAN’s existing product definition: the public website is responsible for product introduction, rehabilitation education, SEO, newsletter growth, app promotion, contact, privacy, terms, and clinical disclaimers.[1] It also follows the growth strategy’s central flywheel: solve a recovery problem first, build trust, then invite the download or early-access action.[2]
 
 > **Phase 2 principle:** Let visitors enter through their need, understand the product through evidence, and choose access without pressure.
 
@@ -18,7 +18,7 @@ The current top navigation is useful for discovery, but feature content should b
 
 | Primary route | Purpose | Priority |
 | --- | --- | --- |
-| `/features` | Overview of the REVIA product system | P0 |
+| `/features` | Overview of the NIRVAN product system | P0 |
 | `/features/recovery-plans` | Explain personalized recovery plans and the “Today’s Recovery” experience | P0 |
 | `/features/exercises` | Show guided exercise discovery, detail, session, safety notes, and feedback | P0 |
 | `/features/wellbeing` | Explain mood, sleep, energy, nutrition, mindfulness, and routines | P0 |
@@ -28,9 +28,9 @@ The current top navigation is useful for discovery, but feature content should b
 | `/features/accessibility` | Explain voice-first support, readable design, captions, language, and reduced motion | P1 |
 | `/features/privacy` | Explain health-data choices, export, deletion, and minimum-necessary collection | P1 |
 | `/pricing` | Explain access options and the current pre-launch state | P0 |
-| `/compare` | Compare access tiers or “REVIA vs fragmented recovery tools” | P2 |
-| `/for-families` | Address family members who discover REVIA on behalf of a patient | P1 |
-| `/for-clinicians` | Explain how REVIA supports—not replaces—professional care | P2, only after clinical workflow is defined |
+| `/compare` | Compare access tiers or “NIRVAN vs fragmented recovery tools” | P2 |
+| `/for-families` | Address family members who discover NIRVAN on behalf of a patient | P1 |
+| `/for-clinicians` | Explain how NIRVAN supports—not replaces—professional care | P2, only after clinical workflow is defined |
 
 Each feature page should have a short page-specific hero, an authentic product visual or clearly labelled prototype, three to five outcome-oriented sections, a safety/trust module, related recovery pathways, related educational content, and one primary CTA. Avoid duplicating the generic six-card feature grid on every page.
 
@@ -43,7 +43,7 @@ Every feature page should answer five questions in order: **What is this? Who is
 | Hero | Benefit-led headline, one-sentence explanation, page-specific CTA | Large typography with one product screenshot or labelled prototype |
 | Relevance | “This may help if…” with patient and family language | Short scannable copy; avoid diagnosis or outcome promises |
 | Product walkthrough | Three to five steps showing the actual flow | Numbered sequence, screenshots, captions, optional short video |
-| Safety and responsibility | What REVIA does and does not do | High-contrast but calm trust panel; link to disclaimer |
+| Safety and responsibility | What NIRVAN does and does not do | High-contrast but calm trust panel; link to disclaimer |
 | Proof of care | Clinical review, editorial process, accessibility, privacy, or source metadata | Use only verifiable claims; link to supporting pages |
 | Pathway connections | Cardiac, Neuro, Kidney, Liver, and wellbeing relevance | Contextual links rather than generic “learn more” cards |
 | Related learning | One guide, one FAQ, one exercise/resource | Supports the Learn → Trust → Access journey |
@@ -51,9 +51,9 @@ Every feature page should answer five questions in order: **What is this? Who is
 
 ### 3.1 Recovery plans
 
-**Primary message:** “Know what matters today.” Explain how a visitor moves from pathway and goal selection to a clear daily plan. Show a Today’s Recovery screen, a progress indicator, a personal goal, and the next activity. The page should explicitly state that REVIA supports clinician-approved principles and does not independently prescribe treatment.[1]
+**Primary message:** “Know what matters today.” Explain how a visitor moves from pathway and goal selection to a clear daily plan. Show a Today’s Recovery screen, a progress indicator, a personal goal, and the next activity. The page should explicitly state that NIRVAN supports clinician-approved principles and does not independently prescribe treatment.[1]
 
-**Recommended sections:** pathway selection, goals, Today’s Recovery, offline continuity, reminders, and a “What REVIA does not do” safety block.
+**Recommended sections:** pathway selection, goals, Today’s Recovery, offline continuity, reminders, and a “What NIRVAN does not do” safety block.
 
 ### 3.2 Guided exercises
 
@@ -81,11 +81,11 @@ Every feature page should answer five questions in order: **What is this? Who is
 
 ### 3.6 Health connections, privacy, and accessibility
 
-These pages should explain what data is accessed, why it is useful, what happens if permission is denied, how manual and imported data are labelled, how data can be exported/deleted, and how REVIA supports screen readers, captions, voice interactions, large text, reduced motion, and multiple languages. Health permissions should be presented as optional, contextual choices rather than a prerequisite for every user.
+These pages should explain what data is accessed, why it is useful, what happens if permission is denied, how manual and imported data are labelled, how data can be exported/deleted, and how NIRVAN supports screen readers, captions, voice interactions, large text, reduced motion, and multiple languages. Health permissions should be presented as optional, contextual choices rather than a prerequisite for every user.
 
 ## 4. Pricing and access strategy
 
-REVIA’s product is still in pre-development/pre-launch status, so the public website should not present invented subscription prices, app-store ratings, or unsupported “free forever” claims. The first pricing page should be an **access model page** that clearly distinguishes current availability, future plans, and any pilot access.
+NIRVAN’s product is still in pre-development/pre-launch status, so the public website should not present invented subscription prices, app-store ratings, or unsupported “free forever” claims. The first pricing page should be an **access model page** that clearly distinguishes current availability, future plans, and any pilot access.
 
 ### 4.1 Recommended pricing architecture
 
@@ -93,15 +93,15 @@ Use a simple three-level model only if the product capabilities and support obli
 
 | Access level | Intended value | Candidate inclusions | Public positioning |
 | --- | --- | --- | --- |
-| **REVIA Essentials** | Let people understand and begin | Selected recovery education, pathway guides, basic check-ins, foundational resources, newsletter, safety/disclaimer content | “Start with the essentials” |
-| **REVIA Plus** | Support a sustained personal routine | Full guided exercise library, personalized recovery plan, richer progress and milestones, offline content, wellbeing tools, voice/accessibility enhancements, health connections where available | “Build a steadier recovery rhythm” |
+| **NIRVAN Essentials** | Let people understand and begin | Selected recovery education, pathway guides, basic check-ins, foundational resources, newsletter, safety/disclaimer content | “Start with the essentials” |
+| **NIRVAN Plus** | Support a sustained personal routine | Full guided exercise library, personalized recovery plan, richer progress and milestones, offline content, wellbeing tools, voice/accessibility enhancements, health connections where available | “Build a steadier recovery rhythm” |
 | **Pilot / Partner access** | Support verified distribution pilots | Time-limited access through an approved clinic, rehabilitation partner, employer, insurer, or community program | “Ask about early partner access” |
 
 The exact inclusion matrix should be finalized only after the MVP scope, content-production cost, support model, clinical review requirements, and app-store readiness are known. The pricing page should therefore begin with **pricing principles and access status**, not arbitrary price points.
 
 ### 4.2 Pricing principles
 
-REVIA should avoid turning recovery into a pressure-based subscription. The pricing page should communicate that users will not lose access to emergency guidance, medical disclaimers, basic privacy controls, or foundational educational safety content because they do not subscribe. The product should not imply that payment guarantees a clinical result.
+NIRVAN should avoid turning recovery into a pressure-based subscription. The pricing page should communicate that users will not lose access to emergency guidance, medical disclaimers, basic privacy controls, or foundational educational safety content because they do not subscribe. The product should not imply that payment guarantees a clinical result.
 
 The page should also address common objections in plain language: whether a clinician is required, whether a user can cancel, what happens to data after cancellation, whether a family member can purchase access, whether health connections are optional, whether content is available offline, and whether a partner code changes the user experience.
 
@@ -109,7 +109,7 @@ The page should also address common objections in plain language: whether a clin
 
 Until the app is available, `/pricing` should use a transparent pre-launch state:
 
-> **REVIA is preparing for early access.** Join the list to receive product updates, recovery resources, and information about pilot availability. We will share access options clearly before asking you to subscribe or pay.
+> **NIRVAN is preparing for early access.** Join the list to receive product updates, recovery resources, and information about pilot availability. We will share access options clearly before asking you to subscribe or pay.
 
 The primary CTA should be **Join Early Access**. A secondary CTA should be **Explore Recovery Guides**. The page should include a short “What we are building” section and a “What is available today” section so visitors are never confused about whether they can download the app immediately.
 
@@ -126,8 +126,8 @@ Each feature page should have a clear relationship to the three main visitor sta
 | Visitor state | Best CTA | Supporting CTA |
 | --- | --- | --- |
 | Exploring a recovery problem | Read a guide | Explore a pathway |
-| Evaluating REVIA | See how REVIA works | Compare access |
-| Ready for access | Join early access / Download REVIA | Read privacy and safety details |
+| Evaluating NIRVAN | See how NIRVAN works | Compare access |
+| Ready for access | Join early access / Download NIRVAN | Read privacy and safety details |
 | Family member researching | Share this guide | Explore support for families |
 | Clinician or partner | Request pilot information | Review clinical-content workflow |
 
@@ -158,9 +158,9 @@ Use one data-driven configuration for features and pricing so copy, screenshots,
 
 ## 9. Measurement plan
 
-The Phase 2 website should measure whether visitors understand and trust REVIA, not only whether they click buttons. Track feature-page visits, pathway selection, guide engagement, content completion, pricing-page visits, early-access conversion, CTA source, newsletter conversion, return visits, and route-to-route journeys.
+The Phase 2 website should measure whether visitors understand and trust NIRVAN, not only whether they click buttons. Track feature-page visits, pathway selection, guide engagement, content completion, pricing-page visits, early-access conversion, CTA source, newsletter conversion, return visits, and route-to-route journeys.
 
-Recommended qualitative tasks are: identify the relevant recovery pathway, explain what REVIA does, find the next activity shown by the product, locate a trustworthy guide, understand whether the app is currently available, and explain what happens after joining early access. The website should be tested with patients, family members, older adults, users with limited digital literacy, and clinicians or rehabilitation professionals where appropriate.[3]
+Recommended qualitative tasks are: identify the relevant recovery pathway, explain what NIRVAN does, find the next activity shown by the product, locate a trustworthy guide, understand whether the app is currently available, and explain what happens after joining early access. The website should be tested with patients, family members, older adults, users with limited digital literacy, and clinicians or rehabilitation professionals where appropriate.[3]
 
 ## 10. Definition of done
 
@@ -168,6 +168,6 @@ Phase 2 is complete when the website has a coherent feature-page system, each ma
 
 ## References
 
-[1]: https://github.com/hacrex/Revia/blob/main/docs/01-product/Patient_Rehabilitation_Wellbeing_Project.md "REVIA Patient Rehabilitation & Wellbeing Project"
-[2]: https://github.com/hacrex/Revia/blob/main/docs/REVIA_User_Acquisition_Growth_Strategy.md "REVIA User Acquisition & Growth Strategy"
-[3]: https://github.com/hacrex/Revia/blob/main/docs/REVIA_UIUX.md "REVIA UI/UX Guidance"
+[1]: https://github.com/hacrex/Revia/blob/main/docs/01-product/Patient_Rehabilitation_Wellbeing_Project.md "NIRVAN Patient Rehabilitation & Wellbeing Project"
+[2]: https://github.com/hacrex/Revia/blob/main/docs/NIRVAN_User_Acquisition_Growth_Strategy.md "NIRVAN User Acquisition & Growth Strategy"
+[3]: https://github.com/hacrex/Revia/blob/main/docs/NIRVAN_UIUX.md "NIRVAN UI/UX Guidance"

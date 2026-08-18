@@ -31,7 +31,7 @@ export const HowItWorks: React.FC = () => {
                 Simple 3-Step Process
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#2D2A26] tracking-tight">
-                How REVIA Works
+                How NIRVAN Works
               </h2>
               <p className="text-lg text-[#66615C] leading-relaxed">
                 Recovery doesn&apos;t need to be overwhelming. We break your journey down into clear, manageable daily steps.

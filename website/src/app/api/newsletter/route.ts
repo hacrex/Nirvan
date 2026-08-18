@@ -10,9 +10,9 @@ export async function POST(request: Request) {
     }
 
     // Stub for wiring to email service provider (e.g. Resend, Mailchimp, ConvertKit)
-    console.log(`[REVIA Newsletter] New subscription: ${email}`);
+    console.log(`[NIRVAN Newsletter] New subscription: ${email}`);
 
-    return NextResponse.json({ success: true, message: 'Successfully subscribed to REVIA newsletter.' });
+    return NextResponse.json({ success: true, message: 'Successfully subscribed to NIRVAN newsletter.' });
   } catch {
     return NextResponse.json({ error: 'Internal server error.' }, { status: 500 });
   }

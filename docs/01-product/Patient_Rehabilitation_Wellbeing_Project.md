@@ -978,7 +978,7 @@ Sessions
 24 completed
 
 Walking
-+18% vs pReviaus period
++18% vs pNirvanus period
 
 Consistency
 5 days

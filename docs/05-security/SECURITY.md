@@ -1,4 +1,4 @@
-# REVIA — Security Architecture
+# NIRVAN — Security Architecture
 
 ## 1. Security Goals
 

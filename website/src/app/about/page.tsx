@@ -8,8 +8,8 @@ import { CTA } from '@/components/sections/CTA';
 import { Heart, Compass, Sparkles } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About REVIA — Our Brand Story & Mission',
-  description: 'Learn about REVIA origin, brand story, philosophy, and mission to support recovery step by step.',
+  title: 'About NIRVAN — Our Brand Story & Mission',
+  description: 'Learn about NIRVAN origin, brand story, philosophy, and mission to support recovery step by step.',
 };
 
 export default function AboutPage() {
@@ -17,16 +17,16 @@ export default function AboutPage() {
     <>
       <section className="py-12 bg-[#F2E8DA]/40 border-b border-[#e6e2dc]">
         <PageContainer>
-          <Breadcrumbs items={[{ label: 'About REVIA' }]} />
+          <Breadcrumbs items={[{ label: 'About NIRVAN' }]} />
           <div className="max-w-3xl space-y-4 pt-4">
             <Badge variant="primary" icon={<Sparkles className="w-4 h-4 text-[#436444]" />}>
               The Path Back to Strength
             </Badge>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2D2A26] tracking-tight">
-              About REVIA
+              About NIRVAN
             </h1>
             <p className="text-lg text-[#66615C] leading-relaxed">
-              REVIA brings recovery, movement, wellbeing, education, and progress together into one patient-focused companion.
+              NIRVAN brings recovery, movement, wellbeing, education, and progress together into one patient-focused companion.
             </p>
           </div>
         </PageContainer>
@@ -37,7 +37,7 @@ export default function AboutPage() {
           <div className="space-y-12">
             {/* The Name & Origin */}
             <div className="space-y-4">
-              <h2 className="text-2xl sm:text-3xl font-bold text-[#2D2A26]">The Meaning Behind REVIA</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#2D2A26]">The Meaning Behind NIRVAN</h2>
               <div className="p-6 rounded-[16px] bg-[#E1EADF]/60 border border-[#436444]/20 space-y-3">
                 <div className="flex items-center gap-4 text-lg font-bold text-[#2e4e30]">
                   <span>RE — Return, Renewal, Rebuild</span>
@@ -45,11 +45,11 @@ export default function AboutPage() {
                   <span>VIA — Path, Journey, Way Forward</span>
                 </div>
                 <p className="text-[#2D2A26] font-semibold text-base">
-                  REVIA = The path back to strength and wellbeing.
+                  NIRVAN = The path back to strength and wellbeing.
                 </p>
               </div>
               <p className="text-[#66615C] text-base leading-relaxed">
-                Inspired by ancient ideas of resilience — <em>Dhṛti</em> (fortitude), <em>Utthāna</em> (rising), and <em>Pratyāgati</em> (returning) — REVIA is designed for the wanderer who walks the path of recovery regardless of how steep it may feel.
+                Inspired by ancient ideas of resilience — <em>Dhṛti</em> (fortitude), <em>Utthāna</em> (rising), and <em>Pratyāgati</em> (returning) — NIRVAN is designed for the wanderer who walks the path of recovery regardless of how steep it may feel.
               </p>
             </div>
 
@@ -85,7 +85,7 @@ export default function AboutPage() {
                     <span>Consistency over Perfection</span>
                   </div>
                   <p className="text-sm text-[#66615C] leading-relaxed">
-                    Small daily actions sustained over time create lasting physical and mental renewal. REVIA makes showing up simple and achievable.
+                    Small daily actions sustained over time create lasting physical and mental renewal. NIRVAN makes showing up simple and achievable.
                   </p>
                 </Card>
               </div>

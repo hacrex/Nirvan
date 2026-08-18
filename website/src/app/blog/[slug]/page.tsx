@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/Badge';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { ArticleJsonLd } from '@/components/seo/JsonLd';
 import { getPostBySlug, getAllPosts } from '@/lib/mdx';
+import { siteUrl } from '@/lib/site';
 import { Clock, UserCheck, Calendar } from 'lucide-react';
 
 export async function generateStaticParams() {
@@ -39,7 +40,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
       <ArticleJsonLd
         title={post.title}
         description={post.excerpt}
-        url={`https://reviarecovery.com/blog/${post.slug}`}
+        url={`${siteUrl}/blog/${post.slug}`}
         datePublished={post.date}
         authorName={post.author}
         reviewerName={post.reviewer}

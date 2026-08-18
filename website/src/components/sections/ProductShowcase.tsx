@@ -13,9 +13,9 @@ export const ProductShowcase: React.FC = () => {
       <PageContainer>
         <div className="grid items-center gap-14 lg:grid-cols-[0.86fr_1.14fr] lg:gap-20">
           <div className="max-w-xl">
-            <p className="eyebrow text-[#f5ded2]">The REVIA recovery loop</p>
+            <p className="eyebrow text-[#f5ded2]">The NIRVAN recovery loop</p>
             <h2 className="mt-4 text-4xl font-bold leading-[1.06] tracking-[-0.045em] sm:text-5xl">Know what matters today. See how far you&apos;ve come.</h2>
-            <p className="mt-6 max-w-lg text-lg leading-8 text-white/75">Recovery can feel fragmented between appointments. REVIA brings your plan, daily activities, wellbeing check-ins, education, and progress into one gentle rhythm.</p>
+            <p className="mt-6 max-w-lg text-lg leading-8 text-white/75">Recovery can feel fragmented between appointments. NIRVAN brings your plan, daily activities, wellbeing check-ins, education, and progress into one gentle rhythm.</p>
             <div className="mt-8 space-y-4">
               {steps.map(([number, title, detail]) => (
                 <div key={number} className="flex gap-4 border-t border-white/15 pt-4">

@@ -1,4 +1,4 @@
-# REVIA — Database Schema
+# NIRVAN — Database Schema
 
 ## 1. Database Strategy
 
@@ -125,7 +125,7 @@ Avoid storing unnecessary sensitive information.
 }
 ```
 
-REVIA records reminders and patient-entered adherence. It must not alter prescribed medication.
+NIRVAN records reminders and patient-entered adherence. It must not alter prescribed medication.
 
 ## 9. Daily Check-in
 

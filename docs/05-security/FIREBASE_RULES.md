@@ -1,4 +1,4 @@
-# REVIA — Firebase Security Rules Strategy
+# NIRVAN — Firebase Security Rules Strategy
 
 ## 1. Rule Philosophy
 

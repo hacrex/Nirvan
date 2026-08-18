@@ -56,7 +56,7 @@ export default function MoodPage() {
     },
     {
       title: 'No Judgment',
-      description: 'There are no "good" or "bad" moods. All feelings are valid. REVIA helps you observe, not evaluate.',
+      description: 'There are no "good" or "bad" moods. All feelings are valid. NIRVAN helps you observe, not evaluate.',
     },
     {
       title: 'Takes Seconds',
@@ -328,7 +328,7 @@ export default function MoodPage() {
               <div className="space-y-2">
                 <h3 className="font-bold text-[#2D2A26]">When Mood Tracking Needs More</h3>
                 <p className="text-sm text-[#66615C] leading-relaxed">
-                  Mood tracking supports self-awareness. If you notice persistent low mood, loss of interest, sleep changes, hopelessness, or thoughts of self-harm, please reach out to a qualified healthcare professional. REVIA is not a substitute for professional mental health care.
+                  Mood tracking supports self-awareness. If you notice persistent low mood, loss of interest, sleep changes, hopelessness, or thoughts of self-harm, please reach out to a qualified healthcare professional. NIRVAN is not a substitute for professional mental health care.
                 </p>
               </div>
             </div>

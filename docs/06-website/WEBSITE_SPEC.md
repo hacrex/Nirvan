@@ -1,8 +1,8 @@
-# REVIA — Marketing Website Specification
+# NIRVAN — Marketing Website Specification
 
 ## 1. Purpose
 
-The website is the public acquisition, education, trust and communication layer for REVIA.
+The website is the public acquisition, education, trust and communication layer for NIRVAN.
 
 ## 2. Stack
 
@@ -41,7 +41,7 @@ The website is the public acquisition, education, trust and communication layer 
 
 ## 4. Homepage
 
-The homepage should lead with a human recovery moment and one clear pre-launch action. Its narrative is **Recovery continues at home**: REVIA helps people know what to do next, keep moving safely, and notice meaningful progress between appointments.
+The homepage should lead with a human recovery moment and one clear pre-launch action. Its narrative is **Recovery continues at home**: NIRVAN helps people know what to do next, keep moving safely, and notice meaningful progress between appointments.
 
 Sections:
 
@@ -165,11 +165,11 @@ Target WCAG-aligned accessible design. Homepage interactions must support keyboa
 
 ## 12. Clinical and marketing boundaries
 
-REVIA may describe clinician-reviewed educational content, rehabilitation routines within defined product boundaries, user-entered activity, selected health metrics, adherence tracking, reminders, progress, and supportive wellbeing content.
+NIRVAN may describe clinician-reviewed educational content, rehabilitation routines within defined product boundaries, user-entered activity, selected health metrics, adherence tracking, reminders, progress, and supportive wellbeing content.
 
-REVIA must not diagnose, prescribe medication, change dosage, independently prescribe treatment, override clinician instructions, claim to replace care, provide false emergency reassurance, claim that a disease is cured, make unsupported medical claims, or present AI output as clinical fact.
+NIRVAN must not diagnose, prescribe medication, change dosage, independently prescribe treatment, override clinician instructions, claim to replace care, provide false emergency reassurance, claim that a disease is cured, make unsupported medical claims, or present AI output as clinical fact.
 
-The homepage must include a visible link to the medical boundary and a clear statement that REVIA is not an emergency service.
+The homepage must include a visible link to the medical boundary and a clear statement that NIRVAN is not an emergency service.
 
 ## 13. Source document
 

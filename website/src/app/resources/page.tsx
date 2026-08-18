@@ -24,7 +24,7 @@ export default function ResourcesPage() {
     {
       icon: <HelpCircle className="w-7 h-7 text-[#8c4e33]" />,
       title: 'Frequently Asked Questions',
-      desc: 'Clear answers regarding REVIA, pathway safety, offline features, and health tracking.',
+      desc: 'Clear answers regarding NIRVAN, pathway safety, offline features, and health tracking.',
       href: '/faq',
       cta: 'View FAQ',
     },

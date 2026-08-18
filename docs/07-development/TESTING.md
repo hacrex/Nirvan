@@ -1,4 +1,4 @@
-# REVIA — Testing Strategy
+# NIRVAN — Testing Strategy
 
 ## 1. Testing Pyramid
 

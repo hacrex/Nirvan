@@ -1,19 +1,19 @@
-# REVIA Homepage Copy, Wireframe & Design System
+# NIRVAN Homepage Copy, Wireframe & Design System
 
 **Working draft for implementation**  
 **Prepared by Manus AI · 18 August 2026**
 
 ## 1. Design decision in one sentence
 
-The new REVIA homepage should sell **clarity and confidence between appointments**, not a long list of features. It should lead with a human recovery moment, let visitors choose the pathway or problem that feels relevant, show one believable product workflow, establish clinical and privacy trust, and then invite a transparent early-access action.
+The new NIRVAN homepage should sell **clarity and confidence between appointments**, not a long list of features. It should lead with a human recovery moment, let visitors choose the pathway or problem that feels relevant, show one believable product workflow, establish clinical and privacy trust, and then invite a transparent early-access action.
 
-This direction follows the repository’s existing UX north star: “Make recovery feel understandable, achievable and meaningful — one step at a time.” It also preserves the product’s documented boundary: REVIA supports education, rehabilitation routines, wellbeing, and progress; it does not diagnose, prescribe, replace clinicians, or provide emergency care.[1] [2]
+This direction follows the repository’s existing UX north star: “Make recovery feel understandable, achievable and meaningful — one step at a time.” It also preserves the product’s documented boundary: NIRVAN supports education, rehabilitation routines, wellbeing, and progress; it does not diagnose, prescribe, replace clinicians, or provide emergency care.[1] [2]
 
-> **Primary homepage promise:** Recovery continues at home. REVIA helps make the next step clearer.
+> **Primary homepage promise:** Recovery continues at home. NIRVAN helps make the next step clearer.
 
 ## 2. Conversion strategy
 
-The homepage should serve four visitor questions in order. First: “Is this for someone like me?” Second: “What would REVIA help me do?” Third: “Can I trust it?” Fourth: “What happens if I join?” The page should not force a pre-launch visitor to pretend that the app is already available. Its main action should therefore be **Join early access**, with the supporting action **Explore recovery pathways**.
+The homepage should serve four visitor questions in order. First: “Is this for someone like me?” Second: “What would NIRVAN help me do?” Third: “Can I trust it?” Fourth: “What happens if I join?” The page should not force a pre-launch visitor to pretend that the app is already available. Its main action should therefore be **Join early access**, with the supporting action **Explore recovery pathways**.
 
 | Visitor question | Homepage answer | Primary proof |
 | --- | --- | --- |
@@ -32,11 +32,11 @@ The page should use one persistent CTA label before launch: **Join early access*
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  R  REVIA                  Recovery   Wellbeing   Learn   About     Join early access │
+│  R  NIRVAN                  Recovery   Wellbeing   Learn   About     Join early access │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-The desktop header should use a transparent or cream background at the top of the page and become a lightly blurred cream surface after scrolling. The left side contains the REVIA wordmark. The center navigation contains **Recovery**, **Wellbeing**, **Learn**, and **About**. The right side contains a single filled CTA, **Join early access**. “Exercises,” “Blog,” “News,” and detailed pathways remain available through the relevant menu or footer rather than competing for first-glance attention.
+The desktop header should use a transparent or cream background at the top of the page and become a lightly blurred cream surface after scrolling. The left side contains the NIRVAN wordmark. The center navigation contains **Recovery**, **Wellbeing**, **Learn**, and **About**. The right side contains a single filled CTA, **Join early access**. “Exercises,” “Blog,” “News,” and detailed pathways remain available through the relevant menu or footer rather than competing for first-glance attention.
 
 **Mobile behavior:** Show the wordmark, one compact menu trigger, and a persistent bottom CTA labeled **Join early access**. The menu should expose **Recovery pathways**, **Wellbeing**, **Learn**, **For families**, **About**, **Privacy**, and **Medical boundary**.
 
@@ -68,12 +68,12 @@ The desktop header should use a transparent or cream background at the top of th
 **Secondary CTA:** Explore recovery pathways  
 **Trust line:** Clinician-reviewed education · Gentle daily guidance · Support, not diagnosis
 
-**Hero visual direction:** Use one warm editorial image showing an ordinary recovery moment at home, such as a person preparing to walk with a support rail, completing a gentle seated movement, or reviewing a simple plan with a family member. Overlay one compact, clearly labelled product panel rather than a stack of floating cards. The UI panel should show **Today’s Recovery**, **2 of 4 completed**, **Next: Mobility · 8 min**, and a single **Continue recovery** button. If the product is still a prototype, label the image or UI as **Preview of the REVIA experience**.
+**Hero visual direction:** Use one warm editorial image showing an ordinary recovery moment at home, such as a person preparing to walk with a support rail, completing a gentle seated movement, or reviewing a simple plan with a family member. Overlay one compact, clearly labelled product panel rather than a stack of floating cards. The UI panel should show **Today’s Recovery**, **2 of 4 completed**, **Next: Mobility · 8 min**, and a single **Continue recovery** button. If the product is still a prototype, label the image or UI as **Preview of the NIRVAN experience**.
 
 **Alternative hero for a more brand-led campaign:**
 
 > **Every step forward matters.**  
-> REVIA brings recovery, wellbeing, education, and progress together for the journey home.
+> NIRVAN brings recovery, wellbeing, education, and progress together for the journey home.
 
 Use the alternative as a campaign or About-page lead, not as the primary homepage headline. The functional homepage headline should answer the visitor’s immediate need more directly.
 
@@ -84,7 +84,7 @@ Use the alternative as a campaign or About-page lead, not as the primary homepag
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │  WHERE WOULD A LITTLE MORE SUPPORT HELP RIGHT NOW?                           │
-│  Choose a pathway to explore the kind of guidance REVIA is being designed for.│
+│  Choose a pathway to explore the kind of guidance NIRVAN is being designed for.│
 │                                                                              │
 │  [ Heart ]   [ Neuro & stroke ]   [ Kidney ]   [ Liver ]   [ Wellbeing ]      │
 │                                                                              │
@@ -98,7 +98,7 @@ Use the alternative as a campaign or About-page lead, not as the primary homepag
 
 **Section eyebrow:** Find your next step  
 **Heading:** Where would a little more support help right now?  
-**Body:** REVIA keeps one calm design system while adapting the guidance, education, activities, and progress signals to your recovery pathway.
+**Body:** NIRVAN keeps one calm design system while adapting the guidance, education, activities, and progress signals to your recovery pathway.
 
 | Pathway | Card title | Description | CTA |
 | --- | --- | --- | --- |
@@ -116,12 +116,12 @@ The tabs should be keyboard accessible, retain the selected state in the URL whe
 
 ```text
 ┌──────────────────────────────┬───────────────────────────────────────────────┐
-│  [large phone / tablet frame]│  [eyebrow] THE REVIA RECOVERY LOOP             │
+│  [large phone / tablet frame]│  [eyebrow] THE NIRVAN RECOVERY LOOP             │
 │                              │                                               │
 │  Good morning, Maya          │  Know what matters today.                      │
 │  One step at a time.         │  See how far you’ve come.                      │
 │                              │                                               │
-│  YOUR RECOVERY TODAY         │  REVIA turns a fragmented recovery routine     │
+│  YOUR RECOVERY TODAY         │  NIRVAN turns a fragmented recovery routine     │
 │  2 of 4 completed            │  into a few clear, manageable next steps.      │
 │  Next: Mobility · 8 min      │                                               │
 │  [ Continue recovery ]       │  01  Choose a goal                              │
@@ -130,9 +130,9 @@ The tabs should be keyboard accessible, retain the selected state in the URL whe
 └──────────────────────────────┴───────────────────────────────────────────────┘
 ```
 
-**Eyebrow:** The REVIA recovery loop  
+**Eyebrow:** The NIRVAN recovery loop  
 **Heading:** Know what matters today. See how far you’ve come.  
-**Body:** Recovery can feel fragmented between appointments. REVIA brings your plan, daily activities, wellbeing check-ins, education, and progress into one gentle rhythm.
+**Body:** Recovery can feel fragmented between appointments. NIRVAN brings your plan, daily activities, wellbeing check-ins, education, and progress into one gentle rhythm.
 
 **Step 1 title:** Choose a goal  
 **Step 1 body:** Start with something that matters in everyday life, such as walking independently, moving with more confidence, or returning to a routine.
@@ -160,12 +160,12 @@ The tabs should be keyboard accessible, retain the selected state in the URL whe
 │  Build a steadier routine.                                                    │
 │  Make space for rest and wellbeing.                                          │
 │                                                                              │
-│  [ Read how REVIA is designed ]                                              │
+│  [ Read how NIRVAN is designed ]                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 **Heading:** Recovery is not only about completing an exercise. It is about getting closer to everyday life.  
-**Body:** One more step. One more repetition. One better night of sleep. One thing you can do more independently. REVIA is being designed to help you understand those moments and keep moving forward without pressure or comparison.
+**Body:** One more step. One more repetition. One better night of sleep. One thing you can do more independently. NIRVAN is being designed to help you understand those moments and keep moving forward without pressure or comparison.
 
 **Three supporting statements:**
 
@@ -187,7 +187,7 @@ The tabs should be keyboard accessible, retain the selected state in the URL whe
 │                                                                              │
 │  [ Clinical content ] [ Privacy choices ] [ Accessible by design ]           │
 │                                                                              │
-│  REVIA supports recovery education and routines. It does not diagnose,       │
+│  NIRVAN supports recovery education and routines. It does not diagnose,       │
 │  prescribe, replace your care team, or provide emergency services.            │
 │                                                                              │
 │  [ Meet the review process ]   [ Read the safety boundary ]                  │
@@ -196,14 +196,14 @@ The tabs should be keyboard accessible, retain the selected state in the URL whe
 
 **Eyebrow:** Designed with care  
 **Heading:** Clear support. Clear boundaries.  
-**Body:** REVIA is being shaped around clinical responsibility, readable design, privacy choices, and the difficult days as well as the visible wins.
+**Body:** NIRVAN is being shaped around clinical responsibility, readable design, privacy choices, and the difficult days as well as the visible wins.
 
 **Trust modules:**
 
 | Module | Headline | Supporting copy | Proof link |
 | --- | --- | --- | --- |
 | Clinical content | Reviewed before it reaches you | Recovery education should be understandable, sourced, and reviewed before publication. | Learn about content review |
-| Privacy choices | Your data should stay understandable too | See what information REVIA may use, why it may help, and how you can manage your choices. | Read privacy principles |
+| Privacy choices | Your data should stay understandable too | See what information NIRVAN may use, why it may help, and how you can manage your choices. | Read privacy principles |
 | Accessible by design | More ways to participate | Large readable type, captions, audio guidance, reduced motion, and language foundations are part of the design system. | Explore accessibility |
 
 Do not publish a named clinician, patient testimonial, review count, or outcome statistic until it is real, consented, and verifiable. Until then, show the process rather than substituting placeholder social proof.
@@ -248,7 +248,7 @@ Do not publish a named clinician, patient testimonial, review count, or outcome 
 │                                                                              │
 │  Join the early-access list.                                                 │
 │  Receive practical recovery ideas, new resources, and an invitation when      │
-│  your REVIA pathway is ready.                                                │
+│  your NIRVAN pathway is ready.                                                │
 │                                                                              │
 │  [ Email address                         ] [ Join early access ]               │
 │                                                                              │
@@ -259,11 +259,11 @@ Do not publish a named clinician, patient testimonial, review count, or outcome 
 
 **Eyebrow:** Stay close to your recovery  
 **Heading:** Join the early-access list.  
-**Body:** Receive one practical recovery idea, new resources, and product updates as REVIA grows. We will be clear about availability before asking you to download or pay.
+**Body:** Receive one practical recovery idea, new resources, and product updates as NIRVAN grows. We will be clear about availability before asking you to download or pay.
 
 **Form labels:** Email address; I’m most interested in; optional pathway selector.  
 **Button:** Join early access  
-**Consent note:** By joining, you agree to receive REVIA updates. You can unsubscribe anytime. Read our privacy principles.
+**Consent note:** By joining, you agree to receive NIRVAN updates. You can unsubscribe anytime. Read our privacy principles.
 
 **Success message:** You’re on the list. We’ll send useful recovery resources first, then let you know when early access opens for your pathway.
 
@@ -274,32 +274,32 @@ Do not publish a named clinician, patient testimonial, review count, or outcome 
 **Purpose:** Resolve the final objections without making the homepage feel defensive.
 
 **Heading:** Questions before you begin?  
-**Body:** Here is what REVIA is, what it is not, and how we are approaching recovery support responsibly.
+**Body:** Here is what NIRVAN is, what it is not, and how we are approaching recovery support responsibly.
 
 Recommended questions:
 
 | Question | Answer direction |
 | --- | --- |
-| What is REVIA? | A digital recovery companion bringing rehabilitation, wellbeing, education, and progress together. |
-| Is REVIA available now? | Explain current pre-launch status and what early access means. |
-| Is REVIA a replacement for my doctor or physiotherapist? | No. It supports education and routines and does not replace professional care. |
+| What is NIRVAN? | A digital recovery companion bringing rehabilitation, wellbeing, education, and progress together. |
+| Is NIRVAN available now? | Explain current pre-launch status and what early access means. |
+| Is NIRVAN a replacement for my doctor or physiotherapist? | No. It supports education and routines and does not replace professional care. |
 | What pathways are being developed? | Heart, Neuro, Kidney, Liver, and wellbeing support, with scope clearly described. |
 | What happens to my information? | Explain the waitlist data, future health-data choices, privacy, export, and deletion principles. |
-| Can I use REVIA if I have accessibility needs? | Explain readable type, captions, audio, reduced motion, and language foundations. |
+| Can I use NIRVAN if I have accessibility needs? | Explain readable type, captions, audio, reduced motion, and language foundations. |
 
-**Safety boundary callout:** REVIA is not for emergencies. If someone has severe or urgent symptoms, they should contact local emergency services or a qualified healthcare professional. Do not bury this wording in tiny footer text.
+**Safety boundary callout:** NIRVAN is not for emergencies. If someone has severe or urgent symptoms, they should contact local emergency services or a qualified healthcare professional. Do not bury this wording in tiny footer text.
 
 ### 3.10 Footer
 
-The footer should be visually quiet and structurally useful. It should include the REVIA wordmark, the line **Move Forward. Live Better.**, pathway links, wellbeing and education links, **For families**, **About**, **Privacy**, **Terms**, **Medical boundary**, and the early-access CTA. Social links should be included only when official accounts exist.
+The footer should be visually quiet and structurally useful. It should include the NIRVAN wordmark, the line **Move Forward. Live Better.**, pathway links, wellbeing and education links, **For families**, **About**, **Privacy**, **Terms**, **Medical boundary**, and the early-access CTA. Social links should be included only when official accounts exist.
 
 ## 4. Complete homepage copy deck
 
 ### Metadata
 
-**Title:** REVIA — A calmer way to continue recovery at home  
-**Description:** REVIA brings recovery guidance, wellbeing check-ins, education, and understandable progress together for the days between appointments.  
-**Open Graph title:** Recovery continues at home | REVIA  
+**Title:** NIRVAN — A calmer way to continue recovery at home  
+**Description:** NIRVAN brings recovery guidance, wellbeing check-ins, education, and understandable progress together for the days between appointments.  
+**Open Graph title:** Recovery continues at home | NIRVAN  
 **Open Graph description:** Know what to do next, keep moving safely, and notice the progress that matters to you.
 
 ### Primary copy hierarchy
@@ -309,7 +309,7 @@ The footer should be visually quiet and structurally useful. It should include t
 | Brand tagline | Move Forward. Live Better. |
 | Homepage promise | Recovery continues at home. |
 | Supporting promise | A calmer way to know what to do next, keep moving safely, and notice the progress that matters to you. |
-| Functional explanation | REVIA brings rehabilitation, wellbeing, education, and progress together for the days between appointments. |
+| Functional explanation | NIRVAN brings rehabilitation, wellbeing, education, and progress together for the days between appointments. |
 | Primary CTA | Join early access |
 | Secondary CTA | Explore recovery pathways |
 | Proof line | Clinician-reviewed education · Gentle daily guidance · Support, not diagnosis |
@@ -355,7 +355,7 @@ The existing documentation is clear about the emotional territory: calm, human, 
 | `danger` | `#A7473D` | Safety or error state | Use only for genuine errors or urgent guidance. |
 | `white` | `#FFFFFF` | Cards, input fields, image frames | Use with borders or shadows for separation. |
 
-**Palette rationale:** The forest tones connect to recovery and trust without becoming hospital blue. The warm cream and clay preserve REVIA’s existing human softness. The deep ink replaces pure black for a more refined, less aggressive hierarchy. The blue is optional and reserved for informational system states rather than brand identity.
+**Palette rationale:** The forest tones connect to recovery and trust without becoming hospital blue. The warm cream and clay preserve NIRVAN’s existing human softness. The deep ink replaces pure black for a more refined, less aggressive hierarchy. The blue is optional and reserved for informational system states rather than brand identity.
 
 ### 5.2 Gradients and textures
 
@@ -446,7 +446,7 @@ Each card contains a pathway icon or abstract mark, title, one concrete outcome 
 
 ### 9.3 `ProductFrame`
 
-A reusable frame for app screenshots or prototype previews. It includes a browser/device label, optional `Preview of the REVIA experience` badge, the screen image, caption, and a fallback text description. On mobile, it becomes a full-width image frame with no decorative floating cards.
+A reusable frame for app screenshots or prototype previews. It includes a browser/device label, optional `Preview of the NIRVAN experience` badge, the screen image, caption, and a fallback text description. On mobile, it becomes a full-width image frame with no decorative floating cards.
 
 ### 9.4 `TrustModule`
 
@@ -500,7 +500,7 @@ Use a single-column narrative. Place the human visual below the hero copy but be
 | Hero | `sections/Hero.tsx` | Replace dashboard stack with editorial image plus one `ProductFrame`; update copy and launch-state CTA. |
 | Pathway selector | `sections/RecoveryPaths.tsx` | Add wellbeing as a fifth intent and make each tab change copy, visual, and CTA. |
 | Product walkthrough | `sections/ProductShowcase.tsx` + `sections/HowItWorks.tsx` | Merge into a single recovery-loop section based on Today’s Recovery. |
-| Human benefit | `sections/WhyRevia.tsx` + `sections/WellbeingSection.tsx` | Replace generic feature cards with a life-oriented editorial section and three concise outcomes. |
+| Human benefit | `sections/WhyNirvan.tsx` + `sections/WellbeingSection.tsx` | Replace generic feature cards with a life-oriented editorial section and three concise outcomes. |
 | Trust | `sections/TrustStrip.tsx` + `sections/Testimonials.tsx` | Convert labels into inspectable trust modules; remove any placeholder testimony until real consented stories exist. |
 | Education | `sections/EducationSection.tsx` | Add reviewer/review-date metadata and limit the homepage to three high-value cards. |
 | Early access | `sections/CTA.tsx` + newsletter UI | Rename the CTA, clarify the pre-launch exchange, and add robust success/error states. |
@@ -511,7 +511,7 @@ Use a single-column narrative. Place the human visual below the hero copy but be
 
 ## 13. Content guardrails
 
-REVIA should sound like a trusted guide, not an authority making promises. Prefer “support,” “help you understand,” “designed for,” “may help you prepare,” and “follow the plan provided by your healthcare professional.” Avoid “cure,” “reverse,” “guarantee,” “fix,” “clinically proven” unless the claim is supported by appropriate evidence and review. Avoid language that implies failure, delay, competition, or a universal timeline.
+NIRVAN should sound like a trusted guide, not an authority making promises. Prefer “support,” “help you understand,” “designed for,” “may help you prepare,” and “follow the plan provided by your healthcare professional.” Avoid “cure,” “reverse,” “guarantee,” “fix,” “clinically proven” unless the claim is supported by appropriate evidence and review. Avoid language that implies failure, delay, competition, or a universal timeline.
 
 The homepage should distinguish between **clinician-reviewed content** and **clinician-prescribed care**. It should also distinguish between **health information** and **medical advice**. The safety boundary should be linked from the hero trust line, the trust section, the FAQ, and the footer—not only displayed at the bottom of the page.
 
@@ -536,9 +536,9 @@ The specification above is based on the repository’s product, UX, brand, websi
 
 ## References
 
-[1]: https://github.com/hacrex/Revia/blob/main/docs/REVIA_UIUX.md "REVIA UI/UX Strategy & Product Design Specification"
-[2]: https://github.com/hacrex/Revia/blob/main/docs/REVIA_Brand_Story.md "REVIA Brand Story"
-[3]: https://github.com/hacrex/Revia/blob/main/docs/REVIA_User_Acquisition_Growth_Strategy.md "REVIA User Acquisition & Growth Strategy"
-[4]: https://github.com/hacrex/Revia/blob/main/docs/06-website/CONTENT_STRATEGY.md "REVIA Content Strategy"
-[5]: https://github.com/hacrex/Revia/blob/main/docs/06-website/PHASE_2_MARKETING_EXPANSION_PLAN.md "REVIA Phase 2 Marketing Website Expansion Plan"
-[6]: https://github.com/hacrex/Revia/blob/main/docs/08-ui/google_stitch_prompt.md "REVIA Google Stitch UI/UX Generation Prompt"
+[1]: https://github.com/hacrex/Revia/blob/main/docs/NIRVAN_UIUX.md "NIRVAN UI/UX Strategy & Product Design Specification"
+[2]: https://github.com/hacrex/Revia/blob/main/docs/NIRVAN_Brand_Story.md "NIRVAN Brand Story"
+[3]: https://github.com/hacrex/Revia/blob/main/docs/NIRVAN_User_Acquisition_Growth_Strategy.md "NIRVAN User Acquisition & Growth Strategy"
+[4]: https://github.com/hacrex/Revia/blob/main/docs/06-website/CONTENT_STRATEGY.md "NIRVAN Content Strategy"
+[5]: https://github.com/hacrex/Revia/blob/main/docs/06-website/PHASE_2_MARKETING_EXPANSION_PLAN.md "NIRVAN Phase 2 Marketing Website Expansion Plan"
+[6]: https://github.com/hacrex/Revia/blob/main/docs/08-ui/google_stitch_prompt.md "NIRVAN Google Stitch UI/UX Generation Prompt"

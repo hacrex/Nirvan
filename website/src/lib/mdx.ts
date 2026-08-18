@@ -17,7 +17,7 @@ export const samplePosts: Post[] = [
     excerpt: 'What to expect during early heart recovery, safe activity thresholds, and building daily consistency without fear.',
     category: 'Cardiac',
     date: '2026-08-10',
-    author: 'REVIA Medical Team',
+    author: 'NIRVAN Medical Team',
     reviewer: 'Dr. A. Sharma, Cardiologist',
     readTime: '4 min read',
     content: `
@@ -53,7 +53,7 @@ Consistency is far more beneficial than pushing for intensity. Starting with jus
     excerpt: 'How gentle, repeated movement patterns stimulate neural pathways to regain motor control over time.',
     category: 'Neuro',
     date: '2026-08-08',
-    author: 'REVIA Rehabilitation Specialist',
+    author: 'NIRVAN Rehabilitation Specialist',
     reviewer: 'Dr. R. Kulkarni, Neurologist',
     readTime: '6 min read',
     content: `
@@ -80,7 +80,7 @@ To stimulate neuroplastic rewiring effectively, rehabilitation routines rely on 
     excerpt: 'Practical strategies for balancing physical activity, rest intervals, and muscle function preservation.',
     category: 'Kidney',
     date: '2026-08-05',
-    author: 'REVIA Renal Care Team',
+    author: 'NIRVAN Renal Care Team',
     reviewer: 'Dr. M. Mehta, Nephrologist',
     readTime: '5 min read',
     content: `
@@ -105,7 +105,7 @@ When fatigue sets in, the natural tendency is to reduce physical activity. Howev
     excerpt: 'How light resistance exercises help combat sarcopenia and maintain independence in chronic liver conditions.',
     category: 'Liver',
     date: '2026-08-02',
-    author: 'REVIA Clinical Content Team',
+    author: 'NIRVAN Clinical Content Team',
     reviewer: 'Dr. P. Deshmukh, Hepatologist',
     readTime: '5 min read',
     content: `
@@ -130,7 +130,7 @@ In cirrhosis, the liver's ability to store glycogen and process proteins is redu
     excerpt: 'Why quality restorative rest is the cornerstone of tissue repair, memory consolidation, and motor learning.',
     category: 'Wellbeing',
     date: '2026-07-28',
-    author: 'REVIA Health Team',
+    author: 'NIRVAN Health Team',
     readTime: '4 min read',
     content: `
 # The Essential Role of Sleep in Physical Rehabilitation

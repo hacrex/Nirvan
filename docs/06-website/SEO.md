@@ -1,8 +1,8 @@
-# REVIA — SEO Strategy
+# NIRVAN — SEO Strategy
 
 ## 1. SEO Goal
 
-Build REVIA as a trusted rehabilitation and wellbeing education brand.
+Build NIRVAN as a trusted rehabilitation and wellbeing education brand.
 
 SEO should target informational and discovery intent rather than making unsupported medical claims.
 

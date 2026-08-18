@@ -1,8 +1,8 @@
-# REVIA — System Architecture
+# NIRVAN — System Architecture
 
 ## 1. Purpose
 
-Define the production architecture for the REVIA iOS/Android rehabilitation and wellbeing platform and its public marketing website.
+Define the production architecture for the NIRVAN iOS/Android rehabilitation and wellbeing platform and its public marketing website.
 
 ## 2. Architecture Principles
 

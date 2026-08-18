@@ -17,11 +17,12 @@ export const HumanBenefit: React.FC = () => {
           <div className="relative overflow-hidden rounded-[28px] border border-[#dce4dc] bg-[#eef4ee] p-5 shadow-soft sm:p-8">
             <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-white/70 blur-3xl" aria-hidden="true" />
             <Image
-              src="/illustrations/relaxing-outdoors.svg"
-              alt="Illustration of a person taking a calm moment outdoors"
+              src="/illustrations/undraw/active-support.svg"
+              alt="Illustration of people supporting one another through a recovery moment"
               width={640}
               height={520}
               className="relative h-auto w-full"
+              sizes="(max-width: 1024px) 92vw, 48vw"
             />
           </div>
 

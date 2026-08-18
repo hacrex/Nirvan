@@ -95,9 +95,28 @@ export const RecoveryPaths: React.FC = () => {
                     key={path.id}
                     type="button"
                     role="tab"
+                    id={`pathway-tab-${path.id}`}
                     aria-selected={isActive}
                     aria-controls={`pathway-panel-${path.id}`}
+                    tabIndex={isActive ? 0 : -1}
                     onClick={() => setActiveId(path.id)}
+                    onKeyDown={(event) => {
+                      const currentIndex = pathways.findIndex((item) => item.id === path.id);
+                      const nextIndex = event.key === 'ArrowRight' || event.key === 'ArrowDown'
+                        ? (currentIndex + 1) % pathways.length
+                        : event.key === 'ArrowLeft' || event.key === 'ArrowUp'
+                          ? (currentIndex - 1 + pathways.length) % pathways.length
+                          : event.key === 'Home'
+                            ? 0
+                            : event.key === 'End'
+                              ? pathways.length - 1
+                              : -1;
+                      if (nextIndex === -1) return;
+                      event.preventDefault();
+                      const nextPath = pathways[nextIndex];
+                      setActiveId(nextPath.id);
+                      document.getElementById(`pathway-tab-${nextPath.id}`)?.focus();
+                    }}
                     className={`inline-flex min-h-11 items-center gap-2 rounded-full border px-4 py-2 text-sm font-bold transition-all ${isActive ? 'border-[#285b4a] bg-[#285b4a] text-white shadow-soft' : 'border-[#cbd8ce] bg-white text-[#46514a] hover:border-[#285b4a] hover:text-[#285b4a]'}`}
                   >
                     <Icon className="h-4 w-4" aria-hidden="true" />

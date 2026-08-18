@@ -10,7 +10,7 @@ const EMAIL_ENTRY = 'entry.1162263471';
 const PATHWAY_ENTRY = 'entry.414158521';
 
 const pathwayOptions = [
-  'General REVIA updates',
+  'General NIRVAN updates',
   'Heart recovery',
   'Neuro and stroke recovery',
   'Kidney or liver recovery',
@@ -20,7 +20,7 @@ const pathwayOptions = [
 export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({ compact = false, id }) => {
   const inputId = id ?? (compact ? 'newsletter-email-footer' : 'newsletter-email-main');
   const [email, setEmail] = useState('');
-  const [pathway, setPathway] = useState('General REVIA updates');
+  const [pathway, setPathway] = useState('General NIRVAN updates');
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -46,7 +46,7 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
       });
       setStatus('success');
       setEmail('');
-      setPathway('General REVIA updates');
+      setPathway('General NIRVAN updates');
     } catch {
       setStatus('error');
       setErrorMessage('We couldn’t add you right now. Please check your email address and try again.');
@@ -63,7 +63,7 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
             type="email"
             placeholder="Email address"
             autoComplete="email"
-            aria-label="Email address for REVIA early access"
+            aria-label="Email address for NIRVAN early access"
             value={email}
             onChange={(e) => {
               setEmail(e.target.value);
@@ -105,7 +105,7 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
         </div>
       )}
 
-      <p className="text-xs leading-5 text-[#708078]">By joining, you agree to receive REVIA updates. You can unsubscribe anytime. Your response is stored by Google Forms and linked to the REVIA waitlist sheet.</p>
+      <p className="text-xs leading-5 text-[#708078]">By joining, you agree to receive NIRVAN updates. You can unsubscribe anytime. Your response is stored by Google Forms and linked to the NIRVAN waitlist sheet.</p>
     </form>
   );
 };

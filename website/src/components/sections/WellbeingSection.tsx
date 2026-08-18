@@ -69,7 +69,7 @@ export const WellbeingSection: React.FC = () => {
               Recovery is More Than Just Physical Exercise
             </h2>
             <p className="text-lg text-[#66615C] leading-relaxed">
-              Your mind is part of your recovery too. REVIA supports the emotional side of healing — mood, sleep, stress, motivation, and connection.
+              Your mind is part of your recovery too. NIRVAN supports the emotional side of healing — mood, sleep, stress, motivation, and connection.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">

@@ -1,4 +1,4 @@
-# REVIA — Mobile UX Specification
+# NIRVAN — Mobile UX Specification
 
 ## 1. UX Goal
 

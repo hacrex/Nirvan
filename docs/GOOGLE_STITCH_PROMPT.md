@@ -1,14 +1,14 @@
-# REVIA — Google Stitch UI/UX Generation Prompt
+# NIRVAN — Google Stitch UI/UX Generation Prompt
 
-> **Copy this prompt into Google Stitch to generate REVIA's mobile UI/UX designs.**
+> **Copy this prompt into Google Stitch to generate NIRVAN's mobile UI/UX designs.**
 
 ---
 
 ## System / App Identity
 
-Design a **mobile-first rehabilitation and wellbeing platform** called **REVIA** — tagline: **"Move Forward. Live Better."**
+Design a **mobile-first rehabilitation and wellbeing platform** called **NIRVAN** — tagline: **"Move Forward. Live Better."**
 
-REVIA is a patient-focused recovery companion for people recovering from cardiac events, stroke/paralysis, kidney disease, and liver conditions. It is NOT a hospital dashboard, generic fitness tracker, or AI product. It should feel like a **calm recovery companion** that helps patients understand where they are, what to do today, how they are progressing, and what they are working toward.
+NIRVAN is a patient-focused recovery companion for people recovering from cardiac events, stroke/paralysis, kidney disease, and liver conditions. It is NOT a hospital dashboard, generic fitness tracker, or AI product. It should feel like a **calm recovery companion** that helps patients understand where they are, what to do today, how they are progressing, and what they are working toward.
 
 **Platform:** iOS and Android (single design system)
 **Framework:** Flutter (Dart)
@@ -62,20 +62,20 @@ Home | Recovery | Wellbeing | Progress | Learn | Profile
 ## Screen Inventory & Specifications
 
 ### 1. SPLASH SCREEN
-- REVIA logo centered
+- NIRVAN logo centered
 - Tagline: "Move Forward. Live Better."
 - Soft gradient or solid background in brand primary color
 - Loading indicator
 
 ### 2. WELCOME SCREEN
-- Headline: "Welcome to REVIA"
+- Headline: "Welcome to NIRVAN"
 - Subtext: "Your recovery is a journey. Let's understand where you'd like to go."
 - Primary CTA: "Get Started"
 - Background: Warm, calm illustration or soft gradient
 - No overwhelming information
 
 ### 3. SIGN IN SCREEN
-- REVIA logo
+- NIRVAN logo
 - "Sign in to continue your recovery"
 - Options: Google Sign-In, Apple Sign-In, Email/Password, Phone OTP
 - "Create Account" link
@@ -131,7 +131,7 @@ Home | Recovery | Wellbeing | Progress | Learn | Profile
 **Structure:**
 ```
 ┌──────────────────────────────────┐
-│ REVIA                            │
+│ NIRVAN                            │
 │                                  │
 │ Good morning                     │
 │ One step at a time.              │
@@ -436,7 +436,7 @@ Language
 Privacy
 Data & Export
 Delete Account
-About REVIA
+About NIRVAN
 ```
 
 - Clean list layout
@@ -556,13 +556,13 @@ Reached a personal functional goal
 ## Onboarding Flow (Detailed)
 
 ### Step 1: Splash
-- REVIA logo
+- NIRVAN logo
 - "Move Forward. Live Better."
 - Auto-advance after 2-3 seconds
 
 ### Step 2: Welcome
 - Warm illustration or soft gradient background
-- "Welcome to REVIA"
+- "Welcome to NIRVAN"
 - "Your recovery is a journey. Let's understand where you'd like to go."
 - "Get Started" button
 
@@ -862,7 +862,7 @@ The UI should adapt content for the selected pathway while keeping one design sy
 
 ## Summary Statement
 
-REVIA should make recovery feel understandable, achievable, and meaningful — one step at a time. The patient should feel:
+NIRVAN should make recovery feel understandable, achievable, and meaningful — one step at a time. The patient should feel:
 
 - "I know what I need to do today."
 - "I can see how far I've come."
@@ -892,4 +892,4 @@ The design should communicate forward movement, recovery, progress, human connec
 
 ---
 
-*REVIA — Move Forward. Live Better.*
+*NIRVAN — Move Forward. Live Better.*

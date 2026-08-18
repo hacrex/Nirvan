@@ -1,10 +1,10 @@
-# REVIA — Mental Wellbeing & Depression Support Module
+# NIRVAN — Mental Wellbeing & Depression Support Module
 
 > **Whole-Person Recovery: Physical Recovery + Mental Wellbeing**
 
 ## 1. Purpose
 
-REVIA should extend beyond physical rehabilitation to support the emotional and psychological side of recovery.
+NIRVAN should extend beyond physical rehabilitation to support the emotional and psychological side of recovery.
 
 The module should be called **Mental Wellbeing**, rather than making **Depression** the primary navigation label.
 
@@ -28,7 +28,7 @@ WHO describes psychological self-help as an evidence-based, scalable approach fo
 ## 2. Product Architecture
 
 ```text
-REVIA
+NIRVAN
 │
 ├── ❤️ Heart Recovery
 ├── 🧠 Neuro Recovery
@@ -50,7 +50,7 @@ REVIA
 The long-term concept:
 
 ```text
-             REVIA
+             NIRVAN
                │
        ┌───────┴───────┐
        ↓               ↓
@@ -74,7 +74,7 @@ Liver                Sleep
 
 > **Support, don't diagnose.**
 
-REVIA should help users:
+NIRVAN should help users:
 
 - Understand their wellbeing
 - Build healthy routines
@@ -83,7 +83,7 @@ REVIA should help users:
 - Stay connected to their recovery
 - Recognize when professional support may be appropriate
 
-REVIA should not independently diagnose depression or prescribe treatment.
+NIRVAN should not independently diagnose depression or prescribe treatment.
 
 ---
 
@@ -146,7 +146,7 @@ Optional:
 
 ## 6. Hindi UX Style
 
-REVIA uses **English + Hindi**.
+NIRVAN uses **English + Hindi**.
 
 Hindi should be natural and modern, with familiar English healthcare/product terms.
 
@@ -172,7 +172,7 @@ Use gentle language:
 
 > **Feeling low for a while?**
 
-> Sometimes recovery can affect how we feel emotionally. REVIA can help you understand your wellbeing and explore self-help resources.
+> Sometimes recovery can affect how we feel emotionally. NIRVAN can help you understand your wellbeing and explore self-help resources.
 
 Buttons:
 
@@ -210,7 +210,7 @@ When to seek help
 
 WHO describes depression as more than ordinary mood changes and notes symptoms can include persistent low mood or loss of interest, sleep/appetite changes, tiredness, poor concentration, low self-worth, hopelessness and thoughts about dying. citeturn0search5
 
-REVIA should educate without diagnosing.
+NIRVAN should educate without diagnosing.
 
 ---
 
@@ -235,7 +235,7 @@ WHO's 2026 guidance also describes structured digital self-help as an evidence-b
 
 ## 10. Behavioural Activation
 
-A potential REVIA experience:
+A potential NIRVAN experience:
 
 ```text
 Low mood
@@ -250,7 +250,7 @@ More withdrawal
    ↺
 ```
 
-REVIA can encourage small, achievable actions:
+NIRVAN can encourage small, achievable actions:
 
 ```text
 What is one small thing
@@ -271,7 +271,7 @@ Do not promise that completing an activity will treat depression.
 
 ## 11. Recovery + Mental Wellbeing
 
-This can be a major REVIA differentiator.
+This can be a major NIRVAN differentiator.
 
 ```text
 Your Recovery
@@ -385,7 +385,7 @@ Repeat
 2 minutes
 ```
 
-All activities should be reviewed for appropriateness across REVIA's recovery pathways.
+All activities should be reviewed for appropriateness across NIRVAN's recovery pathways.
 
 ---
 
@@ -475,7 +475,7 @@ Display:
 
 ## 19. Screening Boundary
 
-REVIA should distinguish:
+NIRVAN should distinguish:
 
 ### Wellbeing check-in
 Allowed.
@@ -487,16 +487,16 @@ Potentially allowed with appropriate clinical review and validated instrument li
 Only implement using a validated instrument under an appropriate clinical and legal framework.
 
 ### Diagnosis
-Not performed by REVIA.
+Not performed by NIRVAN.
 
 ### Treatment decision
-Not performed by REVIA unless appropriately regulated and clinically supervised.
+Not performed by NIRVAN unless appropriately regulated and clinically supervised.
 
 ---
 
 ## 20. Validated Questionnaires
 
-If REVIA later implements screening, possible instruments include:
+If NIRVAN later implements screening, possible instruments include:
 
 - PHQ-2
 - PHQ-9
@@ -537,7 +537,7 @@ Self-help        Human support pathway
                      guidance
 ```
 
-REVIA should never depend solely on an AI model to determine whether someone is in danger.
+NIRVAN should never depend solely on an AI model to determine whether someone is in danger.
 
 ---
 
@@ -582,7 +582,7 @@ AI should not be presented as:
 
 Preferred positioning:
 
-# **REVIA Companion**
+# **NIRVAN Companion**
 
 It can help with:
 
@@ -592,7 +592,7 @@ It can help with:
 - Navigation
 - Summarizing logged wellbeing data
 - Encouragement
-- Finding relevant REVIA resources
+- Finding relevant NIRVAN resources
 
 ---
 
@@ -602,7 +602,7 @@ User:
 
 > "I'm feeling low today."
 
-REVIA:
+NIRVAN:
 
 > **I'm sorry today feels difficult. Would you like to tell me a little more about what's making today harder?**
 
@@ -704,7 +704,7 @@ Never use guilt or fear to drive engagement.
 
 Mental-health information is highly sensitive.
 
-REVIA should:
+NIRVAN should:
 
 - Minimize collection
 - Encrypt data in transit and at rest
@@ -850,7 +850,7 @@ Avoid promises such as:
 
 ---
 
-## 34. Integration Across REVIA
+## 34. Integration Across NIRVAN
 
 Mental wellbeing should appear throughout the app.
 
@@ -887,7 +887,7 @@ Mental wellbeing should feel integrated, not bolted on.
 
 ## 35. Exercise + Mental Wellbeing
 
-Physical activity can be part of a broader recovery routine, but REVIA must not imply that exercise alone treats depression.
+Physical activity can be part of a broader recovery routine, but NIRVAN must not imply that exercise alone treats depression.
 
 Example:
 
@@ -961,7 +961,7 @@ Every mental-health article should be checked for:
 
 > **आपने आज की दो activities पूरी कर ली हैं। आपकी mobility exercise अभी बाकी है।**
 
-This is the preferred REVIA Hindi style:
+This is the preferred NIRVAN Hindi style:
 
 > **Natural Hindi + familiar English healthcare terms.**
 
@@ -1081,7 +1081,7 @@ Next Check-in
 
 ---
 
-## 43. What REVIA Should Never Do
+## 43. What NIRVAN Should Never Do
 
 Do not:
 
@@ -1107,13 +1107,13 @@ WHO recommends structured psychological interventions for depression, including 
 
 WHO's 2026 psychological self-help guidance describes structured self-help as an evidence-based, scalable approach and includes the **Step-by-Step** depression intervention and **Doing What Matters in Times of Stress**. citeturn0search0turn0search1
 
-The WHO 2026 self-help manual is available under a CC BY-NC-SA 3.0 IGO licence; commercial use requires permission. Do not copy WHO intervention content directly into a commercial REVIA product without confirming licensing and permissions. citeturn0search7
+The WHO 2026 self-help manual is available under a CC BY-NC-SA 3.0 IGO licence; commercial use requires permission. Do not copy WHO intervention content directly into a commercial NIRVAN product without confirming licensing and permissions. citeturn0search7
 
 ---
 
 ## 45. Research & Validation Strategy
 
-Before positioning REVIA as a depression treatment product:
+Before positioning NIRVAN as a depression treatment product:
 
 ```text
 Prototype
@@ -1179,7 +1179,7 @@ Clinical metrics should be defined with qualified mental-health professionals an
 
 ## 47. Positioning
 
-Do not call REVIA:
+Do not call NIRVAN:
 
 - AI Therapist
 - Depression Cure App
@@ -1188,7 +1188,7 @@ Do not call REVIA:
 
 Instead:
 
-# **REVIA Mental Wellbeing**
+# **NIRVAN Mental Wellbeing**
 
 Supporting message:
 
@@ -1208,7 +1208,7 @@ Primary:
 
 Supporting:
 
-> **REVIA supports your physical recovery and mental wellbeing in one journey.**
+> **NIRVAN supports your physical recovery and mental wellbeing in one journey.**
 
 Then:
 
@@ -1228,7 +1228,7 @@ CTA:
 
 ## 49. Final Product Vision
 
-REVIA evolves from:
+NIRVAN evolves from:
 
 ```text
 Rehabilitation App
@@ -1237,7 +1237,7 @@ Rehabilitation App
 into:
 
 ```text
-                    REVIA
+                    NIRVAN
                       │
              Recovery Companion
                       │
@@ -1264,7 +1264,7 @@ Liver                           Sleep
 
 ## 50. Final UX Statement
 
-> **REVIA should help people recover as a whole person — not just as a body.**
+> **NIRVAN should help people recover as a whole person — not just as a body.**
 
 Physical recovery matters.
 
@@ -1276,7 +1276,7 @@ Connection matters.
 
 Progress matters.
 
-And when someone needs professional mental-health care, REVIA should make that next step **clear, safe and easy**.
+And when someone needs professional mental-health care, NIRVAN should make that next step **clear, safe and easy**.
 
-# REVIA
+# NIRVAN
 ## **Move Forward. Live Better.**

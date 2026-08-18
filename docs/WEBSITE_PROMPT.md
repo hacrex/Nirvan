@@ -1,13 +1,13 @@
-# REVIA — Marketing Website Prompt (Antigravity + Stitch)
+# NIRVAN — Marketing Website Prompt (Antigravity + Stitch)
 
-> **Copy this into Google Antigravity to build the REVIA marketing website.**
+> **Copy this into Google Antigravity to build the NIRVAN marketing website.**
 > **Prerequisites:** Stitch MCP configured (optional, for design generation).
 
 ---
 
 ## PROJECT OVERVIEW
 
-Build the REVIA marketing website — the public acquisition, education, trust, and communication layer. The website should share the same brand system and color palette as the mobile app.
+Build the NIRVAN marketing website — the public acquisition, education, trust, and communication layer. The website should share the same brand system and color palette as the mobile app.
 
 **Tech stack:** Next.js 14+, TypeScript, Tailwind CSS, MDX or headless CMS
 
@@ -129,7 +129,7 @@ src/components/
 ├── sections/
 │   ├── Hero.tsx            # Homepage hero
 │   ├── RecoveryPaths.tsx   # 4 pathway cards
-│   ├── WhyRevia.tsx        # Value proposition
+│   ├── WhyNirvan.tsx        # Value proposition
 │   ├── HowItWorks.tsx      # 3-step process
 │   ├── Features.tsx        # Feature grid
 │   ├── Testimonials.tsx    # Patient stories (placeholder)
@@ -152,7 +152,7 @@ Build the homepage with these sections:
 
 1. HERO
    - Headline: "Move Forward. Live Better."
-   - Subtext: "Rehabilitation is a journey, not a single exercise or appointment. REVIA brings recovery, wellbeing, education and progress together to help you move forward — one step at a time."
+   - Subtext: "Rehabilitation is a journey, not a single exercise or appointment. NIRVAN brings recovery, wellbeing, education and progress together to help you move forward — one step at a time."
    - Primary CTA: "Start Your Journey" (links to download)
    - Secondary CTA: "Explore Rehabilitation" (links to /rehabilitation)
    - Background: Soft gradient or subtle illustration
@@ -167,15 +167,15 @@ Build the homepage with these sections:
      - 🫀 Liver — "Cirrhosis-related functional decline, muscle preservation, nutrition education, physical rehabilitation"
    - Each card links to its dedicated page
 
-3. WHY REVIA
-   - Section title: "Why REVIA?"
+3. WHY NIRVAN
+   - Section title: "Why NIRVAN?"
    - 3-column grid:
      - "Your Recovery, Connected" — Recovery plans, exercises, wellbeing, education in one place
      - "Progress You Can See" — Track meaningful progress, not just numbers
      - "Built for Real Life" — Offline support, voice accessibility, multilingual
 
 4. HOW IT WORKS
-   - Section title: "How REVIA Works"
+   - Section title: "How NIRVAN Works"
    - 3 steps:
      1. "Choose Your Path" — Select your recovery pathway and set your goals
      2. "Follow Your Plan" — Guided exercises, daily check-ins, education
@@ -194,7 +194,7 @@ Build the homepage with these sections:
 6. WELLBEING
    - Section title: "Recovery Is More Than Exercise"
    - Text + illustration
-   - "Sleep, mood, nutrition, mindfulness — REVIA supports your whole journey."
+   - "Sleep, mood, nutrition, mindfulness — NIRVAN supports your whole journey."
 
 7. EDUCATION
    - Section title: "Learn About Your Recovery"
@@ -214,15 +214,15 @@ Build the homepage with these sections:
 10. FAQ
     - Section title: "Frequently Asked Questions"
     - 5-6 accordion items:
-      - What is REVIA?
-      - Is REVIA a replacement for my doctor?
-      - Is REVIA free?
-      - What conditions does REVIA support?
-      - Does REVIA work offline?
-      - How does REVIA protect my privacy?
+      - What is NIRVAN?
+      - Is NIRVAN a replacement for my doctor?
+      - Is NIRVAN free?
+      - What conditions does NIRVAN support?
+      - Does NIRVAN work offline?
+      - How does NIRVAN protect my privacy?
 
 11. MEDICAL DISCLAIMER
-    - "REVIA provides clinician-reviewed educational content and rehabilitation support. It does not diagnose medical conditions, prescribe medication, replace healthcare professionals, or provide emergency services."
+    - "NIRVAN provides clinician-reviewed educational content and rehabilitation support. It does not diagnose medical conditions, prescribe medication, replace healthcare professionals, or provide emergency services."
 
 12. FOOTER
     - Logo + tagline
@@ -282,7 +282,7 @@ Build these pages with consistent layout:
 Each page layout:
 1. Hero section (headline, subtext, CTA)
 2. What is [condition] recovery?
-3. How REVIA helps
+3. How NIRVAN helps
 4. Key features/modules
 5. App download CTA
 6. Related articles
@@ -308,7 +308,7 @@ Each page layout:
   - Links to articles, guides, videos, FAQs
 
 /about
-  - "About REVIA"
+  - "About NIRVAN"
   - Brand story, mission, philosophy
   - "Every step forward matters."
   - Team/founders placeholder
@@ -348,7 +348,7 @@ Each page layout:
 
 /medical-disclaimer
   - Full medical disclaimer
-  - "REVIA is not a medical device"
+  - "NIRVAN is not a medical device"
   - "Always consult your healthcare professional"
   - "Not for emergency use"
   - Clinical content review process
@@ -388,7 +388,7 @@ Implement on every page:
 ```
 1. Semantic HTML (proper heading hierarchy, landmarks)
 2. Metadata:
-   - title template: "%s | REVIA - Move Forward. Live Better."
+   - title template: "%s | NIRVAN - Move Forward. Live Better."
    - description (150-160 chars)
    - keywords
    - Open Graph (og:title, og:description, og:image, og:url)
@@ -502,4 +502,4 @@ Analytics:
 
 ---
 
-*REVIA — Move Forward. Live Better.*
+*NIRVAN — Move Forward. Live Better.*

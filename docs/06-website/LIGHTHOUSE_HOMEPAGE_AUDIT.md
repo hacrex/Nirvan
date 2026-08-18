@@ -1,4 +1,4 @@
-# REVIA Homepage Lighthouse Audit
+# NIRVAN Homepage Lighthouse Audit
 
 **Audit target:** Local static production export at `http://localhost:3001/`  
 **Audit tool:** Lighthouse 12.8.2  
@@ -7,7 +7,7 @@
 
 ## Executive summary
 
-The production-export audit is strong overall. Revia scores **98 Performance, 92 Accessibility, 100 Best Practices, and 100 SEO**. The remaining bottlenecks are concentrated in accessibility polish and repeat-visit caching rather than fundamental page architecture.
+The production-export audit is strong overall. Nirvan scores **98 Performance, 92 Accessibility, 100 Best Practices, and 100 SEO**. The remaining bottlenecks are concentrated in accessibility polish and repeat-visit caching rather than fundamental page architecture.
 
 The most important fixes are straightforward: remove prohibited `aria-label` attributes from plain `div` progress bars by giving them valid progressbar semantics, correct low-contrast metadata and microcopy, change the disclaimer heading from `h4` to a sequential heading level, and configure long-lived caching for hashed static assets at the deployment layer. The largest performance opportunity is approximately **29 KB of unused JavaScript**, with a smaller **13 KB legacy-JavaScript** opportunity.
 
@@ -106,4 +106,4 @@ Lighthouse returned a **100 SEO score** with no remaining SEO audit failures. Th
 [2]: https://web.dev/articles/vitals "Web Vitals"
 [3]: https://www.w3.org/TR/WCAG22/ "Web Content Accessibility Guidelines (WCAG) 2.2"
 [4]: https://nextjs.org/docs/app/building-your-application/optimizing/images "Next.js Image Optimization"
-[5]: https://github.com/hacrex/Revia/blob/main/docs/06-website/FRONTEND_PERFORMANCE_ACCESSIBILITY.md "REVIA Frontend Performance, Accessibility & Illustration Review"
+[5]: https://github.com/hacrex/Revia/blob/main/docs/06-website/FRONTEND_PERFORMANCE_ACCESSIBILITY.md "NIRVAN Frontend Performance, Accessibility & Illustration Review"

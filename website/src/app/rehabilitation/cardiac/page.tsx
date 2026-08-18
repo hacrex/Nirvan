@@ -40,7 +40,7 @@ export default function CardiacRehabPage() {
     <>
       <RehabHero
         title="Cardiac Rehabilitation"
-        subtitle="Recover safely after a cardiac event or heart procedure. REVIA helps you rebuild cardiovascular endurance, track vital signs, and restore confidence step by step."
+        subtitle="Recover safely after a cardiac event or heart procedure. NIRVAN helps you rebuild cardiovascular endurance, track vital signs, and restore confidence step by step."
         badge="Cardiac Recovery"
         icon={<Heart className="w-4 h-4 text-[#C0564B]" />}
         breadcrumbs={[
@@ -60,7 +60,7 @@ export default function CardiacRehabPage() {
                 Cardiac rehabilitation is a medically supervised program designed to improve cardiovascular health following a heart attack, angioplasty, heart surgery, or heart failure diagnosis. Consistent, safe physical activity combined with lifestyle support is key to preventing future cardiac events and regaining vitality.
               </p>
 
-              <h3 className="text-xl font-bold text-[#2D2A26] pt-4">How REVIA Supports Your Heart</h3>
+              <h3 className="text-xl font-bold text-[#2D2A26] pt-4">How NIRVAN Supports Your Heart</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Card className="p-5 space-y-2">
                   <div className="flex items-center gap-2 font-bold text-[#2D2A26]">

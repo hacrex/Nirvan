@@ -276,7 +276,7 @@ export default function StressPage() {
               <div className="space-y-2">
                 <h3 className="font-bold text-[#2D2A26]">When Stress Feels Unmanageable</h3>
                 <p className="text-sm text-[#66615C] leading-relaxed">
-                  If stress or anxiety feels overwhelming, persists for weeks, interferes with daily life, or includes thoughts of self-harm, please reach out to a qualified healthcare professional. REVIA is not a substitute for professional mental health care.
+                  If stress or anxiety feels overwhelming, persists for weeks, interferes with daily life, or includes thoughts of self-harm, please reach out to a qualified healthcare professional. NIRVAN is not a substitute for professional mental health care.
                 </p>
               </div>
             </div>

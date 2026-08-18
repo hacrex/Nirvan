@@ -112,7 +112,7 @@ export const Hero: React.FC = () => {
 
             <div className="absolute -bottom-6 -right-4 hidden max-w-[190px] rounded-2xl border border-[#b9cbbb] bg-[#ffffff]/95 p-4 shadow-soft sm:block motion-float motion-float-slow">
               <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#285b4a]">Preview</p>
-              <p className="mt-2 text-sm leading-5 text-[#46514a]">A glimpse of the REVIA experience.</p>
+              <p className="mt-2 text-sm leading-5 text-[#46514a]">A glimpse of the NIRVAN experience.</p>
             </div>
           </div>
         </div>

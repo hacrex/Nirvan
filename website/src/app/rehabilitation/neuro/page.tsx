@@ -40,7 +40,7 @@ export default function NeuroRehabPage() {
     <>
       <RehabHero
         title="Neuro & Stroke Recovery"
-        subtitle="Regain mobility, motor function, balance, and independence. REVIA guides your neuro-rehabilitation with repetitive movement routines built on neuroplasticity principles."
+        subtitle="Regain mobility, motor function, balance, and independence. NIRVAN guides your neuro-rehabilitation with repetitive movement routines built on neuroplasticity principles."
         badge="Neuro & Motor"
         icon={<Brain className="w-4 h-4 text-[#5B8FB9]" />}
         breadcrumbs={[

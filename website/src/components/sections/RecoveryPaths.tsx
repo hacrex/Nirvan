@@ -85,7 +85,7 @@ export const RecoveryPaths: React.FC = () => {
           <div className="max-w-xl lg:sticky lg:top-32">
             <p className="eyebrow text-[#285b4a]">Find your next step</p>
             <h2 className="mt-4 text-4xl font-bold leading-[1.06] tracking-[-0.045em] text-[#1f2a24] sm:text-5xl">Where would a little more support help right now?</h2>
-            <p className="mt-5 text-lg leading-8 text-[#46514a]">REVIA keeps one calm design system while adapting the guidance, education, activities, and progress signals to your recovery pathway.</p>
+            <p className="mt-5 text-lg leading-8 text-[#46514a]">NIRVAN keeps one calm design system while adapting the guidance, education, activities, and progress signals to your recovery pathway.</p>
             <div className="mt-8 flex flex-wrap gap-2" role="tablist" aria-label="Recovery pathways">
               {pathways.map((path) => {
                 const Icon = path.icon;

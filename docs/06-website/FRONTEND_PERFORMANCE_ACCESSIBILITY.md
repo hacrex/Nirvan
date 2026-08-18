@@ -1,6 +1,6 @@
-# REVIA Frontend Performance, Accessibility & Illustration Review
+# NIRVAN Frontend Performance, Accessibility & Illustration Review
 
-**Review scope:** Homepage redesign branch `manus/revia-homepage-redesign`  
+**Review scope:** Homepage redesign branch `manus/nirvan-homepage-redesign`  
 **Review date:** 18 August 2026
 
 ## Executive summary
@@ -16,7 +16,7 @@ The first optimization pass addresses those issues while keeping the page archit
 | Progressive enhancement | Scroll reveal now leaves content visible by default, prepares animation only after hydration, and reveals immediately for reduced-motion users. | Prevents invisible sections when JavaScript fails or motion is disabled. |
 | Animation cleanup | IntersectionObserver timers are cleared during cleanup. | Prevents delayed callbacks after unmount and reduces avoidable work. |
 | Image delivery | Hero, human-benefit, and trust illustrations now use local SVGs with responsive `sizes` hints. | Helps the image component select appropriate dimensions by viewport. |
-| Control consistency | Button and Input primitives now use the Revia semantic palette, visible focus rings, minimum touch sizes, and invalid-state semantics. | Improves contrast consistency and keyboard/form feedback. |
+| Control consistency | Button and Input primitives now use the Nirvan semantic palette, visible focus rings, minimum touch sizes, and invalid-state semantics. | Improves contrast consistency and keyboard/form feedback. |
 | Human-centered visuals | Added recolored official unDraw assets for Walking Together, Active Support, and Progress Overview. | Gives the page a more human visual language without introducing raster weight. |
 
 ## Remaining performance recommendations
@@ -69,7 +69,7 @@ Links that navigate should remain links. Buttons that change pathway content or 
 
 ### Test zoom, dynamic text, and reduced motion
 
-Test at 200% browser zoom, text-only enlargement, keyboard navigation, screen-reader reading order, and `prefers-reduced-motion: reduce`. WCAG 2.2 requires content to remain operable and understandable across these presentation changes; the Revia mobile design system also calls for readable type, captions or alternatives for media, visible labels, and no gesture-only interaction.[3] [4]
+Test at 200% browser zoom, text-only enlargement, keyboard navigation, screen-reader reading order, and `prefers-reduced-motion: reduce`. WCAG 2.2 requires content to remain operable and understandable across these presentation changes; the Nirvan mobile design system also calls for readable type, captions or alternatives for media, visible labels, and no gesture-only interaction.[3] [4]
 
 ## Illustration inventory and license record
 
@@ -92,4 +92,4 @@ The next frontend hardening sprint should focus on mobile-menu focus management,
 [1]: https://nextjs.org/docs/app/building-your-application/optimizing/images "Next.js Image Optimization"
 [2]: https://web.dev/articles/vitals "Web Vitals"
 [3]: https://www.w3.org/TR/WCAG22/ "Web Content Accessibility Guidelines (WCAG) 2.2"
-[4]: https://github.com/hacrex/Revia/blob/main/docs/03-mobile/DESIGN_SYSTEM.md "REVIA Shared Design System"
+[4]: https://github.com/hacrex/Revia/blob/main/docs/03-mobile/DESIGN_SYSTEM.md "NIRVAN Shared Design System"

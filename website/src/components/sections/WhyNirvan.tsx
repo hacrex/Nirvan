@@ -3,7 +3,7 @@ import { PageContainer } from '../layout/PageContainer';
 import { Card } from '../ui/Card';
 import { Link2, LineChart, WifiOff } from 'lucide-react';
 
-export const WhyRevia: React.FC = () => {
+export const WhyNirvan: React.FC = () => {
   const values = [
     {
       icon: <Link2 className="w-8 h-8 text-[#436444]" />,
@@ -30,10 +30,10 @@ export const WhyRevia: React.FC = () => {
             Our Philosophy
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#2D2A26] tracking-tight">
-            Why Choose REVIA?
+            Why Choose NIRVAN?
           </h2>
           <p className="text-lg text-[#66615C] leading-relaxed">
-            REVIA is built around empathy, clinical responsibility, and consistency. Designed to feel like a calm companion rather than a hospital dashboard.
+            NIRVAN is built around empathy, clinical responsibility, and consistency. Designed to feel like a calm companion rather than a hospital dashboard.
           </p>
         </div>
 

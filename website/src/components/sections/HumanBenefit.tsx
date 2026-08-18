@@ -29,7 +29,7 @@ export const HumanBenefit: React.FC = () => {
           <div className="max-w-xl">
             <p className="eyebrow text-[#285b4a]">From recovery to everyday life</p>
             <h2 className="mt-4 text-4xl font-bold leading-[1.06] tracking-[-0.045em] text-[#1f2a24] sm:text-5xl">Recovery is not only about completing an exercise. It is about getting closer to everyday life.</h2>
-            <p className="mt-6 text-lg leading-8 text-[#46514a]">One more step. One more repetition. One better night of sleep. One thing you can do more independently. REVIA is being designed to help you understand those moments and keep moving forward without pressure or comparison.</p>
+            <p className="mt-6 text-lg leading-8 text-[#46514a]">One more step. One more repetition. One better night of sleep. One thing you can do more independently. NIRVAN is being designed to help you understand those moments and keep moving forward without pressure or comparison.</p>
 
             <div className="mt-8 space-y-4 border-t border-[#dce4dc] pt-6">
               {benefits.map(([title, detail]) => (
@@ -41,7 +41,7 @@ export const HumanBenefit: React.FC = () => {
             </div>
 
             <Link href="/about" className="mt-8 inline-flex items-center gap-2 text-sm font-bold text-[#285b4a] hover:text-[#173d32]">
-              Read how REVIA is designed <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              Read how NIRVAN is designed <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           </div>
         </div>

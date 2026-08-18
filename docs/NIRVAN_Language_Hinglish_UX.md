@@ -1,10 +1,10 @@
-# REVIA — English & Hindi Language UX Specification
+# NIRVAN — English & Hindi Language UX Specification
 
 > **Move Forward. Live Better.**
 
 ## 1. Purpose
 
-REVIA will support Indian users with two language options:
+NIRVAN will support Indian users with two language options:
 
 - **English**
 - **हिन्दी (Hindi)**
@@ -13,7 +13,7 @@ The language choice appears **when the app starts, before Sign Up or Login**.
 
 The objective is simple:
 
-> **Make REVIA easy to understand in both English and natural, modern Hindi.**
+> **Make NIRVAN easy to understand in both English and natural, modern Hindi.**
 
 Hindi should not be overly formal or Sanskritized. Familiar healthcare and product terms may remain in English when that makes the sentence clearer.
 
@@ -21,14 +21,14 @@ Example:
 
 > **आपने आज की दो activities पूरी कर ली हैं। आपकी mobility exercise अभी बाकी है।**
 
-This is the preferred Hindi style for REVIA.
+This is the preferred Hindi style for NIRVAN.
 
 ---
 
 # 2. First-Launch Flow
 
 ```text
-REVIA Splash
+NIRVAN Splash
      ↓
 Choose Your Language
      ↓
@@ -52,7 +52,7 @@ Today's Recovery
 ```text
 ┌──────────────────────────────┐
 │                              │
-│            REVIA             │
+│            NIRVAN             │
 │                              │
 │      Move Forward.           │
 │        Live Better.          │
@@ -101,7 +101,7 @@ Never translate the brand name.
 
 Always:
 
-# **REVIA**
+# **NIRVAN**
 
 Pronunciation:
 
@@ -121,7 +121,7 @@ The English tagline should remain the primary global brand expression.
 
 # 6. Hindi Writing Philosophy
 
-REVIA Hindi should be:
+NIRVAN Hindi should be:
 
 - Natural
 - Modern
@@ -145,7 +145,7 @@ Avoid unnecessarily formal Hindi.
 
 # 7. Hindi + Familiar English Terms
 
-REVIA should allow commonly understood English healthcare/product words inside Hindi sentences.
+NIRVAN should allow commonly understood English healthcare/product words inside Hindi sentences.
 
 ### Example
 
@@ -239,7 +239,7 @@ The objective is:
 # 10. English Login
 
 ```text
-REVIA
+NIRVAN
 
 Welcome back 👋
 
@@ -258,7 +258,7 @@ Sign Up
 # 11. Hindi Login
 
 ```text
-REVIA
+NIRVAN
 
 वापसी पर आपका स्वागत है 👋
 
@@ -279,7 +279,7 @@ Notice that common terms such as **login, recovery journey, Google, Email and Si
 # 12. English Sign Up
 
 ```text
-Create your REVIA account
+Create your NIRVAN account
 
 Start your recovery journey.
 
@@ -300,7 +300,7 @@ Login
 # 13. Hindi Sign Up
 
 ```text
-अपना REVIA account बनाएँ
+अपना NIRVAN account बनाएँ
 
 अपनी recovery journey शुरू करें।
 
@@ -322,7 +322,7 @@ Login
 
 ### Welcome
 
-> **Welcome to REVIA 👋**
+> **Welcome to NIRVAN 👋**
 
 > Your recovery is a journey. Let's understand where you'd like to go.
 
@@ -364,7 +364,7 @@ Example:
 
 ### Welcome
 
-> **REVIA में आपका स्वागत है 👋**
+> **NIRVAN में आपका स्वागत है 👋**
 
 > **आपकी recovery एक journey है। आइए समझते हैं कि आप कहाँ पहुँचना चाहते हैं।**
 
@@ -408,7 +408,7 @@ Example:
 # 16. Home — English
 
 ```text
-REVIA
+NIRVAN
 
 Good morning 👋
 
@@ -448,7 +448,7 @@ YOUR PROGRESS
 # 17. Home — Hindi
 
 ```text
-REVIA
+NIRVAN
 
 सुप्रभात 👋
 
@@ -791,7 +791,7 @@ Prefer:
 
 # 27. Preferred Hindi Sentence Style
 
-REVIA Hindi should follow:
+NIRVAN Hindi should follow:
 
 ```text
 Natural Hindi
@@ -853,7 +853,7 @@ User:
 
 > **आज मेरा recovery plan क्या है?**
 
-REVIA:
+NIRVAN:
 
 > **आज आपके 3 activities हैं। पहली Mobility exercise है, जो लगभग 8 minutes की है।**
 
@@ -998,7 +998,7 @@ Show it only when:
 
 # 36. Marketing Website
 
-The REVIA website should initially support:
+The NIRVAN website should initially support:
 
 ```text
 English
@@ -1127,7 +1127,7 @@ The localization architecture should support additional Indian languages without
 # 42. Recommended Startup Experience
 
 ```text
-                 REVIA
+                 NIRVAN
                    │
                    ↓
           Choose your language
@@ -1167,7 +1167,7 @@ The reference sentence for the entire Hindi UX is:
 
 Keep:
 
-**REVIA**
+**NIRVAN**
 
 Pronunciation:
 
@@ -1181,11 +1181,11 @@ Keep the global tagline:
 
 # 44. Final UX Statement
 
-> **REVIA should speak the user's language — clearly, naturally and respectfully.**
+> **NIRVAN should speak the user's language — clearly, naturally and respectfully.**
 
 Whether the user chooses English or Hindi, the experience should remain:
 
 **Clear. Calm. Human. Respectful. Easy to understand.**
 
-# REVIA
+# NIRVAN
 ## **Move Forward. Live Better.**

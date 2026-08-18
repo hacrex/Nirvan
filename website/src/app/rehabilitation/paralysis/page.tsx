@@ -53,7 +53,7 @@ export default function ParalysisRehabPage() {
                 Preserving Function & Mobility
               </h2>
               <p className="text-[#66615C] leading-relaxed text-base">
-                Whether recovering from partial paralysis (hemiparesis) or managing chronic mobility limitations, preserving joint flexibility, muscle tone, and core trunk control is critical. REVIA offers safe, step-by-step guidance tailored to your functional mobility level.
+                Whether recovering from partial paralysis (hemiparesis) or managing chronic mobility limitations, preserving joint flexibility, muscle tone, and core trunk control is critical. NIRVAN offers safe, step-by-step guidance tailored to your functional mobility level.
               </p>
 
               <RehabModules modules={modules} />

@@ -17,7 +17,7 @@ export const CTA: React.FC = () => {
           <div className="max-w-xl">
             <p className="eyebrow text-[#c66b4a]">Stay close to your recovery</p>
             <h2 className="mt-4 text-4xl font-bold leading-[1.06] tracking-[-0.045em] text-[#1f2a24] sm:text-5xl">Join the early-access list.</h2>
-            <p className="mt-5 text-lg leading-8 text-[#46514a]">Receive one practical recovery idea, new resources, and product updates as REVIA grows. We will be clear about availability before asking you to download or pay.</p>
+            <p className="mt-5 text-lg leading-8 text-[#46514a]">Receive one practical recovery idea, new resources, and product updates as NIRVAN grows. We will be clear about availability before asking you to download or pay.</p>
             <div className="mt-7 space-y-3 text-sm font-semibold text-[#285b4a]">
               {promises.map((promise) => <p key={promise} className="flex items-center gap-3"><CheckCircle2 className="h-5 w-5" aria-hidden="true" /> {promise}</p>)}
             </div>

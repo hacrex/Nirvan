@@ -1,11 +1,10 @@
 import type { MetadataRoute } from 'next';
+import { siteUrl } from '@/lib/site';
 
 export const dynamic = 'force-static';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.GITHUB_PAGES === 'true'
-    ? 'https://hacrex.github.io/Revia'
-    : 'https://reviarecovery.com';
+  const baseUrl = siteUrl;
 
   return {
     rules: {

@@ -44,12 +44,12 @@ export default function DepressionSupportPage() {
   const selfHelpResources = [
     {
       title: 'Behavioural Activation',
-      description: 'When mood is low, activity decreases — which can lower positive experiences. Small, achievable actions help break this cycle. REVIA encourages gentle steps like a short walk, calling someone, or sitting outside.',
+      description: 'When mood is low, activity decreases — which can lower positive experiences. Small, achievable actions help break this cycle. NIRVAN encourages gentle steps like a short walk, calling someone, or sitting outside.',
       icon: <CheckCircle2 className="w-5 h-5 text-[#4A7C59]" />,
     },
     {
       title: 'Problem Solving',
-      description: 'Breaking down challenges into smaller, manageable pieces. REVIA can help you identify one small step you can take today.',
+      description: 'Breaking down challenges into smaller, manageable pieces. NIRVAN can help you identify one small step you can take today.',
       icon: <CheckCircle2 className="w-5 h-5 text-[#4A7C59]" />,
     },
     {
@@ -108,12 +108,12 @@ export default function DepressionSupportPage() {
               </h1>
 
               <p className="text-lg text-[#66615C] leading-relaxed max-w-2xl">
-                Sometimes recovery can affect how we feel emotionally. REVIA can help you understand your wellbeing, explore self-help resources, and know when professional support may be appropriate.
+                Sometimes recovery can affect how we feel emotionally. NIRVAN can help you understand your wellbeing, explore self-help resources, and know when professional support may be appropriate.
               </p>
 
               <div className="flex items-center gap-2 text-xs text-[#66615C] font-medium pt-2">
                 <ShieldCheck className="w-4 h-4 text-[#436444]" />
-                <span>Support, not diagnosis. REVIA does not diagnose depression or prescribe treatment.</span>
+                <span>Support, not diagnosis. NIRVAN does not diagnose depression or prescribe treatment.</span>
               </div>
             </div>
           </div>
@@ -160,7 +160,7 @@ export default function DepressionSupportPage() {
               What Self-Help Can Do
             </h2>
             <p className="text-[#66615C] leading-relaxed">
-              WHO recommends structured psychological interventions for depression, including behavioural activation, CBT, interpersonal therapy, and problem-solving approaches. REVIA provides gentle, evidence-informed support.
+              WHO recommends structured psychological interventions for depression, including behavioural activation, CBT, interpersonal therapy, and problem-solving approaches. NIRVAN provides gentle, evidence-informed support.
             </p>
           </div>
 
@@ -190,7 +190,7 @@ export default function DepressionSupportPage() {
                 How Physical Recovery & Mental Wellbeing Interact
               </h2>
               <p className="text-[#66615C] leading-relaxed">
-                Physical recovery and mental wellbeing are deeply connected. Exercise can support mood, but REVIA must not imply that exercise alone treats depression. Recovery has emotional highs and lows — all feelings are valid.
+                Physical recovery and mental wellbeing are deeply connected. Exercise can support mood, but NIRVAN must not imply that exercise alone treats depression. Recovery has emotional highs and lows — all feelings are valid.
               </p>
 
               <div className="space-y-3 pt-2">
@@ -251,7 +251,7 @@ export default function DepressionSupportPage() {
                 When Low Mood May Need Professional Support
               </h2>
               <p className="text-[#66615C] leading-relaxed">
-                REVIA helps with self-awareness and self-help, but some situations need professional support. If you experience any of the following, please reach out to a qualified healthcare professional.
+                NIRVAN helps with self-awareness and self-help, but some situations need professional support. If you experience any of the following, please reach out to a qualified healthcare professional.
               </p>
 
               <div className="pt-4">
@@ -309,7 +309,7 @@ export default function DepressionSupportPage() {
               </div>
 
               <p className="text-xs text-[#66615C] italic text-center">
-                Crisis and emergency contact information must be country-specific and verified. REVIA will provide verified official resources for your region.
+                Crisis and emergency contact information must be country-specific and verified. NIRVAN will provide verified official resources for your region.
               </p>
             </Card>
           </div>

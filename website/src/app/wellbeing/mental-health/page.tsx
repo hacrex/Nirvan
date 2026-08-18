@@ -57,7 +57,7 @@ export default function MentalHealthPage() {
     {
       icon: <Users className="w-6 h-6 text-[#436444]" />,
       title: 'Social Connection',
-      description: 'Recovery is easier when you feel connected. REVIA supports gentle outreach to family, friends, healthcare professionals, or recovery groups.',
+      description: 'Recovery is easier when you feel connected. NIRVAN supports gentle outreach to family, friends, healthcare professionals, or recovery groups.',
       features: ['Connection prompts', 'Social goal setting', 'Recovery group awareness', 'Professional contact guidance'],
     },
     {
@@ -136,7 +136,7 @@ export default function MentalHealthPage() {
               </h1>
 
               <p className="text-lg text-[#66615C] leading-relaxed max-w-2xl">
-                Your mind is part of your recovery too. REVIA helps you track mood, manage stress, improve sleep, and build motivation — with evidence-based guidance and no judgment.
+                Your mind is part of your recovery too. NIRVAN helps you track mood, manage stress, improve sleep, and build motivation — with evidence-based guidance and no judgment.
               </p>
 
               <div className="flex items-center gap-2 text-xs text-[#66615C] font-medium pt-2">
@@ -156,7 +156,7 @@ export default function MentalHealthPage() {
               Support, Don&apos;t Diagnose
             </h2>
             <p className="text-[#66615C] leading-relaxed text-lg">
-              REVIA helps you understand your wellbeing, build healthy routines, track mood and energy, learn evidence-based self-help techniques, and stay connected to your recovery. REVIA should not independently diagnose depression or prescribe treatment.
+              NIRVAN helps you understand your wellbeing, build healthy routines, track mood and energy, learn evidence-based self-help techniques, and stay connected to your recovery. NIRVAN should not independently diagnose depression or prescribe treatment.
             </p>
           </div>
 
@@ -182,13 +182,13 @@ export default function MentalHealthPage() {
         <PageContainer>
           <div className="text-center max-w-2xl mx-auto mb-12 space-y-4">
             <span className="text-xs font-bold tracking-widest uppercase text-[#8c4e33]">
-              What REVIA Supports
+              What NIRVAN Supports
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#2D2A26]">
               Your Mental Wellbeing Toolkit
             </h2>
             <p className="text-[#66615C] leading-relaxed">
-              Each area of mental wellbeing is interconnected. REVIA helps you understand and support the whole picture.
+              Each area of mental wellbeing is interconnected. NIRVAN helps you understand and support the whole picture.
             </p>
           </div>
 
@@ -340,7 +340,7 @@ export default function MentalHealthPage() {
               Physical + Mental = Whole-Person Recovery
             </h2>
             <p className="text-[#66615C] leading-relaxed">
-              Mental wellbeing is woven into every part of REVIA. Your mood check-in, sleep tracking, and emotional state are part of your recovery journey — not a separate feature.
+              Mental wellbeing is woven into every part of NIRVAN. Your mood check-in, sleep tracking, and emotional state are part of your recovery journey — not a separate feature.
             </p>
           </div>
 
@@ -422,7 +422,7 @@ export default function MentalHealthPage() {
               <div className="space-y-2">
                 <h3 className="font-bold text-[#2D2A26]">When to Seek Professional Support</h3>
                 <p className="text-sm text-[#66615C] leading-relaxed">
-                  If you experience persistent low mood, loss of interest, sleep or appetite changes, persistent tiredness, poor concentration, low self-worth, hopelessness, or thoughts about dying, please reach out to a qualified healthcare professional. REVIA is not a substitute for professional mental health care.
+                  If you experience persistent low mood, loss of interest, sleep or appetite changes, persistent tiredness, poor concentration, low self-worth, hopelessness, or thoughts about dying, please reach out to a qualified healthcare professional. NIRVAN is not a substitute for professional mental health care.
                 </p>
               </div>
             </div>

@@ -36,7 +36,7 @@ export default function ContactPage() {
               Contact &amp; Support
             </h1>
             <p className="text-lg text-[#66615C] leading-relaxed">
-              We&apos;d love to hear from you. Whether you have questions about REVIA, feedback, or partnerships, send us a message.
+              We&apos;d love to hear from you. Whether you have questions about NIRVAN, feedback, or partnerships, send us a message.
             </p>
           </div>
         </PageContainer>
@@ -138,7 +138,7 @@ export default function ContactPage() {
                   <span>Emergency Notice</span>
                 </div>
                 <p className="text-xs text-[#66615C] leading-relaxed">
-                  REVIA does not provide emergency medical services. If you are experiencing severe symptoms or a medical emergency, please dial emergency services immediately.
+                  NIRVAN does not provide emergency medical services. If you are experiencing severe symptoms or a medical emergency, please dial emergency services immediately.
                 </p>
               </Card>
             </div>

@@ -6,8 +6,8 @@ import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { samplePosts } from '@/lib/mdx';
 
 export const metadata: Metadata = {
-  title: 'REVIA News & Updates',
-  description: 'Latest product updates, clinical research highlights, and news from REVIA.',
+  title: 'NIRVAN News & Updates',
+  description: 'Latest product updates, clinical research highlights, and news from NIRVAN.',
 };
 
 export default function NewsListingPage() {
@@ -21,7 +21,7 @@ export default function NewsListingPage() {
               Platform & Research Updates
             </span>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2D2A26] tracking-tight">
-              REVIA News & Insights
+              NIRVAN News & Insights
             </h1>
             <p className="text-lg text-[#66615C] leading-relaxed">
               Product updates, clinical evidence summaries, and news about our patient recovery companion.

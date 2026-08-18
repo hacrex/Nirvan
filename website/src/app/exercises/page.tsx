@@ -65,7 +65,7 @@ export default function ExercisesPage() {
               Rehabilitation Exercise Library
             </h1>
             <p className="text-lg text-[#66615C] leading-relaxed">
-              Every exercise in REVIA includes video demonstration, voice guidance, clear repetition goals, and essential safety instructions.
+              Every exercise in NIRVAN includes video demonstration, voice guidance, clear repetition goals, and essential safety instructions.
             </p>
           </div>
         </PageContainer>

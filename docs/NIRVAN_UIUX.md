@@ -1,10 +1,10 @@
-# REVIA — UI/UX Strategy & Product Design Specification
+# NIRVAN — UI/UX Strategy & Product Design Specification
 
 > **Move Forward. Live Better.**
 
 ## 1. Purpose
 
-REVIA is a patient-focused rehabilitation and wellbeing platform for:
+NIRVAN is a patient-focused rehabilitation and wellbeing platform for:
 
 - Cardiac rehabilitation
 - Neuro / stroke / paralysis rehabilitation
@@ -12,7 +12,7 @@ REVIA is a patient-focused rehabilitation and wellbeing platform for:
 - Liver rehabilitation
 - Wellbeing and healthy routines
 
-REVIA should feel like a **recovery companion**, not a hospital dashboard, generic fitness tracker, or AI application.
+NIRVAN should feel like a **recovery companion**, not a hospital dashboard, generic fitness tracker, or AI application.
 
 ---
 
@@ -20,7 +20,7 @@ REVIA should feel like a **recovery companion**, not a hospital dashboard, gener
 
 > **Make recovery feel understandable, achievable and meaningful — one step at a time.**
 
-Every time the patient opens REVIA, the interface should answer:
+Every time the patient opens NIRVAN, the interface should answer:
 
 1. Where am I in my recovery?
 2. What should I do today?
@@ -66,7 +66,7 @@ Useful patterns:
 - Reminders
 - Apple Health integration
 
-REVIA should make exercise execution extremely simple. Rehab Guru demonstrates the value of combining video, instructions, timers, feedback and progress in one rehabilitation workflow. citeturn0search1turn0search2
+NIRVAN should make exercise execution extremely simple. Rehab Guru demonstrates the value of combining video, instructions, timers, feedback and progress in one rehabilitation workflow. citeturn0search1turn0search2
 
 ### Medbridge GO
 
@@ -80,7 +80,7 @@ Useful patterns:
 - Education
 - Program adherence
 
-REVIA should adopt a strong **Today's Recovery** concept so patients do not have to search through the application to know what matters today. citeturn0search0turn0search3turn0search5
+NIRVAN should adopt a strong **Today's Recovery** concept so patients do not have to search through the application to know what matters today. citeturn0search0turn0search3turn0search5
 
 ### Apple Health
 
@@ -94,13 +94,13 @@ Useful patterns:
 - Health integrations
 - Privacy-oriented presentation
 
-REVIA should not copy Apple Health's data density.
+NIRVAN should not copy Apple Health's data density.
 
 Apple Health answers:
 
 > What is my health data?
 
-REVIA should answer:
+NIRVAN should answer:
 
 > **What does my available information mean for my recovery journey?**
 
@@ -110,7 +110,7 @@ Useful lesson:
 
 - Rehabilitation can be engaging without becoming a conventional fitness product.
 
-REVIA can borrow engagement principles while avoiding pressure, guilt and excessive gamification.
+NIRVAN can borrow engagement principles while avoiding pressure, guilt and excessive gamification.
 
 ### Cardiac rehabilitation research
 
@@ -134,7 +134,7 @@ Build
 
 ---
 
-# 4. REVIA Product Positioning
+# 4. NIRVAN Product Positioning
 
 Existing products often emphasize one dimension:
 
@@ -145,7 +145,7 @@ Neurorehab Technology → Flint Rehab
 Cardiac Monitoring    → Cardiac-specific apps
 ```
 
-REVIA should occupy a broader position:
+NIRVAN should occupy a broader position:
 
 # **Recovery Journey Platform**
 
@@ -192,7 +192,7 @@ Do not make AI, Health, Exercise, Medication, News or Settings primary navigatio
 
 # 6. Home — Today's Recovery
 
-The Home screen is the most important screen in REVIA.
+The Home screen is the most important screen in NIRVAN.
 
 It should not be a medical dashboard.
 
@@ -200,7 +200,7 @@ Recommended structure:
 
 ```text
 ┌──────────────────────────────────┐
-│ REVIA                            │
+│ NIRVAN                            │
 │                                  │
 │ Good morning                     │
 │ One step at a time.              │
@@ -307,7 +307,7 @@ This should represent progress without promising a specific clinical outcome.
 
 # 9. Exercise UX
 
-The exercise experience should be one of REVIA's strongest screens.
+The exercise experience should be one of NIRVAN's strongest screens.
 
 ```text
 ← Back
@@ -550,7 +550,7 @@ Profile
 Use contextual AI instead:
 
 ### Exercise
-> Ask REVIA
+> Ask NIRVAN
 
 ### Article
 > Explain this
@@ -561,7 +561,7 @@ Use contextual AI instead:
 ### Recovery
 > What's next in my plan?
 
-AI should be a supporting layer across REVIA, not the identity of the product.
+AI should be a supporting layer across NIRVAN, not the identity of the product.
 
 ---
 
@@ -645,7 +645,7 @@ Start with the patient's goal, not technical account setup.
 
 ### Step 1
 
-**Welcome to REVIA**
+**Welcome to NIRVAN**
 
 > Your recovery is a journey. Let's understand where you'd like to go.
 
@@ -717,7 +717,7 @@ Requirements:
 
 # 20. Visual Design
 
-REVIA should feel:
+NIRVAN should feel:
 
 - Calm
 - Human
@@ -840,7 +840,7 @@ Use engagement, not pressure.
 
 > You lost your streak!
 
-Recovery can include setbacks, fatigue and difficult days. REVIA should not create guilt.
+Recovery can include setbacks, fatigue and difficult days. NIRVAN should not create guilt.
 
 ---
 
@@ -907,7 +907,7 @@ Evening
 ○ Reminder
 ```
 
-REVIA must not:
+NIRVAN must not:
 
 - Change dosage
 - Recommend medication
@@ -987,7 +987,7 @@ Explain:
 # 31. Health Integration
 
 ```text
-                 REVIA
+                 NIRVAN
                    │
         ┌──────────┴──────────┐
         │                     │
@@ -997,7 +997,7 @@ Explain:
         │                     │
         └──────────┬──────────┘
                    ↓
-          REVIA Health Model
+          NIRVAN Health Model
 ```
 
 The patient should experience one consistent health interface regardless of platform.
@@ -1076,7 +1076,7 @@ Language
 Privacy
 Data & Export
 Delete Account
-About REVIA
+About NIRVAN
 ```
 
 ---
@@ -1084,7 +1084,7 @@ About REVIA
 # 35. Information Architecture
 
 ```text
-REVIA
+NIRVAN
 │
 ├── Home
 │   ├── Today's Recovery
@@ -1353,7 +1353,7 @@ Do not optimize only for daily active users.
 
 Clearly explain:
 
-- What health data REVIA accesses
+- What health data NIRVAN accesses
 - Why it is needed
 - Where it is used
 - How it can be disconnected
@@ -1560,10 +1560,10 @@ Then add:
 
 ---
 
-# 50. Final REVIA UX Architecture
+# 50. Final NIRVAN UX Architecture
 
 ```text
-                         REVIA
+                         NIRVAN
                            │
                  ┌─────────┴─────────┐
                  │                   │
@@ -1594,7 +1594,7 @@ Then add:
 
 # 51. Final UX Statement
 
-> **REVIA should make recovery feel understandable, achievable and meaningful — one step at a time.**
+> **NIRVAN should make recovery feel understandable, achievable and meaningful — one step at a time.**
 
 The patient should feel:
 
@@ -1606,7 +1606,7 @@ The patient should feel:
 
 > **"I am moving forward."**
 
-# REVIA
+# NIRVAN
 ## **Move Forward. Live Better.**
 
 ---

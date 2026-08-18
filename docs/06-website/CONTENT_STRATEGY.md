@@ -1,4 +1,4 @@
-# REVIA — Content Strategy
+# NIRVAN — Content Strategy
 
 ## 1. Mission
 
@@ -91,7 +91,7 @@ News must clearly separate:
 
 - Reported facts
 - Interpretation
-- REVIA commentary
+- NIRVAN commentary
 
 Do not turn medical news into patient-specific advice.
 

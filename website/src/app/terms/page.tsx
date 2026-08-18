@@ -4,7 +4,7 @@ import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'REVIA Terms of Service governing the use of our website and mobile application.',
+  description: 'NIRVAN Terms of Service governing the use of our website and mobile application.',
 };
 
 export default function TermsPage() {
@@ -23,17 +23,17 @@ export default function TermsPage() {
 
           <div className="prose prose-slate max-w-none text-[#2D2A26] space-y-6 text-base leading-relaxed">
             <p>
-              Welcome to REVIA. By accessing or using our website and mobile applications, you agree to be bound by these Terms of Service.
+              Welcome to NIRVAN. By accessing or using our website and mobile applications, you agree to be bound by these Terms of Service.
             </p>
 
             <h2 className="text-xl font-bold text-[#2D2A26]">1. Nature of the Service</h2>
             <p>
-              REVIA provides digital rehabilitation tracking, routine support, and clinician-reviewed educational content. <strong>REVIA IS NOT A MEDICAL DEVICE AND DOES NOT PROVIDE MEDICAL ADVICE OR EMERGENCY SERVICES.</strong> The content provided is for informational and recovery support purposes only and is not a substitute for professional medical care, diagnosis, or treatment.
+              NIRVAN provides digital rehabilitation tracking, routine support, and clinician-reviewed educational content. <strong>NIRVAN IS NOT A MEDICAL DEVICE AND DOES NOT PROVIDE MEDICAL ADVICE OR EMERGENCY SERVICES.</strong> The content provided is for informational and recovery support purposes only and is not a substitute for professional medical care, diagnosis, or treatment.
             </p>
 
             <h2 className="text-xl font-bold text-[#2D2A26]">2. User Responsibilities</h2>
             <p>
-              By using REVIA, you represent that you have consulted your physician or healthcare provider regarding your physical rehabilitation readiness. You agree to stop exercising immediately if you experience pain, dizziness, shortness of breath, or discomfort.
+              By using NIRVAN, you represent that you have consulted your physician or healthcare provider regarding your physical rehabilitation readiness. You agree to stop exercising immediately if you experience pain, dizziness, shortness of breath, or discomfort.
             </p>
 
             <h2 className="text-xl font-bold text-[#2D2A26]">3. Account Registration</h2>
@@ -43,12 +43,12 @@ export default function TermsPage() {
 
             <h2 className="text-xl font-bold text-[#2D2A26]">4. Intellectual Property</h2>
             <p>
-              All materials, including video exercise guides, text, logos, and design elements, are the intellectual property of REVIA and are protected by applicable copyright and trademark laws.
+              All materials, including video exercise guides, text, logos, and design elements, are the intellectual property of NIRVAN and are protected by applicable copyright and trademark laws.
             </p>
 
             <h2 className="text-xl font-bold text-[#2D2A26]">5. Limitation of Liability</h2>
             <p>
-              To the maximum extent permitted by law, REVIA shall not be liable for any indirect, incidental, or consequential damages resulting from your use or inability to use the service.
+              To the maximum extent permitted by law, NIRVAN shall not be liable for any indirect, incidental, or consequential damages resulting from your use or inability to use the service.
             </p>
           </div>
         </div>

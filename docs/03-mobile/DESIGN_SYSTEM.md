@@ -1,8 +1,8 @@
-# REVIA — Shared Design System
+# NIRVAN — Shared Design System
 
 ## 1. Design Direction
 
-REVIA should feel:
+NIRVAN should feel:
 
 - Calm
 - Human

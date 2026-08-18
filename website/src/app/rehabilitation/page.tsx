@@ -7,7 +7,7 @@ import { CTA } from '@/components/sections/CTA';
 
 export const metadata: Metadata = {
   title: 'Rehabilitation Pathways Overview',
-  description: 'Explore REVIA specialized digital rehabilitation pathways for Cardiac, Neuro, Stroke, Kidney, and Liver recovery.',
+  description: 'Explore NIRVAN specialized digital rehabilitation pathways for Cardiac, Neuro, Stroke, Kidney, and Liver recovery.',
 };
 
 export default function RehabilitationOverviewPage() {
@@ -21,7 +21,7 @@ export default function RehabilitationOverviewPage() {
               Recovery Pathways
             </h1>
             <p className="text-lg text-[#66615C] leading-relaxed">
-              Every condition requires a thoughtful, tailored approach. REVIA provides personalized, clinician-reviewed digital support designed for your specific recovery pathway.
+              Every condition requires a thoughtful, tailored approach. NIRVAN provides personalized, clinician-reviewed digital support designed for your specific recovery pathway.
             </p>
           </div>
         </PageContainer>

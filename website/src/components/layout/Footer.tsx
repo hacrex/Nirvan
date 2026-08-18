@@ -15,10 +15,10 @@ export const Footer: React.FC = () => {
               <div className="w-10 h-10 rounded-[12px] bg-[#436444] flex items-center justify-center text-white font-bold text-lg">
                 R
               </div>
-              <span className="font-bold text-2xl text-[#2D2A26] tracking-tight">REVIA</span>
+              <span className="font-bold text-2xl text-[#2D2A26] tracking-tight">NIRVAN</span>
             </Link>
             <p className="text-sm text-[#66615C] max-w-sm leading-relaxed">
-              Move Forward. Live Better. REVIA brings recovery, movement, wellbeing, and evidence-aware education together to support your journey back to strength.
+              Move Forward. Live Better. NIRVAN brings recovery, movement, wellbeing, and evidence-aware education together to support your journey back to strength.
             </p>
             <div className="pt-2">
               <p className="text-xs font-semibold uppercase tracking-wider text-[#2D2A26] mb-3">
@@ -113,7 +113,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-sm text-[#66615C]">
               <li>
                 <Link href="/about" className="hover:text-[#436444] transition-colors">
-                  About REVIA
+                  About NIRVAN
                 </Link>
               </li>
               <li>
@@ -147,7 +147,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-[#e6e2dc] text-xs text-[#66615C]">
-          <p>© {new Date().getFullYear()} REVIA. All rights reserved. Move Forward. Live Better.</p>
+          <p>© {new Date().getFullYear()} NIRVAN. All rights reserved. Move Forward. Live Better.</p>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="hover:underline">
               Privacy

@@ -51,7 +51,7 @@ export default function GoalsPage() {
     },
     {
       title: 'No Guilt for Setbacks',
-      description: 'Some days are harder. Missing a goal doesn\'t mean failure. REVIA never punishes you for a difficult day.',
+      description: 'Some days are harder. Missing a goal doesn\'t mean failure. NIRVAN never punishes you for a difficult day.',
     },
     {
       title: 'Your Goals, Your Pace',
@@ -63,11 +63,11 @@ export default function GoalsPage() {
     },
     {
       title: 'Celebrate Progress',
-      description: 'Every step forward matters. REVIA acknowledges your effort, not just your outcomes.',
+      description: 'Every step forward matters. NIRVAN acknowledges your effort, not just your outcomes.',
     },
     {
       title: 'No False Promises',
-      description: 'REVIA will never promise to cure anything in 30 days. Recovery is a journey, not a countdown.',
+      description: 'NIRVAN will never promise to cure anything in 30 days. Recovery is a journey, not a countdown.',
     },
   ];
 
@@ -140,7 +140,7 @@ export default function GoalsPage() {
                 Choose What Matters to You
               </h2>
               <p className="text-[#66615C] leading-relaxed">
-                REVIA offers gentle goal categories based on what supports wellbeing during recovery. You choose one — or none — and adjust whenever you need to.
+                NIRVAN offers gentle goal categories based on what supports wellbeing during recovery. You choose one — or none — and adjust whenever you need to.
               </p>
 
               <div className="space-y-3 pt-2">
@@ -245,10 +245,10 @@ export default function GoalsPage() {
               Our Approach
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#2D2A26]">
-              How REVIA Thinks About Goals
+              How NIRVAN Thinks About Goals
             </h2>
             <p className="text-[#66615C] leading-relaxed">
-              REVIA treats wellbeing goals as gentle directions, not rigid targets. Here&apos;s what that means.
+              NIRVAN treats wellbeing goals as gentle directions, not rigid targets. Here&apos;s what that means.
             </p>
           </div>
 

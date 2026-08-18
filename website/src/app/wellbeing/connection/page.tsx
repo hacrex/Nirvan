@@ -92,7 +92,7 @@ export default function ConnectionPage() {
               </h1>
 
               <p className="text-lg text-[#66615C] leading-relaxed max-w-2xl">
-                Recovery can feel isolating. REVIA supports gentle outreach to the people and communities that matter to you — at your own pace, without pressure.
+                Recovery can feel isolating. NIRVAN supports gentle outreach to the people and communities that matter to you — at your own pace, without pressure.
               </p>
 
               <div className="flex items-center gap-2 text-xs text-[#66615C] font-medium pt-2">
@@ -137,7 +137,7 @@ export default function ConnectionPage() {
                 Connection at Your Pace
               </h2>
               <p className="text-[#66615C] leading-relaxed">
-                REVIA doesn&apos;t pressure you to socialize. It offers gentle prompts and simple options — you choose what feels right today.
+                NIRVAN doesn&apos;t pressure you to socialize. It offers gentle prompts and simple options — you choose what feels right today.
               </p>
 
               <div className="space-y-3 pt-2">

@@ -1,12 +1,12 @@
-# REVIA — User Acquisition & Growth Strategy
+# NIRVAN — User Acquisition & Growth Strategy
 
 > **Move Forward. Live Better.**
 
 ## 1. Purpose
 
-This document defines the user acquisition strategy for REVIA in India.
+This document defines the user acquisition strategy for NIRVAN in India.
 
-REVIA is a patient-focused rehabilitation and wellbeing app covering:
+NIRVAN is a patient-focused rehabilitation and wellbeing app covering:
 
 - ❤️ Heart / Cardiac Recovery
 - 🧠 Neuro / Stroke / Paralysis Recovery
@@ -27,7 +27,7 @@ The objective is to build sustainable acquisition through **trust, education, se
 
 > **Don't sell the app first. Solve a recovery problem first.**
 
-REVIA should become useful before asking the user to install the app.
+NIRVAN should become useful before asking the user to install the app.
 
 The acquisition model:
 
@@ -36,7 +36,7 @@ Useful Recovery Content
         ↓
 Google / YouTube / Social
         ↓
-REVIA Website
+NIRVAN Website
         ↓
 Trust
         ↓
@@ -48,16 +48,16 @@ Progress
         ↓
 Sharing / Referral
         ↓
-New REVIA User
+New NIRVAN User
         ↺
 ```
 
 ---
 
-# 3. REVIA Growth Flywheel
+# 3. NIRVAN Growth Flywheel
 
 ```text
-                    REVIA
+                    NIRVAN
                       │
           Useful recovery content
                       ↓
@@ -65,7 +65,7 @@ New REVIA User
                       ↓
                  Trust + Visit
                       ↓
-               REVIA Website
+               NIRVAN Website
                       ↓
               Download App
                       ↓
@@ -77,7 +77,7 @@ New REVIA User
                       ↓
                 Referrals
                       ↓
-             More REVIA Users
+             More NIRVAN Users
                       ↺
 ```
 
@@ -108,15 +108,15 @@ The strongest growth loop should be:
 
 Important:
 
-> The person who discovers REVIA may not always be the patient.
+> The person who discovers NIRVAN may not always be the patient.
 
-A family member may search for information and introduce REVIA to the patient.
+A family member may search for information and introduce NIRVAN to the patient.
 
 ---
 
 # 5. The Real Competitive Problem
 
-REVIA's biggest competitor may not be another app.
+NIRVAN's biggest competitor may not be another app.
 
 It may be the fragmented recovery process:
 
@@ -136,10 +136,10 @@ Manual Notebook
 Disconnected Progress
 ```
 
-REVIA should consolidate the experience:
+NIRVAN should consolidate the experience:
 
 ```text
-                 REVIA
+                 NIRVAN
                    │
        ┌───────────┼───────────┐
        ↓           ↓           ↓
@@ -156,13 +156,13 @@ REVIA should consolidate the experience:
 
 # 6. Positioning
 
-Do not position REVIA primarily as:
+Do not position NIRVAN primarily as:
 
 > "AI-powered rehabilitation app."
 
 Instead:
 
-# **REVIA — Your Recovery Journey**
+# **NIRVAN — Your Recovery Journey**
 
 Supporting message:
 
@@ -190,7 +190,7 @@ Recommended headline:
 
 Supporting copy:
 
-> **REVIA helps you continue your recovery journey at home.**
+> **NIRVAN helps you continue your recovery journey at home.**
 
 Then:
 
@@ -229,14 +229,14 @@ Paid advertising should come after the product demonstrates meaningful retention
 
 # 9. SEO Strategy
 
-SEO should be one of REVIA's most important long-term acquisition channels.
+SEO should be one of NIRVAN's most important long-term acquisition channels.
 
 The website should become a **Recovery Knowledge Platform**, not simply an app landing page.
 
 Recommended architecture:
 
 ```text
-REVIA
+NIRVAN
 │
 ├── Heart Recovery
 │   ├── Guides
@@ -338,7 +338,7 @@ Potential topics:
 
 # 14. Hindi SEO
 
-REVIA should create native Hindi content rather than simply translating English articles.
+NIRVAN should create native Hindi content rather than simply translating English articles.
 
 Examples:
 
@@ -385,7 +385,7 @@ Example CTA:
 
 > **Want to track your recovery?**
 
-> **Start your recovery journey with REVIA.**
+> **Start your recovery journey with NIRVAN.**
 
 Avoid aggressive:
 
@@ -443,7 +443,7 @@ Safe educational guidance
  ↓
 When to seek professional advice
  ↓
-REVIA
+NIRVAN
  ↓
 Track your recovery
 ```
@@ -476,7 +476,7 @@ What can help?
 Follow your healthcare professional's guidance.
 
 ↓
-REVIA
+NIRVAN
 Move Forward. Live Better.
 ```
 
@@ -513,7 +513,7 @@ Content themes:
 
 > Building a safe recovery routine at home
 
-The family member may discover REVIA before the patient.
+The family member may discover NIRVAN before the patient.
 
 ---
 
@@ -531,7 +531,7 @@ Example:
 
 At the end:
 
-> **Powered by REVIA**
+> **Powered by NIRVAN**
 
 Distribution:
 
@@ -544,12 +544,12 @@ WhatsApp
  ↓
 Friends / Community
  ↓
-New REVIA Users
+New NIRVAN Users
 ```
 
 Potential future asset:
 
-> **REVIA Recovery WhatsApp Channel**
+> **NIRVAN Recovery WhatsApp Channel**
 
 for educational updates.
 
@@ -557,7 +557,7 @@ for educational updates.
 
 # 21. Hospital Partnerships
 
-Hospital partnerships could become one of REVIA's highest-value acquisition channels.
+Hospital partnerships could become one of NIRVAN's highest-value acquisition channels.
 
 Potential partners:
 
@@ -570,7 +570,7 @@ Potential partners:
 
 Pitch:
 
-> **REVIA helps patients continue structured recovery after they leave the hospital.**
+> **NIRVAN helps patients continue structured recovery after they leave the hospital.**
 
 Do not pitch only:
 
@@ -582,22 +582,22 @@ Focus on continuity of recovery.
 
 # 22. Physiotherapist Referral Program
 
-A separate clinician app is not required for the initial REVIA strategy.
+A separate clinician app is not required for the initial NIRVAN strategy.
 
 Simple model:
 
 ```text
 Physiotherapist
       ↓
-REVIA Recovery Card / QR
+NIRVAN Recovery Card / QR
       ↓
 Patient scans
       ↓
-Downloads REVIA
+Downloads NIRVAN
       ↓
 Chooses recovery pathway
       ↓
-Uses REVIA
+Uses NIRVAN
 ```
 
 Create a professional referral card:
@@ -605,11 +605,11 @@ Create a professional referral card:
 ```text
 Continue your recovery at home.
 
-Scan to explore REVIA.
+Scan to explore NIRVAN.
 
 [ QR CODE ]
 
-REVIA
+NIRVAN
 Move Forward. Live Better.
 ```
 
@@ -622,7 +622,7 @@ Create condition-specific QR landing pages.
 Example:
 
 ```text
-REVIA
+NIRVAN
 Stroke Recovery
 
 Learn about recovery.
@@ -631,7 +631,7 @@ Track your progress.
 
 [ QR CODE ]
 
-Download REVIA
+Download NIRVAN
 ```
 
 Use QR codes in:
@@ -648,7 +648,7 @@ Use QR codes in:
 
 # 24. Family Sharing
 
-REVIA does not need a separate caregiver app to benefit from family distribution.
+NIRVAN does not need a separate caregiver app to benefit from family distribution.
 
 Provide a simple:
 
@@ -659,7 +659,7 @@ feature.
 Example:
 
 ```text
-REVIA Recovery Summary
+NIRVAN Recovery Summary
 
 12 sessions completed
 82% consistency
@@ -675,7 +675,7 @@ Possible channels:
 - Image
 - PDF
 
-The recipient does not necessarily need a REVIA account.
+The recipient does not necessarily need a NIRVAN account.
 
 Do not expose sensitive health information without explicit user control.
 
@@ -691,7 +691,7 @@ You've completed 10 recovery sessions 🎉
 Know someone who is also working
 through recovery?
 
-[ Share REVIA ]
+[ Share NIRVAN ]
 ```
 
 Do not use aggressive gamified referral mechanics such as:
@@ -722,7 +722,7 @@ Localized Hindi metadata should be developed separately.
 Screenshots should immediately communicate:
 
 ```text
-REVIA
+NIRVAN
 
 Your Recovery Journey
 
@@ -765,13 +765,13 @@ Education
  ↓
 What recovery involves
  ↓
-REVIA approach
+NIRVAN approach
  ↓
 App benefits
  ↓
 Safety / clinical disclaimer
  ↓
-Download REVIA
+Download NIRVAN
 ```
 
 ---
@@ -801,7 +801,7 @@ Example:
         ↓
 Educational content
         ↓
-REVIA
+NIRVAN
         ↓
 Download
 ```
@@ -828,7 +828,7 @@ Example creative:
 
 > **Recovery doesn't stop when you leave the hospital.**
 
-> REVIA helps you continue your recovery journey at home.
+> NIRVAN helps you continue your recovery journey at home.
 
 Avoid unverified medical claims.
 
@@ -852,7 +852,7 @@ Example content:
 
 Then:
 
-> **REVIA helps patients continue their recovery journey at home.**
+> **NIRVAN helps patients continue their recovery journey at home.**
 
 Expert content should be transparent and clinically responsible.
 
@@ -862,7 +862,7 @@ Expert content should be transparent and clinically responsible.
 
 Create:
 
-# **REVIA Recovery Stories**
+# **NIRVAN Recovery Stories**
 
 Potential themes:
 
@@ -877,7 +877,7 @@ Important:
 - Never fabricate patient stories.
 - Obtain appropriate consent.
 - Protect patient identity.
-- Avoid implying REVIA caused a medical outcome without appropriate evidence.
+- Avoid implying NIRVAN caused a medical outcome without appropriate evidence.
 - Do not make guaranteed recovery claims.
 
 ---
@@ -886,7 +886,7 @@ Important:
 
 Create:
 
-# **The REVIA Recovery Letter**
+# **The NIRVAN Recovery Letter**
 
 Weekly format:
 
@@ -904,14 +904,14 @@ Example:
 
 CTA:
 
-> Read more → REVIA
+> Read more → NIRVAN
 
 Newsletter objectives:
 
 - Build trust
 - Retain website visitors
 - Educate users
-- Bring users back to REVIA
+- Bring users back to NIRVAN
 - Create an owned audience
 
 ---
@@ -939,7 +939,7 @@ Then:
 
 > **Want to track this every day?**
 
-> **Try REVIA.**
+> **Try NIRVAN.**
 
 Other potential tools:
 
@@ -995,7 +995,7 @@ Email
      ↓
 Newsletter
      ↓
-REVIA
+NIRVAN
      ↓
 App Download
 ```
@@ -1076,7 +1076,7 @@ Do not optimize for 100,000 downloads before understanding retention.
 
 The first objective is:
 
-> **Find 100 people who genuinely use REVIA.**
+> **Find 100 people who genuinely use NIRVAN.**
 
 Study:
 
@@ -1084,7 +1084,7 @@ Study:
 - Why they completed the first activity
 - Why they returned
 - Where they got confused
-- What made them trust REVIA
+- What made them trust NIRVAN
 - What made them stop
 - What content they found useful
 
@@ -1146,7 +1146,7 @@ Percentage of new users who complete their first recovery activity.
 
 ## Referral
 
-**Percentage of users who share REVIA**
+**Percentage of users who share NIRVAN**
 
 ## Organic
 
@@ -1156,7 +1156,7 @@ Percentage of new users who complete their first recovery activity.
 
 # 40. North-Star Metric
 
-Do not make DAU the primary REVIA metric.
+Do not make DAU the primary NIRVAN metric.
 
 Recommended:
 
@@ -1176,7 +1176,7 @@ The product should optimize for meaningful engagement.
 
 ## Month 1 — Foundation
 
-- Launch REVIA marketing website
+- Launch NIRVAN marketing website
 - SEO architecture
 - Analytics
 - Waitlist
@@ -1230,7 +1230,7 @@ The product should optimize for meaningful engagement.
 # 42. Website Growth Architecture
 
 ```text
-                  REVIA Website
+                  NIRVAN Website
                         │
           ┌─────────────┼─────────────┐
           ↓             ↓             ↓
@@ -1260,7 +1260,7 @@ Rehab Centers ─┤
 Health Orgs ───┤
 Experts ───────┤
                ↓
-             REVIA
+             NIRVAN
                ↓
         Patient Download
                ↓
@@ -1273,7 +1273,7 @@ Experts ───────┤
 
 Healthcare acquisition depends on trust.
 
-REVIA should clearly communicate:
+NIRVAN should clearly communicate:
 
 - Who creates the content
 - Clinical review where applicable
@@ -1336,7 +1336,7 @@ Prefer:
 
 ---
 
-# 46. What REVIA Should NOT Do
+# 46. What NIRVAN Should NOT Do
 
 Avoid:
 
@@ -1356,7 +1356,7 @@ Healthcare users should feel supported, not pressured.
 
 ---
 
-# 47. The Strongest REVIA Growth Loop
+# 47. The Strongest NIRVAN Growth Loop
 
 ```text
                  SEARCH
@@ -1365,7 +1365,7 @@ Healthcare users should feel supported, not pressured.
              Helpful Answer
                    │
                    ↓
-              REVIA Website
+              NIRVAN Website
                    │
                    ↓
                 Trust
@@ -1399,7 +1399,7 @@ Physiotherapists
     ↓
 Rehabilitation Centers
     ↓
-REVIA QR / Referral
+NIRVAN QR / Referral
     ↓
 Patient
 ```
@@ -1408,7 +1408,7 @@ Patient
 
 # 48. Final Strategy
 
-REVIA should not attempt to win India through the largest advertising budget.
+NIRVAN should not attempt to win India through the largest advertising budget.
 
 It should win through:
 
@@ -1442,21 +1442,21 @@ Turn recovery into a simple, understandable journey.
 
 ### 8. **Referrals**
 
-Let satisfied users introduce REVIA to others.
+Let satisfied users introduce NIRVAN to others.
 
 ---
 
 # 49. Final Positioning
 
-# **REVIA**
+# **NIRVAN**
 ## **Your Recovery Journey**
 
 **Heart · Neuro · Kidney · Liver**
 
 > **Recovery doesn't stop when you leave the hospital.**
 
-> **REVIA helps you continue your recovery journey at home.**
+> **NIRVAN helps you continue your recovery journey at home.**
 
 ### **Move Forward. Live Better.**
 
-The long-term goal is to make REVIA a trusted digital recovery companion for patients and families across India.
+The long-term goal is to make NIRVAN a trusted digital recovery companion for patients and families across India.

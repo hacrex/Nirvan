@@ -1,4 +1,4 @@
-# REVIA — Health Data Model
+# NIRVAN — Health Data Model
 
 ## 1. Purpose
 
@@ -55,7 +55,7 @@ Additional data types should be added only when there is a clear product and cli
 ## 5. Platform Mapping
 
 ```text
-REVIA Metric
+NIRVAN Metric
      │
  ┌───┴─────────────┐
  │                 │

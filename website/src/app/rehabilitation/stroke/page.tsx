@@ -53,7 +53,7 @@ export default function StrokeRehabPage() {
                 Targeted Rehabilitation After Stroke
               </h2>
               <p className="text-[#66615C] leading-relaxed text-base">
-                Recovery after a stroke takes persistence, patience, and repetitive task-oriented training. REVIA structures your daily routines into bite-sized sessions with step-by-step video guidance to help you stay consistent at home between physical therapy appointments.
+                Recovery after a stroke takes persistence, patience, and repetitive task-oriented training. NIRVAN structures your daily routines into bite-sized sessions with step-by-step video guidance to help you stay consistent at home between physical therapy appointments.
               </p>
 
               <RehabModules modules={modules} />

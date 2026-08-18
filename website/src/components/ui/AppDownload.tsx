@@ -13,7 +13,7 @@ export const AppDownload: React.FC<AppDownloadProps> = ({ className = '' }) => {
       <Link
         href="/#early-access"
         className="inline-flex items-center gap-3 px-5 py-3 rounded-[12px] bg-[#2D2A26] text-white hover:bg-[#1a1816] transition-all shadow-soft min-h-[48px]"
-        aria-label="Apple App Store coming soon — join the REVIA waitlist"
+        aria-label="Apple App Store coming soon — join the NIRVAN waitlist"
       >
         <Apple className="w-7 h-7 shrink-0 text-white" />
         <div className="text-left leading-tight">
@@ -25,7 +25,7 @@ export const AppDownload: React.FC<AppDownloadProps> = ({ className = '' }) => {
       <Link
         href="/#early-access"
         className="inline-flex items-center gap-3 px-5 py-3 rounded-[12px] bg-[#2D2A26] text-white hover:bg-[#1a1816] transition-all shadow-soft min-h-[48px]"
-        aria-label="Google Play coming soon — join the REVIA waitlist"
+        aria-label="Google Play coming soon — join the NIRVAN waitlist"
       >
         <Play className="w-6 h-6 shrink-0 fill-current text-white" />
         <div className="text-left leading-tight">

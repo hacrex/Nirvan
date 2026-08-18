@@ -1,26 +1,26 @@
-# REVIA — Brand Story
+# NIRVAN — Brand Story
 
 > **Move Forward. Live Better.**
 
 ---
 
-## 1. About REVIA
+## 1. About NIRVAN
 
-**REVIA** is a digital rehabilitation and wellbeing platform built around one simple belief:
+**NIRVAN** is a digital rehabilitation and wellbeing platform built around one simple belief:
 
 > **Every movement matters.**
 
-REVIA brings rehabilitation, recovery, wellbeing, education and progress tracking together in one patient-focused experience.
+NIRVAN brings rehabilitation, recovery, wellbeing, education and progress tracking together in one patient-focused experience.
 
 The platform is designed to support people on their journey through recovery — whether they are rebuilding strength after a heart condition, relearning movement after a stroke, managing kidney-related challenges, recovering from liver-related weakness, or simply working toward better physical and mental wellbeing.
 
-REVIA is not about replacing doctors, physiotherapists, dietitians or other healthcare professionals.
+NIRVAN is not about replacing doctors, physiotherapists, dietitians or other healthcare professionals.
 
 It is about helping patients stay connected to their recovery journey between appointments, understand their progress, build healthy routines and keep moving forward.
 
 ---
 
-# 2. The Story Behind REVIA
+# 2. The Story Behind NIRVAN
 
 Recovery isn't always a straight line.
 
@@ -44,7 +44,7 @@ Feeling a little stronger.
 
 These moments may look small, but together they become progress.
 
-**REVIA was created around this idea: every movement matters.**
+**NIRVAN was created around this idea: every movement matters.**
 
 Whether someone is recovering after a cardiac event, rebuilding movement after a stroke, managing kidney disease, dealing with liver-related muscle weakness, or simply trying to regain strength and confidence — rehabilitation is more than a collection of exercises.
 
@@ -60,13 +60,13 @@ A journey of:
 - Tracking progress
 - Returning to everyday life
 
-**REVIA exists to support that journey.**
+**NIRVAN exists to support that journey.**
 
 ---
 
-# 3. What REVIA Means
+# 3. What NIRVAN Means
 
-REVIA is a coined brand name.
+NIRVAN is a coined brand name.
 
 The brand story is inspired by three ideas:
 
@@ -91,13 +91,13 @@ This represents the philosophy behind the platform:
 
 The name is intentionally not tied to a specific disease, technology or medical specialty.
 
-That allows REVIA to grow beyond its initial rehabilitation pathways.
+That allows NIRVAN to grow beyond its initial rehabilitation pathways.
 
 ---
 
-# 4. The REVIA Philosophy
+# 4. The NIRVAN Philosophy
 
-REVIA believes recovery should be viewed as a complete human journey.
+NIRVAN believes recovery should be viewed as a complete human journey.
 
 It isn't only about physical exercises.
 
@@ -117,7 +117,7 @@ It is also about:
 The platform therefore combines:
 
 ```text
-                REVIA
+                NIRVAN
                    │
         ┌──────────┴──────────┐
         │                     │
@@ -140,7 +140,7 @@ The platform therefore combines:
 
 Every person's recovery is different.
 
-REVIA is designed around a journey rather than a single destination.
+NIRVAN is designed around a journey rather than a single destination.
 
 ```text
 Awareness
@@ -170,7 +170,7 @@ The goal is to help people move toward a better quality of everyday life.
 
 # 6. Every Movement Matters
 
-REVIA's central philosophy can be expressed in one sentence:
+NIRVAN's central philosophy can be expressed in one sentence:
 
 > **Recovery isn't about how fast you move. It's about continuing to move forward.**
 
@@ -182,13 +182,13 @@ For someone else, it may mean completing a rehabilitation session after a diffic
 
 For another person, progress may simply mean building a healthier daily routine.
 
-REVIA recognizes these moments as part of the same journey.
+NIRVAN recognizes these moments as part of the same journey.
 
 ---
 
-# 7. REVIA and Rehabilitation
+# 7. NIRVAN and Rehabilitation
 
-REVIA initially focuses on four major rehabilitation pathways:
+NIRVAN initially focuses on four major rehabilitation pathways:
 
 ### ❤️ Heart
 
@@ -210,13 +210,13 @@ These pathways are designed to exist within one unified platform rather than bec
 
 ---
 
-# 8. REVIA and Wellbeing
+# 8. NIRVAN and Wellbeing
 
 Rehabilitation doesn't stop when an exercise session ends.
 
 Wellbeing is part of recovery.
 
-REVIA connects rehabilitation with:
+NIRVAN connects rehabilitation with:
 
 - Sleep
 - Mood
@@ -233,13 +233,13 @@ This creates a broader experience:
 
 ---
 
-# 9. REVIA Is About Progress, Not Perfection
+# 9. NIRVAN Is About Progress, Not Perfection
 
 Recovery can be unpredictable.
 
 There may be good days and difficult days.
 
-REVIA should never make patients feel like they have failed because they could not complete everything.
+NIRVAN should never make patients feel like they have failed because they could not complete everything.
 
 Instead, the product should encourage:
 
@@ -251,15 +251,15 @@ A missed session can be restarted.
 
 A small improvement matters.
 
-A setback does not erase pReviaus progress.
+A setback does not erase pNirvanus progress.
 
 The product experience should be supportive, respectful and human.
 
 ---
 
-# 10. REVIA's Role
+# 10. NIRVAN's Role
 
-REVIA is designed to be a supportive digital companion for the patient's recovery journey.
+NIRVAN is designed to be a supportive digital companion for the patient's recovery journey.
 
 It can help patients:
 
@@ -274,7 +274,7 @@ It can help patients:
 - Stay motivated
 - Understand when appropriate professional guidance may be needed
 
-REVIA does **not** replace professional healthcare.
+NIRVAN does **not** replace professional healthcare.
 
 ---
 
@@ -284,7 +284,7 @@ Technology is an enabler.
 
 It should never become the story.
 
-REVIA uses technology to make recovery more accessible and engaging through:
+NIRVAN uses technology to make recovery more accessible and engaging through:
 
 - Mobile applications
 - Personalization
@@ -302,9 +302,9 @@ But the purpose remains human:
 
 ---
 
-# 12. AI at REVIA
+# 12. AI at NIRVAN
 
-AI is a supporting technology within REVIA, not the identity of the brand.
+AI is a supporting technology within NIRVAN, not the identity of the brand.
 
 AI may help with:
 
@@ -329,7 +329,7 @@ and
 
 ---
 
-# 13. The REVIA Experience
+# 13. The NIRVAN Experience
 
 The product experience should feel:
 
@@ -361,7 +361,7 @@ The experience should work for people with different abilities, ages and levels 
 
 # 14. Brand Personality
 
-REVIA should communicate:
+NIRVAN should communicate:
 
 - Hope
 - Trust
@@ -373,7 +373,7 @@ REVIA should communicate:
 - Optimism
 - Responsibility
 
-REVIA should **not** feel:
+NIRVAN should **not** feel:
 
 - Fear-driven
 - Overly clinical
@@ -387,7 +387,7 @@ REVIA should **not** feel:
 
 # 15. Brand Voice
 
-REVIA should speak like a supportive companion.
+NIRVAN should speak like a supportive companion.
 
 ### Instead of:
 
@@ -419,7 +419,7 @@ The language should always prioritize clarity, dignity and safety.
 
 # 16. Brand Promise
 
-> **REVIA helps make the recovery journey easier to understand, easier to follow and easier to measure.**
+> **NIRVAN helps make the recovery journey easier to understand, easier to follow and easier to measure.**
 
 The promise is not:
 
@@ -435,15 +435,15 @@ The promise is:
 
 ### Short Version
 
-> **REVIA is a rehabilitation and wellbeing platform designed to help people move forward through recovery, one step at a time.**
+> **NIRVAN is a rehabilitation and wellbeing platform designed to help people move forward through recovery, one step at a time.**
 
 ### Medium Version
 
-> **REVIA brings rehabilitation, wellbeing, education and progress tracking together in one patient-focused experience. From rebuilding strength and movement to creating healthier daily routines, REVIA supports people throughout their recovery journey.**
+> **NIRVAN brings rehabilitation, wellbeing, education and progress tracking together in one patient-focused experience. From rebuilding strength and movement to creating healthier daily routines, NIRVAN supports people throughout their recovery journey.**
 
 ### Long Version
 
-> **Recovery is more than an exercise. It is a journey of rebuilding strength, relearning movement, creating healthier routines and regaining confidence. REVIA brings rehabilitation and wellbeing together in one place, helping people understand their recovery, follow their journey, track meaningful progress and keep moving forward.**
+> **Recovery is more than an exercise. It is a journey of rebuilding strength, relearning movement, creating healthier routines and regaining confidence. NIRVAN brings rehabilitation and wellbeing together in one place, helping people understand their recovery, follow their journey, track meaningful progress and keep moving forward.**
 
 ---
 
@@ -459,7 +459,7 @@ This is the recommended primary tagline because it communicates both sides of th
 
 **Live Better** → Wellbeing and long-term lifestyle
 
-It also allows REVIA to expand beyond rehabilitation in the future.
+It also allows NIRVAN to expand beyond rehabilitation in the future.
 
 ---
 
@@ -497,10 +497,10 @@ It also allows REVIA to expand beyond rehabilitation in the future.
 
 # 20. Brand Architecture
 
-A future REVIA ecosystem could be structured as:
+A future NIRVAN ecosystem could be structured as:
 
 ```text
-                         REVIA
+                         NIRVAN
                             │
         ┌───────────────────┼───────────────────┐
         │                   │                   │
@@ -522,7 +522,7 @@ A future REVIA ecosystem could be structured as:
 
 # 21. Future Expansion
 
-Because the brand is not restricted to a particular disease, REVIA can eventually expand into:
+Because the brand is not restricted to a particular disease, NIRVAN can eventually expand into:
 
 - Pulmonary rehabilitation
 - Orthopedic rehabilitation
@@ -542,7 +542,7 @@ The brand remains relevant even as the product expands.
 
 # 22. Website Story
 
-The marketing website can introduce REVIA through the following narrative:
+The marketing website can introduce NIRVAN through the following narrative:
 
 ## Hero
 
@@ -565,7 +565,7 @@ The marketing website can introduce REVIA through the following narrative:
 
 ### Then:
 
-> **REVIA helps you turn small steps into meaningful progress.**
+> **NIRVAN helps you turn small steps into meaningful progress.**
 
 ---
 
@@ -573,7 +573,7 @@ The marketing website can introduce REVIA through the following narrative:
 
 Suggested About page narrative:
 
-> **Why REVIA exists**
+> **Why NIRVAN exists**
 >
 > We believe recovery should be about more than getting through a rehabilitation session.
 >
@@ -581,7 +581,7 @@ Suggested About page narrative:
 >
 > It is about being able to move, participate, connect, sleep better, build confidence and regain independence.
 >
-> REVIA was created to bring these pieces together in one place.
+> NIRVAN was created to bring these pieces together in one place.
 >
 > We combine rehabilitation, wellbeing, education and progress tracking to create a more connected recovery experience.
 >
@@ -607,7 +607,7 @@ Short-form brand narrative:
 >
 > These moments become progress.
 >
-> **REVIA is built around that journey.**
+> **NIRVAN is built around that journey.**
 >
 > **Move Forward. Live Better.**
 
@@ -617,19 +617,19 @@ Short-form brand narrative:
 
 A potential launch message:
 
-> **Introducing REVIA.**
+> **Introducing NIRVAN.**
 >
 > A new way to think about rehabilitation and wellbeing.
 >
 > Recovery is a journey — not a single appointment, exercise or milestone.
 >
-> REVIA brings rehabilitation, wellbeing, education and progress tracking together in one place, helping people stay engaged with their recovery beyond the hospital.
+> NIRVAN brings rehabilitation, wellbeing, education and progress tracking together in one place, helping people stay engaged with their recovery beyond the hospital.
 >
-> Starting with Heart, Neuro, Kidney and Liver recovery pathways, REVIA is being built around one simple belief:
+> Starting with Heart, Neuro, Kidney and Liver recovery pathways, NIRVAN is being built around one simple belief:
 >
 > **Every movement matters.**
 >
-> **REVIA — Move Forward. Live Better.**
+> **NIRVAN — Move Forward. Live Better.**
 
 ---
 
@@ -647,7 +647,7 @@ The visual identity should communicate:
 Potential visual concept:
 
 ```text
-        REVIA
+        NIRVAN
            ↗
       Movement
         Forward
@@ -670,13 +670,13 @@ Avoid overly obvious:
 - Hospital symbols
 - Generic heart icons
 
-The goal is to make REVIA feel like a **modern recovery and wellbeing brand**, not a hospital software product.
+The goal is to make NIRVAN feel like a **modern recovery and wellbeing brand**, not a hospital software product.
 
 ---
 
 # 27. Brand Narrative in One Sentence
 
-> **REVIA is built for the journey between where you are today and where you want to be tomorrow.**
+> **NIRVAN is built for the journey between where you are today and where you want to be tomorrow.**
 
 ---
 
@@ -694,11 +694,11 @@ The goal is to make REVIA feel like a **modern recovery and wellbeing brand**, n
 
 # 30. Final Brand Story
 
-> **REVIA is a story about moving forward.**
+> **NIRVAN is a story about moving forward.**
 >
 > Recovery isn't always a straight line. Some days bring progress. Some days feel difficult. Sometimes taking one small step is a major achievement.
 >
-> REVIA was created around a simple belief:
+> NIRVAN was created around a simple belief:
 >
 > **Every movement matters.**
 >
@@ -716,13 +716,13 @@ The goal is to make REVIA feel like a **modern recovery and wellbeing brand**, n
 >
 > And, most importantly, returning to everyday life.
 >
-> **REVIA brings rehabilitation and wellbeing together in one place** — helping people follow their recovery journey, understand their progress, build healthy habits and stay engaged along the way.
+> **NIRVAN brings rehabilitation and wellbeing together in one place** — helping people follow their recovery journey, understand their progress, build healthy habits and stay engaged along the way.
 >
 > Because recovery isn't about how fast you move.
 >
 > **It's about continuing to move forward.**
 >
-> # **REVIA**
+> # **NIRVAN**
 > ## **Move Forward. Live Better.**
 
 ---
@@ -731,7 +731,7 @@ The goal is to make REVIA feel like a **modern recovery and wellbeing brand**, n
 
 | Element | Definition |
 |---|---|
-| Brand | **REVIA** |
+| Brand | **NIRVAN** |
 | Category | Digital Rehabilitation & Wellbeing |
 | Primary Audience | Patients and people on recovery journeys |
 | Initial Pathways | Heart, Neuro, Kidney, Liver |
@@ -747,7 +747,7 @@ The goal is to make REVIA feel like a **modern recovery and wellbeing brand**, n
 
 ## 32. Important Brand Note
 
-Before finalizing REVIA as a commercial brand, perform proper checks for:
+Before finalizing NIRVAN as a commercial brand, perform proper checks for:
 
 - Domain availability
 - Indian trademark availability

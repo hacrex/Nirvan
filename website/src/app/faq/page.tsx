@@ -7,7 +7,7 @@ import { CTA } from '@/components/sections/CTA';
 
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions (FAQ)',
-  description: 'Find detailed answers to common questions about REVIA, rehabilitation pathways, safety, offline capability, and health privacy.',
+  description: 'Find detailed answers to common questions about NIRVAN, rehabilitation pathways, safety, offline capability, and health privacy.',
 };
 
 export default function FAQPage() {

@@ -42,12 +42,22 @@ export const metadata: Metadata = {
     title: 'NIRVAN — Digital Rehabilitation & Wellbeing Companion',
     description:
       'Move Forward. Live Better. NIRVAN brings recovery plans, exercises, wellbeing tracking, and clinical education together.',
+    images: [
+      {
+        url: `${siteUrl}/brand/nirvan-social-landscape.png`,
+        width: 1920,
+        height: 1080,
+        alt: 'NIRVAN — Move Forward. Live Better. Digital rehabilitation and wellbeing companion.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'NIRVAN — Move Forward. Live Better.',
     description: 'Digital rehabilitation and wellbeing companion.',
+    images: [`${siteUrl}/brand/nirvan-social-landscape.png`],
   },
+  manifest: '/manifest.webmanifest',
   robots: {
     index: true,
     follow: true,

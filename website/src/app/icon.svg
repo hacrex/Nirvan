@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NIRVAN compact mark</title>
+  <desc id="desc">A deep-forest Zen brush circle surrounding a seated recovery figure.</desc>
+  <g fill="none" stroke="#436444" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M420 334c28-46 39-101 29-157C434 87 346 24 250 26 126 28 27 126 31 247c4 111 91 203 202 216 59 7 117-7 164-40" stroke-width="36"/>
+    <path d="M387 76c25 23 44 52 55 84" stroke="#FDF9F3" stroke-width="12"/>
+    <path d="M397 388c25-17 46-38 63-62" stroke-width="18"/>
+  </g>
+  <g fill="#436444">
+    <circle cx="256" cy="184" r="17"/>
+    <path d="M211 252c0-35 20-58 45-58s45 23 45 58v54c0 20 10 36 28 50l-14 21c-16-9-28-21-37-37h-44c-9 16-21 28-37 37l-14-21c18-14 28-30 28-50z"/>
+    <path d="M174 340c17-9 39-13 64-13h36c25 0 47 4 64 13l-12 27H186z"/>
+    <path d="M169 366c22 12 51 18 87 18s65-6 87-18l-17 29c-19 10-42 15-70 15s-51-5-70-15z"/>
+  </g>
+  <path d="M175 363c-23 12-44 24-63 36 34 7 66 6 95-1" fill="#436444"/>
+  <circle cx="406" cy="421" r="9" fill="#C0564B"/>
+</svg>

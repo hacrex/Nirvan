@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Activity, Brain, ChevronDown, Heart, HeartHandshake, Menu, Stethoscope, Wind } from 'lucide-react';
@@ -22,6 +22,7 @@ export const Header: React.FC = () => {
 
   const navLink = 'font-semibold text-[#46514a] transition-colors hover:text-[#285b4a]';
   const menuLink = 'flex items-center gap-3 rounded-xl p-3 transition-colors hover:bg-[#eef4ee]';
+  const closeMobileMenu = useCallback(() => setIsMobileMenuOpen(false), []);
 
   return (
     <>
@@ -32,10 +33,10 @@ export const Header: React.FC = () => {
               <Image
                 src="/brand/nirvan-logo-horizontal.png"
                 alt="NIRVAN — Move Forward. Live Better."
-                width={180}
-                height={120}
+                width={240}
+                height={160}
                 priority
-                className="h-12 w-auto object-contain transition-transform group-hover:scale-[1.03] lg:h-14"
+                className="h-16 w-auto object-contain transition-transform group-hover:scale-[1.03] lg:h-20"
               />
             </Link>
 
@@ -80,14 +81,21 @@ export const Header: React.FC = () => {
               <Link href="#early-access"><Button variant="primary" size="md">Join early access</Button></Link>
             </div>
 
-            <button onClick={() => setIsMobileMenuOpen(true)} className="flex min-h-[48px] min-w-[48px] items-center justify-center rounded-xl p-2 text-[#1f2a24] transition-colors hover:bg-[#f2e9dc] lg:hidden" aria-label="Open navigation menu">
+            <button
+              type="button"
+              onClick={() => setIsMobileMenuOpen(true)}
+              className="flex min-h-[48px] min-w-[48px] items-center justify-center rounded-xl p-2 text-[#1f2a24] transition-colors hover:bg-[#f2e9dc] lg:hidden"
+              aria-label="Open navigation menu"
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="nirvan-mobile-menu"
+            >
               <Menu className="h-7 w-7" aria-hidden="true" />
             </button>
           </div>
         </PageContainer>
       </header>
 
-      <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
+      <MobileMenu isOpen={isMobileMenuOpen} onClose={closeMobileMenu} />
     </>
   );
 };

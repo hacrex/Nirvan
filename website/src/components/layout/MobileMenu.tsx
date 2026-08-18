@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { X, Heart, Brain, Activity, Stethoscope, ChevronRight, HeartHandshake, Wind } from 'lucide-react';
 import { Button } from '../ui/Button';
 
@@ -21,7 +22,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
 
     const previousFocus = document.activeElement as HTMLElement | null;
     const panel = panelRef.current;
-    closeButtonRef.current?.focus();
+    const focusFrame = window.requestAnimationFrame(() => closeButtonRef.current?.focus());
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
@@ -48,6 +49,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
 
     document.addEventListener('keydown', handleKeyDown);
     return () => {
+      window.cancelAnimationFrame(focusFrame);
       document.removeEventListener('keydown', handleKeyDown);
       previousFocus?.focus();
     };
@@ -58,14 +60,20 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
   const itemClass = 'flex items-center justify-between rounded-xl px-3 py-2.5 text-base font-semibold text-[#1f2a24] transition-colors hover:bg-[#eef4ee]';
 
   return (
-    <div className="fixed inset-0 z-50 bg-[#173d32]/45 backdrop-blur-sm lg:hidden" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
+    <div id="nirvan-mobile-menu" className="fixed inset-0 z-50 bg-[#173d32]/45 backdrop-blur-sm lg:hidden" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <div ref={panelRef} className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col overflow-y-auto bg-[#f8f5ef] p-6 shadow-soft-lg" role="dialog" aria-modal="true" aria-label="NIRVAN navigation">
         <div className="flex items-center justify-between border-b border-[#dce4dc] pb-6">
-          <Link href="/" onClick={onClose} className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#285b4a] text-sm font-bold text-white">R</div>
-            <span className="text-xl font-bold tracking-tight text-[#1f2a24]">NIRVAN</span>
+          <Link href="/" onClick={onClose} aria-label="NIRVAN home" className="flex items-center">
+            <Image
+              src="/brand/nirvan-logo-horizontal.png"
+              alt="NIRVAN — Move Forward. Live Better."
+              width={180}
+              height={120}
+              className="h-12 w-auto object-contain"
+            />
           </Link>
           <button
+            type="button"
             ref={closeButtonRef}
             onClick={onClose}
             aria-label="Close navigation menu"

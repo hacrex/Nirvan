@@ -89,8 +89,8 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
           <div className="space-y-1 border-t border-[#dce4dc] pt-6">
             <span className="px-3 text-xs font-bold uppercase tracking-[0.14em] text-[#708078]">Wellbeing</span>
             <div className="mt-3 space-y-1">
-              <Link href="/wellbeing" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><HeartHandshake className="h-5 w-5 text-[#c66b4a]" aria-hidden="true" />Wellbeing overview</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
               <Link href="/wellbeing/mental-health" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><Brain className="h-5 w-5 text-[#4f7f83]" aria-hidden="true" />Mental wellbeing</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
+              <Link href="/wellbeing/depression-support" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><HeartHandshake className="h-5 w-5 text-[#c66b4a]" aria-hidden="true" />Depression support</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
               <Link href="/wellbeing/breathing-relaxation" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><Wind className="h-5 w-5 text-[#285b4a]" aria-hidden="true" />Breathing &amp; relaxation</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
             </div>
           </div>

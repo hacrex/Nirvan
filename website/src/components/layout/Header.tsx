@@ -59,7 +59,7 @@ export const Header: React.FC = () => {
                 {isWellbeingOpen && (
                   <div className="absolute left-0 top-full z-50 w-72 pt-2">
                     <div className="space-y-1 rounded-2xl border border-[#dce4dc] bg-white p-3 shadow-soft-lg">
-                      <Link href="/wellbeing" className={menuLink}><HeartHandshake className="h-5 w-5 text-[#c66b4a]" aria-hidden="true" /><span><strong className="block text-sm text-[#1f2a24]">Wellbeing overview</strong><small className="text-xs text-[#708078]">Whole-person recovery support</small></span></Link>
+                      <Link href="/wellbeing/depression-support" className={menuLink}><HeartHandshake className="h-5 w-5 text-[#c66b4a]" aria-hidden="true" /><span><strong className="block text-sm text-[#1f2a24]">Depression support</strong><small className="text-xs text-[#708078]">Understanding low mood and self-help</small></span></Link>
                       <Link href="/wellbeing/sleep" className={menuLink}><Wind className="h-5 w-5 text-[#4f7f83]" aria-hidden="true" /><span><strong className="block text-sm text-[#1f2a24]">Sleep &amp; rest</strong><small className="text-xs text-[#708078]">Make space for recovery</small></span></Link>
                       <Link href="/wellbeing/mental-health" className={menuLink}><Brain className="h-5 w-5 text-[#285b4a]" aria-hidden="true" /><span><strong className="block text-sm text-[#1f2a24]">Mental wellbeing</strong><small className="text-xs text-[#708078]">Mood, energy, and motivation</small></span></Link>
                     </div>

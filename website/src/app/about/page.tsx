@@ -49,6 +49,35 @@ export default function AboutPage() {
               </p>
             </div>
 
+            {/* Zen-Inspired Philosophy */}
+            <div className="space-y-6 rounded-[20px] border border-[#436444]/15 bg-[#f7f3ed] p-6 sm:p-8">
+              <div className="max-w-2xl space-y-3">
+                <p className="eyebrow text-[#436444]">A quiet philosophy for recovery</p>
+                <h2 className="text-2xl font-bold tracking-tight text-[#2D2A26] sm:text-3xl">Presence over perfection</h2>
+                <p className="text-base leading-relaxed text-[#66615C]">
+                  NIRVAN is inspired by a Zen-informed way of meeting life: pay attention to the step in front of you, practice without forcing an outcome, and respond to difficult days with compassion. These ideas are design principles for the product, not religious instruction or a promise of spiritual or medical transformation.
+                </p>
+              </div>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <div className="rounded-[14px] border border-[#e6e2dc] bg-white p-4">
+                  <h3 className="font-bold text-[#2D2A26]">Begin with today</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[#66615C]">A clear next activity helps recovery feel present and manageable, rather than overwhelming.</p>
+                </div>
+                <div className="rounded-[14px] border border-[#e6e2dc] bg-white p-4">
+                  <h3 className="font-bold text-[#2D2A26]">Practice, don&apos;t perform</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[#66615C]">NIRVAN values steady participation and meaningful routines over streaks, pressure, or comparison.</p>
+                </div>
+                <div className="rounded-[14px] border border-[#e6e2dc] bg-white p-4">
+                  <h3 className="font-bold text-[#2D2A26]">Meet yourself with compassion</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[#66615C]">Gentle check-ins and flexible goals make room for fatigue, uncertainty, rest, and difficult emotions.</p>
+                </div>
+                <div className="rounded-[14px] border border-[#e6e2dc] bg-white p-4">
+                  <h3 className="font-bold text-[#2D2A26]">Notice the whole person</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[#66615C]">Physical recovery, mental wellbeing, sleep, energy, and confidence belong in one connected journey.</p>
+                </div>
+              </div>
+            </div>
+
             {/* Five-Word Philosophy */}
             <div className="space-y-4">
               <h2 className="text-2xl sm:text-3xl font-bold text-[#2D2A26]">Our Five-Word Philosophy</h2>

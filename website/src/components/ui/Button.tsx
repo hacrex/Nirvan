@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'ghost' | 'outline';
   size?: 'sm' | 'md' | 'lg';
@@ -15,19 +13,19 @@ export const Button: React.FC<ButtonProps> = ({
   className = '',
   ...props
 }) => {
-  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-[12px] transition-all duration-200 focus-visible:ring-2 focus-visible:ring-[#8c4e33] focus-visible:outline-none disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer';
-  
+  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-[12px] transition-[background-color,border-color,color,transform,box-shadow] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c66b4a] focus-visible:ring-offset-2 focus-visible:ring-offset-[#f8f5ef] disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer active:scale-[0.98]';
+
   const sizeStyles = {
     sm: 'px-4 py-2 text-sm min-h-[40px]',
-    md: 'px-6 py-3 text-base min-h-[48px]', // Minimum 48px touch target for accessibility
+    md: 'px-6 py-3 text-base min-h-[48px]',
     lg: 'px-8 py-4 text-lg min-h-[56px]',
   };
-  
+
   const variantStyles = {
-    primary: 'bg-[#436444] text-white hover:bg-[#2e4e30] active:bg-[#233d25] shadow-soft',
-    secondary: 'bg-[#8c4e33] text-white hover:bg-[#6f371e] active:bg-[#522815] shadow-soft',
-    outline: 'border-2 border-[#436444] text-[#436444] hover:bg-[#E1EADF] active:bg-[#c6d7c3]',
-    ghost: 'text-[#436444] hover:bg-[#E1EADF]/50 active:bg-[#E1EADF]',
+    primary: 'bg-[#285b4a] text-white hover:bg-[#173d32] active:bg-[#173d32] shadow-soft',
+    secondary: 'bg-[#c66b4a] text-white hover:bg-[#9f4f35] active:bg-[#9f4f35] shadow-soft',
+    outline: 'border-2 border-[#285b4a] bg-transparent text-[#285b4a] hover:bg-[#eef4ee] active:bg-[#dce8df]',
+    ghost: 'text-[#285b4a] hover:bg-[#eef4ee] active:bg-[#dce8df]',
   };
 
   return (

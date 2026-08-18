@@ -59,11 +59,12 @@ export const Hero: React.FC = () => {
               <div className="relative grid items-end gap-5 sm:grid-cols-[0.8fr_1.2fr]">
                 <div className="hidden min-h-[320px] items-end rounded-[24px] border border-white/70 bg-white/30 p-4 sm:flex">
                   <Image
-                    src="/illustrations/walking-together.svg"
-                    alt="Illustration of people moving forward together"
+                    src="/illustrations/undraw/walking-together.svg"
+                    alt="Two people walking together, representing supported recovery at home"
                     width={360}
                     height={360}
                     className="h-auto w-full"
+                    sizes="(max-width: 640px) 0vw, 28vw"
                     priority
                   />
                 </div>

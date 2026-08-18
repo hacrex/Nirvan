@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, BookOpenCheck, LockKeyhole, ScanText, ShieldCheck } from 'lucide-react';
 import { PageContainer } from '../layout/PageContainer';
@@ -43,6 +44,16 @@ export const TrustModule: React.FC = () => {
               <Link href="/medical-disclaimer" className="mt-7 inline-flex items-center gap-2 text-sm font-bold text-[#f5ded2] hover:text-white">
                 Read the safety boundary <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Link>
+              <div className="mt-8 max-w-[280px] rounded-2xl border border-white/15 bg-white/10 p-4">
+                <Image
+                  src="/illustrations/undraw/progress-overview.svg"
+                  alt="Illustration of a person reviewing progress over time"
+                  width={360}
+                  height={320}
+                  className="h-auto w-full"
+                  sizes="(max-width: 1024px) 70vw, 20vw"
+                />
+              </div>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">

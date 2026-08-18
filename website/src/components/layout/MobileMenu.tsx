@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { X, Heart, Brain, Activity, Stethoscope, ChevronRight, HeartHandshake, Wind } from 'lucide-react';
 import { Button } from '../ui/Button';
@@ -10,170 +10,101 @@ interface MobileMenuProps {
   onClose: () => void;
 }
 
+const focusableSelector = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
 export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
+  const panelRef = useRef<HTMLDivElement>(null);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const previousFocus = document.activeElement as HTMLElement | null;
+    const panel = panelRef.current;
+    closeButtonRef.current?.focus();
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        onClose();
+        return;
+      }
+
+      if (event.key !== 'Tab' || !panel) return;
+      const focusable = Array.from(panel.querySelectorAll<HTMLElement>(focusableSelector));
+      if (!focusable.length) return;
+
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+      previousFocus?.focus();
+    };
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
+  const itemClass = 'flex items-center justify-between rounded-xl px-3 py-2.5 text-base font-semibold text-[#1f2a24] transition-colors hover:bg-[#eef4ee]';
+
   return (
-    <div className="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm lg:hidden transition-opacity">
-      <div className="fixed inset-y-0 right-0 z-50 w-full max-w-sm bg-[#fdf9f3] p-6 shadow-soft-lg flex flex-col overflow-y-auto">
-        <div className="flex items-center justify-between pb-6 border-b border-[#e6e2dc]">
+    <div className="fixed inset-0 z-50 bg-[#173d32]/45 backdrop-blur-sm lg:hidden" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
+      <div ref={panelRef} className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col overflow-y-auto bg-[#f8f5ef] p-6 shadow-soft-lg" role="dialog" aria-modal="true" aria-label="REVIA navigation">
+        <div className="flex items-center justify-between border-b border-[#dce4dc] pb-6">
           <Link href="/" onClick={onClose} className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-[#436444] flex items-center justify-center text-white font-bold text-sm">
-              R
-            </div>
-            <span className="font-bold text-xl text-[#2D2A26] tracking-tight">REVIA</span>
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#285b4a] text-sm font-bold text-white">R</div>
+            <span className="text-xl font-bold tracking-tight text-[#1f2a24]">REVIA</span>
           </Link>
           <button
+            ref={closeButtonRef}
             onClick={onClose}
-            aria-label="Close menu"
-            className="p-2 rounded-full hover:bg-[#F2E8DA] text-[#2D2A26] transition-colors"
+            aria-label="Close navigation menu"
+            className="flex min-h-[48px] min-w-[48px] items-center justify-center rounded-full text-[#1f2a24] transition-colors hover:bg-[#f2e9dc]"
           >
-            <X className="w-6 h-6" />
+            <X className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
 
-        <nav className="flex-1 py-6 space-y-6">
+        <nav className="flex-1 space-y-6 py-6" aria-label="Mobile navigation">
           <div>
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#66615C] px-3">
-              Rehabilitation Pathways
-            </span>
+            <span className="px-3 text-xs font-bold uppercase tracking-[0.14em] text-[#708078]">Recovery pathways</span>
             <div className="mt-3 space-y-1">
-              <Link
-                href="/rehabilitation/cardiac"
-                onClick={onClose}
-                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <Heart className="w-5 h-5 text-[#C0564B]" />
-                  <span>Cardiac Recovery</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-[#66615C]" />
-              </Link>
-              <Link
-                href="/rehabilitation/neuro"
-                onClick={onClose}
-                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <Brain className="w-5 h-5 text-[#5B8FB9]" />
-                  <span>Neuro Recovery</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-[#66615C]" />
-              </Link>
-              <Link
-                href="/rehabilitation/kidney"
-                onClick={onClose}
-                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <Activity className="w-5 h-5 text-[#8c4e33]" />
-                  <span>Kidney Support</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-[#66615C]" />
-              </Link>
-              <Link
-                href="/rehabilitation/liver"
-                onClick={onClose}
-                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <Stethoscope className="w-5 h-5 text-[#436444]" />
-                  <span>Liver Rehab</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-[#66615C]" />
-              </Link>
+              <Link href="/rehabilitation/cardiac" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><Heart className="h-5 w-5 text-[#a7473d]" aria-hidden="true" />Heart recovery</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
+              <Link href="/rehabilitation/neuro" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><Brain className="h-5 w-5 text-[#4f7f83]" aria-hidden="true" />Neuro &amp; stroke</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
+              <Link href="/rehabilitation/kidney" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><Activity className="h-5 w-5 text-[#a7651e]" aria-hidden="true" />Kidney recovery</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
+              <Link href="/rehabilitation/liver" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><Stethoscope className="h-5 w-5 text-[#285b4a]" aria-hidden="true" />Liver recovery</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
             </div>
           </div>
 
-          <div className="border-t border-[#e6e2dc] pt-6 space-y-1">
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#66615C] px-3">
-              Wellbeing
-            </span>
+          <div className="space-y-1 border-t border-[#dce4dc] pt-6">
+            <span className="px-3 text-xs font-bold uppercase tracking-[0.14em] text-[#708078]">Wellbeing</span>
             <div className="mt-3 space-y-1">
-              <Link
-                href="/wellbeing"
-                onClick={onClose}
-                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <HeartHandshake className="w-5 h-5 text-[#8c4e33]" />
-                  <span>Wellbeing Overview</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-[#66615C]" />
-              </Link>
-              <Link
-                href="/wellbeing/mental-health"
-                onClick={onClose}
-                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <Brain className="w-5 h-5 text-[#5B8FB9]" />
-                  <span>Mental Wellbeing</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-[#66615C]" />
-              </Link>
-              <Link
-                href="/wellbeing/depression-support"
-                onClick={onClose}
-                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <HeartHandshake className="w-5 h-5 text-[#436444]" />
-                  <span>Depression Support</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-[#66615C]" />
-              </Link>
-              <Link
-                href="/wellbeing/breathing-relaxation"
-                onClick={onClose}
-                className="flex items-center justify-between px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <Wind className="w-5 h-5 text-[#4A7C59]" />
-                  <span>Breathing & Relaxation</span>
-                </div>
-                <ChevronRight className="w-4 h-4 text-[#66615C]" />
-              </Link>
+              <Link href="/wellbeing" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><HeartHandshake className="h-5 w-5 text-[#c66b4a]" aria-hidden="true" />Wellbeing overview</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
+              <Link href="/wellbeing/mental-health" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><Brain className="h-5 w-5 text-[#4f7f83]" aria-hidden="true" />Mental wellbeing</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
+              <Link href="/wellbeing/breathing-relaxation" onClick={onClose} className={itemClass}><span className="flex items-center gap-3"><Wind className="h-5 w-5 text-[#285b4a]" aria-hidden="true" />Breathing &amp; relaxation</span><ChevronRight className="h-4 w-4 text-[#708078]" aria-hidden="true" /></Link>
             </div>
           </div>
 
-          <div className="border-t border-[#e6e2dc] pt-6 space-y-2">
-            <Link
-              href="/exercises"
-              onClick={onClose}
-              className="block px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base"
-            >
-              Exercise Library
-            </Link>
-            <Link
-              href="/blog"
-              onClick={onClose}
-              className="block px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base"
-            >
-              Blog & Articles
-            </Link>
-            <Link
-              href="/about"
-              onClick={onClose}
-              className="block px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base"
-            >
-              About REVIA
-            </Link>
-            <Link
-              href="/faq"
-              onClick={onClose}
-              className="block px-3 py-2.5 rounded-[12px] hover:bg-[#F2E8DA] text-[#2D2A26] font-medium text-base"
-            >
-              FAQ
-            </Link>
+          <div className="space-y-2 border-t border-[#dce4dc] pt-6">
+            <Link href="/resources" onClick={onClose} className={itemClass}>Learn</Link>
+            <Link href="/about" onClick={onClose} className={itemClass}>About REVIA</Link>
+            <Link href="/faq" onClick={onClose} className={itemClass}>FAQ</Link>
           </div>
         </nav>
 
-        <div className="pt-6 border-t border-[#e6e2dc] space-y-3">
+        <div className="space-y-3 border-t border-[#dce4dc] pt-6">
           <Link href="#early-access" onClick={onClose} className="block w-full">
-            <Button variant="primary" fullWidth size="lg">
-              Join early access
-            </Button>
+            <Button variant="primary" fullWidth size="lg">Join early access</Button>
           </Link>
         </div>
       </div>

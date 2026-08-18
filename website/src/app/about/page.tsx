@@ -38,19 +38,44 @@ export default function AboutPage() {
             {/* The Name & Origin */}
             <div className="space-y-4">
               <h2 className="text-2xl sm:text-3xl font-bold text-[#2D2A26]">The Meaning Behind NIRVAN</h2>
-              <div className="p-6 rounded-[16px] bg-[#E1EADF]/60 border border-[#436444]/20 space-y-3">
-                <div className="flex items-center gap-4 text-lg font-bold text-[#2e4e30]">
-                  <span>RE — Return, Renewal, Rebuild</span>
-                  <span>+</span>
-                  <span>VIA — Path, Journey, Way Forward</span>
-                </div>
-                <p className="text-[#2D2A26] font-semibold text-base">
-                  NIRVAN = The path back to strength and wellbeing.
+              <div className="space-y-3 rounded-[16px] border border-[#436444]/20 bg-[#E1EADF]/60 p-6">
+                <p className="eyebrow text-[#436444]">The NIRVAN idea</p>
+                <p className="text-lg font-semibold leading-relaxed text-[#2D2A26]">
+                  NIRVAN represents the journey beyond illness — rebuilding strength, restoring confidence, and finding a new rhythm for everyday living.
                 </p>
               </div>
-              <p className="text-[#66615C] text-base leading-relaxed">
-                Inspired by ancient ideas of resilience — <em>Dhṛti</em> (fortitude), <em>Utthāna</em> (rising), and <em>Pratyāgati</em> (returning) — NIRVAN is designed for the wanderer who walks the path of recovery regardless of how steep it may feel.
+              <p className="text-base leading-relaxed text-[#66615C]">
+                The name reflects a direction rather than a promise: moving toward greater resilience, independence, wellbeing, and everyday possibility. NIRVAN supports that journey with thoughtful rehabilitation guidance, useful education, and gentle routines — without claiming to cure illness or replace professional care.
               </p>
+            </div>
+
+            {/* Zen-Inspired Philosophy */}
+            <div className="space-y-6 rounded-[20px] border border-[#436444]/15 bg-[#f7f3ed] p-6 sm:p-8">
+              <div className="max-w-2xl space-y-3">
+                <p className="eyebrow text-[#436444]">A quiet philosophy for recovery</p>
+                <h2 className="text-2xl font-bold tracking-tight text-[#2D2A26] sm:text-3xl">Presence over perfection</h2>
+                <p className="text-base leading-relaxed text-[#66615C]">
+                  NIRVAN is inspired by a Zen-informed way of meeting life: pay attention to the step in front of you, practice without forcing an outcome, and respond to difficult days with compassion. These ideas are design principles for the product, not religious instruction or a promise of spiritual or medical transformation.
+                </p>
+              </div>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <div className="rounded-[14px] border border-[#e6e2dc] bg-white p-4">
+                  <h3 className="font-bold text-[#2D2A26]">Begin with today</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[#66615C]">A clear next activity helps recovery feel present and manageable, rather than overwhelming.</p>
+                </div>
+                <div className="rounded-[14px] border border-[#e6e2dc] bg-white p-4">
+                  <h3 className="font-bold text-[#2D2A26]">Practice, don&apos;t perform</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[#66615C]">NIRVAN values steady participation and meaningful routines over streaks, pressure, or comparison.</p>
+                </div>
+                <div className="rounded-[14px] border border-[#e6e2dc] bg-white p-4">
+                  <h3 className="font-bold text-[#2D2A26]">Meet yourself with compassion</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[#66615C]">Gentle check-ins and flexible goals make room for fatigue, uncertainty, rest, and difficult emotions.</p>
+                </div>
+                <div className="rounded-[14px] border border-[#e6e2dc] bg-white p-4">
+                  <h3 className="font-bold text-[#2D2A26]">Notice the whole person</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[#66615C]">Physical recovery, mental wellbeing, sleep, energy, and confidence belong in one connected journey.</p>
+                </div>
+              </div>
             </div>
 
             {/* Five-Word Philosophy */}

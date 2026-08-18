@@ -781,3 +781,26 @@ Before commercial adoption, perform dedicated checks for:
 >
 > **Move Forward. Live Better.**
 
+
+
+## Zen-Inspired Philosophy: Presence Over Perfection
+
+NIRVAN may be inspired by a Zen-informed way of meeting life: pay attention to the step in front of you, practice without forcing an outcome, and respond to difficult days with compassion. This is a product-design influence, not a claim that NIRVAN represents Buddhist nirvana, Zen awakening, spiritual liberation, or religious instruction.
+
+The product relationship is practical. NIRVAN begins with today’s next activity, supports steady practice instead of performance, creates room for rest and difficult emotions, and keeps physical recovery, mental wellbeing, sleep, energy, and confidence in one connected journey. Progress signals should help people notice meaningful change without turning recovery into a competition or promising a particular outcome.
+
+This framing is informed by scholarship describing Zen as a way of living in which practice, presence in everyday life, wisdom, and compassion are connected.[1] NIRVAN borrows the design values of presence, simplicity, compassion, and steady practice while remaining a healthcare rehabilitation and wellbeing product rather than a spiritual program.
+
+### Product principles derived from the philosophy
+
+| Zen-informed value | NIRVAN product expression |
+| --- | --- |
+| Presence | A clear, calm “what matters today” experience rather than an overwhelming dashboard. |
+| Practice | Gentle routines, repeatable activities, and progress that values consistency over performance. |
+| Compassion | Flexible goals, non-judgmental check-ins, and language that makes room for difficult days. |
+| Wholeness | Physical rehabilitation and mental wellbeing treated as connected parts of everyday recovery. |
+| Simplicity | Readable education, focused next steps, and fewer unnecessary decisions. |
+
+## Reference
+
+[1]: https://plato.stanford.edu/entries/japanese-zen/ "Japanese Zen Buddhist Philosophy — Stanford Encyclopedia of Philosophy"

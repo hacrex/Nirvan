@@ -61,10 +61,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <OrganizationJsonLd />
         <meta property="og:image" content="/brand/nirvan-social-landscape.png" />
+        <meta property="og:image:url" content="/brand/nirvan-social-landscape.png" />
+        <meta property="og:image:secure_url" content="/brand/nirvan-social-landscape.png" />
+        <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1920" />
         <meta property="og:image:height" content="1080" />
         <meta property="og:image:alt" content="NIRVAN — Move Forward. Live Better. Digital rehabilitation and wellbeing companion." />
         <meta name="twitter:image" content="/brand/nirvan-social-landscape.png" />
+        <meta name="twitter:image:alt" content="NIRVAN — Move Forward. Live Better. Digital rehabilitation and wellbeing companion." />
+        <link rel="image_src" href="/brand/nirvan-social-landscape.png" />
       </head>
       <body className="min-h-full flex flex-col bg-[#fdf9f3] text-[#2D2A26]">
         <Header />

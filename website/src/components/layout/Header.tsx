@@ -31,12 +31,12 @@ export const Header: React.FC = () => {
           <div className="flex h-16 items-center justify-between lg:h-20">
             <Link href="/" aria-label="NIRVAN home" className="group flex items-center">
               <Image
-                src="/brand/nirvan-logo-horizontal.png"
+                src="/brand/nirvan-logo-header.png"
                 alt="NIRVAN — Move Forward. Live Better."
-                width={240}
-                height={160}
+                width={280}
+                height={86}
                 priority
-                className="h-16 w-auto object-contain transition-transform group-hover:scale-[1.03] lg:h-20"
+                className="h-14 w-auto object-contain transition-transform group-hover:scale-[1.03] lg:h-16"
               />
             </Link>
 

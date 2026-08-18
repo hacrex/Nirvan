@@ -65,10 +65,10 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
         <div className="flex items-center justify-between border-b border-[#dce4dc] pb-6">
           <Link href="/" onClick={onClose} aria-label="NIRVAN home" className="flex items-center">
             <Image
-              src="/brand/nirvan-logo-horizontal.png"
+              src="/brand/nirvan-logo-header.png"
               alt="NIRVAN — Move Forward. Live Better."
-              width={180}
-              height={120}
+              width={280}
+              height={86}
               className="h-12 w-auto object-contain"
             />
           </Link>

@@ -172,7 +172,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
         <div className="pt-6 border-t border-[#e6e2dc] space-y-3">
           <Link href="#early-access" onClick={onClose} className="block w-full">
             <Button variant="primary" fullWidth size="lg">
-              Start Your Recovery
+              Join early access
             </Button>
           </Link>
         </div>

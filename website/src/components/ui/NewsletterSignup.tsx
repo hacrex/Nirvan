@@ -49,19 +49,21 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
       setPathway('General REVIA updates');
     } catch {
       setStatus('error');
-      setErrorMessage('Something went wrong. Please try again or use the Google Form directly.');
+      setErrorMessage('We couldn’t add you right now. Please check your email address and try again.');
     }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex w-full max-w-md flex-col gap-3">
+    <form onSubmit={handleSubmit} className="flex w-full max-w-md flex-col gap-3" noValidate>
       <div className="flex flex-col items-start gap-3 sm:flex-row">
         <div className="w-full flex-1">
+          <label htmlFor={inputId} className="sr-only">Email address</label>
           <Input
             id={inputId}
             type="email"
-            placeholder="Enter your email address"
-            aria-label="Email address for early-access updates"
+            placeholder="Email address"
+            autoComplete="email"
+            aria-label="Email address for REVIA early access"
             value={email}
             onChange={(e) => {
               setEmail(e.target.value);
@@ -71,18 +73,18 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
           />
         </div>
         <Button type="submit" variant="primary" className="w-full whitespace-nowrap sm:w-auto" disabled={status === 'submitting'}>
-          {status === 'submitting' ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" />Joining…</> : 'Join the waitlist'}
+          {status === 'submitting' ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" aria-hidden="true" />Joining…</> : 'Join early access'}
         </Button>
       </div>
 
       {!compact && (
-        <label htmlFor={`${inputId}-pathway`} className="flex flex-col gap-2 text-xs font-semibold text-[#5e5a55]">
-          What would you like to hear about? <span className="font-normal text-[#77716a]">Optional</span>
+        <label htmlFor={`${inputId}-pathway`} className="flex flex-col gap-2 text-xs font-semibold text-[#46514a]">
+          I&apos;m most interested in <span className="font-normal text-[#708078]">Optional</span>
           <select
             id={`${inputId}-pathway`}
             value={pathway}
             onChange={(e) => setPathway(e.target.value)}
-            className="min-h-11 rounded-xl border border-[#d9c9b8] bg-white px-3 text-sm font-normal text-[#2D2A26] outline-none transition focus:border-[#436444] focus:ring-2 focus:ring-[#436444]/20"
+            className="min-h-11 rounded-xl border border-[#b9cbbb] bg-white px-3 text-sm font-normal text-[#1f2a24] outline-none transition focus:border-[#285b4a] focus:ring-2 focus:ring-[#285b4a]/20"
           >
             {pathwayOptions.map((option) => <option key={option} value={option}>{option}</option>)}
           </select>
@@ -90,24 +92,22 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
       )}
 
       {status === 'success' && (
-        <div className="flex items-start gap-3 rounded-xl border border-[#436444]/25 bg-[#eaf1e8] p-4 text-[#315336]" role="status">
-          <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0" />
-          <p className="text-sm leading-5">You’re on the list. We’ll send occasional REVIA launch updates—never noise.</p>
+        <div className="flex items-start gap-3 rounded-xl border border-[#285b4a]/25 bg-[#eef4ee] p-4 text-[#285b4a]" role="status">
+          <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0" aria-hidden="true" />
+          <p className="text-sm leading-5">You&apos;re on the list. We&apos;ll send useful recovery resources first, then let you know when early access opens for your pathway.</p>
         </div>
       )}
 
       {status === 'error' && (
-        <div className="flex items-center gap-2 text-xs font-medium text-[#C0564B]" role="alert">
-          <AlertCircle className="h-4 w-4" />
+        <div className="flex items-center gap-2 text-xs font-medium text-[#a7473d]" role="alert">
+          <AlertCircle className="h-4 w-4" aria-hidden="true" />
           <span>{errorMessage}</span>
         </div>
       )}
 
-      <p className="text-xs leading-5 text-[#66615C]">By joining, you agree to receive REVIA early-access updates. You can unsubscribe anytime. Your response is stored by Google Forms and linked to the REVIA waitlist sheet.</p>
+      <p className="text-xs leading-5 text-[#708078]">By joining, you agree to receive REVIA updates. You can unsubscribe anytime. Your response is stored by Google Forms and linked to the REVIA waitlist sheet.</p>
     </form>
   );
 };
 
 export default NewsletterSignup;
-
-/* Style note: warm recovery-journal palette, compact editorial form rhythm, and calm feedback states keep the waitlist useful without diluting REVIA’s clinical responsibility. */

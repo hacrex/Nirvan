@@ -28,19 +28,15 @@ export const Header: React.FC = () => {
       <header className={`sticky top-0 z-40 w-full transition-all duration-300 ${isScrolled ? 'border-b border-[#dce4dc] bg-[#f8f5ef]/90 shadow-soft backdrop-blur-md' : 'bg-[#f8f5ef]'}`}>
         <PageContainer>
           <div className="flex h-16 items-center justify-between lg:h-20">
-            <Link href="/" aria-label="NIRVAN home" className="group flex items-center gap-2 lg:gap-3">
+            <Link href="/" aria-label="NIRVAN home" className="group flex items-center">
               <Image
-                src="/brand/icon-512.png"
-                alt=""
-                width={40}
-                height={40}
+                src="/brand/nirvan-logo-lockup.png"
+                alt="NIRVAN — Move Forward. Live Better."
+                width={96}
+                height={96}
                 priority
-                className="h-9 w-9 rounded-xl object-contain shadow-soft transition-transform group-hover:scale-[1.03] lg:h-10 lg:w-10"
+                className="h-14 w-14 object-contain transition-transform group-hover:scale-[1.03] lg:h-16 lg:w-16"
               />
-              <div className="flex flex-col">
-                <span className="text-xl font-bold leading-none tracking-tight text-[#1f2a24] lg:text-2xl">NIRVAN</span>
-                <span className="mt-1 text-[9px] font-bold uppercase tracking-[0.14em] text-[#708078]">Rehabilitation &amp; wellbeing</span>
-              </div>
             </Link>
 
             <nav className="hidden items-center gap-8 lg:flex" aria-label="Primary navigation">

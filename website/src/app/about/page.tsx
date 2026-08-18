@@ -38,18 +38,14 @@ export default function AboutPage() {
             {/* The Name & Origin */}
             <div className="space-y-4">
               <h2 className="text-2xl sm:text-3xl font-bold text-[#2D2A26]">The Meaning Behind NIRVAN</h2>
-              <div className="p-6 rounded-[16px] bg-[#E1EADF]/60 border border-[#436444]/20 space-y-3">
-                <div className="flex items-center gap-4 text-lg font-bold text-[#2e4e30]">
-                  <span>RE — Return, Renewal, Rebuild</span>
-                  <span>+</span>
-                  <span>VIA — Path, Journey, Way Forward</span>
-                </div>
-                <p className="text-[#2D2A26] font-semibold text-base">
-                  NIRVAN = The path back to strength and wellbeing.
+              <div className="space-y-3 rounded-[16px] border border-[#436444]/20 bg-[#E1EADF]/60 p-6">
+                <p className="eyebrow text-[#436444]">The NIRVAN idea</p>
+                <p className="text-lg font-semibold leading-relaxed text-[#2D2A26]">
+                  NIRVAN represents the journey beyond illness — rebuilding strength, restoring confidence, and finding a new rhythm for everyday living.
                 </p>
               </div>
-              <p className="text-[#66615C] text-base leading-relaxed">
-                Inspired by ancient ideas of resilience — <em>Dhṛti</em> (fortitude), <em>Utthāna</em> (rising), and <em>Pratyāgati</em> (returning) — NIRVAN is designed for the wanderer who walks the path of recovery regardless of how steep it may feel.
+              <p className="text-base leading-relaxed text-[#66615C]">
+                The name reflects a direction rather than a promise: moving toward greater resilience, independence, wellbeing, and everyday possibility. NIRVAN supports that journey with thoughtful rehabilitation guidance, useful education, and gentle routines — without claiming to cure illness or replace professional care.
               </p>
             </div>
 

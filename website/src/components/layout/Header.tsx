@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Activity, Brain, ChevronDown, Heart, HeartHandshake, Menu, Stethoscope, Wind } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { MobileMenu } from './MobileMenu';
@@ -27,12 +28,15 @@ export const Header: React.FC = () => {
       <header className={`sticky top-0 z-40 w-full transition-all duration-300 ${isScrolled ? 'border-b border-[#dce4dc] bg-[#f8f5ef]/90 shadow-soft backdrop-blur-md' : 'bg-[#f8f5ef]'}`}>
         <PageContainer>
           <div className="flex h-16 items-center justify-between lg:h-20">
-            <Link href="/" className="group flex items-center gap-2 lg:gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#285b4a] text-base font-bold text-white shadow-soft transition-colors group-hover:bg-[#173d32] lg:h-10 lg:w-10">R</div>
-              <div className="flex flex-col">
-                <span className="text-xl font-bold leading-none tracking-tight text-[#1f2a24] lg:text-2xl">NIRVAN</span>
-                <span className="mt-1 text-[9px] font-bold uppercase tracking-[0.14em] text-[#708078]">Rehabilitation &amp; wellbeing</span>
-              </div>
+            <Link href="/" aria-label="NIRVAN home" className="group flex items-center">
+              <Image
+                src="/brand/nirvan-logo-lockup.png"
+                alt="NIRVAN — Move Forward. Live Better."
+                width={96}
+                height={96}
+                priority
+                className="h-14 w-14 object-contain transition-transform group-hover:scale-[1.03] lg:h-16 lg:w-16"
+              />
             </Link>
 
             <nav className="hidden items-center gap-8 lg:flex" aria-label="Primary navigation">

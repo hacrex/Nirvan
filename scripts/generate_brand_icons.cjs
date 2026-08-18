@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('../website/node_modules/sharp');
 
-const source = path.join(__dirname, '..', 'website', 'public', 'brand', 'nirvan-compact-mark.svg');
+const source = path.join(__dirname, '..', 'website', 'public', 'brand', 'icon-1024.png');
 const outputDir = path.join(__dirname, '..', 'website', 'public', 'brand');
-const svg = fs.readFileSync(source);
+const sourceBuffer = fs.readFileSync(source);
 const sizes = [
   ['favicon-32.png', 32],
   ['apple-touch-icon.png', 180],
@@ -15,7 +15,7 @@ const sizes = [
 
 (async () => {
   for (const [filename, size] of sizes) {
-    await sharp(svg)
+    await sharp(sourceBuffer)
       .resize(size, size, { fit: 'contain', background: '#FDF9F3' })
       .flatten({ background: '#FDF9F3' })
       .png({ compressionLevel: 9 })

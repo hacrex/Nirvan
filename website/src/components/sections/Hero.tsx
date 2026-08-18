@@ -1,28 +1,23 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle2, ShieldCheck, Sparkles } from 'lucide-react';
+import { ArrowRight, CheckCircle2, ShieldCheck } from 'lucide-react';
 import { PageContainer } from '../layout/PageContainer';
 import { Button } from '../ui/Button';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative overflow-hidden border-b border-[#dce4dc] bg-[#f8f5ef] pb-14 pt-8 sm:pb-20 sm:pt-12 lg:pb-24 lg:pt-16">
+    <section className="relative overflow-hidden border-b border-[#dce4dc] bg-[#f8f5ef] pb-12 pt-3 sm:pb-16 sm:pt-5 lg:pb-20 lg:pt-7">
       <div className="hero-orb hero-orb-one" aria-hidden="true" />
       <div className="hero-orb hero-orb-two" aria-hidden="true" />
       <PageContainer className="relative z-10">
         <div className="grid items-center gap-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(440px,1.1fr)] lg:gap-20">
           <div className="max-w-2xl space-y-7 reveal-up">
-            <div className="inline-flex items-center gap-2 rounded-full border border-[#b9cbbb] bg-[#eef4ee] px-3 py-2 text-sm font-bold text-[#285b4a]">
-              <Sparkles className="h-4 w-4" aria-hidden="true" />
-              For the days between appointments
-            </div>
-
             <div className="space-y-5">
               <p className="eyebrow text-[#285b4a]">Your recovery journey, connected</p>
-              <h1 className="max-w-2xl text-[clamp(3rem,7vw,5rem)] font-bold leading-[0.98] tracking-[-0.055em] text-[#1f2a24]">
+              <h1 className="max-w-2xl text-[clamp(2.5rem,6vw,4.25rem)] font-bold leading-[1] tracking-[-0.05em] text-[#1f2a24]">
                 Recovery continues at home.
               </h1>
-              <p className="max-w-xl text-lg leading-8 text-[#46514a] sm:text-xl">
+              <p className="max-w-xl text-base leading-7 text-[#46514a] sm:text-lg">
                 A calmer way to know what to do next, keep moving safely, and notice the progress that matters to you.
               </p>
             </div>

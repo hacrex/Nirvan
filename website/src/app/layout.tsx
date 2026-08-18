@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: '%s | NIRVAN — Move Forward. Live Better.',
   },
   description:
-    'NIRVAN is a patient-focused recovery companion bringing rehabilitation, movement, wellbeing, education, and progress together. Cardiac, Neuro, Kidney, and Liver recovery support.',
+    'NIRVAN supports rehabilitation, movement, wellbeing, and recovery education for cardiac, neuro, kidney, and liver recovery.',
   keywords: [
     'rehabilitation',
     'recovery',

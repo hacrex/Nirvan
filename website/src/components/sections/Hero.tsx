@@ -1,108 +1,122 @@
-import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, CheckCircle2, HeartPulse, ShieldCheck, Sparkles } from 'lucide-react';
+import Link from 'next/link';
+import { ArrowRight, CheckCircle2, ShieldCheck, Sparkles } from 'lucide-react';
 import { PageContainer } from '../layout/PageContainer';
 import { Button } from '../ui/Button';
-import { Badge } from '../ui/Badge';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative overflow-hidden border-b border-[#e6e2dc] bg-[#fdf9f3] pt-2 pb-6 sm:pt-4 sm:pb-10 lg:pt-6 lg:pb-14">
+    <section className="relative overflow-hidden border-b border-[#dce4dc] bg-[#f8f5ef] pb-14 pt-8 sm:pb-20 sm:pt-12 lg:pb-24 lg:pt-16">
       <div className="hero-orb hero-orb-one" aria-hidden="true" />
       <div className="hero-orb hero-orb-two" aria-hidden="true" />
       <PageContainer className="relative z-10">
-        <div className="grid items-center gap-14 lg:grid-cols-[minmax(0,1.02fr)_minmax(420px,0.98fr)] lg:gap-16">
+        <div className="grid items-center gap-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(440px,1.1fr)] lg:gap-20">
           <div className="max-w-2xl space-y-7 reveal-up">
-            <Badge variant="primary" icon={<Sparkles className="h-4 w-4 text-[#436444]" />}>
-              A calmer way to keep moving forward
-            </Badge>
+            <div className="inline-flex items-center gap-2 rounded-full border border-[#b9cbbb] bg-[#eef4ee] px-3 py-2 text-sm font-bold text-[#285b4a]">
+              <Sparkles className="h-4 w-4" aria-hidden="true" />
+              For the days between appointments
+            </div>
 
             <div className="space-y-5">
-              <p className="eyebrow text-[#8c4e33]">For the days between appointments</p>
-              <h1 className="max-w-2xl text-3xl font-bold leading-[1.02] tracking-[-0.045em] text-[#2D2A26] sm:text-4xl lg:text-5xl">
-                Recovery doesn&apos;t stop when you leave the hospital.
+              <p className="eyebrow text-[#285b4a]">Your recovery journey, connected</p>
+              <h1 className="max-w-2xl text-[clamp(3rem,7vw,5rem)] font-bold leading-[0.98] tracking-[-0.055em] text-[#1f2a24]">
+                Recovery continues at home.
               </h1>
-              <p className="max-w-xl text-base leading-7 text-[#66615C] sm:text-lg">
-                REVIA helps you continue your recovery at home with guided movement, wellbeing check-ins, trusted education, and progress you can understand.
+              <p className="max-w-xl text-lg leading-8 text-[#46514a] sm:text-xl">
+                A calmer way to know what to do next, keep moving safely, and notice the progress that matters to you.
               </p>
             </div>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <Link href="#early-access">
                 <Button variant="primary" size="lg" className="w-full gap-2 sm:w-auto">
-                  Start Your Recovery
-                  <ArrowRight className="h-5 w-5" />
+                  Join early access
+                  <ArrowRight className="h-5 w-5" aria-hidden="true" />
                 </Button>
               </Link>
-              <Link href="/rehabilitation">
+              <Link href="#pathways">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto">
-                  Explore Your Pathway
+                  Explore recovery pathways
                 </Button>
               </Link>
             </div>
 
-            <div className="flex flex-wrap gap-x-6 gap-y-3 border-t border-[#ded8cf] pt-5 text-sm font-medium text-[#66615C]">
-              <span className="inline-flex items-center gap-2"><ShieldCheck className="h-4 w-4 text-[#436444]" /> Clinician-reviewed content</span>
-              <span className="inline-flex items-center gap-2"><HeartPulse className="h-4 w-4 text-[#8c4e33]" /> Four recovery pathways</span>
-              <span className="inline-flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-[#436444]" /> Progress without pressure</span>
+            <div className="flex flex-wrap gap-x-6 gap-y-3 border-t border-[#dce4dc] pt-5 text-sm font-semibold text-[#46514a]">
+              <span className="inline-flex items-center gap-2"><ShieldCheck className="h-4 w-4 text-[#285b4a]" aria-hidden="true" /> Clinician-reviewed education</span>
+              <span className="inline-flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-[#c66b4a]" aria-hidden="true" /> Gentle daily guidance</span>
+              <span className="inline-flex items-center gap-2"><ShieldCheck className="h-4 w-4 text-[#285b4a]" aria-hidden="true" /> Support, not diagnosis</span>
             </div>
           </div>
 
-          <div className="relative mx-auto w-full max-w-[540px] lg:mx-0 lg:justify-self-end reveal-up reveal-up-delay">
-            <div className="absolute -right-6 top-8 z-10 rounded-2xl border border-[#d7e4d5] bg-[#edf4eb] px-4 py-3 text-sm font-semibold text-[#2e4e30] shadow-soft motion-float">
-              <span className="block text-[11px] uppercase tracking-[0.16em] text-[#6f8e70]">Your next step</span>
-              8 minutes of mobility
+          <div className="relative mx-auto w-full max-w-[590px] lg:mx-0 lg:justify-self-end reveal-up reveal-up-delay">
+            <div className="absolute -left-5 -top-8 z-20 hidden max-w-[210px] rounded-2xl border border-[#ead5c9] bg-[#fffaf4] p-4 shadow-soft sm:block motion-float">
+              <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#c66b4a]">A recovery companion</p>
+              <p className="mt-2 text-sm leading-5 text-[#46514a]">Know what matters today. See how far you&apos;ve come.</p>
             </div>
 
-            <div className="relative rounded-[32px] border border-[#dfd7cc] bg-[#f4eee5] p-3 shadow-soft-lg sm:p-5">
-              <div className="rounded-[25px] border border-white/80 bg-white p-4 sm:p-5">
-                <div className="mb-5 flex items-center justify-between">
-                  <div>
-                    <p className="text-xs font-medium text-[#77716a]">Wednesday, 12 June</p>
-                    <p className="mt-1 text-xl font-bold text-[#2D2A26]">Good morning, Maya</p>
-                  </div>
-                  <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#e1eadf] text-sm font-bold text-[#436444]">M</div>
+            <div className="relative overflow-hidden rounded-[32px] border border-[#b9cbbb] bg-[#dce8df] p-4 shadow-soft-lg sm:p-6">
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_82%_18%,rgba(255,255,255,0.8),transparent_30%),linear-gradient(135deg,#dce8df_0%,#eef4ee_58%,#f2e9dc_100%)]" aria-hidden="true" />
+              <div className="relative grid items-end gap-5 sm:grid-cols-[0.8fr_1.2fr]">
+                <div className="hidden min-h-[320px] items-end rounded-[24px] border border-white/70 bg-white/30 p-4 sm:flex">
+                  <Image
+                    src="/illustrations/walking-together.svg"
+                    alt="Illustration of people moving forward together"
+                    width={360}
+                    height={360}
+                    className="h-auto w-full"
+                    priority
+                  />
                 </div>
 
-                <div className="rounded-[22px] bg-[#436444] p-5 text-white shadow-soft">
-                  <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-[0.14em] text-white/70">
-                    <span>Today&apos;s recovery</span>
-                    <span>2 / 4 complete</span>
-                  </div>
-                  <div className="mt-4 h-2 overflow-hidden rounded-full bg-white/20">
-                    <div className="h-full w-1/2 rounded-full bg-[#feae8c]" />
-                  </div>
-                  <div className="mt-5 flex items-end justify-between gap-4">
+                <div className="mx-auto w-full max-w-[330px] rounded-[28px] border-8 border-[#173d32] bg-[#ffffff] p-4 text-[#1f2a24] shadow-2xl sm:mx-0 sm:justify-self-end">
+                  <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-xs text-white/65">Next activity</p>
-                      <p className="mt-1 text-lg font-bold">Mobility &amp; balance</p>
-                      <p className="mt-1 text-sm text-white/75">8 min · gentle pace</p>
+                      <p className="text-xs text-[#708078]">Wednesday, 12 June</p>
+                      <p className="mt-1 text-xl font-bold">Good morning, Maya</p>
                     </div>
-                    <span className="rounded-xl bg-white px-3 py-2 text-xs font-bold text-[#436444]">Continue</span>
+                    <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#dce8df] text-sm font-bold text-[#285b4a]">M</div>
                   </div>
-                </div>
 
-                <div className="mt-4 grid grid-cols-2 gap-3">
-                  <div className="rounded-2xl border border-[#e7e1d9] bg-[#fdf9f3] p-4">
-                    <p className="text-xs font-semibold uppercase tracking-[0.12em] text-[#8c4e33]">Your goal</p>
-                    <p className="mt-2 text-sm font-bold text-[#2D2A26]">Walk independently</p>
-                    <div className="mt-3 h-2 rounded-full bg-[#eadfd4]"><div className="h-full w-[78%] rounded-full bg-[#8c4e33]" /></div>
-                    <p className="mt-2 text-xs font-semibold text-[#8c4e33]">78% building</p>
+                  <div className="mt-5 rounded-[22px] bg-[#285b4a] p-4 text-white">
+                    <div className="flex items-center justify-between text-xs font-bold uppercase tracking-[0.12em] text-white/70">
+                      <span>Today&apos;s recovery</span>
+                      <span>2 of 4 complete</span>
+                    </div>
+                    <div className="mt-4 h-2 overflow-hidden rounded-full bg-white/20" aria-label="Two of four activities complete">
+                      <div className="h-full w-1/2 rounded-full bg-[#f5ded2]" />
+                    </div>
+                    <div className="mt-5 flex items-end justify-between gap-4">
+                      <div>
+                        <p className="text-xs text-white/65">Next activity</p>
+                        <p className="mt-1 text-lg font-bold">Mobility</p>
+                        <p className="mt-1 text-sm text-white/75">8 min · gentle pace</p>
+                      </div>
+                      <span className="rounded-xl bg-white px-3 py-2 text-xs font-bold text-[#285b4a]">Continue</span>
+                    </div>
                   </div>
-                  <div className="rounded-2xl border border-[#e7e1d9] bg-[#fdf9f3] p-4">
-                    <p className="text-xs font-semibold uppercase tracking-[0.12em] text-[#436444]">Today</p>
-                    <div className="mt-2 space-y-2 text-sm font-medium text-[#2D2A26]">
-                      <span className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-[#4A7C59]" /> Breathing</span>
-                      <span className="flex items-center gap-2 text-[#77716a]"><span className="h-4 w-4 rounded-full border-2 border-[#bcb5ac]" /> Mobility</span>
+
+                  <div className="mt-4 grid grid-cols-2 gap-3">
+                    <div className="rounded-2xl border border-[#dce4dc] bg-[#f8f5ef] p-3">
+                      <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#c66b4a]">Your goal</p>
+                      <p className="mt-2 text-sm font-bold">Walk independently</p>
+                      <div className="mt-3 h-2 rounded-full bg-[#eadfd4]"><div className="h-full w-[78%] rounded-full bg-[#c66b4a]" /></div>
+                      <p className="mt-2 text-xs font-bold text-[#c66b4a]">78% building</p>
+                    </div>
+                    <div className="rounded-2xl border border-[#dce4dc] bg-[#eef4ee] p-3">
+                      <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#285b4a]">Today</p>
+                      <div className="mt-2 space-y-2 text-sm font-semibold">
+                        <span className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-[#2f7256]" aria-hidden="true" /> Breathing</span>
+                        <span className="flex items-center gap-2 text-[#708078]"><span className="h-4 w-4 rounded-full border-2 border-[#9ba9a0]" /> Mobility</span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="absolute -bottom-7 -left-5 hidden max-w-[210px] rounded-2xl border border-[#ead8ca] bg-white/95 p-4 shadow-soft sm:block motion-float motion-float-slow">
-              <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[#8c4e33]">A recovery companion</p>
-              <p className="mt-2 text-sm leading-5 text-[#66615C]">Know what matters today. See how far you&apos;ve come.</p>
+            <div className="absolute -bottom-6 -right-4 hidden max-w-[190px] rounded-2xl border border-[#b9cbbb] bg-[#ffffff]/95 p-4 shadow-soft sm:block motion-float motion-float-slow">
+              <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#285b4a]">Preview</p>
+              <p className="mt-2 text-sm leading-5 text-[#46514a]">A glimpse of the REVIA experience.</p>
             </div>
           </div>
         </div>

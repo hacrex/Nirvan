@@ -27,7 +27,7 @@ export const MedicalDisclaimer: React.FC<MedicalDisclaimerProps> = ({
         <ShieldAlert className="w-6 h-6" />
       </div>
       <div className="space-y-1">
-        <h4 className="font-semibold text-[#2D2A26] text-base">Important Medical & Safety Disclaimer</h4>
+        <h2 className="font-semibold text-[#2D2A26] text-base">Important Medical & Safety Disclaimer</h2>
         <p className="leading-relaxed">
           NIRVAN provides clinician-reviewed educational content, routine tracking, and rehabilitation guidance designed to support your recovery journey. <strong className="text-[#2D2A26]">NIRVAN is not a medical device, does not diagnose conditions, prescribe medications, or replace direct clinical oversight.</strong> Always consult your physician or qualified healthcare provider before starting any rehabilitation or physical activity program. If you experience severe symptoms, chest pain, or a medical emergency, seek immediate medical attention or call emergency services.
         </p>

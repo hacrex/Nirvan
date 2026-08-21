@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { PageContainer } from './PageContainer';
 import { NewsletterSignup } from '../ui/NewsletterSignup';
 import { MedicalDisclaimer } from '../ui/MedicalDisclaimer';
@@ -11,11 +12,14 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-[#e6e2dc]">
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-[12px] bg-[#436444] flex items-center justify-center text-white font-bold text-lg">
-                R
-              </div>
-              <span className="font-bold text-2xl text-[#2D2A26] tracking-tight">NIRVAN</span>
+            <Link href="/" aria-label="NIRVAN home" className="flex items-center">
+              <Image
+                src="/brand/nirvan-logo-header.png"
+                alt="NIRVAN — Move Forward. Live Better."
+                width={280}
+                height={86}
+                className="h-14 w-auto object-contain"
+              />
             </Link>
             <p className="text-sm text-[#66615C] max-w-sm leading-relaxed">
               Move Forward. Live Better. NIRVAN brings recovery, movement, wellbeing, and evidence-aware education together to support your journey back to strength.
@@ -30,7 +34,7 @@ export const Footer: React.FC = () => {
 
           {/* Rehabilitation Col */}
           <div className="space-y-3">
-            <h4 className="font-semibold text-[#2D2A26] text-base">Rehabilitation</h4>
+            <h2 className="font-semibold text-[#2D2A26] text-base">Rehabilitation</h2>
             <ul className="space-y-2 text-sm text-[#66615C]">
               <li>
                 <Link href="/rehabilitation" className="hover:text-[#436444] transition-colors">
@@ -72,7 +76,7 @@ export const Footer: React.FC = () => {
 
           {/* Resources & Content Col */}
           <div className="space-y-3">
-            <h4 className="font-semibold text-[#2D2A26] text-base">Explore & Learn</h4>
+            <h2 className="font-semibold text-[#2D2A26] text-base">Explore & Learn</h2>
             <ul className="space-y-2 text-sm text-[#66615C]">
               <li>
                 <Link href="/wellbeing" className="hover:text-[#436444] transition-colors">
@@ -109,7 +113,7 @@ export const Footer: React.FC = () => {
 
           {/* Company & Legal Col */}
           <div className="space-y-3">
-            <h4 className="font-semibold text-[#2D2A26] text-base">Company & Legal</h4>
+            <h2 className="font-semibold text-[#2D2A26] text-base">Company & Legal</h2>
             <ul className="space-y-2 text-sm text-[#66615C]">
               <li>
                 <Link href="/about" className="hover:text-[#436444] transition-colors">

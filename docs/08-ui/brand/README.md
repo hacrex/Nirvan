@@ -7,7 +7,8 @@ The authoritative source for every logo and brand asset is `nirvan-logo-lockup.p
 | Asset | Dimensions | Intended use |
 | --- | ---: | --- |
 | `nirvan-logo-lockup.png` | 1920×1920 | Supplied full logo lockup source |
-| `nirvan-logo-horizontal.png` | 2304×1536 | Horizontal header lockup with Buddha mark on the left and NIRVAN on the right |
+| `nirvan-logo-horizontal.png` | 2304×1536 | Horizontal source lockup with Buddha mark on the left and NIRVAN on the right |
+| `nirvan-logo-header.png` | 2256×741 | Trimmed horizontal header/footer lockup with the larger tagline |
 | `nirvan-mark-1024.png` | 1024×1024 | PNG app-icon size derived from the supplied lockup |
 | `nirvan-mark-512.png` | 512×512 | Installable web-app icon and Next.js source |
 | `nirvan-mark-192.png` | 192×192 | Installable web-app icon |
@@ -17,7 +18,7 @@ The authoritative source for every logo and brand asset is `nirvan-logo-lockup.p
 | `nirvan-social-portrait-full-hd.png` | 1080×1920 | Portrait social or story creative |
 | `nirvan-social-landscape-full-hd.png` | 1920×1080 | Open Graph, social-share, and landscape brand creative |
 
-The website uses `/brand/nirvan-logo-horizontal.png` in the header home button and `/brand/nirvan-social-landscape.png` for Open Graph and Twitter sharing. The web manifest references `/brand/nirvan-mark-192.png` and `/brand/nirvan-mark-512.png`. Next.js App Router uses `src/app/icon.png` and `src/app/apple-icon.png`, both regenerated from the supplied PNG lockup.
+The website uses `/brand/nirvan-logo-header.png` in the header, mobile menu, and footer home links, and `/brand/nirvan-social-landscape.png` for Open Graph and Twitter sharing. The web manifest references `/brand/nirvan-mark-192.png` and `/brand/nirvan-mark-512.png`. Next.js App Router uses `src/app/icon.png` and `src/app/apple-icon.png`, both regenerated from the supplied PNG lockup.
 
 The unDraw SVG files in `website/public/illustrations/undraw/` are content illustrations and are intentionally retained. They are not NIRVAN logo or brand-mark assets.
 

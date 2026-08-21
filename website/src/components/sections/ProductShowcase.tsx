@@ -30,7 +30,7 @@ export const ProductShowcase: React.FC = () => {
             <div className="absolute -left-4 top-10 hidden w-48 -rotate-6 rounded-[24px] border border-white/15 bg-white/10 p-4 shadow-2xl backdrop-blur sm:block">
               <div className="flex items-center justify-between text-xs text-white/60"><span>Recovery</span><span>Week 4</span></div>
               <p className="mt-5 text-lg font-bold">Building strength</p>
-              <div className="mt-4 h-2 rounded-full bg-white/15"><div className="h-full w-[64%] rounded-full bg-[#f5ded2]" /></div>
+              <div className="mt-4 h-2 rounded-full bg-white/15" role="progressbar" aria-label="Recovery progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={64}><div className="h-full w-[64%] rounded-full bg-[#f5ded2]" /></div>
               <div className="mt-6 space-y-3 text-xs text-white/75"><p className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-[#f5ded2]" aria-hidden="true" /> Mobility</p><p className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-[#f5ded2]" aria-hidden="true" /> Consistency</p><p className="flex items-center gap-2 text-white/45"><span className="h-4 w-4 rounded-full border border-white/35" /> Strength</p></div>
             </div>
 
@@ -38,7 +38,7 @@ export const ProductShowcase: React.FC = () => {
               <div className="flex items-center justify-between"><div><p className="text-xs text-[#708078]">Good morning, Maya</p><p className="mt-1 text-xl font-bold">One step at a time.</p></div><div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#dce8df] text-sm font-bold text-[#285b4a]">M</div></div>
               <div className="mt-5 rounded-[22px] bg-[#285b4a] p-4 text-white">
                 <div className="flex items-center justify-between text-xs font-bold uppercase tracking-[0.12em] text-white/70"><span>Today&apos;s recovery</span><span>2 of 4 complete</span></div>
-                <div className="mt-4 h-2 rounded-full bg-white/15" aria-label="Two of four activities complete"><div className="h-full w-1/2 rounded-full bg-[#f5ded2]" /></div>
+                <div className="mt-4 h-2 rounded-full bg-white/15" role="progressbar" aria-label="Two of four activities complete" aria-valuemin={0} aria-valuemax={4} aria-valuenow={2}><div className="h-full w-1/2 rounded-full bg-[#f5ded2]" /></div>
                 <div className="mt-5 flex items-center gap-3"><div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/15"><Footprints className="h-6 w-6" aria-hidden="true" /></div><div><p className="font-bold">Mobility &amp; balance</p><p className="mt-1 text-xs text-white/65">8 min · gentle pace</p></div></div>
                 <button type="button" className="mt-5 flex min-h-11 w-full items-center justify-center gap-2 rounded-xl bg-white text-sm font-bold text-[#285b4a]">Continue recovery <Play className="h-4 w-4 fill-current" aria-hidden="true" /></button>
               </div>

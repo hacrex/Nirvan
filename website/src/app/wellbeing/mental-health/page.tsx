@@ -10,7 +10,7 @@ import { CTA } from '@/components/sections/CTA';
 import {
   Moon, Smile, Battery, Brain, ShieldCheck, ArrowRight,
   Users, BookOpen, TrendingUp, CheckCircle2, Clock, Sparkles,
-  Wind, Leaf, AlertTriangle, Activity
+  AlertTriangle, Activity
 } from 'lucide-react';
 
 export const metadata: Metadata = {

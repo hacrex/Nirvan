@@ -8,8 +8,8 @@ import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
 import {
-  HeartHandshake, ShieldCheck, ArrowRight, Phone, BookOpen,
-  AlertTriangle, CheckCircle2, Users, Brain, Clock, ExternalLink
+  HeartHandshake, ShieldCheck, ArrowRight, Phone,
+  AlertTriangle, CheckCircle2, Users
 } from 'lucide-react';
 
 export const metadata: Metadata = {

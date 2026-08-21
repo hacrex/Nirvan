@@ -4,11 +4,10 @@ import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
 import {
-  Brain, ShieldCheck, ArrowRight, CheckCircle2, Clock,
+  Brain, ShieldCheck, ArrowRight, Clock,
   Wind, Leaf, Activity, AlertTriangle, Heart
 } from 'lucide-react';
 

@@ -11,7 +11,7 @@ import {
   Moon, Smile, Battery, Utensils, HeartHandshake, Sparkles,
   Brain, ShieldCheck, ArrowRight, Phone, BookOpen, Activity,
   Users, Wind, Leaf, TrendingUp, CheckCircle2, AlertTriangle,
-  PenLine, Target, Lock
+  Lock
 } from 'lucide-react';
 
 export const metadata: Metadata = {

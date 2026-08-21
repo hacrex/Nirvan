@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
@@ -6,11 +5,12 @@ import { Badge } from '@/components/ui/Badge';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
 import { Heart, Compass, Sparkles } from 'lucide-react';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/about', {
   title: 'About NIRVAN — Our Brand Story & Mission',
   description: 'Learn about NIRVAN origin, brand story, philosophy, and mission to support recovery step by step.',
-};
+});
 
 export default function AboutPage() {
   return (

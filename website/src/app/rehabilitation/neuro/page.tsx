@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { RehabHero } from '@/components/sections/RehabHero';
 import { RehabModules } from '@/components/sections/RehabModules';
@@ -6,11 +5,12 @@ import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
 import { Brain, ShieldCheck, Zap, Activity } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/rehabilitation/neuro', {
   title: 'Neuro Rehabilitation Pathway',
   description: 'Stroke, paralysis, mobility impairment, motor rehabilitation, balance, speech, and cognitive recovery.',
-};
+});
 
 export default function NeuroRehabPage() {
   const modules = [

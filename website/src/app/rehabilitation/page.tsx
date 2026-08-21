@@ -1,14 +1,14 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { RecoveryPaths } from '@/components/sections/RecoveryPaths';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/rehabilitation', {
   title: 'Rehabilitation Pathways Overview',
   description: 'Explore NIRVAN specialized digital rehabilitation pathways for Cardiac, Neuro, Stroke, Kidney, and Liver recovery.',
-};
+});
 
 export default function RehabilitationOverviewPage() {
   return (

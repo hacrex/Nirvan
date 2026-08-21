@@ -8,6 +8,13 @@ import { CTA } from '@/components/sections/CTA';
 import { FAQSection } from '@/components/sections/FAQSection';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { PageContainer } from '@/components/layout/PageContainer';
+import { createPageMetadata } from '@/lib/metadata';
+
+export const metadata = createPageMetadata('/', {
+  title: 'NIRVAN — Move Forward. Live Better.',
+  description: 'NIRVAN supports rehabilitation, movement, wellbeing, and recovery education for cardiac, neuro, kidney, and liver recovery.',
+  keywords: ['digital rehabilitation', 'recovery support', 'wellbeing companion', 'cardiac recovery', 'stroke recovery'],
+});
 
 export default function HomePage() {
   return (

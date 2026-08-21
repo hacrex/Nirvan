@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -6,12 +5,13 @@ import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
   Brain, ShieldCheck, ArrowRight, Clock,
   Wind, Leaf, Activity, AlertTriangle, Heart
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing/stress', {
   title: 'Stress & Anxiety Management During Recovery',
   description: 'Evidence-based techniques to manage recovery-related stress and anxiety. Breathing exercises, grounding, and practical strategies for everyday calm.',
   keywords: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'recovery anxiety',
     'stress relief',
   ],
-};
+});
 
 export default function StressPage() {
   const stressSources = [

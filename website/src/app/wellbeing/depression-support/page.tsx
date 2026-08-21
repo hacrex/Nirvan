@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -7,12 +6,13 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
   HeartHandshake, ShieldCheck, ArrowRight, Phone,
   AlertTriangle, CheckCircle2, Users
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing/depression-support', {
   title: 'Depression Support — Understanding Low Mood During Recovery',
   description: 'Gentle depression support during recovery. Understand low mood, explore evidence-based self-help, and know when to seek professional support.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'when to seek help',
     'rehabilitation mental health',
   ],
-};
+});
 
 export default function DepressionSupportPage() {
   const whatIsDepression = [

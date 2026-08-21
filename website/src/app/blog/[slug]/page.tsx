@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -7,6 +7,7 @@ import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { ArticleJsonLd } from '@/components/seo/JsonLd';
 import { getPostBySlug, getAllPosts } from '@/lib/mdx';
 import { siteUrl } from '@/lib/site';
+import { createPageMetadata } from '@/lib/metadata';
 import { Clock, UserCheck, Calendar } from 'lucide-react';
 
 export async function generateStaticParams() {
@@ -21,10 +22,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = getPostBySlug(slug);
   if (!post) return { title: 'Article Not Found' };
 
-  return {
+  return createPageMetadata(`/blog/${post.slug}`, {
     title: post.title,
     description: post.excerpt,
-  };
+    keywords: [post.category, 'rehabilitation education', 'recovery guidance', 'NIRVAN blog'],
+    openGraph: {
+      type: 'article',
+      publishedTime: post.date,
+      authors: [post.author],
+      section: post.category,
+    },
+  });
 }
 
 export default async function ArticleDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -44,6 +52,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
         datePublished={post.date}
         authorName={post.author}
         reviewerName={post.reviewer}
+        category={post.category}
       />
 
       <section className="py-12 bg-[#F2E8DA]/30 border-b border-[#e6e2dc]">

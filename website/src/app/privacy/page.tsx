@@ -1,11 +1,11 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/privacy', {
   title: 'Privacy Policy',
   description: 'NIRVAN Privacy Policy explaining how we handle health data, security, and user privacy.',
-};
+});
 
 export default function PrivacyPage() {
   return (

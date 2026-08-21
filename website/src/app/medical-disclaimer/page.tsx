@@ -1,12 +1,12 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/medical-disclaimer', {
   title: 'Full Medical Disclaimer',
   description: 'NIRVAN full medical disclaimer regarding clinical educational content, patient responsibility, and emergency guidance.',
-};
+});
 
 export default function MedicalDisclaimerPage() {
   return (

@@ -7,7 +7,6 @@ import { ArticleCard } from '@/components/content/ArticleCard';
 import { CategoryFilter } from '@/components/content/CategoryFilter';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { samplePosts } from '@/lib/mdx';
-
 const categories = ['All', 'Cardiac', 'Neuro', 'Kidney', 'Liver', 'Wellbeing'];
 
 export default function BlogListingPage() {

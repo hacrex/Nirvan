@@ -1,11 +1,11 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/terms', {
   title: 'Terms of Service',
   description: 'NIRVAN Terms of Service governing the use of our website and mobile application.',
-};
+});
 
 export default function TermsPage() {
   return (

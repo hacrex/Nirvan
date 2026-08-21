@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
@@ -6,11 +5,12 @@ import { Badge } from '@/components/ui/Badge';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
 import { Video, ShieldCheck, Activity, Dumbbell, Footprints, Armchair, Wind } from 'lucide-react';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/exercises', {
   title: 'Exercise Library',
   description: 'Guided rehabilitation exercises with video demonstrations, step-by-step safety notes, and progress tracking.',
-};
+});
 
 export default function ExercisesPage() {
   const categories = [

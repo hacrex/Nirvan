@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { PageContainer } from './PageContainer';
+import { BrandLogo } from './BrandLogo';
 import { NewsletterSignup } from '../ui/NewsletterSignup';
 import { MedicalDisclaimer } from '../ui/MedicalDisclaimer';
 
@@ -13,13 +13,7 @@ export const Footer: React.FC = () => {
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" aria-label="NIRVAN home" className="flex items-center">
-              <Image
-                src="/brand/nirvan-logo-header.png"
-                alt="NIRVAN — Move Forward. Live Better."
-                width={280}
-                height={86}
-                className="h-14 w-auto object-contain"
-              />
+              <BrandLogo className="h-14 w-auto object-contain" />
             </Link>
             <p className="text-sm text-[#66615C] max-w-sm leading-relaxed">
               Move Forward. Live Better. NIRVAN brings recovery, movement, wellbeing, and evidence-aware education together to support your journey back to strength.

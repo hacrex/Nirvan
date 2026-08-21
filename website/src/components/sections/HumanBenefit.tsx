@@ -35,7 +35,7 @@ export const HumanBenefit: React.FC = () => {
               {benefits.map(([title, detail]) => (
                 <div key={title} className="flex gap-3">
                   <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-[#285b4a]" aria-hidden="true" />
-                  <div><p className="font-bold text-[#1f2a24]">{title}</p><p className="mt-1 text-sm leading-6 text-[#708078]">{detail}</p></div>
+                  <div><p className="font-bold text-[#1f2a24]">{title}</p><p className="mt-1 text-sm leading-6 text-[#58685f]">{detail}</p></div>
                 </div>
               ))}
             </div>

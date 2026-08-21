@@ -125,7 +125,7 @@ export const RecoveryPaths: React.FC = () => {
                 );
               })}
             </div>
-            <div className="mt-8 flex items-center gap-3 border-t border-[#dce4dc] pt-5 text-sm text-[#708078]">
+            <div className="mt-8 flex items-center gap-3 border-t border-[#dce4dc] pt-5 text-sm text-[#58685f]">
               <HeartHandshake className="h-5 w-5 text-[#c66b4a]" aria-hidden="true" />
               <span>Start with your needs. Add the right support over time.</span>
             </div>
@@ -140,7 +140,7 @@ export const RecoveryPaths: React.FC = () => {
                     <ActiveIcon className="h-8 w-8" aria-hidden="true" />
                   </span>
                   <div>
-                    <span className="text-xs font-bold uppercase tracking-[0.16em] text-[#708078]">{activePath.badge}</span>
+                    <span className="text-xs font-bold uppercase tracking-[0.16em] text-[#58685f]">{activePath.badge}</span>
                     <h3 className="mt-1 text-2xl font-bold text-[#1f2a24] sm:text-3xl">{activePath.title}</h3>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ export const RecoveryPaths: React.FC = () => {
 
               <div className="mt-8 flex flex-col gap-4 border-t border-[#d6ded5] pt-6 sm:flex-row sm:items-center sm:justify-between">
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#708078]">Helpful context</p>
+                  <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#58685f]">Helpful context</p>
                   <p className="mt-1 text-sm font-semibold text-[#285b4a]">{activePath.metrics}</p>
                 </div>
                 <Link href={activePath.href} className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-[#173d32] px-5 py-3 text-sm font-bold text-white transition-colors hover:bg-[#285b4a]">

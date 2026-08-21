@@ -2,9 +2,9 @@
 
 import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { X, Heart, Brain, Activity, Stethoscope, ChevronRight, HeartHandshake, Wind } from 'lucide-react';
 import { Button } from '../ui/Button';
+import { BrandLogo } from './BrandLogo';
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -64,13 +64,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
       <div ref={panelRef} className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col overflow-y-auto bg-[#f8f5ef] p-6 shadow-soft-lg" role="dialog" aria-modal="true" aria-label="NIRVAN navigation">
         <div className="flex items-center justify-between border-b border-[#dce4dc] pb-6">
           <Link href="/" onClick={onClose} aria-label="NIRVAN home" className="flex items-center">
-            <Image
-              src="/brand/nirvan-logo-header.png"
-              alt="NIRVAN — Move Forward. Live Better."
-              width={280}
-              height={86}
-              className="h-12 w-auto object-contain"
-            />
+            <BrandLogo className="h-12 w-auto object-contain" />
           </Link>
           <button
             type="button"

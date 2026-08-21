@@ -67,7 +67,7 @@ export const Hero: React.FC = () => {
                 <div className="mx-auto w-full max-w-[330px] rounded-[28px] border-8 border-[#173d32] bg-[#ffffff] p-4 text-[#1f2a24] shadow-2xl sm:mx-0 sm:justify-self-end">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-xs text-[#708078]">Wednesday, 12 June</p>
+                      <p className="text-xs text-[#58685f]">Wednesday, 12 June</p>
                       <p className="mt-1 text-xl font-bold">Good morning, Maya</p>
                     </div>
                     <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#dce8df] text-sm font-bold text-[#285b4a]">M</div>
@@ -78,12 +78,12 @@ export const Hero: React.FC = () => {
                       <span>Today&apos;s recovery</span>
                       <span>2 of 4 complete</span>
                     </div>
-                    <div className="mt-4 h-2 overflow-hidden rounded-full bg-white/20" aria-label="Two of four activities complete">
+                    <div className="mt-4 h-2 overflow-hidden rounded-full bg-white/20" role="progressbar" aria-label="Two of four activities complete" aria-valuemin={0} aria-valuemax={4} aria-valuenow={2}>
                       <div className="h-full w-1/2 rounded-full bg-[#f5ded2]" />
                     </div>
                     <div className="mt-5 flex items-end justify-between gap-4">
                       <div>
-                        <p className="text-xs text-white/65">Next activity</p>
+                        <p className="text-xs text-white/75">Next activity</p>
                         <p className="mt-1 text-lg font-bold">Mobility</p>
                         <p className="mt-1 text-sm text-white/75">8 min · gentle pace</p>
                       </div>
@@ -93,16 +93,16 @@ export const Hero: React.FC = () => {
 
                   <div className="mt-4 grid grid-cols-2 gap-3">
                     <div className="rounded-2xl border border-[#dce4dc] bg-[#f8f5ef] p-3">
-                      <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#c66b4a]">Your goal</p>
+                      <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9f4f35]">Your goal</p>
                       <p className="mt-2 text-sm font-bold">Walk independently</p>
                       <div className="mt-3 h-2 rounded-full bg-[#eadfd4]"><div className="h-full w-[78%] rounded-full bg-[#c66b4a]" /></div>
-                      <p className="mt-2 text-xs font-bold text-[#c66b4a]">78% building</p>
+                      <p className="mt-2 text-xs font-bold text-[#9f4f35]">78% building</p>
                     </div>
                     <div className="rounded-2xl border border-[#dce4dc] bg-[#eef4ee] p-3">
                       <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#285b4a]">Today</p>
                       <div className="mt-2 space-y-2 text-sm font-semibold">
                         <span className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-[#2f7256]" aria-hidden="true" /> Breathing</span>
-                        <span className="flex items-center gap-2 text-[#708078]"><span className="h-4 w-4 rounded-full border-2 border-[#9ba9a0]" /> Mobility</span>
+                        <span className="flex items-center gap-2 text-[#58685f]"><span className="h-4 w-4 rounded-full border-2 border-[#9ba9a0]" /> Mobility</span>
                       </div>
                     </div>
                   </div>

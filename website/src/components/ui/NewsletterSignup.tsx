@@ -79,7 +79,7 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
 
       {!compact && (
         <label htmlFor={`${inputId}-pathway`} className="flex flex-col gap-2 text-xs font-semibold text-[#46514a]">
-          I&apos;m most interested in <span className="font-normal text-[#708078]">Optional</span>
+          I&apos;m most interested in <span className="font-normal text-[#58685f]">Optional</span>
           <select
             id={`${inputId}-pathway`}
             value={pathway}
@@ -105,7 +105,7 @@ export const NewsletterSignup: React.FC<{ compact?: boolean; id?: string }> = ({
         </div>
       )}
 
-      <p className="text-xs leading-5 text-[#708078]">By joining, you agree to receive NIRVAN updates. You can unsubscribe anytime. Your response is stored by Google Forms and linked to the NIRVAN waitlist sheet.</p>
+      <p className="text-xs leading-5 text-[#58685f]">By joining, you agree to receive NIRVAN updates. You can unsubscribe anytime. Your response is stored by Google Forms and linked to the NIRVAN waitlist sheet.</p>
     </form>
   );
 };

@@ -8,33 +8,25 @@ import { CTA } from '@/components/sections/CTA';
 import { FAQSection } from '@/components/sections/FAQSection';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { PageContainer } from '@/components/layout/PageContainer';
-import { ScrollReveal } from '@/components/ui/ScrollReveal';
+import { createPageMetadata } from '@/lib/metadata';
+
+export const metadata = createPageMetadata('/', {
+  title: 'NIRVAN — Move Forward. Live Better.',
+  description: 'NIRVAN supports rehabilitation, movement, wellbeing, and recovery education for cardiac, neuro, kidney, and liver recovery.',
+  keywords: ['digital rehabilitation', 'recovery support', 'wellbeing companion', 'cardiac recovery', 'stroke recovery'],
+});
 
 export default function HomePage() {
   return (
     <>
       <Hero />
-      <ScrollReveal>
-        <RecoveryPaths />
-      </ScrollReveal>
-      <ScrollReveal>
-        <ProductShowcase />
-      </ScrollReveal>
-      <ScrollReveal>
-        <HumanBenefit />
-      </ScrollReveal>
-      <ScrollReveal>
-        <TrustModule />
-      </ScrollReveal>
-      <ScrollReveal>
-        <EducationSection />
-      </ScrollReveal>
-      <ScrollReveal>
-        <CTA />
-      </ScrollReveal>
-      <ScrollReveal>
-        <FAQSection />
-      </ScrollReveal>
+      <RecoveryPaths />
+      <ProductShowcase />
+      <HumanBenefit />
+      <TrustModule />
+      <EducationSection />
+      <CTA />
+      <FAQSection />
       <section className="border-t border-[#dce4dc] bg-[#f2e9dc] py-12">
         <PageContainer>
           <MedicalDisclaimer />

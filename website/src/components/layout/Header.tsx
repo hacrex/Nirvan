@@ -2,11 +2,11 @@
 
 import React, { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Activity, Brain, ChevronDown, Heart, HeartHandshake, Menu, Stethoscope, Wind } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { MobileMenu } from './MobileMenu';
 import { PageContainer } from './PageContainer';
+import { BrandLogo } from './BrandLogo';
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,14 +30,7 @@ export const Header: React.FC = () => {
         <PageContainer>
           <div className="flex h-16 items-center justify-between lg:h-20">
             <Link href="/" aria-label="NIRVAN home" className="group flex items-center">
-              <Image
-                src="/brand/nirvan-logo-header.png"
-                alt="NIRVAN — Move Forward. Live Better."
-                width={280}
-                height={86}
-                priority
-                className="h-14 w-auto object-contain transition-transform group-hover:scale-[1.03] lg:h-16"
-              />
+              <BrandLogo priority className="h-14 w-auto object-contain transition-transform group-hover:scale-[1.03] lg:h-16" />
             </Link>
 
             <nav className="hidden items-center gap-8 lg:flex" aria-label="Primary navigation">

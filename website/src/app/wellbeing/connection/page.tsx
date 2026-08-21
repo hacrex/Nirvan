@@ -1,18 +1,17 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
   Users, ShieldCheck, ArrowRight, CheckCircle2, Heart,
-  Phone, Brain, Clock, MessageCircle
+  Phone, Brain, MessageCircle
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing/connection', {
   title: 'Social Connection — Staying Connected During Recovery',
   description: 'Recovery is easier when you feel connected. Gentle support for staying in touch with family, friends, and healthcare professionals during your healing journey.',
   keywords: [
@@ -24,7 +23,7 @@ export const metadata: Metadata = {
     'loneliness recovery',
     'staying connected',
   ],
-};
+});
 
 export default function ConnectionPage() {
   const connectionTypes = [

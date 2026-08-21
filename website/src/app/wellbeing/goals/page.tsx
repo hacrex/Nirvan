@@ -1,18 +1,17 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
   Target, ShieldCheck, ArrowRight, CheckCircle2, TrendingUp,
   Moon, Brain, Users, Sparkles, Heart
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing/goals', {
   title: 'Wellbeing Goals — Small Steps Toward Better Living',
   description: 'Set gentle wellbeing goals during recovery. Build healthy routines around sleep, stress, connection, and motivation — one small step at a time.',
   keywords: [
@@ -25,7 +24,7 @@ export const metadata: Metadata = {
     'routine building',
     'small steps recovery',
   ],
-};
+});
 
 export default function GoalsPage() {
   const goalOptions = [

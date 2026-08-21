@@ -1,18 +1,16 @@
-import { Metadata } from 'next';
-import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
-  Wind, Leaf, Activity, ShieldCheck, ArrowRight, CheckCircle2,
-  Brain, Heart, Clock, Sparkles
+  Wind, Leaf, Activity, ShieldCheck, CheckCircle2,
+  Heart, Clock, Sparkles
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing/breathing-relaxation', {
   title: 'Breathing & Relaxation Techniques for Recovery',
   description: 'Simple guided breathing exercises, mindfulness, and relaxation techniques to calm the nervous system and manage recovery-related stress.',
   keywords: [
@@ -26,7 +24,7 @@ export const metadata: Metadata = {
     'diaphragmatic breathing',
     'grounding exercises',
   ],
-};
+});
 
 export default function BreathingRelaxationPage() {
   const techniques = [

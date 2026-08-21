@@ -1,18 +1,17 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
   Smile, TrendingUp, ShieldCheck, ArrowRight, CheckCircle2,
-  Brain, Clock, Activity, BookOpen, AlertTriangle
+  Clock, AlertTriangle
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing/mood', {
   title: 'Mood Tracking — Daily Check-in & Emotional Awareness',
   description: 'Track your mood during recovery with quick daily check-ins. Spot patterns, understand emotional trends, and build self-awareness — without judgment.',
   keywords: [
@@ -24,7 +23,7 @@ export const metadata: Metadata = {
     'mood trends',
     'mental wellbeing tracking',
   ],
-};
+});
 
 export default function MoodPage() {
   const moodOptions = [

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { PageContainer } from '../layout/PageContainer';
 import { Button } from '../ui/Button';
-import { Moon, Smile, Wind, Brain, HeartHandshake, ArrowRight } from 'lucide-react';
+import { Moon, Smile, Wind, Brain, ArrowRight } from 'lucide-react';
 import { RelaxingOutdoorsSVG } from '../illustrations/Index';
 
 export const WellbeingSection: React.FC = () => {

@@ -15,6 +15,7 @@ const atkinson = Atkinson_Hyperlegible({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: 'NIRVAN — Move Forward. Live Better.',
     template: '%s | NIRVAN — Move Forward. Live Better.',
@@ -42,11 +43,19 @@ export const metadata: Metadata = {
     title: 'NIRVAN — Digital Rehabilitation & Wellbeing Companion',
     description:
       'Move Forward. Live Better. NIRVAN brings recovery plans, exercises, wellbeing tracking, and clinical education together.',
+    images: [{
+      url: '/brand/nirvan-social-landscape.png',
+      width: 1920,
+      height: 1080,
+      alt: 'NIRVAN — Move Forward. Live Better. Digital rehabilitation and wellbeing companion.',
+      type: 'image/png',
+    }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'NIRVAN — Move Forward. Live Better.',
     description: 'Digital rehabilitation and wellbeing companion.',
+    images: ['/brand/nirvan-social-landscape.png'],
   },
   manifest: '/manifest.webmanifest',
   robots: {
@@ -60,16 +69,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${atkinson.variable} h-full antialiased`}>
       <head>
         <OrganizationJsonLd />
-        <meta property="og:image" content="/brand/nirvan-social-landscape.png" />
-        <meta property="og:image:url" content="/brand/nirvan-social-landscape.png" />
-        <meta property="og:image:secure_url" content="/brand/nirvan-social-landscape.png" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1920" />
-        <meta property="og:image:height" content="1080" />
-        <meta property="og:image:alt" content="NIRVAN — Move Forward. Live Better. Digital rehabilitation and wellbeing companion." />
-        <meta name="twitter:image" content="/brand/nirvan-social-landscape.png" />
-        <meta name="twitter:image:alt" content="NIRVAN — Move Forward. Live Better. Digital rehabilitation and wellbeing companion." />
-        <link rel="image_src" href="/brand/nirvan-social-landscape.png" />
       </head>
       <body className="min-h-full flex flex-col bg-[#fdf9f3] text-[#2D2A26]">
         <Header />

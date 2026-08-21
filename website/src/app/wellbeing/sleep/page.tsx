@@ -1,18 +1,17 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
-  Moon, ShieldCheck, ArrowRight, CheckCircle2, Clock,
-  Brain, Wind, Activity, BookOpen
+  Moon, ShieldCheck, ArrowRight, Clock,
+  Brain, Activity
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing/sleep', {
   title: 'Sleep Support — Better Rest During Recovery',
   description: 'Understand how sleep supports physical healing. Track sleep quality, learn sleep hygiene techniques, and build better rest habits during recovery.',
   keywords: [
@@ -25,7 +24,7 @@ export const metadata: Metadata = {
     'sleep quality',
     'healing sleep',
   ],
-};
+});
 
 export default function SleepPage() {
   const sleepFactors = [

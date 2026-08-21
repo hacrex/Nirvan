@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { RehabHero } from '@/components/sections/RehabHero';
 import { RehabModules } from '@/components/sections/RehabModules';
@@ -6,11 +5,12 @@ import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
 import { Stethoscope, ShieldCheck, Dumbbell, Apple } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/rehabilitation/liver', {
   title: 'Liver Rehabilitation Pathway',
   description: 'Cirrhosis-related functional support, muscle preservation, physical rehabilitation, and nutrition education.',
-};
+});
 
 export default function LiverRehabPage() {
   const modules = [

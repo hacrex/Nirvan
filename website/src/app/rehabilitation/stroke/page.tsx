@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { RehabHero } from '@/components/sections/RehabHero';
 import { RehabModules } from '@/components/sections/RehabModules';
@@ -6,11 +5,12 @@ import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
 import { Brain, ShieldCheck } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/rehabilitation/stroke', {
   title: 'Stroke Recovery Pathway',
   description: 'Targeted stroke rehabilitation exercises for motor control, speech, balance, and post-stroke independence.',
-};
+});
 
 export default function StrokeRehabPage() {
   const modules = [

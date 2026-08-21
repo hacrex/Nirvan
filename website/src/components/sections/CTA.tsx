@@ -15,7 +15,7 @@ export const CTA: React.FC = () => {
       <PageContainer className="relative z-10">
         <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20">
           <div className="max-w-xl">
-            <p className="eyebrow text-[#c66b4a]">Stay close to your recovery</p>
+            <p className="eyebrow text-[#9f4f35]">Stay close to your recovery</p>
             <h2 className="mt-4 text-4xl font-bold leading-[1.06] tracking-[-0.045em] text-[#1f2a24] sm:text-5xl">Join the early-access list.</h2>
             <p className="mt-5 text-lg leading-8 text-[#46514a]">Receive one practical recovery idea, new resources, and product updates as NIRVAN grows. We will be clear about availability before asking you to download or pay.</p>
             <div className="mt-7 space-y-3 text-sm font-semibold text-[#285b4a]">

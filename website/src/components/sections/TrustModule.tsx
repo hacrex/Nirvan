@@ -63,7 +63,7 @@ export const TrustModule: React.FC = () => {
                   <div key={item.title} className="rounded-2xl border border-white/15 bg-white/10 p-5">
                     <Icon className="h-6 w-6 text-[#f5ded2]" aria-hidden="true" />
                     <h3 className="mt-5 text-xl font-bold">{item.title}</h3>
-                    <p className="mt-2 text-sm leading-6 text-white/65">{item.description}</p>
+                    <p className="mt-2 text-sm leading-6 text-white/75">{item.description}</p>
                     <Link href={item.href} className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-[#f5ded2] hover:text-white">
                       {item.label} <ArrowRight className="h-4 w-4" aria-hidden="true" />
                     </Link>

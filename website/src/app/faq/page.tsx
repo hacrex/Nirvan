@@ -1,14 +1,14 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { FAQSection } from '@/components/sections/FAQSection';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/faq', {
   title: 'Frequently Asked Questions (FAQ)',
   description: 'Find detailed answers to common questions about NIRVAN, rehabilitation pathways, safety, offline capability, and health privacy.',
-};
+});
 
 export default function FAQPage() {
   return (

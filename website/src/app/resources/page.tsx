@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -6,11 +5,12 @@ import { Card } from '@/components/ui/Card';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
 import { BookOpen, HelpCircle, FileText, ArrowRight } from 'lucide-react';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/resources', {
   title: 'Recovery Resources',
   description: 'Access patient guides, educational explainers, condition overview sheets, and clinician-reviewed recovery materials.',
-};
+});
 
 export default function ResourcesPage() {
   const resourceCards = [

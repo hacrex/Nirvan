@@ -12,9 +12,19 @@ export const OrganizationJsonLd: React.FC<OrganizationJsonLdProps> = () => {
     '@type': 'MedicalOrganization',
     name: 'NIRVAN',
     url: siteUrl,
-    logo: `${siteUrl}/logo.png`,
+    logo: `${siteUrl}/brand/nirvan-mark-512.png`,
+    image: `${siteUrl}/brand/nirvan-social-landscape.png`,
     description: 'Digital rehabilitation and wellbeing companion for cardiac, stroke/neuro, kidney, and liver recovery.',
     slogan: 'Move Forward. Live Better.',
+    audience: {
+      '@type': 'Audience',
+      audienceType: 'People in rehabilitation and recovery, patients, families, and care teams',
+    },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer support',
+      email: 'support@reviarecovery.com',
+    },
     medicalSpecialty: [
       'Cardiovascular',
       'Neurologic',
@@ -60,18 +70,34 @@ export const ArticleJsonLd: React.FC<{
   datePublished: string;
   authorName: string;
   reviewerName?: string;
-}> = ({ title, description, url, datePublished, authorName, reviewerName }) => {
+  category?: string;
+}> = ({ title, description, url, datePublished, authorName, reviewerName, category }) => {
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'MedicalWebPage',
+    '@type': 'BlogPosting',
     headline: title,
-    description: description,
-    url: url,
-    datePublished: datePublished,
+    ...(category && { articleSection: category }),
+    description,
+    url,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url,
+    },
+    datePublished,
+    dateModified: datePublished,
     author: {
       '@type': 'Person',
       name: authorName,
     },
+    publisher: {
+      '@type': 'MedicalOrganization',
+      name: 'NIRVAN',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}/brand/nirvan-mark-512.png`,
+      },
+    },
+    image: `${siteUrl}/brand/nirvan-social-landscape.png`,
     ...(reviewerName && {
       reviewedBy: {
         '@type': 'Person',

@@ -1,18 +1,17 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
-  PenLine, ShieldCheck, ArrowRight, CheckCircle2, Lock,
-  Eye, EyeOff, Brain, Sparkles
+  PenLine, ArrowRight, Lock,
+  EyeOff, Sparkles
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing/journal', {
   title: 'Private Journal — Reflect on Your Recovery Journey',
   description: 'A private journal to reflect on your recovery journey. Write about your day, what helped, and what you\'re grateful for — stored securely and never shared.',
   keywords: [
@@ -24,7 +23,7 @@ export const metadata: Metadata = {
     'mental health journal',
     'wellbeing journal',
   ],
-};
+});
 
 export default function JournalPage() {
   const journalPrompts = [

@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -7,14 +6,15 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
   Moon, Smile, Battery, Utensils, HeartHandshake, Sparkles,
   Brain, ShieldCheck, ArrowRight, Phone, BookOpen, Activity,
   Users, Wind, Leaf, TrendingUp, CheckCircle2, AlertTriangle,
-  PenLine, Target, Lock
+  Lock
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing', {
   title: 'Mental Wellbeing & Recovery Support',
   description: 'NIRVAN supports your emotional wellbeing during recovery — mood tracking, sleep support, stress management, breathing exercises, and evidence-based self-help guidance.',
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     'mindfulness',
     'emotional recovery',
   ],
-};
+});
 
 export default function WellbeingPage() {
   const pillars = [

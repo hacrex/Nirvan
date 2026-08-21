@@ -1,14 +1,14 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { NewsletterSignup } from '@/components/ui/NewsletterSignup';
 import { Card } from '@/components/ui/Card';
 import { Mail, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/newsletter', {
   title: 'Subscribe to NIRVAN Newsletter',
   description: 'Receive clinician-reviewed recovery insights, new exercise guides, and product updates in your inbox.',
-};
+});
 
 export default function NewsletterPage() {
   return (

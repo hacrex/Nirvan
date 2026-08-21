@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { RehabHero } from '@/components/sections/RehabHero';
 import { RehabModules } from '@/components/sections/RehabModules';
@@ -6,11 +5,12 @@ import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
 import { Activity, ShieldCheck, BatteryCharging, Droplet } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/rehabilitation/kidney', {
   title: 'Kidney Rehabilitation Pathway',
   description: 'Renal rehabilitation, chronic kidney disease (CKD), dialysis physical function support, and fatigue management.',
-};
+});
 
 export default function KidneyRehabPage() {
   const modules = [

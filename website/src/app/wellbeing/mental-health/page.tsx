@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
@@ -7,13 +6,14 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { CTA } from '@/components/sections/CTA';
+import { createPageMetadata } from '@/lib/metadata';
 import {
   Moon, Smile, Battery, Brain, ShieldCheck, ArrowRight,
   Users, BookOpen, TrendingUp, CheckCircle2, Clock, Sparkles,
-  Wind, Leaf, AlertTriangle, Activity
+  AlertTriangle, Activity
 } from 'lucide-react';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/wellbeing/mental-health', {
   title: 'Mental Wellbeing — Mood, Sleep, Stress & Motivation',
   description: 'Comprehensive mental wellbeing support during recovery. Track mood, manage stress, improve sleep, and build motivation with evidence-based self-help techniques.',
   keywords: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     'emotional recovery',
     'rehabilitation mental health',
   ],
-};
+});
 
 export default function MentalHealthPage() {
   const modules = [

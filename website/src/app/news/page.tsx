@@ -1,14 +1,14 @@
-import { Metadata } from 'next';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { ArticleCard } from '@/components/content/ArticleCard';
 import { MedicalDisclaimer } from '@/components/ui/MedicalDisclaimer';
 import { samplePosts } from '@/lib/mdx';
+import { createPageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata('/news', {
   title: 'NIRVAN News & Updates',
   description: 'Latest product updates, clinical research highlights, and news from NIRVAN.',
-};
+});
 
 export default function NewsListingPage() {
   return (
